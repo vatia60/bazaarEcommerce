@@ -1,0 +1,264 @@
+*{
+	margin:0;
+	padding:0;
+}
+body {
+	font-family: 'MoolBoran', sans-serif;
+}
+button:hover, button:focus {
+	border: 0 ;
+	outline: 0;
+}
+
+
+/*
+===========================
+** TOP HEADER
+** MENU
+** 
+===========================
+*/
+
+/*TOP HEADER*/
+.top-header {
+	height: 78px;
+	background: #DBFFF4;
+}
+.top-header-left {
+	text-align: left;
+	padding-top: 25px;
+}
+.top-header-left h2 {
+	font-size: 20px;
+}
+.top-header-middle {
+	text-align: center;
+	padding-top: 17px;
+}
+.top-header-middle .input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child) {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.bor-30 {
+	border-radius: 30px;
+}
+.input-group-text {
+    color: #4B4B4D;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.top-header-middle button, .top-header-middle button:hover, .top-header-middle button:focus {
+	background: transparent;
+    border: 0;
+    outline: 0;
+}
+.top-header-middle button .fa-search {
+	color: #4B4B4D;
+}
+.top-header-right {
+	text-align: right;
+	padding-top: 25px;
+}
+.top-header-right a {
+	font-size: 14px;
+	color: #4B4B4D;
+}
+.top-header-right a:first-child {
+	margin-right: 25px;
+}
+
+/*
+*
+* ==========================================
+* Menu
+* ==========================================
+*
+*/
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu>a:after {
+  content: "\f0da";
+  float: right;
+  border: none;
+  font-family: 'FontAwesome';
+}
+
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+@media (min-width: 991px) {
+  .dropdown-menu {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.menu .dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.menu .dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.navbar-nav .dropdown-menu {
+    position: absolute;
+    float: none;
+}
+
+.dropdown-submenu-position {
+    top: -5px;
+    left: 80px;
+}
+
+.navbar {
+	padding: 0 !important;
+}
+.nav-absolute {
+	position: absolute;
+    top: 54px;
+    background: #183756;
+    z-index: 999;
+    width: 50%;
+    padding: 20px;
+}
+.navbar-toggler-icon {
+    width: 2em;
+    height: 2em;
+}
+.navbar-toggler {
+    padding: .25rem 0;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color:transparent;
+}
+.menu .nav-link, .menu .dropdown-item {
+	color: #fff !important;
+}
+.dropdown-menu {
+    background-color: transparent;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: transparent;
+    }
+    .pos-static {
+    	position: static !important;
+    }
+.wish-cart button {
+padding: 15px;
+border-left: 1px solid rgba(0,0,0,.5);
+border-top: 0;
+border-right: 1px solid rgba(0,0,0,.5);
+border-bottom: 0;
+color: #4B4B4D;
+background: #fff;
+}
+.no-border {
+	border-left: 0 !important;
+border-right: 0 !important;
+}
+
+/*CATEGORY SLIDER*/
+
+.category-slider .dropdown-menu-position {
+    top: 0;
+    left: 368px;
+    background: #fff;
+    width: 600px;
+    z-index: 99999999999999999999999999999 !important;
+}
+.padd-right-0 {
+	padding-right: 0;
+}
+
+.category-a {
+    font-size: 12px;
+    text-decoration: underline;
+    position: absolute;
+    bottom: 4px;
+    right: 10px;
+ }
+ .cate-sub-pro {
+ 	background: green;
+ }
+ .cate-sub-pro a {
+ 	color: #fff !important;
+ }
+.collapse.new-collapse {
+    display: block;
+}
+.category-slider {
+	background: #EAE7DE;
+}
+.category-slider a {
+	text-transform: uppercase;
+	color: #4B4B4D;
+	font-size: 14px;
+}
+
+
+
+
+.carousel-caption {
+    right: 44%;
+    bottom: 90px;
+}
+.carousel-caption button {
+    border: 1px solid #d2cece;
+    padding: 4px 8px;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 4px 0px #e4e1e1;
+}
+
+/*WIN DEAL*/
+.win-deal-header {
+	padding: 20px 0;
+	position: relative;
+	margin-top: 10px;
+}
+.win-a {
+	position: absolute;
+	font-size: 12px;
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+}
+.mar-bot-0 {
+	margin-bottom: 0;
+}
+.win-deal-body {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.card-flex {
+	max-width: 212px;
+}
+
+/*WOMEN COLLECTTIONS*/
+.quick-view {
+	background: red;
+    padding: 10px 0;
+    text-align: center;
+}
+.women-collection-header {
+	background: url(../images/women-baner.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	text-align: center;
+}
