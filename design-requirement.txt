@@ -1,0 +1,9 @@
+1. on hover on category sub category div will be shown - done
+2. and color will be changed to red - 
+3. another thing is bottom design of slider - done
+4. on hover color change - done [ I set green ]
+5. icon might be added in design when you will start work this project - font-awesome icon used
+6. on hover sub category div will be shown - done
+7. at the top of this div main category name will be shown - done
+8. under this category name sub categories are shown - need discuss
+9. the shop now button will be clickable - done

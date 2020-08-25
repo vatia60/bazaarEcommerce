@@ -167,7 +167,7 @@ border-radius: 6px;
 color: #ffffffa1;
 font-size: 12px;
 }
-.sp-red {
+.sp-#FE3837 {
 	background: #FD706E;
 }
 .sp-grey {
@@ -188,7 +188,7 @@ font-size: 12px;
 }
 
 .sub-link {
-	color: red !important;
+	color: #FE3837 !important;
 }
 
 .category-slider .dropdown-menu-position {
@@ -201,7 +201,10 @@ font-size: 12px;
 .padd-right-0 {
 	padding-right: 0;
 }
-
+.cate-name {
+    padding-left: 22px;
+    color: #FE3837;
+}
 .category-a {
     font-size: 12px;
     text-decoration: underline;
@@ -229,6 +232,9 @@ font-size: 12px;
 	color: #4B4B4D;
 	font-size: 14px;
 }
+.category-slider a:hover {
+	color: green;
+}
 
 
 
@@ -244,6 +250,33 @@ font-size: 12px;
     color: #fff;
     text-transform: uppercase;
     box-shadow: 0px 2px 4px 0px #e4e1e1;
+}
+.carousel-indicators {
+    right: 0;
+    bottom: -28px;
+    background: #DBFFF4;
+    padding: 5px 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+.carousel-indicators li {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 100px;
+    height: 6px;
+    border-left: 2px solid grey;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-indent: -999px;
+    background-color: #FCDEDB;
+}
+.carousel-indicators li:first-child {
+	border-left: 0;
+}
+.carousel-indicators .active {
+    background-color: #86FCD5;
 }
 
 /*WIN DEAL*/
@@ -273,7 +306,7 @@ font-size: 12px;
 
 /*WOMEN COLLECTTIONS*/
 .quick-view {
-	background: red;
+	background: #FE3837;
     padding: 10px 0;
     text-align: center;
 }
