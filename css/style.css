@@ -11,6 +11,7 @@ button:hover, button:focus {
 }
 
 
+
 /*
 ===========================
 ** TOP HEADER
@@ -90,11 +91,11 @@ button:hover, button:focus {
 
 
 
-.menu .dropdown:hover>.dropdown-menu {
+.dropdown:hover>.dropdown-menu {
   display: block;
 }
 
-.menu .dropdown>.dropdown-toggle:active {
+.dropdown>.dropdown-toggle:active {
   /*Without this, clicking will make it sticky*/
     pointer-events: none;
 }
