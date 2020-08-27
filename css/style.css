@@ -367,15 +367,16 @@ padding-top: 20px;
 }
 .img-header {
 	
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	
 	position: relative;
 	text-align: center;
 	padding: 20px 0;
 }
 .women-collection-header {
 	background: url(../images/women-baner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .collections .win-deal-header {
     padding: 30px 0 20px 0;
@@ -472,9 +473,15 @@ padding-top: 20px;
 /*MENS COLLECTION*/
 .mens-collection-header {
 	background: url(../images/men.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .kids-collection-header {
 	background: url(../images/kid.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .toppic-collection-header {
 	background: #3BC5F3;
