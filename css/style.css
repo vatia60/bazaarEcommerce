@@ -195,7 +195,7 @@ font-size: 12px;
 .list-group-item {
     position: relative;
     display: block;
-    padding: .2rem 1.25rem;
+    padding: .1rem 1.25rem;
     margin-bottom: -1px;
     background-color: #DBFFF4;
     border: 2px solid rgba(0,0,0,.125);
@@ -317,12 +317,10 @@ font-size: 12px;
 /*WIN DEAL*/
 .win-deal {
 	background: #DBFFF4;
-	padding: 60px 0 80px 0;
+	padding: 30px 0;
 }
 .win-deal-header {
     position: relative;
-    margin-bottom: 0;
-    
     color: #fff;
 }
 .win-a {
@@ -354,7 +352,7 @@ font-size: 12px;
 /*COLLECTION*/
 .collections {
 background: #EBE7DE;
-
+padding-top: 20px;
 }
 .win-deal-color {
     color: #333535;
