@@ -422,11 +422,18 @@ background: #EBE7DE;
     color: #fff;
     font-size: 12px;
 }
-.wish-active {
+.wish-active i{
     color: red;
+    font-size: 25px;
+    padding: 8px;
 }
-.wish-inactive {
+.wish-inactive i{
     color: grey;
+    font-size: 25px;
+    padding: 8px;
+}
+.women-collections-block .fa-star {
+    color: yellow;
 }
 
 
