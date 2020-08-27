@@ -1,5 +1,6 @@
 /*=========
 background: #DBFFF4;
+text: #e62e04
 ==========*/
 
 *{
@@ -14,6 +15,9 @@ button:hover, button:focus {
 	outline: 0;
 }
 
+.carousel {
+    z-index: 0;
+}
 
 
 /*
@@ -174,6 +178,9 @@ font-size: 12px;
 .sp-#e62e04 {
 	background: #FD706E;
 }
+.sp-red {
+    background: #e62e04;
+}
 .sp-grey {
 	background: #ACACAC;
 }
@@ -239,6 +246,17 @@ font-size: 12px;
 .category-slider a:hover {
 	color: green;
 }
+.arrow-color {
+    color: #A6BCB7;
+}
+.nav-link:hover .arrow-color {
+    color: green;
+}
+.cate-sub-pro a:hover {
+    color: #e62e04 !important;
+} 
+
+
 
 
 
@@ -254,6 +272,7 @@ font-size: 12px;
     color: #fff;
     text-transform: uppercase;
     box-shadow: 0px 2px 4px 0px #e4e1e1;
+    cursor: pointer;
 }
 .carousel-indicators {
     right: 0;
@@ -282,16 +301,25 @@ font-size: 12px;
 .carousel-indicators .active {
     background-color: #86FCD5;
 }
+.caro-prev-icon i, .caro-next-icon i {
+    font-size: 48px;
+    color: grey;
+}
+.caro-prev-icon i:hover, .caro-next-icon i:hover {
+    color: #d6d3d3;
+}
+
 
 /*WIN DEAL*/
 .win-deal {
 	background: #DBFFF4;
-	padding: 20px 0;
+	padding: 60px 0 80px 0;
 }
 .win-deal-header {
-	
-	position: relative;
-	
+    position: relative;
+    margin-bottom: 0;
+    padding: 30px 0 20px 0;
+    color: #fff;
 }
 .win-a {
 	position: absolute;
@@ -349,19 +377,18 @@ background: #EBE7DE;
     position: absolute;
     font-size: 12px;
     position: absolute;
-    bottom: -14px;
+    bottom: -9px;
     right: 10px;
-    background: grey;
-    border: 1px solid #7F8784;
+    background: #212020;
+    border: 1px solid #212020;
     font-size: 20px;
     color: #fff !important;
     padding: 3px 5px;
     border-radius: 50%;
 }
 .women-collections-body {
-   padding: 10px 20px;
+   padding: 40px 0px 60px 0;
    background: #E7EEE6;
-   margin: 20px 0;
 }
 .card-flex .card-body {
     padding: 16px 8px 20px 8px;
@@ -384,7 +411,18 @@ background: #EBE7DE;
 .font-12 {
 	font-size: 12px;
 }
-
+.home-see-more {
+    padding-top: 20px;
+    
+}
+.home-see-more a {
+    color: #212529;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.home-see-more a:hover {
+    color: green;
+}
 /*MENS COLLECTION*/
 .mens-collection-header {
 	background: url(../images/men.png);

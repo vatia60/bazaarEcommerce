@@ -1,0 +1,9 @@
+
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 50) {
+        $('.menu').addClass('fixed-top');
+    }
+    else {
+        $('.menu').removeClass('fixed-top');
+    }
+});
