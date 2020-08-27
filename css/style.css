@@ -206,8 +206,8 @@ font-size: 12px;
 }
 
 .category-slider .dropdown-menu-position {
-    top: 0;
-    left: 368px;
+    top: -37px;
+    left: 269px;
     background: #DBFFF4;
     width: 600px;
     z-index: 99999999999999999999999999999 !important;
