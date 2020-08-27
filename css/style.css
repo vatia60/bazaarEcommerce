@@ -237,6 +237,7 @@ font-size: 12px;
 }
 .category-slider {
 	background: #EAE7DE;
+    padding-bottom: 15px;
 }
 .category-slider a {
 	text-transform: uppercase;
