@@ -405,6 +405,32 @@ background: #EBE7DE;
 .women-collections-block {
 	padding: 20px 0px;
 }
+.card-img-top {
+    position: relative;
+}
+.img-overlay-history {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+.sale-left {
+    background: #5CC19F;
+    border-radius: 50%;
+    padding: 10px 7px;
+    color: #fff;
+    font-size: 12px;
+}
+.wish-active {
+    color: red;
+}
+.wish-inactive {
+    color: grey;
+}
+
+
+
 .women-collections-block .card-body {
     padding: 0px 8px 20px 8px;
 }
