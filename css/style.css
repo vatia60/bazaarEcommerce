@@ -10,6 +10,9 @@ text: #e62e04
 body {
 	font-family: 'MoolBoran', sans-serif !important;
 }
+html {
+   min-height: 100%;
+}
 p, h1, h2, h3, h4, h5, h6, button, input, span {
 
 }
@@ -344,7 +347,7 @@ font-size: 12px;
 	flex-wrap: wrap;
 }
 .win-deal-body .card-title, .women-collections-block .card-title {
-	font-size: 14px;
+	font-size: 12px;
 }
 .card-flex {
 	max-width: 212px;
@@ -367,27 +370,29 @@ padding-top: 20px;
 }
 .img-header {
 	
-	
 	position: relative;
-	text-align: center;
-	padding: 20px 0;
 }
 .women-collection-header {
+    position: relative;
 	background: url(../images/women-baner.png);
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 150px;
 }
-.collections .win-deal-header {
-    padding: 30px 0 20px 0;
+.win-deal-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .women-see-icon {
     position: absolute;
     font-size: 12px;
     position: absolute;
-    bottom: -9px;
-    right: 10px;
+    bottom: 15%;
+    right: 7%;
     background: #212020;
     border: 1px solid #212020;
     font-size: 20px;
@@ -408,7 +413,7 @@ padding-top: 20px;
     padding: 16px 8px 20px 8px;
 }
 .font-22 {
-	font-size: 22px;
+	font-size: 19px;
 }
 .per-offer {
 	background: #e62e04;
@@ -473,18 +478,21 @@ padding-top: 20px;
 /*MENS COLLECTION*/
 .mens-collection-header {
 	background: url(../images/men.png);
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 150px;
 }
 .kids-collection-header {
 	background: url(../images/kid.png);
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 150px;
 }
 .toppic-collection-header {
 	background: #3BC5F3;
+    height: 150px;
 }
 /*FOOTER*/
 .footer {
