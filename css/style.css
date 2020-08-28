@@ -14,7 +14,7 @@ html {
    min-height: 100%;
 }
 p, h1, h2, h3, h4, h5, h6, button, input, span {
-
+    font-family: 'MoolBoran', sans-serif !important;
 }
 button:hover, button:focus {
 	border: 0 ;
@@ -370,6 +370,17 @@ padding-top: 20px;
 }
 
 /*WOMEN COLLECTTIONS*/
+.collections-img-position{
+   position: relative;
+}
+.collections-img-position .quick-view {
+   position: absolute;
+   width: 100%;
+   left: 0;
+   right: 0;
+   bottom: 0;
+}
+
 .quick-view {
 	background: #5CC19F;
     padding: 10px 0;
@@ -377,6 +388,7 @@ padding-top: 20px;
     color: #fff;
     border: 0;
     font-weight: bold;
+    display: none;
 }
 .quick-view:hover {
     background: #DBFFF4;
@@ -454,6 +466,10 @@ padding-top: 20px;
 .women-collections-block {
 	padding: 20px 0px;
 }
+
+.women-collections-block:hover .quick-view{
+    display: block;
+}
 .card-img-top {
     position: relative;
 }
@@ -488,7 +504,7 @@ padding-top: 20px;
 
 
 .women-collections-block .card-body {
-    padding: 20px 8px;
+    padding: 20px 8px 20px 8px;
 }
 .font-12 {
 	font-size: 12px;
