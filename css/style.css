@@ -209,12 +209,12 @@ font-size: 12px;
 }
 
 .category-slider .dropdown-menu-position {
-    left: 347px;
+    left: 272px;
     background: #DBFFF4;
     width: 600px;
     z-index: 99999999999999999999999999999 !important;
-    top: 130px;
-    position: fixed;
+    top: -34px;
+    position: absolute;
 }
 .padd-right-0 {
 	padding-right: 0;
@@ -375,7 +375,35 @@ padding-top: 20px;
     padding: 10px 0;
     text-align: center;
     color: #fff;
+    border: 0;
+    font-weight: bold;
 }
+.quick-view:hover {
+    background: #DBFFF4;
+    color: #e62e04;
+} 
+.quick-view-img img{
+    width: 100%;
+    height: 100%;
+}
+.quick-view-block h2 {
+    font-size: 22px;
+}
+.quick-view-star .fa-star {
+    color: #e62e04; 
+}
+
+.quick-view-close {
+    position: fixed;
+    right: 20px;
+    top: 15px;
+}
+.quick-view-color-radio li {
+    display: inline-block;
+}
+
+
+
 .img-header {
 	
 	position: relative;
@@ -386,15 +414,15 @@ padding-top: 20px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 150px;
+    height: 126px;
 }
 
 .women-see-icon {
     position: absolute;
     font-size: 12px;
     position: absolute;
-    bottom: 15%;
-    right: 7%;
+    bottom: 8px;
+    right: 27px;
     background: #212020;
     border: 1px solid #212020;
     font-size: 20px;
@@ -460,7 +488,7 @@ padding-top: 20px;
 
 
 .women-collections-block .card-body {
-    padding: 0px 8px 20px 8px;
+    padding: 20px 8px;
 }
 .font-12 {
 	font-size: 12px;
@@ -483,18 +511,18 @@ padding-top: 20px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 150px;
+    height: 126px;
 }
 .kids-collection-header {
 	background: url(../images/kid.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 150px;
+    height: 126px;
 }
 .toppic-collection-header {
 	background: #3BC5F3;
-    height: 150px;
+    height: 126px;
 }
 /*FOOTER*/
 .footer {
