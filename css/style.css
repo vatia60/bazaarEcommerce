@@ -209,11 +209,12 @@ font-size: 12px;
 }
 
 .category-slider .dropdown-menu-position {
-    top: -37px;
-    left: 269px;
+    left: 347px;
     background: #DBFFF4;
     width: 600px;
     z-index: 99999999999999999999999999999 !important;
+    top: 130px;
+    position: fixed;
 }
 .padd-right-0 {
 	padding-right: 0;
@@ -257,7 +258,7 @@ font-size: 12px;
     color: #A6BCB7;
 }
 .nav-link:hover .arrow-color {
-    color: green;
+    color: #e62e04;
 }
 .cate-sub-pro a:hover {
     color: #e62e04 !important;
