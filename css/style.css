@@ -361,6 +361,13 @@ padding-top: 20px;
     color: #333535;
 }
 
+.collections-all-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /*WOMEN COLLECTTIONS*/
 .quick-view {
 	background: #5CC19F;
@@ -379,12 +386,6 @@ padding-top: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     height: 150px;
-}
-.win-deal-header {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .women-see-icon {
