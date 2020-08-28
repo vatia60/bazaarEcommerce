@@ -368,6 +368,9 @@ padding-top: 20px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.collections-all-header h2 {
+    color: #fff;
+}
 
 /*WOMEN COLLECTTIONS*/
 .collections-img-position{
