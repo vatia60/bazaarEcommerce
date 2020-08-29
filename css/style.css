@@ -20,6 +20,9 @@ button:hover, button:focus {
 	border: 0 ;
 	outline: 0;
 }
+i {
+    cursor: pointer;
+}
 
 .carousel {
     z-index: 0;
