@@ -339,13 +339,11 @@ font-size: 12px;
     padding: 3px 5px;
     border-radius: 5px;
 }
-.mar-bot-0 {
-	margin-bottom: 0;
-}
-.win-deal-body {
+
+.all-flex {
 	display: flex;
 	justify-content: space-between;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
 }
 .win-deal-body .card-title, .women-collections-block .card-title {
 	font-size: 13px;
