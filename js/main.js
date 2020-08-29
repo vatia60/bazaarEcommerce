@@ -8,21 +8,10 @@ $(window).scroll(function(){
     }
 });
 
+var newcolor = document.getElementById('wish-active')
+$('.wish-active').click(function(){
+ 
+    $(this).find('i').toggleClass('fas far');
+    
 
-var wish_active = document.getElementById("wish-active");
-var wish_inactive = document.getElementById("wish-inactive");
-
-$(".wish-active").click(function(){
-  wish_active.style.display = "none";
-  wish_inactive.style.display = "block";
-  
 });
-
-$(".wish-inactive").click(function(){
-  wish_inactive.style.display = "none";
-  wish_active.style.display = "block";
-  
-});
-
-
-

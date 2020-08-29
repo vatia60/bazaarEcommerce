@@ -345,7 +345,7 @@ font-size: 12px;
 	justify-content: space-between;
 	flex-flow: row wrap;
 }
-.win-deal-body .card-title, .women-collections-block .card-title {
+.win-deal-body .card-title, .main-collections-block .card-title {
 	font-size: 13px;
 }
 .card-flex {
@@ -454,7 +454,7 @@ padding-bottom: 20px;
     background: green;
     border: 2px solid green;
 } 
-.women-collections-body {
+.main-collections-body {
    padding: 40px 10px 0px 10px;
   
 }
@@ -470,11 +470,11 @@ padding-bottom: 20px;
     border-radius: 9px;
     color: #fff;
 }
-.women-collections-block {
+.main-collections-block {
 	padding: 20px 0px;
 }
 
-.women-collections-block:hover .quick-view{
+.main-collections-block:hover .quick-view{
     display: block;
 }
 .card-img-top {
@@ -495,30 +495,28 @@ padding-bottom: 20px;
     font-size: 12px;
 }
 .wish-active {
-    display: none;
+   
 }
-.wish-active, .wish-inactive {
+.wish-active {
     background: transparent;
     border: 0;
     cursor: pointer;
 }
 .wish-active i{
-    color: red;
-    font-size: 25px;
-    padding: 8px;
-}
-.wish-inactive i{
     color: grey;
     font-size: 25px;
     padding: 8px;
 }
-.women-collections-block .fa-star {
+.wish-active .fas.fa-heart {
+    color: red;
+}
+.main-collections-block .fa-star {
     color: yellow;
 }
 
 
 
-.women-collections-block .card-body {
+.main-collections-block .card-body {
     padding: 20px 8px 20px 8px;
 }
 .font-12 {
