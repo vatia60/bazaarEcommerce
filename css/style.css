@@ -371,6 +371,12 @@ padding-top: 20px;
 }
 
 /*WOMEN COLLECTTIONS*/
+.collections-block-padd {
+    background: #E7EEE6;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
 .collections-img-position{
    position: relative;
 }
@@ -450,7 +456,7 @@ padding-top: 20px;
 } 
 .women-collections-body {
    padding: 40px 0px 60px 0;
-   background: #E7EEE6;
+  
 }
 .card-flex .card-body {
     padding: 16px 8px 20px 8px;
@@ -487,6 +493,14 @@ padding-top: 20px;
     padding: 10px 7px;
     color: #fff;
     font-size: 12px;
+}
+.wish-active {
+    display: none;
+}
+.wish-active, .wish-inactive {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
 }
 .wish-active i{
     color: red;
