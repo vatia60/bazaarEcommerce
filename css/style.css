@@ -678,8 +678,7 @@ SHOPPING CART
 .get-coupons-toggle .dropdown-menu {
     border: 0;
     top: -10px;
-    left: 38px;
-    display: block;
+    left: 32px;
 }
 .official-store h6 {
     color: #00B29B;
@@ -699,14 +698,22 @@ SHOPPING CART
 .pr-n-2 {
     padding-right: 2px !important;
 }
-.get-block-left {
-    background: url(../images/get-coupon.png);
+.get-block-all {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 8px 10px 1px 15px;
     color: #fff;
     border-radius: 4px;
+}
+.get-block-first {
+    background: url(../images/get-coupon.png);
+}
+.get-block-sec {
+    background: url(../images/get-coupon-two.png);
+}
+.get-block-third {
+    background: url(../images/get-coupon-two.png);
 }
 .get-coupons-toggle-block-body {
     overflow: hidden;
@@ -717,9 +724,17 @@ SHOPPING CART
 .get-block-right {
     width: 100%;
     height: 61px;
-    background: #00B29C;
     position: relative;
     border-radius: 4px;
+}
+.get-block-right-first {
+    background: #00B29C;
+}
+.get-block-right-sec {
+    background: #01A8F6;
+}
+.get-block-right-third {
+    background: #01A8F6;
 }
 .get-now-btn {
     text-transform: uppercase;
@@ -734,7 +749,8 @@ SHOPPING CART
 
 
 .shop-cart-details img {
-    width: 100%;
+    width: 130px;
+    height: 160px;
 }
 .shop-cart-details h3 {
     font-size: 12px;
@@ -807,4 +823,125 @@ SHOPPING CART
 }
 .wish-delete a {
     font-weight: 700;
+}
+
+
+/*PAYMENT METHOD*/
+.payment-method, .more-to-love {
+    padding: 30px 10px;
+    background: #fff;
+    margin-top: 10px;
+}
+.payment-method-url li {
+    display: inline-block;
+}
+.shopping-card-flex {
+    width: 200px;
+}
+
+.more-to-love {
+    margin-bottom: 80px;
+}
+
+/*SHOPPING CART RIGHT*/
+/*ORDER SUMMERY*/
+.shopping-cart-sidebar {
+    padding-top: 35px;
+}
+.order-summary {
+    background: #fff;
+    padding: 20px 10px;
+}
+.order-summary h2 {
+    font-size: 18px;
+    color: #000 !important;
+    font-weight: 700;
+}
+.order-summary .list-group-item:first-child {
+    border-top-left-radius: 0;
+ 
+    border-top-right-radius: 0;
+}
+
+.order-summary .list-group-item {
+    position: relative;
+    display: block;
+    padding: .4rem 0rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 0;
+    font-size: 14px;
+}
+.order-summary .badge-primary {
+    color: #000;
+    background-color: #fff;
+}
+.order-summary .badge {
+    padding: 0;
+    font-size: 14px;
+    color: #212529;
+    font-weight: 500;
+}
+.order-summary button {
+    padding: 4px 10px;
+    color: #fff;
+    background: #00B29C;
+    border: 1px solid #00B29C;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.order-summary button:hover {
+    padding: 4px 10px;
+    color: #fff;
+    background: #00B29C;
+    border: 1px solid #00B29C;
+}
+.total-single-list {
+    color: #000 !important;
+    font-weight: 700 !important;
+}
+.new-badge {
+    color: #000 !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+}
+
+/*SPONSOR PRODUCT*/
+.sponsore-header {
+    color: #000;
+    font-weight: 700;
+    font-size: 15px;
+}
+.sponsore-product {
+    background: #fff;
+    padding: 20px 10px 100px 10px;
+    margin-top: 10px;
+}
+.sponsore-product h2 {
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1px;
+    padding-top: 10px;
+}
+.sponsore-block-item {
+    padding: 5px;
+    background: #8ED4BC;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.new-mb-1 {
+    margin-bottom: 1px !important;
+}
+.sponsore-star-color i {
+  color: #FFB72D;
+}
+
+.fifty-off {
+    background: red;
+    padding: 1px 12px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 5px;
 }
