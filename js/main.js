@@ -15,3 +15,5 @@ $('.wish-active').click(function(){
     
 
 });
+
+$('body').scrollspy({ target: '#get-now' });

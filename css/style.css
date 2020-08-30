@@ -1,6 +1,7 @@
 /*=========
 background: #DBFFF4;
 text: #e62e04
+grey text: #4B4B4D;
 ==========*/
 
 *{
@@ -9,6 +10,7 @@ text: #e62e04
 }
 body {
 	font-family: 'MoolBoran', sans-serif !important;
+    position: relative;
 }
 html {
    min-height: 100%;
@@ -364,7 +366,7 @@ padding-bottom: 20px;
     color: #333535;
 }
 
-.collections-all-header {
+.collections-all-header, .center-item {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -608,3 +610,201 @@ display: inline-block;
 	color: #fff;
 }
 
+
+/* ===================================
+SHOPPING CART
+====================================*/
+.shopping-cart {
+    background: #EBE7DE;
+}
+.shop-cart-header {
+    padding: 5px 0;
+}
+.shop-cart-header a {
+    font-size: 12px;
+}
+.shop-cart-header a:first-child {
+    color: #4E58F7;
+}
+.shop-cart-header a:last-child {
+    color: #A8A7AA;
+}
+.shopping-cart-block-header {
+    padding-bottom: 36px !important;
+}
+.shopping-cart-block-header h1{
+    font-size: 18px;
+    color: #282923;
+}
+.shopping-cart-block-header p{
+    font-size: 12px;
+}
+.cart-header-sale {
+    padding: 2px 6px;
+    background: #FE0000;
+    margin-right: 4px;
+    border-radius: 2px;
+}
+.shop-cart-padd {
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.shop-select-all {
+    position: absolute;
+    bottom: 8px;
+    right: 27px;
+    font-size: 20px;
+    color: #fff !important;
+    padding: 3px 5px;
+    cursor: pointer;
+}
+.shop-select-all label {
+    color: #323232;
+    font-size: 13px;
+}
+
+.get-coupons-toggle-body {
+    height: 243px;
+    width: 317px;
+    border: 1px solid #ccc;
+    overflow: auto;
+    z-index: 99999999999 !important;
+    background: #E1FFFB;
+    padding: 10px 10px 20px 10px;
+}
+.get-coupons-toggle .dropdown-menu {
+    border: 0;
+    top: -10px;
+    left: 38px;
+    display: block;
+}
+.official-store h6 {
+    color: #00B29B;
+}
+.official-store p {
+    font-size: 12px;
+}
+.get-coupons-toggle {
+
+}
+.coupons-toggle-a {
+    font-size: 12px;
+    background-color:  #00B29B !important;
+    border-color: #00B29B !important;
+    color: #fff !important;
+}
+.pr-n-2 {
+    padding-right: 2px !important;
+}
+.get-block-left {
+    background: url(../images/get-coupon.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8px 10px 1px 15px;
+    color: #fff;
+    border-radius: 4px;
+}
+.get-coupons-toggle-block-body {
+    overflow: hidden;
+}
+.font-s-13 {
+    font-size: 14px !important;
+}
+.get-block-right {
+    width: 100%;
+    height: 61px;
+    background: #00B29C;
+    position: relative;
+    border-radius: 4px;
+}
+.get-now-btn {
+    text-transform: uppercase;
+    font-size: 12px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 2px 10px;
+    border: 1px solid #fff;
+    color: #9F9F9F;
+}
+
+
+
+.shop-cart-details img {
+    width: 100%;
+}
+.shop-cart-details h3 {
+    font-size: 12px;
+}
+.pro-color {
+    position: relative;
+    margin-right: 22px;
+    margin-left: 2px;
+}
+.pro-color:before {
+    position: absolute;
+    content: '';
+    background: #00B29B;
+    height: 10px;
+    width: 9px;
+    top: 1px;
+    border-radius: 2px;
+    left: 0;
+}
+.price-big span{
+    font-size: 22px;
+}
+.price-small {
+    opacity: 0.7;
+}
+.price-small span{
+    font-size: 18px;
+}
+.cart-sale {
+    background: #e62e04;
+    padding: 2px 6px 1px 6px;
+    font-size: 12px !important;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 4px;
+    text-transform: uppercase;
+}
+.cart-parcent {
+    font-size: 12px !important;
+    color: #e62e04;
+    font-weight: 700;
+    margin-left: 4px;
+}
+.plus-minus-button {
+    border: 1px solid #6CC6A8;
+    font-size: 15px;
+    font-weight: 700;
+    opacity: .7;
+    border-radius: 4px;
+    color: #212529;
+    padding: 1px 6px;
+    cursor: pointer;
+}
+.plus-minus-button:hover {
+    border: 1px solid #6CC6A8;
+    font-size: 15px;
+    font-weight: 700;
+    opacity: .7;
+    border-radius: 4px;
+    color: #212529;
+    padding: 1px 6px;
+}
+.changes-button {
+    background: #00B29B;
+    border-radius: 2px;
+    border: 1px solid #00B29B;
+    padding: 1px 10px;
+    color: #fff;
+}
+.wish-delete a {
+    font-weight: 700;
+}
