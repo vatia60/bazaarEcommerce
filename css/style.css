@@ -619,7 +619,9 @@ SHOPPING CART
 ====================================*/
 .shoppingcart-menu .navbar-light .navbar-toggler {
     font-weight: 700;
+    font-size: 1.2rem;
 }
+
 .shoppingcart-menu .navbar-light .navbar-toggler .fa-chevron-down {
     opacity: .6;
 }
