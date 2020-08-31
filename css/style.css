@@ -870,7 +870,9 @@ SHOPPING CART
     margin-bottom: -1px;
     background-color: #fff;
     border: 0;
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #949393;
 }
 .order-summary .badge-primary {
     color: #000;
@@ -878,9 +880,9 @@ SHOPPING CART
 }
 .order-summary .badge {
     padding: 0;
-    font-size: 14px;
-    color: #212529;
-    font-weight: 500;
+    font-size: 13px;
+    color: #949393;
+    font-weight: 600
 }
 .order-summary button {
     padding: 4px 10px;
@@ -900,6 +902,7 @@ SHOPPING CART
 .total-single-list {
     color: #000 !important;
     font-weight: 700 !important;
+    font-size: 15px !important;
 }
 .new-badge {
     color: #000 !important;
@@ -922,7 +925,7 @@ SHOPPING CART
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    margin-bottom: 1px;
+    margin-bottom: -5px;
     padding-top: 10px;
 }
 .sponsore-block-item {
@@ -931,17 +934,26 @@ SHOPPING CART
     margin-bottom: 5px;
     border-radius: 5px;
 }
+.pt-new-5 {
+    padding-top: 5px;
+}
 .new-mb-1 {
-    margin-bottom: 1px !important;
+    margin-bottom: -3px !important;
 }
 .sponsore-star-color i {
   color: #FFB72D;
+  font-size: 10px;
 }
+.sponsore-star-color span:last-child {
+  color: #fff;
+  font-size: 12px;
+}
+
 
 .fifty-off {
     background: red;
     padding: 1px 12px;
     color: #fff;
-    font-size: 12px;
+    font-size: 11px;
     border-radius: 5px;
 }
