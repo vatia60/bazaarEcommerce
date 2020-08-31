@@ -636,17 +636,22 @@ SHOPPING CART
     padding-bottom: 36px !important;
 }
 .shopping-cart-block-header h1{
-    font-size: 18px;
+    font-size: 24px;
     color: #282923;
+    font-weight: 600;
 }
 .shopping-cart-block-header p{
     font-size: 12px;
 }
 .cart-header-sale {
-    padding: 2px 6px;
-    background: #FE0000;
-    margin-right: 4px;
-    border-radius: 2px;
+    background: #e62e04;
+    padding: 2px 6px 1px 6px;
+    font-size: 12px !important;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 4px;
+    text-transform: uppercase;
 }
 .shop-cart-padd {
     padding: 10px;
@@ -669,6 +674,34 @@ SHOPPING CART
     font-size: 13px;
 }
 
+.shop-cart-history input[type='checkbox']{
+  width: 22px !important;
+    height: 22px !important;
+    margin: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    position: relative;
+    appearance: none;
+    outline: 0 !important;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid red;
+
+}
+
+.shop-cart-history input[type='checkbox']:checked:after {
+    content: '✔';
+    color: white;
+    padding-left: 4px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: red;
+    height: 100%;
+    position: absolute;
+    outline: 0 !important;
+}
 .get-coupons-toggle-body {
     height: 243px;
     width: 317px;
