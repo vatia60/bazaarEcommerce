@@ -276,7 +276,7 @@
                     </div>
                     <div class="shopping-cart-block-header shop-cart-padd text-uppercase mb-3">
                         <h1>Shopping cart (3)</h1>
-                        <p><span class="cart-header-sale">sale</span> <span>sale Endesign</span> <span>June 21, 11.59pm pt</span></p>
+                        <p><span class="cart-sale">sale</span> <span>sale Endesign</span> <span>June 21, 11.59pm pt</span></p>
                         <div class="shop-select-all">
                             <input type="checkbox"> <label for="">select all</label>
                         </div>
@@ -385,7 +385,64 @@
                                                     <p>
                                                       <span style="color: #6CC6A8">Shipping: US $142.07   </span>via DHL   Estimated Delivery Time:7-15 Days
 
-                                                      <button class="changes-button">Change</button>
+
+
+                                                <!-- Change modal -->
+                                                <button type="button" class="changes-button" data-toggle="modal" data-target="#changes_modal">
+                                                  Change
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="changes_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                  <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                      <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Shipping Method</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                          <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                      </div>
+                                                      <hr class="shipping-hr">
+                                                      <div class="modal-body">
+                                                        <table class="table">
+                                                          <thead>
+                                                            <tr>
+                                                              <th scope="col">Estimated Delivery</th>
+                                                              <th scope="col">Cost</th>
+                                                              <th scope="col">Tracking</th>
+                                                              <th scope="col">Carrier</th>
+                                                            </tr>
+                                                          </thead>
+                                                          <tbody>
+                                                            <tr>
+                                                              <td>
+                                                                <label class="containerr">7-15 days
+                                                                <input type="radio" checked="checked" name="radio">
+                                                                <span class="checkmark"></span>
+                                                              </label>
+                                                              </td>
+                                                              <td>000</td>
+                                                              <td></td>
+                                                              <td><span></span> <span>name</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>
+                                                                
+                                                              <label class="containerr">7-15 days
+                                                                <input type="radio" name="radio">
+                                                                <span class="checkmark"></span>
+                                                              </label>
+                                                              </td>
+                                                              <td>000</td>
+                                                              <td></td>
+                                                              <td><span></span> <span>name</span></td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
                                                     </p>
                                                     <p class="text-right wish-delete">
                                                       <a href="" style="color: #212529; padding-right: 10px"><i class="far fa-heart"></i>  Add to Wish list</a>
@@ -507,7 +564,61 @@
                                                     <p>
                                                       <span style="color: #6CC6A8">Shipping: US $142.07   </span>via DHL   Estimated Delivery Time:7-15 Days
 
-                                                      <button class="changes-button">Change</button>
+                                                       <!-- Change modal -->
+                                                <button type="button" class="changes-button" data-toggle="modal" data-target="#changes_modal">
+                                                  Change
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="changes_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                  <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                      <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Shopping Method</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                          <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                      </div>
+                                                      <div class="modal-body">
+                                                        <table class="table">
+                                                          <thead>
+                                                            <tr>
+                                                              <th scope="col">Estimated Delivery</th>
+                                                              <th scope="col">Cost</th>
+                                                              <th scope="col">Tracking</th>
+                                                              <th scope="col">Carrier</th>
+                                                            </tr>
+                                                          </thead>
+                                                          <tbody>
+                                                            <tr>
+                                                              <td>
+                                                                <label class="containerr">7-15 days
+                                                                <input type="radio" checked="checked" name="radio">
+                                                                <span class="checkmark"></span>
+                                                              </label>
+                                                              </td>
+                                                              <td>000</td>
+                                                              <td></td>
+                                                              <td><span></span> <span>name</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>
+                                                                <label class="containerr">7-15 days
+                                                                <input type="radio" checked="checked" name="radio">
+                                                                <span class="checkmark"></span>
+                                                              </label>
+                                                              </td>
+                                                              <td>000</td>
+                                                              <td></td>
+                                                              <td><span></span> <span>name</span></td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+
                                                     </p>
                                                     <p class="text-right wish-delete">
                                                       <a href="" style="color: #212529; padding-right: 10px"><i class="far fa-heart"></i>  Add to Wish list</a>
@@ -544,7 +655,65 @@
                                                     <p>
                                                       <span style="color: #6CC6A8">Shipping: US $142.07   </span>via DHL   Estimated Delivery Time:7-15 Days
 
-                                                      <button class="changes-button">Change</button>
+                                                       <!-- Change modal -->
+                                                <button type="button" class="changes-button" data-toggle="modal" data-target="#changes_modal">
+                                                  Change
+                                                </button>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="changes_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                  <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                      <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Shopping Method</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                          <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                      </div>
+                                                      <div class="modal-body">
+                                                        <table class="table">
+                                                          <thead>
+                                                            <tr>
+                                                              <th scope="col">Estimated Delivery</th>
+                                                              <th scope="col">Cost</th>
+                                                              <th scope="col">Tracking</th>
+                                                              <th scope="col">Carrier</th>
+                                                            </tr>
+                                                          </thead>
+                                                          <tbody>
+                                                            <tr>
+                                                              <td>
+                                                                <div class="form-check">
+                                                                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                                                  <label class="form-check-label" for="exampleRadios1">
+                                                                    7-15 days
+                                                                  </label>
+                                                                </div>
+                                                              </td>
+                                                              <td>000</td>
+                                                              <td></td>
+                                                              <td><span></span> <span>name</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>
+                                                                <div class="form-check">
+                                                                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                                                  <label class="form-check-label" for="exampleRadios2">
+                                                                    7-15 days
+                                                                  </label>
+                                                                </div>
+                                                              </td>
+                                                              <td>000</td>
+                                                              <td></td>
+                                                              <td><span></span> <span>name</span></td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+
                                                     </p>
                                                     <p class="text-right wish-delete">
                                                       <a href="" style="color: #212529; padding-right: 10px"><i class="far fa-heart"></i>  Add to Wish list</a>

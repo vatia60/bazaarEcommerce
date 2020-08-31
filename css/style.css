@@ -18,6 +18,9 @@ html {
 p, h1, h2, h3, h4, h5, h6, button, input, span {
     font-family: 'MoolBoran', sans-serif !important;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
 button:hover, button:focus {
 	border: 0 ;
 	outline: 0;
@@ -690,7 +693,7 @@ SHOPPING CART
 
 }
 
-.shop-cart-history input[type='checkbox']:checked:after {
+.shop-cart-history input[type='checkbox']:checked:before {
     content: '✔';
     color: white;
     padding-left: 4px;
@@ -791,6 +794,160 @@ SHOPPING CART
 .shop-cart-details h3 {
     font-size: 12px;
 }
+.shop-cart-details .modal-body {
+    padding: 0 10px 10px 10px;
+}
+.shop-cart-details .modal-dialog {
+    max-width: 500px;
+    margin: 15rem auto;
+}
+.shop-cart-details .modal-title {
+    font-size: 13px;
+}
+.shop-cart-details .modal-header {
+    padding: .6rem 1rem .2rem 1rem;
+    border-bottom: 1px solid #bdbdbd;
+    border-top-left-radius: .1rem;
+    border-top-right-radius: .1rem;
+}
+.shop-cart-details .table td, .table th {
+   
+    border: 0;
+}
+.shop-cart-details .table th {
+padding: 4px 0 4px .75rem;
+}
+.shop-cart-details .table td {
+padding: 15px .75rem 0px .75rem;
+}
+
+.shop-cart-details .table thead th {
+    vertical-align: bottom;
+    border-bottom: 0;
+    font-size: 12px;
+}
+.shop-cart-details .table td {
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 700;
+}
+.shop-cart-details .form-check-label {
+    
+}
+.shipping-hr {
+    position: absolute;
+    top: 47px;
+    left: 0;
+    right: 0;
+    border-top: 2px solid rgba(0,0,0,.1);
+}
+
+
+
+input[type='radio']{
+  width: 20px !important;
+    height: 22px !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    position: relative;
+    appearance: none;
+    outline: 0 !important;
+    background: #fff;
+    border-radius: 50%;
+    border: 1px solid red;
+    box-shadow: 0 0 3px 0 #ddd;
+
+}
+
+
+
+
+
+
+
+
+
+
+.containerr {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.containerr input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 17px;
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.containerr:hover input ~ .checkmark {
+  background-color: red;
+}
+
+/* When the radio button is checked, add a blue background */
+.containerr input:checked ~ .checkmark {
+  background-color: red;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.containerr input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.containerr .checkmark:after {
+    top: 4px;
+    left: 3px;
+    width: 9px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .pro-color {
     position: relative;
     margin-right: 22px;
@@ -806,8 +963,9 @@ SHOPPING CART
     border-radius: 2px;
     left: 0;
 }
-.price-big span{
-    font-size: 22px;
+.price-big {
+    font-size: 22px !important;
+    font-weight: 700;
 }
 .price-small {
     opacity: 0.7;
@@ -817,8 +975,8 @@ SHOPPING CART
 }
 .cart-sale {
     background: #e62e04;
-    padding: 2px 6px 1px 6px;
-    font-size: 12px !important;
+    padding: 3px 6px 2px 6px;
+    font-size: 11px !important;
     border-radius: 4px;
     color: #fff;
     font-weight: 700;
