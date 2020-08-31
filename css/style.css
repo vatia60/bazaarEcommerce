@@ -629,6 +629,9 @@ SHOPPING CART
 .shop-cart-header a:last-child {
     color: #A8A7AA;
 }
+.pr-new-12 {
+    padding-right: 12px !important;
+}
 .shopping-cart-block-header {
     padding-bottom: 36px !important;
 }
