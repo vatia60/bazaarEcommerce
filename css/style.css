@@ -1001,8 +1001,25 @@ padding: 15px .75rem 0px .75rem;
 .more-to-love {
     margin-bottom: 80px;
 }
-
+.more-to-love .main-collections-block {
+    padding: 0;
+}
+.more-to-love .main-collections-block .card-body {
+    padding: 6px 8px 4px 8px;
+}
+.new-color-star .fa-star{
+    color: #FEB92E !important;
+}
+.more-to-love h1 {
+    font-size: 25px;
+    color: #5E5E60;
+    padding-bottom: 5px;
+}
+.more-to-love .card-title {
+    margin-bottom: 1px;
+}
 /*SHOPPING CART RIGHT*/
+
 /*ORDER SUMMERY*/
 .shopping-cart-sidebar {
     padding-top: 35px;
