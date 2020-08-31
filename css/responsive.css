@@ -34,6 +34,13 @@
     
     width: 240px;
     }
+
+    .shopping-card-flex {
+    width: 247px;
+    }
+    .sponsore-product .pl-1 {
+      padding-left: 15px !important;
+    }
 }
 
 
