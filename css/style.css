@@ -815,7 +815,7 @@ SHOPPING CART
     border: 0;
 }
 .shop-cart-details .table th {
-padding: 4px 0 4px .75rem;
+padding: 4px 0 4px 0;
 }
 .shop-cart-details .table td {
 padding: 15px .75rem 0px .75rem;
@@ -831,8 +831,10 @@ padding: 15px .75rem 0px .75rem;
     font-size: 15px;
     font-weight: 700;
 }
-.shop-cart-details .form-check-label {
-    
+.shop-cart-details .modal-body img{
+   width: 40px;
+   height: 25px;
+   border-radius: 5px;
 }
 .shipping-hr {
     position: absolute;
@@ -841,38 +843,9 @@ padding: 15px .75rem 0px .75rem;
     right: 0;
     border-top: 2px solid rgba(0,0,0,.1);
 }
-
-
-
-input[type='radio']{
-  width: 20px !important;
-    height: 22px !important;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -o-appearance: none;
-    position: relative;
-    appearance: none;
-    outline: 0 !important;
-    background: #fff;
-    border-radius: 50%;
-    border: 1px solid red;
-    box-shadow: 0 0 3px 0 #ddd;
-
-}
-
-
-
-
-
-
-
-
-
-
 .containerr {
   display: block;
   position: relative;
-  padding-left: 35px;
   margin-bottom: 12px;
   cursor: pointer;
   font-size: 14px;
@@ -915,7 +888,7 @@ input[type='radio']{
 .checkmark:after {
   content: "";
   position: absolute;
-  display: none;
+  display: block;
 }
 
 /* Show the indicator (dot/circle) when checked */
@@ -932,20 +905,6 @@ input[type='radio']{
     border-radius: 50%;
     background: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .pro-color {
