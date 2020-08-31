@@ -617,9 +617,16 @@ display: inline-block;
 /* ===================================
 SHOPPING CART
 ====================================*/
+.shoppingcart-menu .navbar-light .navbar-toggler {
+    font-weight: 700;
+}
+.shoppingcart-menu .navbar-light .navbar-toggler .fa-chevron-down {
+    opacity: .6;
+}
 .shopping-cart {
     background: #EBE7DE;
 }
+
 .shop-cart-header {
     padding: 5px 0;
 }
@@ -628,6 +635,7 @@ SHOPPING CART
 }
 .shop-cart-header a:first-child {
     color: #4E58F7;
+    font-weight: 700;
 }
 .shop-cart-header a:last-child {
     color: #A8A7AA;
