@@ -768,11 +768,11 @@ SHOPPING CART
     overflow: hidden;
 }
 .font-s-13 {
-    font-size: 14px !important;
+    font-size: 18px !important;
 }
 .get-block-right {
     width: 100%;
-    height: 61px;
+    height: 67px;
     position: relative;
     border-radius: 4px;
 }
@@ -839,7 +839,7 @@ padding: 15px .75rem 0px .75rem;
 .shop-cart-details .table td {
     margin-bottom: 0;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 500;
 }
 .shop-cart-details .modal-body img{
    width: 40px;
