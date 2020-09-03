@@ -629,18 +629,21 @@ SHOPPING CART
     background: #EBE7DE;
 }
 
-.shop-cart-header {
+.pages-header {
     padding: 5px 0;
 }
-.shop-cart-header a {
+.pages-header a {
     font-size: 12px;
 }
-.shop-cart-header a:first-child {
+.pages-header a:first-child {
     color: #4E58F7;
     font-weight: 700;
 }
-.shop-cart-header a:last-child {
+.pages-header a:last-child {
     color: #A8A7AA;
+}
+.pages-header .arrow-color {
+    font-size: 13px !important;
 }
 .pr-new-12 {
     padding-right: 12px !important;
@@ -1142,4 +1145,39 @@ padding: 15px .75rem 0px .75rem;
     color: #fff;
     font-size: 11px;
     border-radius: 5px;
+}
+
+
+
+/* =============================================
+SINGLE PRODUCT
+==============================================*/
+.star-hover {
+    position: relative;
+}
+.star-hover:hover .p-star-display {
+    display: block;
+}
+.p-star-display {
+    display: none;
+    position: absolute;
+    background: red;
+    color: green;
+    height: 100px;
+    width: 300px;
+}
+
+
+.img-magnifier-container {
+  position:relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 150px;
+  height: 200px;
 }
