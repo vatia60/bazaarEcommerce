@@ -34,9 +34,6 @@ i {
     z-index: 0;
 }
 
-img {
-    max-width: 100%;
-}
 .font-10 {
     font-size: 10px;
 }
@@ -1163,8 +1160,27 @@ padding: 15px .75rem 0px .75rem;
 
 
 /* =============================================
-SINGLE PRODUCT
+DETAIL PRODUCT
 ==============================================*/
+.detail-product img {
+    max-width: 100%;
+}
+.detail-product-right .get-coupons-toggle {
+    width: 170px;
+    padding: 10px 0;
+}
+.detail-product-right .get-coupons-toggle .dropdown-menu {
+    border: 0;
+    top: 30px;
+    left: 0px;
+}
+
+
+
+
+
+
+
 .detail-product-right h2 {
     font-size: 14px;
 }
@@ -1177,11 +1193,56 @@ SINGLE PRODUCT
 .p-star-display {
     display: none;
     position: absolute;
-    background: red;
-    color: green;
-    height: 100px;
-    width: 300px;
+    background: #fff;
+    z-index: 99999;
 }
+.ship-to {
+    border-bottom: 1px solid gray;
+    padding: 10px 0 3px 10px;
+    font-weight: 600;
+}
+.p-star-display .table td, .p-star-display  .table th {
+   
+    border: 0;
+}
+
+
+.p-star-display .table thead th {
+    vertical-align: bottom;
+    border: 0;
+    font-size: 12px;
+}
+.p-star-display .table thead tr {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.p-star-display .table td {
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.district-thana {
+    padding-left: 10px;
+}
+.district-thana label {
+    padding-left: 40px;
+}
+.district-thana label, .district-thana select {
+    font-size: 14px;
+}
+.padd-left-10 {
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
 .new-user-coupon {
     background: #00B29C;
     color: #fff;
@@ -1263,18 +1324,7 @@ SINGLE PRODUCT
     border: 1px solid #6CC6A8;
 }
 
-
-
-
-
-
-
-
-
-
-/* ===================
-DETAIL SIDEBAR
-====================*/
+/*DETAIL SIDEBAR*/
 .detail-product-main-block {
     background: #EBE7DE;
     padding-bottom: 20px;
@@ -1304,3 +1354,65 @@ DETAIL SIDEBAR
 .detail-the-img img {
     height: 190px;
 }
+
+/*DETAIL SIMILAR PRODUCT*/
+.detail-similar-product {
+    background: #DBFFF5;
+    padding: 30px 0;
+}
+.detail-similar-product h1 {
+    font-size: 18px;
+}
+.all-similar-product {
+    padding: 0 15px;
+}
+.similar-block .card-body {
+    padding: 4px;
+}
+
+/*DETAIL OVERVIEW*/
+.detail-overview {
+    background: #EBE7DE;
+    padding: 20px 0;
+}
+.detail-overview .nav, .detail-overview .tab-content {
+    background: #fff;
+    border-radius: 4px;
+    padding: 6px 20px;
+}
+.detail-overview img {
+    border-radius: 4px;
+}
+.detail-overview p{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2px !important;
+}
+.detail-overview h3 {
+    font-size: 18px;
+    color: #FD3535;
+    margin: 10px 0 0px 0 !important;
+}
+.detail-overview td {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 40px 5px 0;
+    border-top: 1px solid transparent;
+}
+.detail-overview tr td:first-child {
+    width: 25%;
+}
+.detail-overview .nav-link {
+    display: block;
+    padding: 0 40px 0 0;
+    color: #212529;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.detail-overview .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #01B399;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+
