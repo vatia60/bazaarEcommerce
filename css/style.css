@@ -1495,7 +1495,7 @@ select.form-control:not([size]):not([multiple]) {
 .new-all-star-border {
     border: 0;
 }
-.overview-photo-btn {
+.overview-photo-btn button{
     border: 1px solid gray;
     background: transparent;
     padding: 1px 10px;
@@ -1503,6 +1503,9 @@ select.form-control:not([size]):not([multiple]) {
 }
 .customer-review-history-block {
     padding-top: 20px;
+}
+.customer-review-history-block p {
+    font-weight: 500;
 }
 .like-btn {
     border: 1px solid #006CFF;
@@ -1518,6 +1521,18 @@ select.form-control:not([size]):not([multiple]) {
     padding: 0px 6px;
     border-radius: 6px;
     background: transparent;
+}
+
+/*CUSTOMER QUESTION*/
+.customer-question-block {
+    padding-top: 30px;
+}
+.customer-question-block p{
+    font-weight: 500;
+}
+
+.new-pagination {
+    padding: 40px 0;
 }
 
 
