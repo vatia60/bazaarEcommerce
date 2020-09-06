@@ -10,11 +10,15 @@
   
   
 }
+.xzoom-lens img {
+  width: 445px !important;
+  height: 445px !important;
+}
 .xzoom-source {
   border: 0 !important;
   box-shadow: 0 !important;
-  width: 450px !important;
-  height: 450px !important;
+  width: 445px !important;
+  height: 445px !important;
 }
 .xzoom-preview  {
   position: absolute !important;
@@ -25,8 +29,8 @@
   opacity: 1;
   border: 0 !important;
   box-shadow: 0 !important;
-  width: 450px !important;
-  height: 453px !important;
+  width: 445px !important;
+  height: 445px !important;
 }
  .xzoom-lens {
   display: none !important;

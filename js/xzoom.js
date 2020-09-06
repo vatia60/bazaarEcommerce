@@ -72,8 +72,8 @@ function detect_old_ie() {
         var aI, f, m, q, g, i, an, d;
         this.adaptive = function() {
             if (m == 0 || q == 0) {
-                ax.css("width", "");
-                ax.css("height", "");
+                ax.css("width", "445");
+                ax.css("height", "445");
                 m = ax.width();
                 q = ax.height()
             }
