@@ -173,8 +173,12 @@ event.preventDefault();
 
 
 
+$(document).ready(function() {
 
-
-
+$('.detail-color-box').on('click', 'img', function() {
+    $('.detail-color-box img.color-active').removeClass('color-active');
+    $(this).addClass('color-active');
+});
+});
 
 
