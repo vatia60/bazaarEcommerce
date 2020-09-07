@@ -1,76 +1,105 @@
+@media (max-width: 767.98px) {
+    .top-header {
+        height: auto;
+    }
 
+    .top-header-left {
+        padding-top: 10px;
+    }
 
-@media (max-width: 767.98px) { 
-   .top-header {
-		height: auto;
-	}
-	.mobile-none {
-		display: none;
-	}
+    .top-header-right {
+        padding-top: 3px;
+    }
+    .top-header-middle {
+        padding-top: 4px;
+    }
+    .top-header-middle .form-control {
+    height: 23px;
+    padding: 0.0rem .75rem;
+    font-size: .8rem;
+}
+.top-header-middle .input-group-text {
+    padding: 0rem .75rem;
+}
+
+    .wish-cart button {
+        padding: 15px 6px;
+    }
+
+    .mobile-none {
+        display: none;
+    }
+
     .desktop-none {
- 	    display: block;
+        display: block;
     }
+
     .top-header-left h2 {
-	    font-size: 14px;
-    }
-    .top-header-right a:first-child {
-        margin-right: 12px;
-    }
-    .top-header-right a {
         font-size: 12px;
     }
-    .top-header-right {
-        padding-top: 22px;
+
+    .top-header-right a:first-child {
+        margin-right: 0px;
     }
+
+    .top-header-right a {
+        font-size: 9px;
+    }
+
+
     .padd-right-0 {
         padding-right: 15px;
     }
+
     .category-slider .dropdown-menu-position {
         top: 5px;
         left: 212px;
         background: red;
     }
+
     .category-slider .dropdown-menu-position {
-    
-    width: 240px;
+
+        width: 240px;
     }
 
     .shopping-card-flex {
-    width: 247px;
+        width: 247px;
     }
+
     .sponsore-product .pl-1 {
-      padding-left: 15px !important;
+        padding-left: 15px !important;
     }
+
     .pr-n-2 {
         padding-right: 15px !important;
     }
+
+    .similar-block {
+        padding-top: 10px;
+    }
 }
 
 
 
 
 
-@media (min-width: 768px) and (max-width: 991.98px) { 
-	.mobile-none {
-	   display: block;
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .mobile-none {
+        display: block;
     }
 
     .desktop-none {
- 	   display: none;
+        display: none;
     }
 
- }
-
-
-
-
-
-
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-
- }
-
-
-@media (min-width: 1200px) { 
-
 }
+
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+@media (min-width: 1200px) {}
