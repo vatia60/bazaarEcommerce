@@ -194,12 +194,13 @@ i {
     position: absolute;
     top: 54px;
     background: #fff;
-    z-index: 999;
+    z-index: 9999999999999999999999999999999999999999999 !important;
     width: 25%;
 
 }
 .menu .dropdown-menu-position {
     left: 315px;
+    z-index: 9999999999999999999999999999999999999999999 !important;
 }
 .navbar-toggler-icon {
     width: 2em;
@@ -606,7 +607,6 @@ i {
 
 .women-see-icon {
     position: absolute;
-    font-size: 12px;
     position: absolute;
     bottom: 8px;
     right: 27px;
@@ -1016,7 +1016,7 @@ SHOPPING CART
 
 
 
-.shop-cart-details img {
+.shop-cart-history img {
     width: 130px;
     height: 160px;
 }

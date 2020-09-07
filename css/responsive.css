@@ -50,7 +50,31 @@
     .padd-right-0 {
         padding-right: 15px;
     }
+    /*MENU*/
+    .nav-absolute {
+        width: 100vw;
+    left: 0;
+    height: 100vh;
+    overflow-y: auto;
 
+    }
+    .menu .dropdown-menu-position {
+        left: 0;
+    top: 40px;
+    width: 100%;
+    margin-bottom: 50px;
+    height: auto;
+    border-bottom: 1px solid gray !important;
+    border-left: 1px solid gray !important;
+    border-right: 1px solid gray !important;
+    }
+
+    .category {
+        display: none;
+    }
+    .carousel-item img {
+        max-width: 100%;
+    }
     .category-slider .dropdown-menu-position {
         top: 5px;
         left: 212px;
@@ -61,6 +85,26 @@
 
         width: 240px;
     }
+
+    /*WOMEN COLLECTION*/
+    .women-collection-header, .mens-collection-header, .kids-collection-header, .toppic-collection-header {
+    height: 80px;
+}
+.collections-all-header, .center-item {
+    top: 40%;
+    left: 4%;
+    transform: translate(0);
+}
+.collections-all-header h2 {
+    font-size: 18px;
+}
+.women-see-icon {
+    font-size: 12px;
+
+}
+.main-collections-body {
+    padding: 0px 10px 0px 10px;
+}
 
     .shopping-card-flex {
         width: 247px;
@@ -77,6 +121,20 @@
     .similar-block {
         padding-top: 10px;
     }
+
+    /*SHOPPING CART*/
+    .official-store h6 {
+    text-align: center !important;
+}
+.shop-cart-history img {
+    width: 100% !important;
+}
+.shop-cart-details {
+    padding-top: 10px;
+}
+.shop-cart-details .pr-5 {
+    padding-right: 0 !important;
+}
 }
 
 
