@@ -1507,7 +1507,12 @@ DETAIL PRODUCT
     width: 100%;
 }
 
-
+.new-user-coupon-click.dropdown:hover>.dropdown-menu {
+    display: none;
+}
+.new-user-coupon-click .dropdown-menu.show {
+    display: block;
+}
 
 
 
@@ -1631,8 +1636,15 @@ DETAIL PRODUCT
 }
 
 
-
-
+.new-user-coupon-click {
+    position: relative;
+}
+.new-user-coupon-toggle {
+    display: none;
+    position: absolute;
+    top: 42px;
+    left: 0;
+}
 
 
 

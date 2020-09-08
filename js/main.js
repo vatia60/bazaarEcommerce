@@ -61,6 +61,15 @@ $(document).ready(function() {
 
 
 
+$(document).ready(function() {
+  $('.dropdown-toggle-click').click(function() {
+    $(this).siblings(".new-user-coupon-toggle").toggle();
+  });
+});
+
+
+
+
 
 
 
