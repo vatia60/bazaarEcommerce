@@ -241,4 +241,19 @@ $('#prev-img').click(function (){
       $('#small-img-roll').css('left', '0')
     }
   }
-})
+});
+
+
+var normal_view = document.querySelector('.product-normal-view');
+var normal_view = document.querySelector('.product-short-view');
+
+$(".product-normal-view-btn").click(function () {
+  $(".product-normal-view").css("display","block");
+  $(".product-short-view").css("display","none");
+    
+});
+$(".product-short-view-btn").click(function () {
+  $(".product-normal-view").css("display","none");
+  $(".product-short-view").css("display","block");
+    
+});

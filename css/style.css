@@ -2084,6 +2084,7 @@ PRODUCTS
 .product-body-container {
     background: #E7EEE6;
     padding: 20px 10px;
+    margin-bottom: 30px;
 }
 .product-name {
     padding: 10px 0 30px 0;
@@ -2123,6 +2124,8 @@ PRODUCTS
     border-radius: 2px;
     margin-top: 2px;
     width: 48%;
+    background: transparent;
+    color: #212529;
 }
 .product-body-sidebar a {
     font-size: 10px;
@@ -2140,8 +2143,8 @@ PRODUCTS
 .product-body-main-header h2 {
     font-size: 16px;
 }
-.short-select-view {
-
+.product-short-view {
+    display: none;
 }
 .short-select-view p {
     font-size: 12px;
@@ -2164,4 +2167,39 @@ PRODUCTS
 }
 .last-similar-padd-bott {
     margin-bottom: 60px;
+}
+
+/*Product Short View*/
+
+.product-short-view {
+    
+}
+.product-short-view-block {
+    margin-top: 10px;
+    background: #fff;
+    padding: 4px 5px;
+    border-radius: 4px;
+}
+.product-short-view-block img {
+    width: 100%;
+    height: 178px;
+    border-radius: 4px;
+}
+.product-short-view-block h2, .product-short-view-block h3, .product-short-view-block ul li {
+    color: #6CC6A8;
+}
+.product-short-view-block h2 {
+    font-size: 15px;
+}
+.product-short-view-block h3 {
+    font-size: 12px;
+}
+.product-short-view-block ul {
+    padding-left: 24px;
+}
+.product-short-view-block ul li {
+    font-size: 10px;
+}
+.product-short-view-block .fa-star {
+    color: #FEB92E !important;
 }
