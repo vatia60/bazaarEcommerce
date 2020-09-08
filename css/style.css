@@ -1795,6 +1795,7 @@ DETAIL PRODUCT
 
 .detail-the-img img {
     height: 190px;
+    width: 100%;
 }
 
 /*DETAIL SIMILAR PRODUCT*/
