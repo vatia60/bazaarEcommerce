@@ -13,6 +13,7 @@ grey text: #4B4B4D;
 body {
     font-family: 'MoolBoran', sans-serif !important;
     position: relative;
+    background: #EBE7DE !important;
 }
 
 html {
@@ -1996,7 +1997,9 @@ select.form-control:not([size]):not([multiple]) {
 
 /*OTHER PAGES*/
 
-/*CATEGORIES SLIDER*/
+/*====================================
+CATEGORIES SLIDER
+====================================*/
 .new-category-page img {
     width: 100%;
     height: 400px;
@@ -2072,4 +2075,31 @@ select.form-control:not([size]):not([multiple]) {
 .categories-pages-title-color {
     color: #5CC19F;
     font-size: 22px;
+}
+
+
+/*====================================
+PRODUCTS
+====================================*/
+.product-name {
+    padding: 10px 0 30px 0;
+}
+.all-product-pages {
+    padding: 0 11px;
+}
+.product-name-block {
+    background: #A3D4BF;
+    padding: 2px;
+    border-radius: 4px;
+}
+.product-name-block-padd {
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+.product-name-block-padd img {
+    width: 100%;
+}
+.product-body-sidebar {
+    background: #fff;
+    padding: 40px;
 }
