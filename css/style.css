@@ -52,6 +52,9 @@ button:focus {
 i {
     cursor: pointer;
 }
+a h5, a h2 {
+    color: #212529;
+}
 
 .carousel {
     z-index: 0;
