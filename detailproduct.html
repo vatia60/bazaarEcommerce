@@ -994,12 +994,25 @@
                                         </strike>
                                         <span style="color: red; font-size: 10px; background: #80808054; font-style: italic;">30%</span>
                                     </p>
-                                    <div class="dropdown show get-coupons-toggle">
-                                        <a class="btn btn-secondary coupons-toggle-a" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            100 TK new user coupon
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                            <div class="get-coupons-toggle-body text-uppercase">
+
+
+
+<button type="button" class="coupons-toggle-a new-user-coupon-btn" data-toggle="modal" data-target="#exampleModal">
+ 100 TK new user coupon
+</button>
+
+<!-- Modal -->
+<div class="user-coupon-new-modal modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+           <div class="get-coupons-toggle-body get-coupons-toggle-modal text-uppercase">
                                                 <div class="get-coupons-toggle-block pb-2">
                                                     <p class="mb-1">new user coupon</p>
                                                     <div class="get-coupons-toggle-block-body">
@@ -1053,10 +1066,25 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p class="mb-0 font-14" style="font-weight: 600; color: #3B3A3A;">Color : </p>
+                                            </div>                                 
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <p class="pt-2 mb-0 font-14" style="font-weight: 600; color: #3B3A3A;">Color : </p>
                                     <div class="detail-color-box">
                                         <span><img src="images/color-box-n.png" alt=""></span>
                                         <span><img src="images/color-box-n.png" alt=""></span>

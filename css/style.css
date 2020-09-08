@@ -1503,7 +1503,9 @@ DETAIL PRODUCT
     top: 30px;
     left: 0px;
 }
-
+.get-coupons-toggle-modal {
+    width: 100%;
+}
 
 
 
@@ -1634,8 +1636,17 @@ DETAIL PRODUCT
 
 
 
-
-
+.new-user-coupon-btn {
+    padding: 8px 13px;
+    border-radius: 5px;
+}
+.user-coupon-new-modal .modal-body {
+    padding: 1rem 1rem 2rem 1rem;
+}
+.user-coupon-new-modal .modal-header {
+    padding: 3px 10px 0 0;
+    border-bottom: 0;
+}
 .new-user-coupon {
     background: #00B29C;
     color: #fff;
