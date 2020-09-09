@@ -316,3 +316,22 @@ $(".seller-contact").click(function () {
   $(".term").css("display","none");
     
 });
+
+
+
+/*WIN DEAL PAGE*/
+$(".now-btn").click(function () {
+  $(this).css({"background": "#5CC19F", "color": "#fff"});
+  $('.upcoming-btn').css({"background": "transparent","color": "#212529"});
+  $(".now-body").css("display","block");
+  $(".upcoming-body").css("display","none");
+    
+});
+
+$(".upcoming-btn").click(function () {
+  $(this).css({"background": "#5CC19F", "color": "#fff"});
+  $('.now-btn').css({"background": "transparent","color": "#212529"});
+  $(".upcoming-body").css("display","block");
+  $(".now-body").css("display","none");
+    
+});
