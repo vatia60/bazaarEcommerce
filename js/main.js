@@ -258,11 +258,61 @@ $(".product-short-view-btn").click(function () {
 });
 
 
-
+/*Seller Information*/
 $(".btn-sidebar").on("click", function(){
         
         $(this).find('i').toggleClass('fa-chevron-right').toggleClass('fa-chevron-down');
         $(this).find('span').toggleClass('new-color-normal').toggleClass('new-color-change');
-       
-
+      
     });
+
+
+
+$(".seller-home").click(function () {
+  $(this).css("color", "#5CC19F");
+  $('.seller-about').css("color", "#212529");
+  $('.seller-term').css("color", "#212529");
+  $('.seller-contact').css("color", "#212529");
+  $(".about").css("display","none");
+  $(".term").css("display","none");
+  $(".contact").css("display","none");
+  $(".seller-differ-body").css("display","block");
+
+    
+});
+
+$(".seller-about").click(function () {
+  $(this).css("color", "#5CC19F");
+  $('.seller-home').css("color", "#212529");
+  $('.seller-term').css("color", "#212529");
+  $('.seller-contact').css("color", "#212529");
+  $(".about").css("display","block");
+  $(".seller-differ-body").css("display","none");
+  $(".term").css("display","none");
+  $(".contact").css("display","none");
+    
+});
+
+$(".seller-term").click(function () {
+  $(this).css("color", "#5CC19F");
+  $('.seller-about').css("color", "#212529");
+  $('.seller-home').css("color", "#212529");
+  $('.seller-contact').css("color", "#212529");
+  $(".term").css("display","block");
+  $(".seller-differ-body").css("display","none");
+  $(".about").css("display","none");
+  $(".contact").css("display","none");
+    
+});
+
+$(".seller-contact").click(function () {
+  $(this).css("color", "#5CC19F");
+  $('.seller-about').css("color", "#212529");
+  $('.seller-term').css("color", "#212529");
+  $('.seller-home').css("color", "#212529");
+  $(".contact").css("display","block");
+  $(".seller-differ-body").css("display","none");
+  $(".about").css("display","none");
+  $(".term").css("display","none");
+    
+});
