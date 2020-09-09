@@ -2303,6 +2303,11 @@ SELLER INFORMATION
 /*Seller Information Sidebar*/
 .seller-body .product-body-sidebar {
     padding: 0;
+    background: transparent;
+}
+.seller-body .related-product, .seller-block-pages {
+    background: #fff;
+    border-radius: 4px;
 }
 .seller-body .related-product-item {
    padding: 0 20px 400px 20px;
@@ -2347,7 +2352,7 @@ SELLER INFORMATION
 }
 
 .store-page-item {
-    padding: 2px 20px;
+    padding: 2px 20px 10px 20px;
 }
 .store-page-item p {
     cursor: pointer;
@@ -2373,4 +2378,7 @@ SELLER INFORMATION
 
 .seller-home {
   color: #5CC19F;
+}
+.why-choose-us {
+    padding: 10px 4px 60px 4px;
 }
