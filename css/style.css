@@ -74,6 +74,9 @@ a {
 .font-14 {
     font-size: 14px !important;
 }
+.font-18 {
+    font-size: 18px !important;
+}
 
 
 
@@ -595,6 +598,7 @@ a .card-title:hover {
 
 .collections-img-position {
     position: relative;
+    
 }
 
 .collections-img-position .quick-view {
@@ -603,8 +607,13 @@ a .card-title:hover {
     left: 0;
     right: 0;
     bottom: 0;
+    transition: all .6s ease-in-out;
 }
 
+.modal-dialog {
+    max-width: 840px;
+    margin: 1.75rem auto;
+}
 .quick-view {
     background: #5CC19F;
     padding: 10px 0;
@@ -613,7 +622,7 @@ a .card-title:hover {
     border: 0;
     font-weight: bold;
     display: none;
-    transition: all .6s ease-in-out;
+    
 }
 
 .quick-view:hover {
@@ -638,6 +647,7 @@ a .card-title:hover {
     position: fixed;
     right: 20px;
     top: 15px;
+    z-index: 99999999999;
 }
 
 .quick-view-color-radio li {
