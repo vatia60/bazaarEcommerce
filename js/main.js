@@ -6,6 +6,17 @@ $(window).scroll(function() {
     }
 });
 
+/*Stop dropdown link click event*/
+$(".menu .dropdown").click(function(e){
+   e.stopPropagation();
+})
+$(".category .dropdown").click(function(e){
+   e.stopPropagation();
+})
+
+
+
+
 var newcolor = document.getElementById('wish-active')
 $('.wish-active').click(function() {
 
