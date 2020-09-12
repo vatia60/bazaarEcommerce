@@ -135,6 +135,24 @@
 .shop-cart-details .pr-5 {
     padding-right: 0 !important;
 }
+
+
+/*Product Details*/
+.showhope {
+    width: 330px;
+    height: 330px;
+}
+.small-img {
+    width: 300px;
+    left: 17px;
+}
+.detail-product-right h2 {
+    padding-top: 20px;
+}
+/*Campaign*/
+.campaign-select-coupon {
+    width: 322px;
+}
 }
 
 
