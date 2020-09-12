@@ -56,7 +56,9 @@ i {
 a h5, a h2 {
     color: #212529;
 }
-
+a {
+    text-decoration: none !important;
+}
 .carousel {
     z-index: 0;
 }
@@ -155,6 +157,7 @@ a h5, a h2 {
 
 .dropdown-submenu {
     position: relative;
+    
 }
 
 
@@ -164,12 +167,14 @@ a h5, a h2 {
     left: 100%;
     margin-top: 0px;
     margin-left: 0px;
+   
 }
 
 
 
 .dropdown:hover>.dropdown-menu {
     display: block;
+  
 }
 
 .dropdown>.dropdown-toggle:active {
@@ -179,11 +184,14 @@ a h5, a h2 {
 
 .dropdown-submenu:hover>.dropdown-menu {
     display: block;
+
 }
 
 .navbar-nav .dropdown-menu {
     position: absolute;
     float: none;
+
+    
 }
 
 .dropdown-submenu-position {
@@ -201,12 +209,32 @@ a h5, a h2 {
     background: #fff;
     z-index: 9999999999999999999999999999999999999999999 !important;
     width: 25%;
-
+    transition: all 0.6s ease-in-out;
 }
+
+
+
+
+
 .menu .dropdown-menu-position {
     left: 315px;
     z-index: 9999999999999999999999999999999999999999999 !important;
+    
 }
+
+
+@keyframes growDown {
+   0% {
+        transform: translateZ(200px) transLateY(40px)
+    }
+    80% {
+        transform: translateZ(-10px) transLateY(0px)
+    }
+    100% {
+        transform: translateZ(0px) transLateY(0px)
+    }
+}
+
 .navbar-toggler-icon {
     width: 2em;
     height: 2em;
@@ -237,7 +265,9 @@ a h5, a h2 {
 .dropdown-item:hover {
     background-color: transparent;
 }
-
+.menu .nav-link:hover {
+    color: #e62e04 !important;
+}
 .pos-static {
     position: static !important;
 }
@@ -301,6 +331,7 @@ a h5, a h2 {
     z-index: 99999999999999999999999999999 !important;
     top: -34px;
     position: absolute;
+     animation: growDown 2000ms ease-in-out forwards;
 }
 
 .padd-right-0 {
@@ -380,6 +411,20 @@ a h5, a h2 {
     text-transform: uppercase;
     box-shadow: 0px 2px 4px 0px #e4e1e1;
     cursor: pointer;
+    transition: all .6s ease;
+}
+.carousel-caption button:hover {
+    background: #5CC19F;
+}
+.carousel-caption button::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: scale(0, 0);
+}
+.carousel-caption button:hover::after {
+  transform: scale(1, 1);
 }
 
 .category-slider .carousel-indicators {
@@ -513,6 +558,10 @@ a h5, a h2 {
 .main-collections-block .card-title {
     font-size: 13px;
 }
+a .card-title:hover {
+    color: #5CC19F;
+    transition: color .3s ease;
+}
 
 /*COLLECTION*/
 .collections {
@@ -564,6 +613,7 @@ a h5, a h2 {
     border: 0;
     font-weight: bold;
     display: none;
+    transition: all .6s ease-in-out;
 }
 
 .quick-view:hover {
@@ -651,6 +701,7 @@ a h5, a h2 {
 
 .main-collections-block {
     padding: 20px 0px;
+    transition: all 0.6s ease-in-out;
 }
 
 .main-collections-block:hover .quick-view {
