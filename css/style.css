@@ -475,6 +475,9 @@ img {
     color: #d6d3d3;
 }
 
+.card-img-top {
+    max-width: 100%;
+}
 
 /*WIN DEAL*/
 .win-deal {
