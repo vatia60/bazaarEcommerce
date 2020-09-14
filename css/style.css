@@ -59,6 +59,9 @@ a h5, a h2 {
 a {
     text-decoration: none !important;
 }
+img {
+    max-width: 100%;
+}
 .carousel {
     z-index: 0;
 }
