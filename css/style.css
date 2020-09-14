@@ -211,7 +211,7 @@ a {
     top: 54px;
     background: #fff;
     z-index: 9999999999999999999999999999999999999999999 !important;
-    width: 25%;
+    width: 21.3%;
     transition: all 0.6s ease-in-out;
 }
 
@@ -220,7 +220,7 @@ a {
 
 
 .menu .dropdown-menu-position {
-    left: 315px;
+    left: 268px;
     z-index: 9999999999999999999999999999999999999999999 !important;
     
 }
@@ -325,6 +325,8 @@ a {
 
 .sub-link {
     color: #e62e04 !important;
+    text-transform: uppercase;
+    font-size: 12px;
 }
 
 .dropdown-menu-position {
@@ -374,13 +376,13 @@ a {
     padding-bottom: 15px;
 }
 
-.category-slider a {
-    text-transform: uppercase;
-    color: #4B4B4D;
-    font-size: 12px;
+.menu .nav-link, .category .nav-link {
+    text-transform: uppercase  !important;
+    color: #4B4B4D !important;
+    font-size: 12px !important;
 }
 
-.category-slider a:hover {
+.menu .nav-link:hover, .category .nav-link:hover {
     color: #e62e04;
 }
 
@@ -564,6 +566,10 @@ a {
 a .card-title:hover {
     color: #5CC19F;
     transition: color .3s ease;
+}
+.card {
+    border: 0;
+    border-radius: .25rem;
 }
 
 /*COLLECTION*/
