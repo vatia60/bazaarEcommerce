@@ -212,7 +212,7 @@ a {
     background: #fff;
     z-index: 9999999999999999999999999999999999999999999 !important;
     width: 21.3%;
-    transition: all 0.6s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 
@@ -331,7 +331,7 @@ a {
     z-index: 99999999999999999999999999999 !important;
     top: -34px;
     position: absolute;
-     animation: growDown 2000ms ease-in-out forwards;
+   
 }
 
 .padd-right-0 {
@@ -414,7 +414,7 @@ a {
     text-transform: uppercase;
     box-shadow: 0px 2px 4px 0px #e4e1e1;
     cursor: pointer;
-    transition: all .6s ease;
+    transition: all .3s ease;
 }
 .carousel-caption button:hover {
     background: #5CC19F;
@@ -2517,6 +2517,7 @@ CAMPAIGN
     color: #fff;
     padding-top: 30px;
     line-height: 13px;
+    text-align: center;
 }
 .campaign-coupon-date h6 {
     
