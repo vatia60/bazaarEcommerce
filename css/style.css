@@ -884,6 +884,10 @@ a .card-title:hover {
 /* ===================================
 SHOPPING CART
 ====================================*/
+.navbar-toggler span {
+    font-size: 14px;
+    font-weight: 700;
+}
 .shoppingcart-menu .navbar-light .navbar-toggler {
     font-weight: 700;
     font-size: 1.2rem;
