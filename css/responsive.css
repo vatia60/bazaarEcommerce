@@ -176,7 +176,21 @@
 .product-name-block {
     margin-bottom: 10px;
 }
-
+.seller-banner-body-middle {
+    padding: 30px 0px 10px 0px;
+}
+.seller-favorite {
+    text-align: center;
+}
+.seller-favorite p {
+    padding-top: 20px;
+}
+.seller-banner-body-bottom {
+    padding-top: 30px;
+}
+.seller-banner-block {
+    margin-bottom: 10px;
+}
 }
 
 
