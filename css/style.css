@@ -1325,7 +1325,11 @@ SHOPPING CART
     background: #fff;
     margin-top: 10px;
 }
-
+.more-to-love .main-collections-block {
+    border: 1px solid #dad7d7;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
 .payment-method-ul li {
     display: inline-block;
     padding: 2px 4px;

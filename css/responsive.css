@@ -191,6 +191,9 @@
 .seller-banner-block {
     margin-bottom: 10px;
 }
+.payment-method .col-md-6:last-child {
+    padding-top: 20px;
+}
 }
 
 
