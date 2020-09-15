@@ -159,6 +159,20 @@
 .campaign-select-coupon {
     width: 322px;
 }
+.detail-similar-product {
+    margin: 0;
+}
+.detail-overview .col-md-3.pr-1 {
+    margin-right: 15px;
+
+}
+.detail-overview-sidebar-img {
+    margin-bottom: 20px;
+}
+.detail-overview-sidebar-img img {
+    width: 100%;
+}
+
 }
 
 

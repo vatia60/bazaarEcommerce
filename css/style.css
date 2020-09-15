@@ -59,9 +59,7 @@ a h5, a h2 {
 a {
     text-decoration: none !important;
 }
-img {
-    max-width: 100%;
-}
+
 .carousel {
     z-index: 0;
 }
@@ -314,7 +312,7 @@ img {
 .list-group-item {
     position: relative;
     display: block;
-    padding: .065rem 1.25rem;
+    padding: .1rem 1.25rem;
     margin-bottom: -1px;
     background-color: #DBFFF4;
     border: 2px solid rgba(0, 0, 0, .125);
@@ -475,9 +473,7 @@ img {
     color: #d6d3d3;
 }
 
-.card-img-top {
-    max-width: 100%;
-}
+
 
 /*WIN DEAL*/
 .win-deal {
@@ -515,6 +511,13 @@ img {
 }
 
 .card-flex-all {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.card-flex-all-8 {
     position: relative;
     width: 100%;
     min-height: 1px;
@@ -606,7 +609,10 @@ a .card-title:hover {
     padding-top: 20px;
     border-radius: 5px;
 }
-
+.card-img-top-new {
+    max-width: 100%;
+    position: relative;
+}
 .collections-img-position {
     position: relative;
     
@@ -732,9 +738,6 @@ a .card-title:hover {
 
 
 
-.card-img-top {
-    position: relative;
-}
 
 .img-overlay-history {
     position: absolute;
@@ -1933,6 +1936,7 @@ DETAIL PRODUCT
 
 .detail-overview img {
     border-radius: 4px;
+    max-width: 100%;
 }
 
 .detail-overview p {
