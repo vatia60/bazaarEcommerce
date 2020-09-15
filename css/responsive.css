@@ -105,6 +105,9 @@
 .main-collections-body {
     padding: 0px 10px 0px 10px;
 }
+.main-collections-block:hover .quick-view {
+    display: none;
+}
 
     .shopping-card-flex {
         width: 247px;

@@ -314,7 +314,7 @@ img {
 .list-group-item {
     position: relative;
     display: block;
-    padding: .1rem 1.25rem;
+    padding: .065rem 1.25rem;
     margin-bottom: -1px;
     background-color: #DBFFF4;
     border: 2px solid rgba(0, 0, 0, .125);
@@ -611,7 +611,9 @@ a .card-title:hover {
     position: relative;
     
 }
-
+.main-collections-block:hover .quick-view {
+    display: block;
+}
 .collections-img-position .quick-view {
     position: absolute;
     width: 100%;
@@ -627,13 +629,13 @@ a .card-title:hover {
 }
 .quick-view {
     background: #5CC19F;
-    padding: 10px 0;
+    padding: 8px 0;
     text-align: center;
     color: #fff;
     border: 0;
     font-weight: bold;
     display: none;
-    
+    font-size: 14px;
 }
 
 .quick-view:hover {
@@ -728,9 +730,7 @@ a .card-title:hover {
     margin-bottom: 0 !important;
 }
 
-.main-collections-block:hover .quick-view {
-    display: block;
-}
+
 
 .card-img-top {
     position: relative;
