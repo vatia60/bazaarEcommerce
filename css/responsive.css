@@ -195,20 +195,78 @@
 
 
     /*Product Details*/
+
     .showhope {
-        width: 330px;
-        height: 330px;
+            width: 346px;
+    height: 330px
     }
 
     .small-img {
         width: 300px;
-        left: 17px;
+        left: 25px;
     }
 
     .detail-product-right h2 {
         padding-top: 20px;
     }
-
+.sidebar-flex-block-icon .fa-ribbon {
+    font-size: 20px;
+    padding: 5px 5px 0 0;
+    color: gray;
+}
+.sidebar-flex-block-icon .fa-dollar-sign {
+    font-size: 24px;
+    padding: 3px 3px 0 2px;
+    color: gray;
+}
+.sipping-modal-res h5 {
+    font-size: 16px;
+}
+.sipping-modal-res .padd-left-10{
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+.sipping-modal-res img {
+    width: 30px;
+}
+.table td, .table th {
+    padding: 0.25rem;
+    font-size: 12px;
+}
+.input-group-new {
+   width: 140px;
+    height: 31px;
+}
+.input-span-line {
+    line-height: 12px;
+}
+.customer-review-details-header {
+    padding: 7px 0px;
+}
+.new-width-two.pl-3, .new-width-two.px-3 {
+    padding-left: 0rem!important;
+}
+.new-width-two {
+    margin-top: 1px;
+}
+.detail-short-right {
+    margin-right: 5px;
+}
+.detail-overview .nav-link {
+    padding: 0 18px 0 0;
+}
+.customer-details-review span {
+    font-size: 14px;
+}
+.new-tab-pane h1{
+    font-size: 22px;
+}
+.new-tab-paddd.pt-3, .new-tab-paddd.py-3 {
+    padding-top: .6rem!important;
+}
+.new-tab-paddd.col-5 {
+    padding-right: 10px;
+}
     /*Campaign*/
     .campaign-select-coupon {
         width: 322px;
