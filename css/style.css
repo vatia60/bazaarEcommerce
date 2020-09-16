@@ -1767,25 +1767,24 @@ DETAIL PRODUCT
 }
 
 .color-active {
-    border: 1px solid red !important;
+    border: 2px solid red !important;
 }
 
-.detail-quantity-btn {
+.input-group-new {
     border: 1px solid #6CC6A8;
     font-size: 14px;
     font-weight: 600;
     color: #6d6c6a;
     padding: 1px 6px;
     border-radius: 4px;
+    width: 96px;
 }
 
-.detail-quantity-btn:hover {
-    border: 1px solid #6CC6A8;
-    font-size: 14px;
-    font-weight: 600;
-    color: #6d6c6a;
-    padding: 1px 6px;
-    border-radius: 4px;
+.detail-quantity-input{
+    width: 60px;
+    border: none;
+    text-align: center;
+    background: transparent;
 }
 
 .detail-size-box {

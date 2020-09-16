@@ -32,7 +32,7 @@ $('body').scrollspy({ target: '#get-now' });
 
 
 
-
+/*Detail Product Color*/
 $(document).ready(function() {
 
     $('.detail-color-box').on('click', 'img', function() {
@@ -41,10 +41,51 @@ $(document).ready(function() {
     });
 });
 
+/*Detail Product Size*/
+$(document).ready(function() {
+
+    $('.detail-size-box-all').on('click', 'button', function() {
+        $('.detail-size-box-all button.color-active').removeClass('color-active');
+        $(this).addClass('color-active');
+    });
+});
 
 
+/*Detail Product Increment Decrement*/
+$(document).ready(function(){
 
+var quantitiy=0;
+   $('.quantity-right-plus').click(function(e){
+        
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantity = parseInt($('#quantity').val());
+        
+        // If is not undefined
+            
+            $('#quantity').val(quantity + 1);
 
+          
+            // Increment
+        
+    });
+
+     $('.quantity-left-minus').click(function(e){
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var quantity = parseInt($('#quantity').val());
+        
+        // If is not undefined
+      
+            // Increment
+            if(quantity>0){
+            $('#quantity').val(quantity - 1);
+            }
+    });
+    
+});
 
 
 
