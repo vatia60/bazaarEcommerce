@@ -2203,6 +2203,9 @@ PRODUCTS
     border-radius: 8px;
     padding: 6px;
 }
+.product-name-block-padd h6{
+    color: #212529 !important;
+}
 .product-name-block-padd img {
     width: 100%;
     height: 90px;

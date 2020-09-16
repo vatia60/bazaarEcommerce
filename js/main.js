@@ -350,3 +350,36 @@ $(".upcoming-btn").click(function () {
 
 
 
+ $(function() {
+        $('#carousel').carousel({
+            interval: 2000
+        })
+    });
+
+$(document).ready(function(){
+      $('.seller-slick').slick({
+        responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        }
+      }
+    ] 
+      });
+    });
+
+$(document).ready(function(){
+      $('.recommend-slick').slick({
+        responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        }
+      }
+    ] 
+      });
+    });
