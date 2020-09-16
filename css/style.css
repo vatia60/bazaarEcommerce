@@ -2328,9 +2328,13 @@ PRODUCTS
     padding: 4px 5px;
     border-radius: 4px;
 }
+.product-short-view-block .img-overlay-history {
+    width: 90%;
+    top: 0;
+}
 .product-short-view-block img {
     width: 100%;
-    height: 178px;
+    height: 193px;
     border-radius: 4px;
 }
 .product-short-view-block h2, .product-short-view-block h3, .product-short-view-block ul li {
@@ -2338,12 +2342,15 @@ PRODUCTS
 }
 .product-short-view-block h2 {
     font-size: 15px;
+    padding-top: 14px;
 }
+
 .product-short-view-block h3 {
     font-size: 12px;
 }
 .product-short-view-block ul {
     padding-left: 24px;
+    margin-bottom: 8px;
 }
 .product-short-view-block ul li {
     font-size: 10px;
@@ -2355,7 +2362,9 @@ PRODUCTS
 .slick-initialized .slick-slide {
     padding: 0 4px;
 }
-
+.short-view-right {
+    padding-top: 22px;
+}
 
 /*====================================
 SELLER INFORMATION
