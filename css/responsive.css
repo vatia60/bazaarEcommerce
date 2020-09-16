@@ -10,25 +10,30 @@
     .top-header-right {
         padding-top: 3px;
     }
+
     .top-header-middle {
         padding-top: 4px;
     }
+
     .top-header-middle .form-control {
-    height: 23px;
-    padding: 0.0rem .75rem;
-    font-size: .8rem;
-}
-.top-header-middle .input-group-text {
-    padding: 0rem .75rem;
-}
+        height: 23px;
+        padding: 0.0rem .75rem;
+        font-size: .8rem;
+    }
+
+    .top-header-middle .input-group-text {
+        padding: 0rem .75rem;
+    }
 
     .wish-cart button {
         padding: 8px 6px;
         font-size: 14px;
     }
-.sp-size {
-    padding: 2px 4px 1px 2px;
-}
+
+    .sp-size {
+        padding: 2px 4px 1px 2px;
+    }
+
     .mobile-none {
         display: none;
     }
@@ -53,31 +58,35 @@
     .padd-right-0 {
         padding-right: 15px;
     }
+
     /*MENU*/
     .nav-absolute {
         width: 100vw;
-    left: 0;
-    height: 100vh;
-    overflow-y: auto;
+        left: 0;
+        height: 100vh;
+        overflow-y: auto;
 
     }
+
     .menu .dropdown-menu-position {
         left: 0;
-    top: 40px;
-    width: 100%;
-    margin-bottom: 50px;
-    height: auto;
-    border-bottom: 1px solid gray !important;
-    border-left: 1px solid gray !important;
-    border-right: 1px solid gray !important;
+        top: 40px;
+        width: 100%;
+        margin-bottom: 50px;
+        height: auto;
+        border-bottom: 1px solid gray !important;
+        border-left: 1px solid gray !important;
+        border-right: 1px solid gray !important;
     }
 
     .category {
         display: none;
     }
+
     .carousel-item img {
         max-width: 100%;
     }
+
     .category-slider .dropdown-menu-position {
         top: 5px;
         left: 212px;
@@ -90,27 +99,36 @@
     }
 
     /*WOMEN COLLECTION*/
-    .women-collection-header, .mens-collection-header, .kids-collection-header, .toppic-collection-header {
-    height: 80px;
-}
-.collections-all-header, .center-item {
-    top: 40%;
-    left: 4%;
-    transform: translate(0);
-}
-.collections-all-header h2 {
-    font-size: 18px;
-}
-.women-see-icon {
-    font-size: 12px;
+    .women-collection-header,
+    .mens-collection-header,
+    .kids-collection-header,
+    .toppic-collection-header {
+        height: 80px;
+    }
 
-}
-.main-collections-body {
-    padding: 0px 10px 0px 10px;
-}
-.main-collections-block:hover .quick-view {
-    display: none;
-}
+    .collections-all-header,
+    .center-item {
+        top: 40%;
+        left: 4%;
+        transform: translate(0);
+    }
+
+    .collections-all-header h2 {
+        font-size: 18px;
+    }
+
+    .women-see-icon {
+        font-size: 12px;
+
+    }
+
+    .main-collections-body {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .main-collections-block:hover .quick-view {
+        display: none;
+    }
 
     .shopping-card-flex {
         width: 247px;
@@ -127,75 +145,136 @@
     .similar-block {
         padding-top: 10px;
     }
+    .footer-block h6 {
+    font-size: 16px;
+}
+.padd-20 {
+    padding: 60px 0px;
+}
+.footer-block ul li a {
+    font-size: 14px;
+}
+
+    /*CATEGORIES SLIDER*/
+    .new-category-page img {
+        width: 100%;
+        height: 220px;
+    }
+    .new-category-arrivals-header {
+    padding-top: 20px;
+}
+.categories-pages-title-color {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.img-overlay-history {
+    padding: 4px;
+}
+.win-a {
+    font-size: 10px;
+    padding: 2px 5px;
+    bottom: -12px;
+}
 
     /*SHOPPING CART*/
     .official-store h6 {
-    text-align: center !important;
-}
-.shop-cart-history img {
-    width: 100% !important;
-}
-.shop-cart-details {
-    padding-top: 10px;
-}
-.shop-cart-details .pr-5 {
-    padding-right: 0 !important;
-}
+        text-align: center !important;
+    }
+
+    .shop-cart-history img {
+        width: 100% !important;
+    }
+
+    .shop-cart-details {
+        padding-top: 10px;
+    }
+
+    .shop-cart-details .pr-5 {
+        padding-right: 0 !important;
+    }
 
 
-/*Product Details*/
-.showhope {
-    width: 330px;
-    height: 330px;
+    /*Product Details*/
+    .showhope {
+        width: 330px;
+        height: 330px;
+    }
+
+    .small-img {
+        width: 300px;
+        left: 17px;
+    }
+
+    .detail-product-right h2 {
+        padding-top: 20px;
+    }
+
+    /*Campaign*/
+    .campaign-select-coupon {
+        width: 322px;
+    }
+
+    .detail-similar-product {
+        margin: 0;
+    }
+
+    .detail-overview .col-md-3.pr-1 {
+        margin-right: 15px;
+
+    }
+
+    .detail-overview-sidebar-img {
+        margin-bottom: 20px;
+    }
+
+    .detail-overview-sidebar-img img {
+        width: 100%;
+    }
+
+    .product-name-block {
+        margin-bottom: 10px;
+    }
+
+    .seller-banner-body-middle {
+        padding: 30px 0px 10px 0px;
+    }
+
+    .seller-favorite {
+        text-align: center;
+    }
+
+    .seller-favorite p {
+        padding-top: 20px;
+    }
+
+    .seller-banner-body-bottom {
+        padding-top: 30px;
+    }
+
+    .seller-banner-block {
+        margin-bottom: 10px;
+    }
+
+    .payment-method .col-md-6:last-child {
+        padding-top: 20px;
+    }
+    .slick-prev {
+    left: -18px;
+    z-index: 9999999999999 !important;
 }
-.small-img {
-    width: 300px;
-    left: 17px;
+    .slick-next {
+    right: -18px;
+    z-index: 9999999999999 !important;
+    }
 }
-.detail-product-right h2 {
-    padding-top: 20px;
+
+@media (max-width: 345px) {
+    .categories-name-block-padd img {
+    width: 95PX;
+    height: 114px;
 }
-/*Campaign*/
-.campaign-select-coupon {
-    width: 322px;
-}
-.detail-similar-product {
-    margin: 0;
-}
-.detail-overview .col-md-3.pr-1 {
-    margin-right: 15px;
 
 }
-.detail-overview-sidebar-img {
-    margin-bottom: 20px;
-}
-.detail-overview-sidebar-img img {
-    width: 100%;
-}
-
-.product-name-block {
-    margin-bottom: 10px;
-}
-.seller-banner-body-middle {
-    padding: 30px 0px 10px 0px;
-}
-.seller-favorite {
-    text-align: center;
-}
-.seller-favorite p {
-    padding-top: 20px;
-}
-.seller-banner-body-bottom {
-    padding-top: 30px;
-}
-.seller-banner-block {
-    margin-bottom: 10px;
-}
-.payment-method .col-md-6:last-child {
-    padding-top: 20px;
-}
-}
-
 
 
 

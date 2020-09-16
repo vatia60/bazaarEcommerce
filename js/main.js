@@ -346,3 +346,7 @@ $(".upcoming-btn").click(function () {
   $(".now-body").css("display","none");
     
 });
+
+
+
+

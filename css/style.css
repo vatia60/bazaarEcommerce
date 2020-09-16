@@ -68,8 +68,8 @@ a {
     font-size: 10px !important;
 }
 
-.font-12 {
-    font-size: 12px !important;
+.font-11 {
+    font-size: 11px !important;
 }
 
 .font-14 {
@@ -487,7 +487,6 @@ a {
 }
 
 .win-a {
-    position: absolute;
     font-size: 12px;
     position: absolute;
     bottom: 0px;
@@ -569,7 +568,7 @@ a {
 
 .win-deal-body .card-title,
 .main-collections-block .card-title {
-    font-size: 13px;
+    font-size: 12px;
 }
 a .card-title:hover {
     color: #5CC19F;
@@ -635,13 +634,13 @@ a .card-title:hover {
 }
 .quick-view {
     background: #5CC19F;
-    padding: 8px 0;
+    padding: 6px 0;
     text-align: center;
     color: #fff;
     border: 0;
     font-weight: bold;
     display: none;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .quick-view:hover {
@@ -717,9 +716,7 @@ a .card-title:hover {
     padding: 16px 8px 20px 8px;
 }
 
-.font-22 {
-    font-size: 19px;
-}
+
 
 .per-offer {
     background: #e62e04;
@@ -750,9 +747,15 @@ a .card-title:hover {
 .sale-left {
     background: #5CC19F;
     border-radius: 50%;
-    padding: 10px 7px;
     color: #fff;
-    font-size: 12px;
+    font-size: 10px;
+    margin-bottom: 0;
+    width: 30px;
+    padding-top: 8px;
+    margin-top: 7px;
+    font-weight: 700;
+    height: 32px;
+    text-align: center;
 }
 
 .wish-active {}
@@ -2129,26 +2132,27 @@ CATEGORIES SLIDER
     background: #5CC19F url(../images/cate-women-banner.png);
 }
 .men-name-block {
-    background: url(../images/men.png);
+    background: #5CC19F url(../images/cate-men-banner.png);
 }
 .kid-name-block {
-    background: url(../images/kid.png);
+    background: #5CC19F url(../images/cate-kid-banner.png);
 }
 .homeace-name-block {
-    background: url(../images/women-baner.png);
+   background: #5CC19F url(../images/cate-homeace-banner.png);
 }
 .paint-name-block {
-    background: url(../images/women-baner.png);
+   background: #5CC19F url(../images/cate-paint-banner.png);
 }
 .elect-name-block {
-    background: url(../images/women-baner.png);
+   background: #5CC19F url(../images/cate-elect-banner.png);
 }
 .categories-name-block-padd {
     border: 1px solid #E0F1EB;
     border-radius: 4px;
 }
 .categories-name-block-padd img {
-    width: 100%;
+    width: 105PX;
+    height: 114px;
 }
 .categories-name-block-padd h2 {
     font-size: 22px;
@@ -2188,14 +2192,21 @@ PRODUCTS
 .product-name-block {
     background: #A3D4BF;
     padding: 2px;
-    border-radius: 4px;
+    border-radius: 8px;
+}
+.product-name-block:hover {
+    box-shadow: 0 0 4px 3px grey;
+    transition: all .3s ease-in-out;
 }
 .product-name-block-padd {
     border: 1px solid #fff;
-    border-radius: 4px;
+    border-radius: 8px;
+    padding: 6px;
 }
 .product-name-block-padd img {
     width: 100%;
+    height: 90px;
+    border-radius: 8px;
 }
 .product-body-sidebar {
     background: #fff;
@@ -2296,6 +2307,11 @@ PRODUCTS
 .product-short-view-block .fa-star {
     color: #FEB92E !important;
 }
+/*SIMILAR PRODUCT SLICK SLIDER*/
+.slick-initialized .slick-slide {
+    padding: 0 4px;
+}
+
 
 /*====================================
 SELLER INFORMATION
@@ -2751,3 +2767,10 @@ position: relative;
 .win-deal-page-body .main-collections-block {
     padding: 5px 0px;
 }
+
+
+
+
+
+    
+    
