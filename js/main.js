@@ -397,6 +397,7 @@ $(".upcoming-btn").click(function () {
         })
     });
 
+
 $(document).ready(function(){
       $('.seller-slick').slick({
         responsive: [
@@ -424,3 +425,4 @@ $(document).ready(function(){
     ] 
       });
     });
+
