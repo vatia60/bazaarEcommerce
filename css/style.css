@@ -2470,7 +2470,14 @@ SELLER INFORMATION
 .seller-banner-block-right {
     padding: 10px 11px 0 0;
 }
-
+.product-normal-view .row {
+        margin-right: -5px;
+    margin-left: -5px;
+}
+.product-normal-view .col-6, .product-normal-view .col-md-3 {
+    padding-right: 5px;
+    padding-left: 5px;
+}
 /*Seller Information Sidebar*/
 .seller-body .product-body-sidebar {
     padding: 0;
