@@ -1,10 +1,37 @@
 $(window).scroll(function() {
     if ($(window).scrollTop() >= 50) {
         $('.menu').addClass('fixed-top');
+        $('.mobile-filter-header').addClass('filter-fixed-top');
     } else {
         $('.menu').removeClass('fixed-top');
+        $('.mobile-filter-header').removeClass('filter-fixed-top');
     }
 });
+
+/*Filter Mobile*/
+
+$(window).scroll(function() {
+    if ($(window).scrollTop() >= 720) {
+      
+        $('.mobile-filter-header').addClass('filter-fixed-top');
+    } else {
+      
+        $('.mobile-filter-header').removeClass('filter-fixed-top');
+    }
+});
+
+$(document).ready(function() {
+
+    $('.filter-btn').on('click', function() {
+        $('.mobile-filter').addClass('filter-active');
+    });
+
+    $('.filter-close-btn-all').on('click', function() {
+        $('.mobile-filter.filter-active').removeClass('filter-active');
+    });
+});
+
+
 
 /*Stop dropdown link click event*/
 $(".menu .dropdown").click(function(e){

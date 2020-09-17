@@ -1324,7 +1324,13 @@ SHOPPING CART
     font-weight: 700;
 }
 
-
+.shopping-more-to-love .slick-prev {
+    left: -17px;
+    z-index: 999999999999999 !important;
+}
+.shopping-more-to-love .slick-next {
+    left: -10px;
+}
 /*PAYMENT METHOD*/
 .payment-method,
 .more-to-love {
@@ -2254,6 +2260,17 @@ PRODUCTS
     height: 90px;
     border-radius: 8px;
 }
+.flex-select-view {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/*Product Filter*/
+.mobile-filter-header, .filter-product-heading-extra, .filter-botom-div {
+    display: none;
+}
+
 .product-body-sidebar {
     background: #fff;
     padding: 20px;
@@ -2268,7 +2285,7 @@ PRODUCTS
 .product-body-sidebar p {
     margin-bottom: 2px;
 }
-.product-body-sidebar button{
+.related-product-button-ex button{
     border: 1px solid gray;
     padding: 4px 5px;
     border-radius: 2px;

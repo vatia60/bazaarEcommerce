@@ -276,6 +276,96 @@
 .new-tab-paddd.col-5 {
     padding-right: 10px;
 }
+/*Product*/
+/*Filter Product*/
+.filter-fixed-top {
+    position: fixed;
+    top: 38px;
+    right: 0;
+    padding-top: 14px;
+    left: 0;
+    z-index: 1030;
+    background: #d0cccc;
+}
+    
+.filter-mobile-heading-none {
+    display: none;
+}
+.flex-select-view {
+    justify-content: flex-end;
+}
+.filter-sort, .filter-price {
+    display: none;
+}
+.mobile-filter-header {
+    display: block;
+}
+.mobile-filter-header .short-select-view {
+    padding-left: 20px;
+}
+.mobile-filter {
+   display: none; 
+}
+.filter-product-heading-extra {
+    display: block;
+    height: 40px;
+    margin-left: -20px;
+    margin-right: -20px;
+    position: relative;
+}
+.filter-pro-fix-ex {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #d0cccc;
+    z-index: 9999999999999999 !important;
+}
+.filter-product-heading-extra h1{
+    font-size: 18px;
+    padding: 11px 0 0 10px;
+    color: #212529;
+}
+.filter-close-btn {
+    background: transparent;
+    font-size: 25px;
+    color: #212529;
+    padding: 4px 10px 0 0;
+}
+.filter-botom-div {
+    display: block;
+}
+.filter-add-btn {
+    background: #5CC19F;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px !important;
+    padding: 6px 16px;
+    border-radius: 3px;
+}
+.filter-close-bottom {
+    background: #797272;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px !important;
+    padding: 6px 16px;
+    border-radius: 3px;
+}
+
+.filter-active {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    z-index: 99999999999999999999999999999999999999999999 !important;
+    overflow: scroll;
+}
+.product-view.pro-extra-padd {
+    padding-right: 16px;
+}
     /*Campaign*/
     .campaign-select-coupon {
         width: 322px;

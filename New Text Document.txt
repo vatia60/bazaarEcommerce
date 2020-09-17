@@ -1,8 +1,0 @@
-1. https://vatia60.github.io/bazaarEcommerce/categoriesslider.html
-2. https://vatia60.github.io/bazaarEcommerce/categoriesslider.html
-3. https://vatia60.github.io/bazaarEcommerce/product.html
-4. https://vatia60.github.io/bazaarEcommerce/detailproduct.html
-5. https://vatia60.github.io/bazaarEcommerce/sellerinformation.html
-6. https://vatia60.github.io/bazaarEcommerce/shoppingcart.html
-7. https://vatia60.github.io/bazaarEcommerce/campaign.html
-8. https://vatia60.github.io/bazaarEcommerce/windeal.html
