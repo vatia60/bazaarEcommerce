@@ -452,8 +452,14 @@
     padding-right: 5px;
     padding-left: 5px;
 }
+.campaign-coupon-date h6 {
+    padding-left: 10px;
+}
 .seller-banner-body-middle-left {
     padding-left: 10px;
+}
+.win-deal-three-item {
+    margin-top: 30px;
 }
 }
 
@@ -621,6 +627,19 @@ select.form-control:not([size]):not([multiple]) {
 .product-view .fa-qrcode, .product-view .fa-list {
     font-size: 18px;
 }
+.win-three-img-left img {
+    height: 340px;
+}
+.win-three-img-right img {
+    height: 168px;
+}
+.campaign-sort-by .pro-extra-padd {
+    font-size: 16px;
+}
+.campaign-sort-by .form-control {
+    font-size: 14px;
+}
+
 }
 
 
