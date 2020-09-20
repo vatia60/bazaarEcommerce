@@ -2419,10 +2419,9 @@ SELLER INFORMATION
     
 }
 .seller-banner-body-middle-left img {
-    width: 77px;
-    height: 75px;
+    width: 100%;
+    height: 90px;
     border-radius: 4px;
-    margin-left: 19px;
 }
 .seller-user-history h2 {
     font-size: 18px;

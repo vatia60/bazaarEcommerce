@@ -1,3 +1,11 @@
+@media (max-width: 345px) {
+    .categories-name-block-padd img {
+    width: 95PX;
+    height: 114px;
+}
+
+}
+
 @media (max-width: 992px) {
     .top-header {
         height: auto;
@@ -444,15 +452,12 @@
     padding-right: 5px;
     padding-left: 5px;
 }
+.seller-banner-body-middle-left {
+    padding-left: 10px;
+}
 }
 
-@media (max-width: 345px) {
-    .categories-name-block-padd img {
-    width: 95PX;
-    height: 114px;
-}
 
-}
 
 
 /*MIN-768 AND MAX-992*/
