@@ -432,53 +432,6 @@
     padding-right: 5px;
     padding-left: 5px;
 }
-
-
-
-.mobile-none {
-        display: block;
-    }
-
-    .desktop-none {
-        display: none;
-    }
-    .coupons-toggle-a {
-    font-size: 14px;
-}
-.official-store p {
-    font-size: 14px;
-}
-    .shop-cart-details h3 {
-    font-size: 16px;
-}
-    .similar-block .font-11 {
-        font-size: 16px !important;
-    }
-    .order-summary .list-group-item {
-    font-size: 16px;
-}
-.order-summary .badge {
-    font-size: 16px;
-}
-.total-single-list {
-    font-size: 16px !important;
-}
-    .sponsore-product h2 {
-    font-size: 16px;
-}
-.sponsore-header {
-    font-size: 16px;
-}
-.ipad-pl-0 {
-    padding-left: 15px !important;
-}
-
-
-
-
-
-
-
 }
 
 @media (max-width: 345px) {
@@ -491,6 +444,32 @@
 
 
 
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .mobile-none {
+        display: block;
+    }
+
+    .desktop-none {
+        display: none;
+    }
+.collections-all-header h2 {
+    font-size: 22px;
+}
+    .win-deal-body .card-title, .main-collections-block .card-title {
+    font-size: 14px;
+}
+.main-collections-block .font-18 {
+    font-size: 20px !important;
+}
+.main-collections-block .font-14 {
+    font-size: 16px !important;
+}
+.main-collections-block .font-11 {
+    font-size: 14px !important;
+}
+
+}
 
 
 
