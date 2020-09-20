@@ -1560,7 +1560,6 @@ DETAIL PRODUCT
   height: 70px;
   margin-right: 6px;
   cursor: pointer;
-  float: left;
 }
 .small-container .show-small-img:last-of-type{
   margin-right: 0;
