@@ -221,7 +221,10 @@
     .small-img {
         
     }
-
+.small-container .show-small-img {
+    width: 60px;
+    height: 60px;
+}
     .detail-product-right h2 {
         padding-top: 20px;
     }
