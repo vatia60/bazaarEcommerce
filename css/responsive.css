@@ -493,16 +493,23 @@
     .win-deal-body .card-title, .main-collections-block .card-title {
     font-size: 14px;
 }
-.main-collections-block .font-18 {
+.font-18 {
     font-size: 20px !important;
 }
-.main-collections-block .font-14 {
+.font-14 {
+    font-size: 18px !important;
+}
+.font-11 {
     font-size: 16px !important;
 }
-.main-collections-block .font-11 {
-    font-size: 14px !important;
+/*FOOTER*/
+.footer-block h6 {
+    font-size: 20px;
 }
-
+.footer-block ul li a {
+    font-size: 18px;
+}
+/*SHOPPING CART*/
 .official-store p {
     font-size: 14px;
 }
@@ -520,15 +527,13 @@
     height: 30px;
 }
 .detail-quantity-input {
-    width: 41px;
+    width: 80px;
     font-size: 18px;
 }
 .input-span-line {
     padding-top: 7px;
 }
-.similar-block .font-11 {
-    font-size: 16px !important;
-}
+
 .ipad-pl-0 {
     padding-left: 15px !important;
 }
@@ -543,6 +548,47 @@
 }
 .sponsore-product h2 {
     font-size: 16px;
+}
+/*DETAIL PRODUCT*/
+.showhope {
+    width: 690px;
+    height: 690px;
+}
+.small-img {
+    left: 148px;
+}
+.small-container {
+    width: 430px;
+    height: 102px;
+}
+.small-container .show-small-img {
+    width: 100px;
+    height: 100px;
+}
+.detail-product-right {
+    padding-top: 60PX;
+}
+.detail-product-right h2 {
+    font-size: 22px;
+}
+.sidebar-flex-block p, .detail-sec-sidebar p {
+    font-size: 16px;
+    padding-top: 4px;
+}
+
+.detail-overview p {
+    font-size: 17px;
+}
+.detail-overview .nav-link {
+    font-size: 17px;
+    }
+    .table td, .table th {
+    padding: 0.25rem;
+    font-size: 16px;
+}
+.detail-overview h3 {
+    font-size: 20px;
+    margin: 20px 0 0px 0 !important;
 }
 
 }
