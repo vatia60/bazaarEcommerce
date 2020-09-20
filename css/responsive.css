@@ -238,6 +238,18 @@
 .sipping-modal-res img {
     width: 30px;
 }
+
+.sh-cart-plus-min .input-group-new {
+    font-size: 12px;
+    padding: 0px 6px;
+    width: 90px;
+    height: 25px;
+}
+.detail-quantity-input {
+    width: 40px;
+    font-size: 14px;
+}
+
 .table td, .table th {
     padding: 0.25rem;
     font-size: 12px;
@@ -453,6 +465,28 @@
     .desktop-none {
         display: none;
     }
+    .top-header-left {
+    padding-top: 16px;
+}
+    .top-header-middle .form-control {
+    height: 23px;
+    padding: 1rem .75rem;
+    font-size: 1rem;
+}
+ .top-header-middle .input-group-text {
+    padding: .375rem .75rem;
+    font-size: 1.2rem;
+    }
+    .ipad-login-reg.col-sm-6 {
+        padding: 0 !important;
+    }
+    .top-header-right {
+    padding-top: 11px;
+}
+.top-header-right a {
+    font-size: 11px;
+}
+
 .collections-all-header h2 {
     font-size: 22px;
 }
@@ -467,6 +501,48 @@
 }
 .main-collections-block .font-11 {
     font-size: 14px !important;
+}
+
+.official-store p {
+    font-size: 14px;
+}
+.coupons-toggle-a {
+    font-size: 14px;
+    }
+    .shop-cart-details h3 {
+    font-size: 16px;
+}
+
+.sh-cart-plus-min .input-group-new {
+    font-size: 14px;
+    padding: 0px 6px;
+    width: 100px;
+    height: 30px;
+}
+.detail-quantity-input {
+    width: 41px;
+    font-size: 18px;
+}
+.input-span-line {
+    padding-top: 7px;
+}
+.similar-block .font-11 {
+    font-size: 16px !important;
+}
+.ipad-pl-0 {
+    padding-left: 15px !important;
+}
+.order-summary .list-group-item {
+    font-size: 16px;
+}
+.order-summary .badge {
+    font-size: 16px;
+}
+.sponsore-header {
+    font-size: 18px;
+}
+.sponsore-product h2 {
+    font-size: 16px;
 }
 
 }

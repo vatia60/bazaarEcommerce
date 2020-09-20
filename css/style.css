@@ -1291,25 +1291,16 @@ SHOPPING CART
     margin-left: 4px;
 }
 
-.plus-minus-button {
+.sh-cart-plus-min .input-group-new {
     border: 1px solid #6CC6A8;
-    font-size: 15px;
-    font-weight: 700;
-    opacity: .7;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6d6c6a;
+    background: #EFEFEF;
+    padding: 0px 6px;
     border-radius: 4px;
-    color: #212529;
-    padding: 1px 6px;
-    cursor: pointer;
-}
-
-.plus-minus-button:hover {
-    border: 1px solid #6CC6A8;
-    font-size: 15px;
-    font-weight: 700;
-    opacity: .7;
-    border-radius: 4px;
-    color: #212529;
-    padding: 1px 6px;
+    width: 108px;
+    text-align: center;
 }
 
 .changes-button {
@@ -1793,7 +1784,9 @@ DETAIL PRODUCT
     text-align: center;
 
 }
-
+.quantity-right-plus, .quantity-left-minus {
+    background: transparent;
+}
 .detail-quantity-input{
     width: 60px;
     border: none;
