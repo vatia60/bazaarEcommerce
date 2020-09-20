@@ -429,7 +429,7 @@ $(document).ready(function(){
       $('.seller-slick').slick({
         responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 992,
         settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
@@ -443,7 +443,7 @@ $(document).ready(function(){
       $('.recommend-slick').slick({
         responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 992,
         settings: {
         slidesToShow: 2,
         slidesToScroll: 1,

@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .top-header {
         height: auto;
     }
@@ -432,6 +432,53 @@
     padding-right: 5px;
     padding-left: 5px;
 }
+
+
+
+.mobile-none {
+        display: block;
+    }
+
+    .desktop-none {
+        display: none;
+    }
+    .coupons-toggle-a {
+    font-size: 14px;
+}
+.official-store p {
+    font-size: 14px;
+}
+    .shop-cart-details h3 {
+    font-size: 16px;
+}
+    .similar-block .font-11 {
+        font-size: 16px !important;
+    }
+    .order-summary .list-group-item {
+    font-size: 16px;
+}
+.order-summary .badge {
+    font-size: 16px;
+}
+.total-single-list {
+    font-size: 16px !important;
+}
+    .sponsore-product h2 {
+    font-size: 16px;
+}
+.sponsore-header {
+    font-size: 16px;
+}
+.ipad-pl-0 {
+    padding-left: 15px !important;
+}
+
+
+
+
+
+
+
 }
 
 @media (max-width: 345px) {
@@ -444,17 +491,6 @@
 
 
 
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .mobile-none {
-        display: block;
-    }
-
-    .desktop-none {
-        display: none;
-    }
-
-}
 
 
 
