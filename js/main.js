@@ -119,7 +119,7 @@ var quantitiy=0;
 $(document).ready(function() {
     if (window.innerWidth < 576) {
         $('.card-flex-all').addClass('card-flex-xs').removeClass('card-flex-md');
-    } else if (window.innerWidth < 768) {
+    } else if (window.innerWidth < 992) {
         $('.card-flex-all').addClass('card-flex-sm').removeClass('card-flex-md');
     } else {
         $('.card-flex-all').addClass('card-flex-md');
@@ -129,7 +129,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     if (window.innerWidth < 576) {
         $('.card-flex-all-8').addClass('card-flex-xs-8').removeClass('card-flex-md-8');
-    } else if (window.innerWidth < 768) {
+    } else if (window.innerWidth < 992) {
         $('.card-flex-all-8').addClass('card-flex-sm-8').removeClass('card-flex-md-8');
     } else {
         $('.card-flex-all-8').addClass('card-flex-md-8');
