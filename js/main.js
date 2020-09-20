@@ -127,8 +127,8 @@ $(document).ready(function() {
             layerH: 100,
             layerOpacity: 0.2, 
             layerBgc: '#000', 
-            showPanelW: 400, 
-            showPanelH: 400, 
+            showPanelW: 445, 
+            showPanelH: 445, 
             marginL: 5, 
             marginT: 0 
         };

@@ -1515,17 +1515,15 @@ SHOPPING CART
 DETAIL PRODUCT
 ==============================================*/
 
-.showhope{
-  width: 400px;
-  height: 400px;
+.showhope {
+    width: 445px;
+    height: 445px;
 }
-#show-img { width: 400px; height: 400px; }
+#show-img { width: 445px; height: 445px; }
 .small-img{
-  width: 350px;
   height: 70px;
   margin-top: 10px;
   position: relative;
-  left: 25px;
 }
 .small-img .icon-left, .small-img .icon-right{
   width: 12px;
@@ -1546,7 +1544,6 @@ DETAIL PRODUCT
   opacity: .5;
 }
 .small-container{
-  width: 310px;
   height: 70px;
   overflow: hidden;
   position: absolute;
