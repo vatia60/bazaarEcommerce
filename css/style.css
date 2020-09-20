@@ -1543,17 +1543,16 @@ DETAIL PRODUCT
 .small-img .icon-left:hover, .small-img .icon-right:hover{
   opacity: .5;
 }
-.small-container{
-  height: 70px;
-  overflow: hidden;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
+.small-container {
+    height: 70px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
 }
-.small-container div{
-  width: 800%;
-  position: relative;
+#small-img-roll {
+    display: flex;
+    justify-content: center;
 }
 
 .small-container .show-small-img{
