@@ -611,7 +611,7 @@ a .card-title:hover {
     border-radius: 5px;
 }
 .card-img-top-new {
-    max-width: 100%;
+    width: 100%;
     position: relative;
 }
 .collections-img-position {
