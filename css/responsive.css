@@ -455,7 +455,7 @@
 }
 
 
-
+/*MIN-768 AND MAX-992*/
 
 @media (min-width: 768px) and (max-width: 992px) {
     .mobile-none {
@@ -465,6 +465,9 @@
     .desktop-none {
         display: none;
     }
+    .top-header {
+    padding-top: 14px;
+}
     .top-header-left {
     padding-top: 16px;
 }
@@ -484,7 +487,7 @@
     padding-top: 11px;
 }
 .top-header-right a {
-    font-size: 11px;
+    font-size: 10px;
 }
 
 .collections-all-header h2 {
