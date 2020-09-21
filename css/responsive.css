@@ -511,6 +511,20 @@
     .win-deal-body .card-title, .main-collections-block .card-title {
     font-size: 14px;
 }
+.img-overlay-history {
+    padding: 20px;
+}
+.sale-left {
+    font-size: 14px;
+    width: 42px;
+    padding-top: 12px;
+    height: 45px;
+}
+.wish-active i {
+    color: grey;
+    font-size: 36px;
+    padding-top: 12px;
+}
 .font-18 {
     font-size: 20px !important;
 }
