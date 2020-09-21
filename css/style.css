@@ -2815,6 +2815,8 @@ CAMPAIGN
 .campaign-coupon-date p {
     font-size: 12px;
     margin-bottom: 1px;
+    color: #21252C;
+    padding-left: 10px; 
 }
 
 .campaign-coupon-date button {

@@ -1,32 +1,42 @@
 @media (max-width: 358px) {
     .categories-name-block-padd img {
-        width: 95PX;
-        height: 114px;
+        width: 95PX !important;
+        height: 114px !important;
     }
     .seller-banner-block .pr-2 {
         padding-right: 0 !important;
     }
     .seller-banner-block-right {
-    padding-left: 4px;
+    padding-left: 4px !important;
 }
     .seller-banner-block img {
-        height: 100%;
+        height: 100% !important;
     }
     .new-pagination .page-link {
-    padding: .2rem .6rem;
-    font-size: 12px;
+    padding: .2rem .6rem !important;
+    font-size: 12px !important;
 }
 .shopping-cart-block-header p {
-    font-size: 11px;
+    font-size: 11px !important;
 }
 .coupons-toggle-a {
-    font-size: 10px;
+    font-size: 10px !important;
 }
 .get-coupons-toggle {
-    left: 21px;
+    left: 21px !important;
 }
 .get-coupons-toggle-body {
-    width: 296px;
+    width: 296px !important;
+}
+.campaign-select-coupon {
+    width: 279px !important;
+}
+.campaign-coupon-date h6 {
+    padding-left: 15px !important;
+}
+.campaign-coupon-date p {
+    font-size: 10px !important; 
+    padding-left: 15px !important;
 }
 
 }
@@ -537,7 +547,10 @@
     .campaign-coupon-date h6 {
         padding-left: 10px;
     }
-
+.campaign-coupon-date p {
+    font-size: 12px;
+    padding-left: 10px; 
+}
     .seller-banner-body-middle-left {
         padding-left: 10px;
     }
