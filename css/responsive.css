@@ -1,4 +1,4 @@
-@media (max-width: 360px) {
+@media (max-width: 358px) {
     .categories-name-block-padd img {
         width: 95PX;
         height: 114px;
@@ -12,6 +12,22 @@
     .seller-banner-block img {
         height: 100%;
     }
+    .new-pagination .page-link {
+    padding: .2rem .6rem;
+    font-size: 12px;
+}
+.shopping-cart-block-header p {
+    font-size: 11px;
+}
+.coupons-toggle-a {
+    font-size: 10px;
+}
+.get-coupons-toggle {
+    left: 21px;
+}
+.get-coupons-toggle-body {
+    width: 296px;
+}
 
 }
 
@@ -230,7 +246,7 @@
     }
 
     .shop-cart-details .wish-delete {
-        padding-right: 10px !important;
+        padding-right: 0px !important;
     }
 
     /*Product Details*/
