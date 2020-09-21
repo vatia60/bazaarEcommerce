@@ -148,15 +148,82 @@ a {
 .top-header-right {
     text-align: right;
     padding-top: 25px;
+    display: flex;
+    justify-content: flex-end;
 }
-
-.top-header-right a {
-    font-size: 14px;
+.top-header-right .fa-user {
+    font-size: 20px;
+    color: #4B4B4D;
+}
+.top-header-right .fa-language {
+    font-size: 20px;
     color: #4B4B4D;
 }
 
-.top-header-right a:first-child {
-    margin-right: 25px;
+.account-btn, .account-btn-two {
+    border: 0;
+    background: transparent;
+    padding-right: 4px;
+
+}
+.account-flex {
+    position: relative;
+}
+.account-flex:hover .account{
+    display: block;
+    
+}
+.account-flex-two:hover .account-two{
+    display: block;
+    
+}
+.account, .account-two{
+    background: #DBFFF4;
+    text-align: left;
+    position: absolute;
+    border-radius: 3px;
+    box-shadow: 0 0 1px 1px #96959259;
+    display: none;
+    
+    
+    z-index: 999999999999999999999999999999999999999999999 !important;
+}
+.account{
+  left: -278px;  
+  width: 300px;
+}
+.account-two {
+    right: 10px;
+}
+.account-body {
+    padding: 20px;
+}
+.account h2 {
+    font-size: 18px;
+    background: #EBE7DE;
+    padding: 20px 0;
+    text-align: center;
+}
+.account-body button, .account-middle-form button {
+   width: 100%;
+    background: #5CC19F;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #5CC19F;
+    font-weight: 700;
+}
+.not-account a, .account-middle-form a {
+    color: #e53e3e;
+}
+.account-middle-form {
+    background: #e8e6e1;
+    padding: 20px;
+    margin: 40px 0;
+    border-radius: 4px;
+    box-shadow: 0 0 4px 1px #d4d4d4;
+}
+.account-middle-form h2 {
+    font-size: 1.5rem;
 }
 
 /*
