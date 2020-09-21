@@ -62,7 +62,9 @@
         font-size: 9px;
     }
 
-
+    .mob-ipad-padd {
+        padding-right: .25rem!important;
+    }
     .padd-right-0 {
         padding-right: 15px;
     }
@@ -266,7 +268,7 @@
 }
 .input-group-new {
    width: 140px;
-    height: 31px;
+    height: 25px;
 }
 .input-span-line {
     line-height: 12px;
