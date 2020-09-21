@@ -20,12 +20,12 @@
     <div class="top-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-md-3 col-6 col-sm-6">
+                <div class="col-lg-3 col-md-3 col-6 col-sm-6">
                     <div class="top-header-left">
-                        <h2 class="text-uppercase" style="color: green">Bazaar <span style="color: red">Bangladesh</span></h2>
+                        <h2 class="text-uppercase"><span style="color: green; padding-left: 28px; ">Bazaar</span><br> <span style="color: red">Bangladesh</span></h2>
                     </div>
                 </div>
-                <div class="col-md-6 mobile-none">
+                <div class="col-md-7 mobile-none">
                     <div class="top-header-middle">
                         <form>
                             <div class="input-group mb-2">
@@ -38,14 +38,55 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-md-3 col-6 col-sm-6 ipad-login-reg">
-                    <div class="top-header-right">
-                        <a class="text-uppercase" href="">Login or Register</a>
-                        <a class="text-uppercase" href="">Language</a>
+                <div class="col-lg-2 col-6 col-sm-6 ipad-login-reg">
+                <div class="top-header-right">
+                    <div class="account-flex">
+                        <button class="text-uppercase account-btn pr-3"><i class="fas fa-user account-btn-i"></i></button>     
+                     <div class="account">
+                        <h2>Login</h2>
+                        <div class="account-body">
+                            <div class="account-form">
+                                <form>
+                                    <div class="form-group">
+                                        <label>Phone Number</label>
+                                        <input type="text" class="form-control" placeholder="01********">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Password</label>
+                                        <input type="password" class="form-control" placeholder="********">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Login</button>
+                                </form>
+                            </div>
+                            <div class="not-account">
+                                <p class="mb-0 text-center"><span class="font-14 pr-1">Don't have an account?</span><a href="register.html">Sign Up</a></p>
+                                <p class="text-center"><a href="">Forget Password</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="account-flex-two">
+                        <button class="text-uppercase account-btn-two"><i class="far fa-comment-dots"></i></button>     
+                     <div class="account-two">
+                        <h2>Live Chat</h2>
+                        <div class="account-body">
+                            <div class="account-form">
+                                <img src="images/livechat.svg" alt="">
+                            </div>
+                            <div class="not-account">
+                                <p class="font-18 mb-2 text-center login-to-chat">Please Login to chat</p>
+                                <p class="text-center"><a class="chat-login-a" href="login.html">Login</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                        
                     </div>
                 </div>
                 <!-- ==== Only For Mobile ==== -->
-                <div class="col-md-12 desktop-none">
+                <div class="desktop-none">
+                <div class="col-md-12">
                     <div class="top-header-middle">
                         <form>
                             <div class="input-group mb-2">
@@ -57,6 +98,7 @@
                             </div>
                         </form>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
