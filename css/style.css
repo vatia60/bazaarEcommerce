@@ -795,7 +795,7 @@ a .card-title:hover {
 .wish-active i {
     color: grey;
     font-size: 25px;
-    padding: 8px;
+    padding-top: 8px;
 }
 
 .wish-active .fas.fa-heart {
