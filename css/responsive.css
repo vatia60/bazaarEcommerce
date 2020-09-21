@@ -1,7 +1,16 @@
-@media (max-width: 345px) {
+@media (max-width: 360px) {
     .categories-name-block-padd img {
         width: 95PX;
         height: 114px;
+    }
+    .seller-banner-block .pr-2 {
+        padding-right: 0 !important;
+    }
+    .seller-banner-block-right {
+    padding-left: 4px;
+}
+    .seller-banner-block img {
+        height: 100%;
     }
 
 }
@@ -362,7 +371,7 @@
     }
 
     .mobile-filter-header .short-select-view {
-        padding-left: 20px;
+        padding-left: 4px;
     }
 
     .mobile-filter {
