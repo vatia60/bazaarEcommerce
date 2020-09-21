@@ -299,10 +299,10 @@
         height: 25px;
     }
 
-    .detail-quantity-input {
-        width: 40px;
-        font-size: 14px;
-    }
+   .detail-quantity-input {
+    width: 30px;
+    font-size: 12px;
+}
 
     .table td,
     .table th {
@@ -310,10 +310,12 @@
         font-size: 12px;
     }
 
-    .input-group-new {
-        width: 140px;
-        height: 25px;
-    }
+  .sh-cart-plus-min .input-group-new {
+    font-size: 10px;
+    padding: 0px 6px;
+    width: 90px;
+    height: 21px;
+}
 
     .input-span-line {
         line-height: 12px;
@@ -654,7 +656,7 @@
     .sh-cart-plus-min .input-group-new {
         font-size: 14px;
         padding: 0px 6px;
-        width: 100px;
+        width: 155px;
         height: 30px;
     }
 
