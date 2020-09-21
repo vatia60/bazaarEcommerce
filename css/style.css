@@ -99,13 +99,13 @@ a {
 
 /*TOP HEADER*/
 .top-header {
-    height: 78px;
+    height: 72px;
     background: #DBFFF4;
 }
 
 .top-header-left {
     text-align: left;
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
 .top-header-left h2 {
@@ -155,7 +155,7 @@ a {
     font-size: 20px;
     color: #4B4B4D;
 }
-.top-header-right .fa-language {
+.top-header-right .fa-comment-dots {
     font-size: 20px;
     color: #4B4B4D;
 }
@@ -193,12 +193,12 @@ a {
   width: 300px;
 }
 .account-two {
-    right: 10px;
+    right: 15px;
 }
 .account-body {
     padding: 20px;
 }
-.account h2 {
+.account h2, .account-two h2 {
     font-size: 18px;
     background: #EBE7DE;
     padding: 20px 0;
@@ -225,7 +225,28 @@ a {
 .account-middle-form h2 {
     font-size: 1.5rem;
 }
+.account-two img {
+    width: 200px;
+}
+.login-to-chat {
+    padding-bottom: 5px;
+    font-size: 1.25rem;
+}
+.account-two .account-form {
+    padding: 20px 60px 20px 60px;
+}
+.chat-login-a {
+    box-shadow: 0 0 5px 1px;
+    border-radius: 4px;
+    padding: 4px 12px;
+}
 
+.forget-ext-mar {
+   margin: 80px 0; 
+}
+.desktop-none {
+    display: none;
+}
 /*
 *
 * ==========================================
