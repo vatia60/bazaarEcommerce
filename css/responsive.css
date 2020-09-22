@@ -41,28 +41,90 @@
 
 }
 
+
+@media (max-width: 576px) {
+.top-header-left {
+    padding-top: 10px;
+}
+.top-header-right {
+    padding-top: 10px;
+}    
+.account-flex-two, .wish-cart, .mobile-new-none {
+    display: none !important;
+}
+.desktop-new-none {
+    display: block !important;
+}
+.top-header-middle-mobile {
+    width: 80%;
+}
+.fixed-top .new-mobile-border {
+    border-bottom: 1px solid #e0e0e0;
+}
+.bottom-footer-for-mobile {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999999999999999999 !important;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 6px 0px;
+}
+.bottom-footer-mobile{
+    display: flex;
+    justify-content: space-around;
+    padding: 14px 0px;
+}
+.bottom-chat-footer img {
+    width: 200px;
+}
+.bottom-chat-flex:hover .bottom-chat-footer{
+    display: block;
+    
+}
+.bottom-chat-footer{
+    background: #DBFFF4;
+    text-align: left;
+    position: absolute;
+    border-radius: 3px;
+    box-shadow: 0 0 1px 1px #96959259;
+    display: none;
+    z-index: 9999999999999999999999999 !important;
+    bottom: 53px;
+    right: 3px;
+}
+
+.bottom-chat-footer h2 {
+    font-size: 18px;
+    background: #EBE7DE;
+    padding: 20px 0;
+    text-align: center;
+}
+.bottom-footer-mobile a{
+    color: #212529;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.bottom-chat-flex .fa-comment-dots {
+    font-size: 1.1rem;
+  }
+}
+
+
 @media (max-width: 992px) {
-    .top-header {
-        height: auto;
-    }
+   
 
     .top-header-left {
-        padding-top: 10px;
+       
     }
 
     .top-header-right {
-        padding-top: 3px;
+       
     }
 
-    .top-header-middle {
-        padding-top: 4px;
-    }
-
-    .top-header-middle .form-control {
-        height: 23px;
-        padding: 0.0rem .75rem;
-        font-size: .8rem;
-    }
+   .top-header-middle {
+    padding: 13px 0;
+}
 
     .top-header-middle .input-group-text {
         padding: 0rem .75rem;
@@ -85,9 +147,7 @@
         display: block;
     }
 
-    .top-header-left h2 {
-        font-size: 12px;
-    }
+    
 
     .top-header-right a:first-child {
         margin-right: 0px;
@@ -566,6 +626,10 @@
 /*MIN-768 AND MAX-992*/
 
 @media (min-width: 768px) and (max-width: 992px) {
+    .ipad-padd-n {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
     .mobile-none {
         display: block;
     }
@@ -573,19 +637,8 @@
     .desktop-none {
         display: none;
     }
-
-    .top-header {
-        padding-top: 14px;
-    }
-
-    .top-header-left {
-        padding-top: 16px;
-    }
-
-    .top-header-middle .form-control {
-        height: 23px;
-        padding: 1rem .75rem;
-        font-size: 1rem;
+.top-header-left h2 {
+        font-size: 14px;
     }
 
     .top-header-middle .input-group-text {
@@ -598,7 +651,7 @@
     }
 
     .top-header-right {
-        padding-top: 11px;
+       
     }
 
     .top-header-right a {
