@@ -131,7 +131,12 @@
 
 @media (max-width: 992px) {
    
-
+    .padd-right-15 {
+        padding-right: 15px !important;
+    }
+    .padd-left-15 {
+        padding-left: 15px !important;
+    }
     .top-header-left {
        
     }
@@ -361,7 +366,14 @@
         padding: 3px 3px 0 2px;
         color: gray;
     }
-
+    .detail-overview-sidebar-img .row{
+        margin-right: -5px;
+        margin-left: -5px;
+    }
+    .detail-overview-sidebar-img .col-6,.detail-overview-sidebar-img .col-sm-6,.detail-overview-sidebar-img .col-md-4 {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
     .sipping-modal-res h5 {
         font-size: 16px;
     }

@@ -1720,7 +1720,21 @@ DETAIL PRODUCT
     display: block;
 }
 
-
+.detail-overview-sidebar-img {
+    background: #fff;
+    padding: 10px;
+}
+.detail-overview-sidebar-img h2 {
+    font-size: 1.3rem;
+    text-align: center;
+}
+.detail-overview-sidebar-img .main-collections-block {
+    padding: 8px 0px;
+    transition: all 0.6s ease-in-out;
+    border: 1px solid #80808038;
+    margin-top: 10px;
+    border-radius: 4px;
+}
 
 
 .detail-product-right h2 {
