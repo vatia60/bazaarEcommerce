@@ -155,13 +155,8 @@
 
     
 
-    .top-header-right a:first-child {
-        margin-right: 0px;
-    }
 
-    .top-header-right a {
-        font-size: 9px;
-    }
+ 
 
     .mob-ipad-padd {
         padding-right: .25rem !important;
