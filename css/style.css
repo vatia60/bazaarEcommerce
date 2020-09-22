@@ -170,6 +170,7 @@ a {
 .account-flex {
     position: relative;
 }
+
 .account-flex:hover .account{
     display: block;
     
@@ -178,7 +179,7 @@ a {
     display: block;
     
 }
-.account, .account-two{
+.account-two{
     background: #DBFFF4;
     text-align: left;
     position: absolute;
@@ -187,32 +188,60 @@ a {
     display: none;
     z-index: 99999999999999999999999999999 !important;
 }
+
 .account{
   left: -278px;  
   width: 300px;
-}
-.account-two {
-    right: 15px;
-}
-.account-body {
+  display: none;
+  background: #DBFFF4;
+    text-align: left;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #96959259;
+    z-index: 99999999999999999999999999999 !important;
     padding: 20px;
 }
 .account h2, .account-two h2 {
-    font-size: 18px;
-    background: #EBE7DE;
-    padding: 20px 0;
-    text-align: center;
+    font-size: 16px;
+    padding-bottom: 10px;
 }
-.account-body button, .account-middle-form button {
-   width: 100%;
+.account-new-body {
+    
+}
+.account-form-btn  {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -1%; 
+}
+.account-form-btn a {
+    width: 96%;
+    text-align: center;
+    margin: 0 1%;
     background: #5CC19F;
     color: #fff;
-    text-transform: uppercase;
     border: 1px solid #5CC19F;
-    font-weight: 700;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 2px 0;
 }
-.not-account a, .account-middle-form a {
-    color: #e53e3e;
+.ul-account {
+    padding: 10px 0 10px 2px;
+}
+.ul-account ul li {
+    padding: 4px 0;
+    list-style: none;
+}
+.ul-account ul li a {
+    font-size: 14px;
+    color: #000;
+}
+.account-two {
+    right: 15px;
+    padding: 20px;
+}
+
+.account-logo {
+    padding-top: 80px;
 }
 .account-middle-form {
     background: #fff;
@@ -223,6 +252,9 @@ a {
 }
 .account-middle-form h2 {
     font-size: 1.5rem;
+}
+.account-middle-form button {
+    width: 100%;
 }
 .account-two img {
     width: 200px;
@@ -3213,3 +3245,5 @@ CAMPAIGN
 .win-deal-page-body .main-collections-block {
     padding: 5px 0px;
 }
+
+
