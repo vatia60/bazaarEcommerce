@@ -61,8 +61,14 @@
 .top-header-middle-mobile {
     width: 80%;
 }
+.pages-menu .top-header-middle-mobile {
+    width: 63%;
+}
 .fixed-top .new-mobile-border {
     border-bottom: 1px solid #e0e0e0;
+}
+.navbar-toggler span {
+    font-size: 12px;
 }
 .bottom-footer-for-mobile {
     position: fixed;
@@ -80,10 +86,14 @@
 }
 .bottom-chat-footer img {
     width: 200px;
+    padding: 40px 0 60px 0;
 }
 .bottom-chat-flex:hover .bottom-chat-footer{
     display: block;
     
+}
+.bottom-chat-flex .account-form {
+    text-align: center;
 }
 .bottom-chat-footer{
     background: #DBFFF4;
@@ -93,8 +103,10 @@
     box-shadow: 0 0 1px 1px #96959259;
     display: none;
     z-index: 9999999999999999999999999 !important;
-    bottom: 53px;
-    right: 3px;
+    bottom: 51px;
+    right: 0;
+    width: 100vw;
+    height: 84vh;
 }
 
 .bottom-chat-footer h2 {
