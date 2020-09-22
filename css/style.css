@@ -1697,22 +1697,6 @@ DETAIL PRODUCT
     margin-right: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .detail-product-right .get-coupons-toggle {
     width: 170px;
     padding: 10px 0;
@@ -1761,8 +1745,12 @@ DETAIL PRODUCT
 
 .detail-product-details .p-star-display {
     top: 25px;
+    padding: 10px 20px;
 }
-
+.new-color-star {
+    padding-top: 4px;
+    cursor: pointer;
+}
 .star-history {
     padding: 10px;
     position: relative;
@@ -1771,7 +1759,20 @@ DETAIL PRODUCT
     z-index: 999999999999999999999999;
 
 }
-
+.progress {
+    height: .3rem;
+    margin-top: 8px;
+    background-color: #e9ecef;
+    width: 150px;
+}
+.progress-bar {
+    background-color: #FEB92E;
+}
+.widt-pro {
+    width: 47px;
+    font-size: 14px;
+    font-weight: 500;
+}
 .star-history-block {
     padding-top: 4px;
 
@@ -1779,9 +1780,11 @@ DETAIL PRODUCT
 
 .rated-star-percent {
     border: 1px solid gray;
-    padding: 0 2px;
-    width: 40px;
+    padding: 0 8px;
+    width: 53px;
     text-align: center;
+    font-size: 14px;
+    border-radius: 4px;
 }
 
 .arrow-sign-new:after {
@@ -1803,8 +1806,16 @@ DETAIL PRODUCT
     transform: rotate(45deg);
 }
 
-
-
+.view-all-star-a {
+    color: #326dad;
+    font-size: 14px;
+}
+.review-click-page-a {
+    color: #90908f; 
+}
+.review-click-page-a:hover {
+    color: #00B29B; 
+}
 .shipping-modal {
     background: transparent;
 }
@@ -2906,7 +2917,7 @@ CAMPAIGN
 }
 
 .campaign-coupon-date p {
-    font-size: 10px;
+    font-size: 11px;
     margin-bottom: 1px;
     color: #21252C;
     font-weight: 600;
