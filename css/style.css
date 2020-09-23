@@ -256,6 +256,9 @@ a {
 .account-middle-form button {
     width: 100%;
 }
+.account-middle-form a {
+    color: red;
+}
 .account-two img {
     width: 200px;
 }
