@@ -2939,11 +2939,20 @@ SELLER INFORMATION
 
 .seller-collapse {
     padding-left: 20px;
-}
 
-.seller-collapse p {
+}
+.seller-collapse ul li{
+    list-style: none;
+}
+.seller-collapse ul li a {
     font-size: 10px;
     font-weight: 600;
+    color: #212529;
+    -webkit-transition: color .2s ease-in-out;
+transition: color .2s ease-in-out;
+}
+.seller-collapse ul li a:hover {
+    color: #e62e04;
 }
 
 .store-page-item {

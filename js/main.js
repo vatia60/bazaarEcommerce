@@ -306,8 +306,8 @@ $(".product-short-view-btn").click(function () {
 /*Seller Information*/
 $(".btn-sidebar").on("click", function(){
         
-        $(this).find('i').toggleClass('fa-chevron-right').toggleClass('fa-chevron-down');
-        $(this).find('span').toggleClass('new-color-normal').toggleClass('new-color-change');
+        $(this).find('i').toggleClass('fa-chevron-down').toggleClass('fa-chevron-right');
+        $(this).find('span').toggleClass('new-color-change').toggleClass('new-color-normal');
       
     });
 
