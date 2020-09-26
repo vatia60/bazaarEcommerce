@@ -63,6 +63,9 @@ a h2 {
 a {
     text-decoration: none !important;
 }
+a:hover {
+color: #e62e04;	
+}
 .btn:focus, .btn:active, .btn:hover, .btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus {
     box-shadow: 0 !important;
     border: 0 !important;
@@ -313,7 +316,17 @@ transition: color .2s ease-in-out;
    margin: 80px 0; 
 }
 
-
+.account-submit-btn {
+   background: #5CC19F;
+   border: 1px solid #5CC19F;
+   color: #fff;
+   -webkit-transition: background .2s ease-in-out;
+transition: background .2s ease-in-out;
+}
+.account-submit-btn:hover {
+   background: #e62e04;
+   border: 1px solid #e62e04;
+}
 
 /*
 *
