@@ -47,6 +47,7 @@ button:hover,
 button:focus {
     border: 0;
     outline: 0;
+    box-shadow: 0;
     cursor: pointer;
 }
 
@@ -62,7 +63,16 @@ a h2 {
 a {
     text-decoration: none !important;
 }
-
+.btn:focus, .btn:active, .btn:hover, .btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: 0 !important;
+    border: 0 !important;
+    outline: : 0 !important;
+}
+.btn-secondary.focus, .btn-secondary:focus {
+    box-shadow: 0 !important;
+    border: 0 !important;
+    outline: : 0 !important;
+}
 .carousel {
     z-index: 0;
 }
@@ -155,12 +165,18 @@ a {
 .top-header-right .fa-user {
     font-size: 20px;
     color: #4B4B4D;
+    -webkit-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+.top-header-right .fa-user:hover, .top-header-right .fa-comment-dots:hover {
+    color: #5CC19F;
 }
 .top-header-right .fa-comment-dots {
     font-size: 20px;
     color: #4B4B4D;
+    -webkit-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
 }
-
 .account-btn, .account-btn-two {
     border: 0;
     background: transparent;
@@ -223,6 +239,12 @@ a {
     font-weight: 500;
     border-radius: 4px;
     padding: 2px 0;
+    -webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
+.account-form-btn a:hover {
+    background: #e62e04;
+    border: 1px solid #e62e04;
 }
 .ul-account {
     padding: 10px 0 10px 2px;
@@ -234,6 +256,13 @@ a {
 .ul-account ul li a {
     font-size: 14px;
     color: #000;
+    -webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
+.ul-account ul li a:hover {
+	font-weight: 600;
+    color: #e62e04;
+    
 }
 .account-two {
     right: 15px;
@@ -257,7 +286,7 @@ a {
     width: 100%;
 }
 .account-middle-form a {
-    color: red;
+    color: #e62e04;
 }
 .account-two img {
     width: 200px;
@@ -273,6 +302,11 @@ a {
     box-shadow: 0 0 2px 1px;
     border-radius: 3px;
     padding: 4px 12px;
+    -webkit-transition: color .2s ease-in-out;
+transition: color .2s ease-in-out;
+}
+.chat-login-a:hover {
+	color: #e62e04; 
 }
 
 .forget-ext-mar {
@@ -288,7 +322,9 @@ a {
 * ==========================================
 *
 */
-
+.bars-30 {
+	font-size: 30px;
+}
 .dropdown-submenu {
     position: relative;
 
@@ -384,7 +420,9 @@ a {
     color: rgba(0, 0, 0, .5);
     border-color: transparent;
 }
-
+.navbar-light .navbar-toggler:hover {
+    color: #5CC19F;
+}
 
 
 .dropdown-menu {
@@ -413,7 +451,11 @@ a {
     color: #4B4B4D;
     background: #fff;
 }
-
+.wish-cart button:hover {
+    color: #5CC19F;
+    -webkit-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
 .no-border {
     border-left: 0 !important;
     border-right: 0 !important;
@@ -422,13 +464,11 @@ a {
 .sp-size {
     padding: 3px 4px 2px 2px;
     border-radius: 6px;
-    color: #ffffffa1;
+    color: #fff;
     font-size: 12px;
 }
 
-.sp-#e62e04 {
-    background: #FD706E;
-}
+
 
 .sp-red {
     background: #e62e04;
@@ -497,6 +537,8 @@ a {
 .cate-sub-pro a {
     color: #000 !important;
     font-size: 12px !important;
+    -webkit-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
 }
 
 .collapse.new-collapse {
@@ -514,15 +556,20 @@ a {
     color: #4B4B4D !important;
     font-size: 12px !important;
     font-weight: 600;
+    -webkit-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
 }
+
 
 .menu .nav-link:hover,
 .category .nav-link:hover {
-    color: #e62e04;
+    color: #e62e04 !important;
 }
 
 .arrow-color {
     color: #A6BCB7;
+    -webkit-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
 }
 
 .nav-link:hover .arrow-color {
@@ -551,7 +598,8 @@ a {
     text-transform: uppercase;
     box-shadow: 0px 2px 4px 0px #e4e1e1;
     cursor: pointer;
-    transition: all .3s ease;
+    -webkit-transition: background .2s ease-in-out;
+transition: background .2s ease-in-out;
 }
 
 .carousel-caption button:hover {
@@ -564,6 +612,8 @@ a {
     top: 0;
     bottom: 0;
     transform: scale(0, 0);
+    -webkit-transition: transform .2s ease-in-out;
+transition: transform .2s ease-in-out;
 }
 
 .carousel-caption button:hover::after {
@@ -605,6 +655,8 @@ a {
 .caro-next-icon i {
     font-size: 48px;
     color: grey;
+    -webkit-transition: color .2s ease-in-out;
+transition: color .2s ease-in-out;
 }
 
 .caro-prev-icon i:hover,
@@ -635,6 +687,13 @@ a {
     color: #7F8784 !important;
     padding: 3px 5px;
     border-radius: 5px;
+    -webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
+.win-a:hover {
+    background: #5CC19F;
+    border: 1px solid #5CC19F;
+    color: #fff !important;
 }
 
 .all-flex {
@@ -709,11 +768,13 @@ a {
 .win-deal-body .card-title,
 .main-collections-block .card-title {
     font-size: 12px;
+    -webkit-transition: color .2s ease-in-out;
+transition: color .2s ease-in-out;
 }
 
 a .card-title:hover {
     color: #5CC19F;
-    transition: color .3s ease;
+    
 }
 
 .card {
@@ -771,7 +832,8 @@ a .card-title:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    transition: all .6s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
 }
 
 .modal-dialog {
@@ -788,6 +850,8 @@ a .card-title:hover {
     font-weight: bold;
     display: none;
     font-size: 12px;
+    -webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
 }
 
 .quick-view:hover {
@@ -847,11 +911,13 @@ a .card-title:hover {
     padding: 3px 5px;
     border-radius: 50%;
     cursor: pointer;
+    -webkit-transition: background .2s ease-in-out;
+transition: background .2s ease-in-out;
 }
 
 .women-see-icon:hover {
-    background: green;
-    border: 2px solid green;
+    background: #5CC19F;
+    border: 1px solid #5CC19F;
 }
 
 .main-collections-body {
@@ -889,7 +955,7 @@ a .card-title:hover {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-top: 10px;
+    padding: 10px 4px 0 4px;
 }
 
 .sale-left {
@@ -918,12 +984,16 @@ a .card-title:hover {
     color: grey;
     font-size: 25px;
     padding-top: 8px;
+    -webkit-transition: color .2s ease-in-out;
+transition: color .2s ease-in-out;
 }
 
 .wish-active .fas.fa-heart {
-    color: red;
+    color: #e62e04;
 }
-
+.far.fa-heart:hover {
+	color: #e62e04;
+}
 .main-collections-block .fa-star {
     color: yellow;
 }
@@ -993,8 +1063,12 @@ a .card-title:hover {
 .footer-block ul li a {
     color: #fff;
     font-size: 16px;
+    -webkit-transition: color .2s ease-in-out;
+transition: color .2s ease-in-out;
 }
-
+.footer-block ul li a:hover {
+    color: #e62e04;
+}
 .footer-block p {
     color: #fff;
 }
@@ -1007,8 +1081,12 @@ a .card-title:hover {
 
 .contact-footer li a i {
     background: #2E2E2E;
+    -webkit-transition: background .2s ease-in-out;
+transition: background .2s ease-in-out;
 }
-
+.contact-footer li a i:hover {
+    background: #5CC19F;
+}
 .contact-footer li a i.fa-facebook-f {
     padding: 10px 12px;
 }
@@ -1141,7 +1219,7 @@ SHOPPING CART
     outline: 0 !important;
     background: #fff;
     border-radius: 5px;
-    border: 1px solid red;
+    border: 1px solid #e62e04;
 
 }
 
@@ -1152,7 +1230,7 @@ SHOPPING CART
     top: 0;
     left: 0;
     width: 100%;
-    background: red;
+    background: #e62e04;
     height: 100%;
     position: absolute;
     outline: 0 !important;
@@ -1353,18 +1431,18 @@ SHOPPING CART
     height: 20px;
     width: 17px;
     background-color: transparent;
-    border: 1px solid red;
+    border: 1px solid #e62e04;
     border-radius: 50%;
 }
 
 /* On mouse-over, add a grey background color */
 .containerr:hover input~.checkmark {
-    background-color: red;
+    background-color: #e62e04;
 }
 
 /* When the radio button is checked, add a blue background */
 .containerr input:checked~.checkmark {
-    background-color: red;
+    background-color: #e62e04;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -1655,7 +1733,7 @@ SHOPPING CART
 
 
 .fifty-off {
-    background: red;
+    background: #e62e04;
     padding: 1px 12px;
     color: #fff;
     font-size: 11px;
@@ -1963,7 +2041,7 @@ DETAIL PRODUCT
 }
 
 .color-active {
-    border: 2px solid red !important;
+    border: 2px solid #e62e04 !important;
 }
 
 .input-group-new {
@@ -2023,42 +2101,24 @@ DETAIL PRODUCT
     width: 24px;
 }
 
-.detail-buy-btn {
-    background: #FF4546;
+.detail-buy-btn, .detail-add-cart-btn{
+    background: #e62e04;
     color: #fff;
     font-weight: 600;
     font-size: 12px;
     padding: 6px 16px;
     border-radius: 3px;
+    -webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
 }
-
+.detail-buy-btn {
+    background: #e62e04;
+}
 .detail-add-cart-btn {
     background: #5CC19F;
-    color: #fff;
-    font-weight: 600;
-    font-size: 12px;
-    padding: 6px 16px;
-    border-radius: 3px;
 }
-
-
-
-.detail-buy-btn:hover {
-    background: #FF4546;
-    color: #fff;
-    font-weight: 600;
-    font-size: 12px;
-    padding: 6px 16px;
-    border-radius: 3px;
-}
-
-.detail-add-cart-btn:hover {
-    background: #5CC19F;
-    color: #fff;
-    font-weight: 600;
-    font-size: 12px;
-    padding: 6px 16px;
-    border-radius: 3px;
+.detail-buy-btn:hover, .detail-add-cart-btn:hover {
+    background: #AEAEAE;
 }
 
 .detail-payment img {
@@ -2383,6 +2443,8 @@ CATEGORIES SLIDER
     padding: 6px 4px;
     border-radius: 8px;
     margin-top: 30px;
+    -webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
 }
 
 .categories-name-block:hover {
@@ -2429,6 +2491,11 @@ CATEGORIES SLIDER
     line-height: 22px;
     color: #fff;
     padding-right: 10px;
+    -webkit-transition: color .2s ease-in-out;
+transition: color .2s ease-in-out;
+}
+.categories-name-block:hover .categories-name-block-padd h2 {
+    color: #e62e04;
 }
 
 .new-category-arrivals {
@@ -2757,7 +2824,7 @@ SELLER INFORMATION
 .seller-banner-block p span {
     font-size: 10px;
     color: #fff;
-    background: red;
+    background: #e62e04;
     padding: 2px 4px;
     border-radius: 6px;
 }
@@ -2981,8 +3048,12 @@ CAMPAIGN
     padding: 2px 8px;
     margin-left: 30px;
     margin-top: 24px;
+    -webkit-transition: background .2s ease-in-out;
+transition: background .2s ease-in-out;
 }
-
+.campaign-coupon-date button:hover {
+    background: #e62e04;
+}
 .campaign-sort-by {
     padding: 20px 30px 5px 0;
 }
@@ -3008,7 +3079,7 @@ CAMPAIGN
 .campaign-body-products .camp-30 {
     font-size: 10px;
     color: #fff;
-    background: red;
+    background: #e62e04;
     padding: 2px 4px;
     border-radius: 6px;
 }
@@ -3049,14 +3120,20 @@ CAMPAIGN
 }
 
 .campaign-view-more button {
-    background: #00B29C;
+    background: #5CC19F;
     font-size: 14px;
     padding: 4px 10px;
     border-radius: 4px;
-    border: 1px solid #00B29C;
+    border: 1px solid #5CC19F;
     text-transform: uppercase;
     font-weight: 600;
     color: #fff;
+    -webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
+.campaign-view-more button:hover {
+    background: #e62e04;
+    border: 1px solid #e62e04;
 }
 
 /*WIN DEAL PAGE*/
