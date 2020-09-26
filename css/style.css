@@ -2387,6 +2387,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .new-pagination .page-item .page-link {
     border-radius: .25rem;
+    font-size: 14px;
 }
 
 /*CUSTOMER QUESTION*/
@@ -2548,11 +2549,12 @@ PRODUCTS
     background: #A3D4BF;
     padding: 2px;
     border-radius: 8px;
+    -webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
 }
 
 .product-name-block:hover {
     box-shadow: 0 0 4px 3px grey;
-    transition: all .3s ease-in-out;
 }
 
 .product-name-block-padd {
@@ -2563,6 +2565,11 @@ PRODUCTS
 
 .product-name-block-padd h6 {
     color: #212529 !important;
+    -webkit-transition: color .2s ease-in-out;
+transition: color .2s ease-in-out;
+}
+.product-name-block:hover .product-name-block-padd h6 {
+    color: #e62e04 !important;
 }
 
 .product-name-block-padd img {
@@ -2603,7 +2610,18 @@ PRODUCTS
 .product-body-sidebar p {
     margin-bottom: 2px;
 }
-
+.new-product-item-cate-a ul li {
+	list-style: none;
+}
+.new-product-item-cate-a ul li a {
+	font-size: 12px;
+	color: #212529;
+	-webkit-transition: color .2s ease-in-out;
+transition: color .2s ease-in-out;
+}
+.new-product-item-cate-a ul li a:hover, .related-product-button-ex button:hover, .form-check:hover {
+   color: #e62e04;
+}
 .related-product-button-ex button {
     border: 1px solid gray;
     padding: 4px 5px;
@@ -2612,8 +2630,9 @@ PRODUCTS
     width: 48%;
     background: transparent;
     color: #212529;
+    -webkit-transition: color .2s ease-in-out;
+transition: color .2s ease-in-out;
 }
-
 .product-body-sidebar a {
     font-size: 10px;
     color: #5CC19F;
@@ -2625,6 +2644,9 @@ PRODUCTS
 
 .product-body-sidebar .customer-details-review span {
     font-size: 12px;
+}
+.form-check-input, .form-check-label {
+	cursor: pointer;
 }
 
 /*PRODUCT BODY MAIN*/
@@ -2698,8 +2720,12 @@ PRODUCTS
 .product-short-view-block h2 {
     font-size: 15px;
     padding-top: 14px;
+    -webkit-transition: color .2s ease-in-out;
+transition: color .2s ease-in-out;
 }
-
+.product-short-view-block h2:hover {
+    color: #e62e04;
+}
 .product-short-view-block h3 {
     font-size: 12px;
 }
