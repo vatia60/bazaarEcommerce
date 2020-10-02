@@ -540,7 +540,7 @@
         background: transparent;
         font-size: 25px;
         color: #212529;
-        padding: 4px 10px 0 0;
+        padding: 4px 30px 0 0;
     }
 
     .filter-botom-div {
@@ -633,12 +633,12 @@
 
     .slick-prev {
         left: -18px;
-        z-index: 9999999999999 !important;
+        z-index: 999999 !important;
     }
 
     .slick-next {
         right: -18px;
-        z-index: 9999999999999 !important;
+        z-index: 999999 !important;
     }
 
     .product-normal-view .row {
