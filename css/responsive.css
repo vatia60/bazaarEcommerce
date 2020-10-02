@@ -41,6 +41,9 @@
   .account-middle-form {
     padding: 20px 10px !important;
 }
+  .ipad-pl-0 {
+        padding-left: 15px !important;
+    }
 
 }
 
@@ -126,6 +129,9 @@
   .account-middle-form {
     padding: 20px 40px;
 }
+  .ipad-pl-0 {
+        padding-left: 15px !important;
+    }
 }
 
 
