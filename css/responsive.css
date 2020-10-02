@@ -47,6 +47,19 @@
     .short-select-view p {
     font-size: 10px;
 }
+.short-select-view .form-control {
+    font-size: 11px;
+}
+.filter-close-btn {
+    padding: 4px 24px 0 0;
+}
+.filter-close-bottom {
+    font-size: 12px !important;
+    padding: 6px 8px;
+}
+.filter-add-btn {
+    padding: 6px 8px;
+}
 
 }
 
