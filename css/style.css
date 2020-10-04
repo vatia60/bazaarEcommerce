@@ -109,7 +109,9 @@ a:hover {
 .font-18 {
     font-size: 18px !important;
 }
-
+.back-sec-color {
+    background: #E7EEE6;
+}
 .desktop-none,
 .desktop-new-none {
     display: none;
