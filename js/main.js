@@ -1,10 +1,10 @@
 $(window).scroll(function () {
   if ($(window).scrollTop() >= 50) {
     $('.menu').addClass('fixed-top');
-    $('.mobile-filter-header').addClass('filter-fixed-top');
+    
   } else {
     $('.menu').removeClass('fixed-top');
-    $('.mobile-filter-header').removeClass('filter-fixed-top');
+    
   }
 });
 
@@ -450,4 +450,17 @@ $(document).ready(function () {
       }
     }]
   });
+});
+
+
+/*Product Sidebar Filter Page*/
+$(window).scroll(function () {
+  if ( $(window).scrollTop() >= 600 && $(window).scrollTop() <= 2600 ) {
+
+    $('.product-body-sidebar-scroll').addClass('sidebar-fixed-top');
+  } 
+   else {
+
+    $('.product-body-sidebar-scroll').removeClass('sidebar-fixed-top');
+  }
 });

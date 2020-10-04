@@ -86,6 +86,28 @@ a:hover {
     outline:  0 !important;
 }
 
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 3px;
+  border-radius: 20px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
 .carousel {
     z-index: 0;
 }
@@ -2686,6 +2708,13 @@ PRODUCTS
 .product-body-sidebar-scroll {
     height: 1060px;
     overflow: auto;
+}
+.sidebar-fixed-top {
+    position: fixed;
+    top: 60px;
+    width: 20%;
+    height: 94vh !important;
+    z-index: 99999999999 !important;
 }
 .product-body-sidebar h6 {
     font-size: 14px;
