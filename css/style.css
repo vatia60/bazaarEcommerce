@@ -2683,7 +2683,10 @@ PRODUCTS
     padding: 20px;
     border-radius: 6px;
 }
-
+.product-body-sidebar-scroll {
+    height: 800px;
+    overflow: auto;
+}
 .product-body-sidebar h6 {
     font-size: 14px;
 }
