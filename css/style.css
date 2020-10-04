@@ -2684,7 +2684,7 @@ PRODUCTS
     border-radius: 6px;
 }
 .product-body-sidebar-scroll {
-    height: 800px;
+    height: 1060px;
     overflow: auto;
 }
 .product-body-sidebar h6 {
