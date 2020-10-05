@@ -978,11 +978,10 @@ a .card-title:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 126px;
+    height: 90px;
 }
 
 .women-see-icon {
-    position: absolute;
     position: absolute;
     bottom: 8px;
     right: 27px;
@@ -1089,7 +1088,7 @@ a .card-title:hover {
 }
 
 .home-see-more {
-    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 
@@ -1109,7 +1108,7 @@ a .card-title:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 126px;
+    height: 90px;
 }
 
 .kids-collection-header {
@@ -1117,12 +1116,12 @@ a .card-title:hover {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 126px;
+    height: 90px;
 }
 
 .toppic-collection-header {
     background: #3BC5F3;
-    height: 126px;
+    height: 90px;
 }
 
 /*FOOTER*/

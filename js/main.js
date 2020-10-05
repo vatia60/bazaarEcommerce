@@ -460,7 +460,7 @@ $(window).scroll(function () {
     $('.product-body-sidebar-scroll').addClass('sidebar-fixed-top');
   } 
    else {
-    $('.product-body-sidebar-scroll').css('height', '2820px');
+    $('.product-body-sidebar-scroll').css('height', '2810px');
     $('.product-body-sidebar-scroll').removeClass('sidebar-fixed-top');
   }
 });
