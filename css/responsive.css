@@ -550,8 +550,10 @@
         display: block;
     }
 
-    .mobile-filter-header .short-select-view {
-        padding-left: 4px;
+    .mobile-filter-header .short-select-view .fa-sort{
+        font-size: 18px;
+    padding-top: 4px;
+    padding-right: 4px;
     }
 
     .mobile-filter {
