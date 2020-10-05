@@ -455,7 +455,7 @@ $(document).ready(function () {
 
 /*Product Sidebar Filter Page*/
 $(window).scroll(function () {
-  if ( $(window).scrollTop() >= 650 && $(window).scrollTop() <= 2950 ) {
+  if ( $(window).scrollTop() >= 650 && $(window).scrollTop() <= 2700 ) {
 
     $('.product-body-sidebar-scroll').addClass('sidebar-fixed-top');
   } 
