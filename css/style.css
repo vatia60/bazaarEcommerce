@@ -925,7 +925,7 @@ a .card-title:hover {
     background: #E7EEE6;
 }
 .quick-view {
-    background: #90ee90;
+    background: #5CC19F;
     padding: 6px 0;
     text-align: center;
     color: #fff;
@@ -938,7 +938,7 @@ a .card-title:hover {
 }
 
 .quick-view:hover {
-    background: green;
+    
 }
 
 .quick-view-img img {
