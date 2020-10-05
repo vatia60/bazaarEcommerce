@@ -135,7 +135,7 @@ BOTTOM FOOTER FOR MOBILE
         <nav class="navbar navbar-light bg-white shadow-sm new-mobile-border">
             <div class="container">
                 <button type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbars"
-                    aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+                    aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler mobile-none">
                     <span class="text-uppercase">Categories <i class="fas fa-chevron-down"></i></span>
                 </button>
                 <div class="wish-cart d-flex justify-content-end">
@@ -1286,23 +1286,28 @@ BOTTOM FOOTER FOR MOBILE
     <div class="container product-body-container">
         <div class="product-body">
             <div class="mobile-filter-header">
-                <div class="row">
-                    <div class="col-8 col-lg-8">
-                        <div class="short-select-view d-flex justify-content-start alings-items-center">
-                            <p class="pr-1 pro-extra-padd">SORT BY: </p>
-                            <div class="form-group text-normal">
+                <div class="d-flex justify-content-between"> 
+                            <div class="padd-n-10 short-select-view form-group text-normal">
                                 <select class="form-control" id="exampleFormControlSelect1">
-                                    <option>Price high to low</option>
+                                    <option>SORT BY</option>
                                     <option>20000</option>
                                     <option>30000</option>
                                     <option>40000</option>
                                     <option>50000</option>
                                 </select>
                             </div>
-                        </div>
+                    
+                    <div class="d-flex justify-content-between">
+                    <div class="padd-n-12 all-icon-filter ipad-filter">
+                        <button class="text-uppercase filter-btn"><i class="fas fa-filter"></i>  Filter</button>
                     </div>
-                    <div class="col-4 col-lg-4 ipad-filter">
-                        <button class="text-uppercase filter-btn detail-add-cart-btn">Filter</button>
+                    <div class="padd-n-14 product-view ipad-filter">
+
+              <span class="product-normal-view-btn pl-1"><i
+                                                        class="fas fa-qrcode"></i></span><span
+                                                    class="product-short-view-btn pl-2"><i
+                                                        class="fas fa-list"></i></span>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -1894,14 +1899,16 @@ BOTTOM FOOTER FOR MOBILE
                         </div>
                         <hr>
 
-                        <div class="filter-botom-div">
+                        <div class="filter-bottom-div">
+                        <div class="fixed-bottom">
                             <div class="float-left">
-                                <button class="filter-close-btn-all filter-close-bottom text-uppercase">Close</button>
+                                <button class="filter-close-bottom text-uppercase">Reset</button>
                             </div>
                             <div class="float-right">
-                                <button class="filter-add-btn text-uppercase">Filtering Product</button>
+                                <button class="filter-add-btn text-uppercase">Done</button>
                             </div>
                             <div class="clearfix"></div>
+                        </div>
                         </div>
 
 
@@ -1935,7 +1942,7 @@ BOTTOM FOOTER FOR MOBILE
                                                 <option>50000</option>
                                             </select>
                                         </div>
-                                        <div class="product-view pro-extra-padd pl-3">
+                                        <div class="ipad-mobile-none product-view pro-extra-padd pl-3">
                                             <p><span>view:</span> <span class="product-normal-view-btn pl-1"><i
                                                         class="fas fa-qrcode"></i></span><span
                                                     class="product-short-view-btn pl-2"><i

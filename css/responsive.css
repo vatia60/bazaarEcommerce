@@ -60,6 +60,9 @@
 .filter-add-btn {
     padding: 6px 8px;
 }
+.sidebar-fixed-top {
+    height: 100vh !important;
+}
 
 }
 
@@ -79,9 +82,6 @@
 }
 .top-header-middle-mobile {
     width: 100%;
-}
-.pages-menu .top-header-middle-mobile {
-    width: 63%;
 }
 .fixed-top .new-mobile-border {
     border-bottom: 1px solid #e0e0e0;
@@ -148,6 +148,19 @@
   .ipad-pl-0 {
         padding-left: 15px !important;
     }
+    .sidebar-fixed-top {
+    height: 100vh !important;
+}
+.filter-btn {
+    	font-size: 12px;
+    	background: transparent;
+    }
+    .filter-fixed-top {
+    top: 63px !important;
+}
+.ipad-mobile-none {
+    display: none;
+}
 }
 
 
@@ -478,16 +491,41 @@
 
     /*Product*/
     /*Filter Product*/
+    .product-body-container {
+    padding: 0px 10px 20px 10px;
+}
     .filter-fixed-top {
-        position: fixed;
-        top: 38px;
-        right: 0;
-        padding-top: 14px;
-        left: 0;
-        z-index: 1030;
-        background: #d0cccc;
+            position: fixed;
+    top: 36px;
+    right: 6px;
+    padding-top: 14px;
+    left: 0;
+    z-index: 1030;
+    background: #E7EEE6;
     }
-
+    .mobile-filter-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 0px 15px;
+    border-top: 1px solid #d8d8d8;
+        -webkit-box-shadow: 0 2px 4px 0 #bbbbbb;
+    box-shadow: 0 2px 4px 0 #bbbbbb;
+    }
+    .mobile-filter-header .form-group {
+    	margin-bottom: 0;
+    }
+    .all-icon-filter {
+    	border-right: 1px solid #d8d8d8;
+    	padding-right: 10px;
+    }
+     .mobile-filter-header  .product-view {
+    	padding-left: 10px;
+    }
+    .filter-btn {
+    	font-weight: 600;
+    	color: #495057;
+    	background: transparent;
+    }
     .filter-mobile-heading-none {
         display: none;
     }
@@ -515,7 +553,6 @@
 
     .filter-product-heading-extra {
         display: block;
-        height: 40px;
         margin-left: -20px;
         margin-right: -20px;
         position: relative;
@@ -543,9 +580,14 @@
         padding: 4px 30px 0 0;
     }
 
-    .filter-botom-div {
+    .filter-bottom-div {
         display: block;
+        height: 50px;
     }
+    .filter-bottom-div .fixed-bottom {
+    background: gray;
+    padding: 10px 30px;
+}
 
     .filter-add-btn {
         background: #5CC19F;
@@ -574,9 +616,9 @@
         right: 0;
         background: #fff;
         z-index: 99999999999999999999999999999999999999999999 !important;
-        overflow: scroll;
+        overflow: auto;
     }
-
+    .
     .product-view.pro-extra-padd {
         padding-right: 16px;
     }
@@ -676,6 +718,9 @@
     .ipad-padd-n {
         padding-right: 0 !important;
         padding-left: 0 !important;
+    }
+    .ipad-mobile-none {
+    	display: none;
     }
     .mobile-none {
         display: block;

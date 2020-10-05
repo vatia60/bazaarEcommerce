@@ -1123,7 +1123,9 @@ a .card-title:hover {
     background: #3BC5F3;
     height: 90px;
 }
-
+.ipad-mobile-none {
+    display: block;
+}
 /*FOOTER*/
 .footer {
     background: #242424;
@@ -1131,6 +1133,15 @@ a .card-title:hover {
 
 .padd-20 {
     padding: 60px 80px;
+}
+.padd-n-10 {
+    padding: 10px 0;
+}
+.padd-n-12 {
+    padding: 12px 0 0 0;
+}
+.padd-n-14 {
+    padding: 14px 0 0 0;
 }
 
 .footer-block h6 {
