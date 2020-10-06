@@ -63,7 +63,12 @@
 .sidebar-fixed-top {
     height: 100vh !important;
 }
-
+.new-best-match-toggle {
+    left: -32px !important;
+}
+.new-best-match-toggle li {
+    padding: 8px 0 8px 16px !important;
+}
 }
 
 
@@ -164,12 +169,16 @@
 .ipad-mobile-none {
     display: none;
 }
-
 }
 
 
 @media (max-width: 992px) {
-   
+   .new-mobile-none {
+   	display: none;
+   }
+   .new-top {
+   	padding-top: 10px;
+   }
     .padd-right-15 {
         padding-right: 15px !important;
     }
@@ -504,9 +513,9 @@
     .filter-fixed-top {
             position: fixed;
     top: 36px;
-    right: 6px;
+    right: 12px;
     padding-top: 14px;
-    left: 0;
+    left: 10px;
     z-index: 1030;
     background: #E7EEE6;
     }
@@ -518,15 +527,26 @@
         -webkit-box-shadow: 0 2px 4px 0 #bbbbbb;
     box-shadow: 0 2px 4px 0 #bbbbbb;
     }
+    .new-best-match-toggle {
+    left: -26px;
+    width: 100vw;
+    top: 38px;
+}
+.new-best-match-toggle li {
+    padding: 8px 0 8px 11px;
+    }
     .mobile-filter-header .form-group {
     	margin-bottom: 0;
     }
     .all-icon-filter {
     	border-right: 1px solid #d8d8d8;
     	padding-right: 10px;
+    	display: block;
+    	padding: 10px 10px 10px 0
     }
      .mobile-filter-header  .product-view {
     	padding-left: 10px;
+    	padding-top: 12px
     }
     .filter-btn {
     	font-weight: 600;
@@ -555,7 +575,21 @@
     padding-top: 4px;
     padding-right: 4px;
     }
-
+ .best-match .pl-5 {
+	padding-left: .3rem!important;
+}
+.best-match {
+    border: 0;
+    padding: 0;
+    border-radius: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: #495057 !important;
+    margin-left: -16px;
+}
+.product-normal-view, .product-short-view {
+	padding-top: 20px;
+}
     .mobile-filter {
         display: none;
     }
@@ -716,6 +750,7 @@
     .win-deal-three-item {
         margin-top: 30px;
     }
+
 }
 
 
@@ -792,7 +827,9 @@
     .font-11 {
         font-size: 14px !important;
     }
-
+.best-match .pl-5 {
+	padding-left: .3rem!important;
+}
     /*FOOTER*/
     .footer-block h6 {
         font-size: 20px;
@@ -947,6 +984,9 @@
     .campaign-sort-by .form-control {
         font-size: 14px;
     }
+    .best-match {
+    font-size: 14px;
+}
 
 }
 
