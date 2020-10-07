@@ -761,6 +761,9 @@
 .filter-bottom-div {
     display:block;
 }
+.product-body-main, .product-short-view {
+    height: auto;
+}
 
 }
 
