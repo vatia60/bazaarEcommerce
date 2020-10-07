@@ -2822,9 +2822,7 @@ PRODUCTS
 }
 .new-best-match-toggle li {
     list-style: none;
-    padding: 8px 0 8px 23px;
-    border-top: 1px solid gray;
-    transition: background .3s ease-in-out;
+   
 }
 .new-best-match-toggle li:hover {
     background: #f3f3f3;
@@ -2835,6 +2833,10 @@ PRODUCTS
 }
 .new-best-match-toggle li a{
     color: #212529 !important;
+     padding: 8px 0 8px 23px;
+    border-top: 1px solid gray;
+    transition: background .3s ease-in-out;
+    display: block;
 }
 .short-select-view p {
     font-size: 12px;

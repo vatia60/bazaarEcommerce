@@ -110,15 +110,22 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.dropdown-toggle-click').click(function (e) {
-    
     $(this).siblings(".new-user-coupon-toggle").toggle();
-e.stopPropagation();
+    if (window.innerWidth < 992) {
+    $('body').css("overflow", "hidden");
+  }
+    e.stopPropagation();
+    e.preventDefault(); 
+
   });
 });
 
 $(document).click(function(){
-    $(".new-user-coupon-toggle").css('display', 'none')
+    $(".new-user-coupon-toggle").css('display', 'none');
+    $('body').css("overflow", "auto");
 });
+
+
 
 
 
@@ -485,13 +492,3 @@ $(window).scroll(function () {
         });
     }
     
-/*
-$(".new-click-toggle").click(function(e){
-    $(".new-test-toggle").css('display', 'block');
-     e.stopPropagation();
-});
-
-
-$(document).click(function(){
-    $(".new-test-toggle").css('display', 'none')
-});*/
