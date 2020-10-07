@@ -122,7 +122,7 @@ $(document).ready(function () {
 
 $(document).click(function(){
     $(".new-user-coupon-toggle").css('display', 'none');
-    $('body').css("overflow", "auto");
+    $('body').css("overflow", "visible");
 });
 
 
