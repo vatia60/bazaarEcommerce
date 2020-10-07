@@ -524,13 +524,17 @@
     margin-left: -15px;
     padding: 0px 15px;
     border-top: 1px solid #d8d8d8;
-        -webkit-box-shadow: 0 2px 4px 0 #bbbbbb;
+    -webkit-box-shadow: 0 2px 4px 0 #bbbbbb;
     box-shadow: 0 2px 4px 0 #bbbbbb;
     }
     .new-best-match-toggle {
     left: -26px;
     width: 100vw;
     top: 38px;
+    z-index: 99999999;
+    /*background: #808080c2;
+    bottom: 0;
+    height: 100vh;*/
 }
 .new-best-match-toggle li {
     padding: 8px 0 8px 11px;

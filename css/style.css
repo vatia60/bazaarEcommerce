@@ -2811,8 +2811,13 @@ PRODUCTS
     left: 55px;
     right: 0;
     top: 26px;
-    box-shadow: 0 0 3px 1px #ffe1e1;
     z-index: 99999999;
+}
+.new-test-toggle {
+    display: none;
+}
+.filter-sort-dropdown {
+    box-shadow: 0 0 3px 1px #ffe1e1;
     background: #fff;
 }
 .new-best-match-toggle li {
