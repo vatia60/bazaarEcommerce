@@ -464,12 +464,14 @@ $(document).ready(function () {
 
 /*Product Sidebar Filter Page*/
 $(window).scroll(function () {
-  if ( $(window).scrollTop() >= 650 && $(window).scrollTop() <= 2700 ) {
+  if ( $(window).innerWidth() > 992 && $(window).scrollTop() >= 650 && $(window).scrollTop() <= 2700 ) {
 
     $('.product-body-sidebar-scroll').addClass('sidebar-fixed-top');
-  } 
+  } else if ($(window).innerWidth() < 992){
+    $('.product-body-sidebar-scroll').css('height', 'auto');
+  }
    else {
-    $('.product-body-sidebar-scroll').css('height', '2810px');
+    $('.product-body-sidebar-scroll').css('height', '2840px');
     $('.product-body-sidebar-scroll').removeClass('sidebar-fixed-top');
   }
 });
