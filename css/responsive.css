@@ -755,6 +755,9 @@
     .win-deal-three-item {
         margin-top: 30px;
     }
+    .product-body-container {
+    height: auto;
+}
 
 }
 

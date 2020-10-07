@@ -471,7 +471,7 @@ $(window).scroll(function () {
     $('.product-body-sidebar-scroll').css('height', 'auto');
   }
    else {
-    $('.product-body-sidebar-scroll').css('height', '2840px');
+    $('.product-body-sidebar-scroll').css('max-height', '2840px');
     $('.product-body-sidebar-scroll').removeClass('sidebar-fixed-top');
   }
 });
