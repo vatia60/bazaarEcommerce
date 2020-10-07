@@ -2655,7 +2655,9 @@ PRODUCTS
     overflow: hidden;
     height: 2934px;
 }
-
+.filter-bottom-div {
+    display: none;
+}
 .product-name {
     padding: 10px 0 30px 0;
 }
@@ -2882,7 +2884,20 @@ PRODUCTS
 
 /*Product Short View*/
 
-.product-short-view {}
+.product-body-main, .product-short-view {
+    height: 2940px;
+    position: relative;
+}
+.product-body-main .new-pagination {
+    bottom: 43px;
+}
+.product-short-view .new-pagination {
+    padding: 40px 30px 40px 0px;
+    position: absolute;
+    bottom: 142px;
+    right: 0;
+    z-index: 9999999999999999999 !important;
+}
 
 .product-short-view-block {
     margin-top: 10px;

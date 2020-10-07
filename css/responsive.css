@@ -758,6 +758,9 @@
     .product-body-container {
     height: auto;
 }
+.filter-bottom-div {
+    display:block;
+}
 
 }
 
