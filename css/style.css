@@ -92,9 +92,9 @@ a:hover {
 /* scrollbar */
 ::-webkit-scrollbar {
   width: 3px;
+  height: 20px !important;
   border-radius: 20px;
 }
-
 
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
@@ -103,6 +103,7 @@ a:hover {
 
 ::-webkit-scrollbar-thumb {
   background: #888;
+  height: 20px !important;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -221,7 +222,10 @@ a:hover {
     -webkit-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out;
 }
-
+.bottom-footer-for-mobile span {
+    font-size: 12px;
+    font-weight: 600;
+}
 .account-btn,
 .account-btn-two {
     border: 0;
@@ -1341,7 +1345,7 @@ SHOPPING CART
     width: 343px;
     border: 1px solid #ccc;
     overflow: auto;
-    z-index: 99999999999 !important;
+    z-index: 99999999 !important;
     background: #E1FFFB;
     padding: 10px 10px 20px 10px;
 }
@@ -1654,7 +1658,7 @@ SHOPPING CART
 
 .shopping-more-to-love .slick-prev {
     left: -17px;
-    z-index: 999999999999999 !important;
+    z-index: 999999999 !important;
 }
 
 .shopping-more-to-love .slick-next {
@@ -1984,7 +1988,7 @@ DETAIL PRODUCT
     display: none;
     position: absolute;
     background: #fff;
-    z-index: 9999999999999999999;
+    z-index: 999;
     border-radius: 4px;
 }
 
