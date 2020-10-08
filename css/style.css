@@ -2889,7 +2889,11 @@ PRODUCTS
     position: relative;
 }
 .product-body-main .new-pagination {
+    padding: 40px 30px 40px 0px;
+    position: absolute;
     bottom: 43px;
+    right: 0;
+    z-index: 9999999999999999999 !important;
 }
 .product-short-view .new-pagination {
     padding: 40px 30px 40px 0px;
@@ -2955,8 +2959,11 @@ PRODUCTS
 .slick-initialized .slick-slide {
     padding: 0 4px;
 }
-
+.short-view-middle {
+    float: left;
+}
 .short-view-right {
+    float: right;
     padding-top: 22px;
 }
 
