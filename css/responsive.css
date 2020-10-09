@@ -252,6 +252,15 @@
 
     
 
+.category-name-block-mobile {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.seller-body .related-product-item {
+    padding: 0 20px 4px 20px;
+}
 
  
 
