@@ -8,6 +8,15 @@ $(window).scroll(function () {
   }
 });
 
+if (window.innerWidth < 992) {
+    $('.top-header').addClass('fixed-top');
+    
+  } else {
+    $('.top-header').removeClass('fixed-top');
+    
+  
+  }
+
 /*Filter Mobile*/
 
 $(window).scroll(function () {

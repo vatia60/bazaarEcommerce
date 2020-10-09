@@ -96,14 +96,10 @@
     right: 0;
     width: 100vw;
     padding: 20px;
-}   
-.account-two {
-    right: 0;
-    width: 100vw;
 } 
-.account {
-    left: -284px;
-    width: 100vw;
+.account-two {
+    text-align: center;
+    right: 0px;
 }
 .wish-cart, .mobile-new-none {
     display: none !important;
@@ -190,7 +186,7 @@
     	background: transparent;
     }
     .filter-fixed-top {
-    top: 63px !important;
+    top: 38px !important;
 }
 .ipad-mobile-none {
     display: none;
@@ -268,14 +264,8 @@
     width: 100vw;
     padding: 20px;
 }   
-.account-two {
-    right: 0;
-    width: 100vw;
-} 
-.account {
-    left: -284px;
-    width: 100vw;
-}
+
+
    .top-header-middle {
     padding: 13px 0;
 }
@@ -916,7 +906,10 @@
     .top-header-right a {
         font-size: 10px;
     }
-
+.account-search {
+    width: 95vw;
+    top: 40px;
+}
     .collections-all-header h2 {
         font-size: 22px;
     }
