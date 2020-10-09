@@ -130,7 +130,7 @@
     box-shadow: 0 0 1px 1px #96959259;
     display: none;
     z-index: 9999999999999999999999999 !important;
-    bottom: 51px;
+    bottom: 76px;
     right: 0;
     width: 100vw;
     height: 84vh;
@@ -1046,4 +1046,8 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
 
-@media (min-width: 1200px) {}
+@media (min-width: 1400px) {
+.sidebar-fixed-top {
+    width: 258px;
+}
+}

@@ -87,6 +87,8 @@ a:hover {
 }
 .fixed-top {
     z-index: 99999999999999999999 !important;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }
 
 /* scrollbar */
@@ -2733,6 +2735,8 @@ PRODUCTS
     width: 20%;
     height: 94vh !important;
     z-index: 99999999999 !important;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }
 .product-body-sidebar h6 {
     font-size: 14px;
