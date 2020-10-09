@@ -73,19 +73,39 @@
 
 
 @media (max-width: 767px) {
-.top-header-right .fa-user:hover {
+.top-header-right .fa-user:hover, .top-header-right .fa-comment-dots:hover {
     color: #4B4B4D;
 }
 .top-header-left {
     padding-top: 10px;
 }
 .top-category-header-left {
-    padding-top: 5px;
+    padding-top: 7px;
 }
 .top-header-right {
     padding-top: 10px;
-}    
-.account-flex-two, .wish-cart, .mobile-new-none {
+}
+.account-search {
+    background: #DBFFF4;
+    text-align: left;
+    position: absolute;
+    border-radius: 3px;
+    box-shadow: 0 0 1px 1px #96959259;
+    display: none;
+    z-index: 99999999999999999999999999999 !important;
+    right: 0;
+    width: 100vw;
+    padding: 20px;
+}   
+.account-two {
+    right: 0;
+    width: 100vw;
+} 
+.account {
+    left: -284px;
+    width: 100vw;
+}
+.wish-cart, .mobile-new-none {
     display: none !important;
 }
 .pages-header {
@@ -232,7 +252,13 @@
     .top-header-middle .input-group-text {
         padding: 0rem .75rem;
     }
-
+.ipad-login-reg button, .ipad-login-reg a{
+    background: transparent;
+    color: #4B4B4D !important;
+}
+.top-header {
+    height: 40px;
+}
     .wish-cart button {
         padding: 8px 6px;
         font-size: 14px;

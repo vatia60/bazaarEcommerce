@@ -281,6 +281,8 @@ a:hover {
     box-shadow: 0 0 1px 1px #96959259;
     display: none;
     z-index: 99999999999999999999999999999 !important;
+    right: 15px;
+    padding: 20px;
 }
 
 .account {
@@ -351,10 +353,6 @@ a:hover {
 
 }
 
-.account-two {
-    right: 15px;
-    padding: 20px;
-}
 
 .account-logo {
     padding-top: 80px;

@@ -549,6 +549,29 @@ if ( $(window).innerWidth() > 992 && $(window).innerWidth() < 1500){
 
         });
 
+    $(".account-btn-two").on("click", function () {
+
+        $('.account-two').toggle();
+        
+        if($('.account-two').css('display') == 'block'){
+          $('.account-btn-two').addClass('n-bottom-active');
+        }else {
+          $('.account-btn-two').removeClass('n-bottom-active');
+        }
+
+        });
+
+$(".account-btn-search").on("click", function () {
+
+        $('.account-search').toggle();
+        
+        if($('.account-search').css('display') == 'block'){
+          $('.account-btn-search').addClass('n-bottom-active');
+        }else {
+          $('.account-btn-search').removeClass('n-bottom-active');
+        }
+
+        });
 
     
 
