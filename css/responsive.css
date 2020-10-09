@@ -239,7 +239,9 @@
     .padd-left-15 {
         padding-left: 15px !important;
     }
-  
+  .top-header-left h2 {
+    font-size: 12px;
+}
 .top-category-header-left {
     padding-top: 7px;
 }
