@@ -161,6 +161,14 @@ a:hover {
     text-align: left;
     padding-top: 24px;
 }
+.top-category-header-left {
+	padding-top: 22px;
+}
+.top-category-header-left a {
+   color: #495057 !important;
+   font-weight: 600;
+   font-size: 18px;
+}
 
 .top-header-left h2 {
     font-size: 20px;

@@ -536,3 +536,10 @@ if ( $(window).innerWidth() > 992 && $(window).innerWidth() < 1500){
         $('.bottom-chat-footer').toggle();
 
         });
+    
+$(".bott-category").on("click", function () {
+
+        $('.navbar-nav').toggle();
+
+        });
+    
