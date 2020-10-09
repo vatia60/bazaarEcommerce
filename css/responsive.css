@@ -228,6 +228,12 @@
    .new-mobile-none {
    	display: none;
    }
+   .mobile-n-ipad{
+    display: block;
+   }
+   .mobile-n-ipad-none {
+    display: none;
+   }
    .new-top {
    	padding-top: 10px;
    }
@@ -244,6 +250,12 @@
 .top-header-right {
     padding-top: 10px;
 }
+.top-header-right .fa-search, .top-header-right .fa-shopping-cart {
+   font-size: 14px;
+} 
+.top-header-right .fa-comment-dots, .top-header-right .fa-user {
+    font-size: 16px;
+} 
 .account-search {
     background: #DBFFF4;
     text-align: left;
