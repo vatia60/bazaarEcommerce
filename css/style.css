@@ -2523,6 +2523,9 @@ select.form-control:not([size]):not([multiple]) {
 .customer-question-block p {
     font-weight: 500;
 }
+.account-btn-two-bot {
+    background: transparent;
+}
 
 
 
