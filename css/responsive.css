@@ -237,14 +237,33 @@
     .padd-left-15 {
         padding-left: 15px !important;
     }
-    .top-header-left {
-       
-    }
-
-    .top-header-right {
-       
-    }
-
+  
+.top-category-header-left {
+    padding-top: 7px;
+}
+.top-header-right {
+    padding-top: 10px;
+}
+.account-search {
+    background: #DBFFF4;
+    text-align: left;
+    position: absolute;
+    border-radius: 3px;
+    box-shadow: 0 0 1px 1px #96959259;
+    display: none;
+    z-index: 99999999999999999999999999999 !important;
+    right: 0;
+    width: 100vw;
+    padding: 20px;
+}   
+.account-two {
+    right: 0;
+    width: 100vw;
+} 
+.account {
+    left: -284px;
+    width: 100vw;
+}
    .top-header-middle {
     padding: 13px 0;
 }
@@ -420,6 +439,12 @@
     }
 
     /*SHOPPING CART*/
+    .shopping-cart {
+    margin-top: 10px;
+}
+.shopping-cart-block-header h1 {
+    font-size: 18px;
+}
     .official-store h6 {
         text-align: center !important;
     }
