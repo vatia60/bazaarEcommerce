@@ -8,11 +8,12 @@ $(window).scroll(function () {
   }
 });
 
+
 if (window.innerWidth < 992) {
-    $('.top-header').addClass('fixed-top');
+    $('.fixed-top-header').addClass('fixed-top');
     
   } else {
-    $('.top-header').removeClass('fixed-top');
+    $('.fixed-top-header').removeClass('fixed-top');
     
   
   }

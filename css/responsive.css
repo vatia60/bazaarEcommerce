@@ -239,6 +239,11 @@
     .padd-left-15 {
         padding-left: 15px !important;
     }
+    .fixed-top-header {
+    background: #DBFFF4;
+    height: 40px;
+
+    }
   .top-header-left h2 {
     font-size: 12px;
 }
