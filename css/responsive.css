@@ -73,8 +73,14 @@
 
 
 @media (max-width: 767px) {
+.top-header-right .fa-user:hover {
+    color: #4B4B4D;
+}
 .top-header-left {
     padding-top: 10px;
+}
+.top-category-header-left {
+    padding-top: 5px;
 }
 .top-header-right {
     padding-top: 10px;
@@ -304,13 +310,10 @@
         height: 80px;
     }
 
-    .collections-all-header,
-    .center-item {
-        top: 40%;
-        left: 4%;
-        transform: translate(0);
-    }
-
+   .collections-all-header, .center-item {
+    position: relative;
+    text-align: center;
+}
     .collections-all-header h2 {
         font-size: 18px;
     }
@@ -378,7 +381,7 @@
     .win-a {
         font-size: 10px;
         padding: 2px 5px;
-        bottom: -12px;
+            bottom: 2px;
     }
 
     /*SHOPPING CART*/

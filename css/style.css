@@ -236,6 +236,21 @@ a:hover {
     font-size: 12px;
     font-weight: 600;
 }
+.bottom-active i, .bottom-active span {
+	color: #e62e04 !important;
+	-webkit-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+.n-bottom-active-t i, .n-bottom-active-t span {
+	color: #5CC19F !important;
+	-webkit-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+.n-bottom-active i, .n-bottom-active span {
+	color: #e62e04 !important;
+	-webkit-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
 .account-btn,
 .account-btn-two {
     border: 0;
@@ -766,6 +781,7 @@ a:hover {
 .win-deal {
     background: #DBFFF4;
     padding: 30px 0;
+    overflow: hidden;
 }
 
 .win-deal-header {

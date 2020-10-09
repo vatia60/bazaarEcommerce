@@ -529,17 +529,27 @@ if ( $(window).innerWidth() > 992 && $(window).innerWidth() < 1500){
 
         $('.account').toggle();
 
+        if($('.account').css('display') == 'block'){
+          $('.account-btn').addClass('n-bottom-active');
+        }else {
+          $('.account-btn').removeClass('n-bottom-active');
+        }
+
         });
     
     $(".account-btn-two-bot").on("click", function () {
 
         $('.bottom-chat-footer').toggle();
+        
+        if($('.bottom-chat-footer').css('display') == 'block'){
+          $('.account-btn-two-bot').addClass('n-bottom-active');
+        }else {
+          $('.account-btn-two-bot').removeClass('n-bottom-active');
+        }
 
         });
+
+
     
-$(".bott-category").on("click", function () {
 
-        $('.navbar-nav').toggle();
-
-        });
     
