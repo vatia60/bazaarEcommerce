@@ -132,6 +132,10 @@ $(document).ready(function () {
 
 $(document).click(function(){
     $(".new-user-coupon-toggle").css('display', 'none');
+    $(".account").css('display', 'none');
+    $(".bottom-chat-footer").css('display', 'none');
+    $(".account-two").css('display', 'none');
+    $(".account-search").css('display', 'none');
     $('body').css("overflow", "visible");
 });
 
@@ -535,8 +539,9 @@ if ( $(window).innerWidth() > 992 && $(window).innerWidth() < 1500){
         });
     }
     
-    $(".account-btn").on("click", function () {
-
+    $(".account-btn").on("click", function (e) {
+ e.stopPropagation();
+    e.preventDefault(); 
         $('.account').toggle();
 
         if($('.account').css('display') == 'block'){
@@ -547,8 +552,9 @@ if ( $(window).innerWidth() > 992 && $(window).innerWidth() < 1500){
 
         });
     
-    $(".account-btn-two-bot").on("click", function () {
-
+    $(".account-btn-two-bot").on("click", function (e) {
+ e.stopPropagation();
+    e.preventDefault(); 
         $('.bottom-chat-footer').toggle();
         
         if($('.bottom-chat-footer').css('display') == 'block'){
@@ -559,8 +565,9 @@ if ( $(window).innerWidth() > 992 && $(window).innerWidth() < 1500){
 
         });
 
-    $(".account-btn-two").on("click", function () {
-
+    $(".account-btn-two").on("click", function (e) {
+ e.stopPropagation();
+    e.preventDefault(); 
         $('.account-two').toggle();
         
         if($('.account-two').css('display') == 'block'){
@@ -571,8 +578,9 @@ if ( $(window).innerWidth() > 992 && $(window).innerWidth() < 1500){
 
         });
 
-$(".account-btn-search").on("click", function () {
-
+$(".account-btn-search").on("click", function (e) {
+        e.stopPropagation();
+    e.preventDefault(); 
         $('.account-search').toggle();
         
         if($('.account-search').css('display') == 'block'){
