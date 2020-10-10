@@ -136,6 +136,10 @@ $(document).click(function(){
     $(".bottom-chat-footer").css('display', 'none');
     $(".account-two").css('display', 'none');
     $(".account-search").css('display', 'none');
+     $('.account-btn').removeClass('n-bottom-active');
+     $('.account-btn-two-bot').removeClass('n-bottom-active');
+     $('.account-btn-search').removeClass('n-bottom-active');
+     $('.account-btn-two').removeClass('n-bottom-active');
     $('body').css("overflow", "visible");
 });
 
@@ -572,19 +576,22 @@ if ( $(window).innerWidth() > 992 && $(window).innerWidth() < 1500){
         
         if($('.account-two').css('display') == 'block'){
           $('.account-btn-two').addClass('n-bottom-active');
+         
         }else {
-          $('.account-btn-two').removeClass('n-bottom-active');
+          
+           $('.account-btn-two').removeClass('n-bottom-active');
         }
 
         });
 
 $(".account-btn-search").on("click", function (e) {
         e.stopPropagation();
-    e.preventDefault(); 
+        e.preventDefault(); 
         $('.account-search').toggle();
         
         if($('.account-search').css('display') == 'block'){
           $('.account-btn-search').addClass('n-bottom-active');
+         
         }else {
           $('.account-btn-search').removeClass('n-bottom-active');
         }
