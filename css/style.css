@@ -266,15 +266,7 @@ a:hover {
     position: relative;
 }
 
-.account-flex:hover .account {
-    display: block;
 
-}
-
-.account-flex-two:hover .account-two {
-    display: block;
-
-}
 
 .account-two {
     background: #DBFFF4;

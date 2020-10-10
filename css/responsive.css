@@ -1127,7 +1127,17 @@
 
 
 
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 3000px) {
+.account-flex:hover .account {
+    display: block;
+
+}
+
+.account-flex-two:hover .account-two {
+    display: block;
+
+}
+}
 
 
 @media (min-width: 1400px) {
