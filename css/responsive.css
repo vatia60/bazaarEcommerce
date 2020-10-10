@@ -221,6 +221,15 @@
 
 
 @media (max-width: 992px) {
+   .account-flex:hover .account {
+    display: none;
+
+}
+
+.account-flex-two:hover .account-two {
+    display: none;
+
+}
    .new-mobile-none {
    	display: none;
    }
