@@ -547,11 +547,13 @@ if ( $(window).innerWidth() > 992 && $(window).innerWidth() < 1500){
  e.stopPropagation();
     e.preventDefault(); 
         $('.account').toggle();
+         $('.account-two').css('display', 'none');
+         $('.account-search').css('display', 'none');
+         $('.account-btn-search').removeClass('n-bottom-active');
+         $('.account-btn-two').removeClass('n-bottom-active');
 
         if($('.account').css('display') == 'block'){
           $('.account-btn').addClass('n-bottom-active');
-        }else {
-          $('.account-btn').removeClass('n-bottom-active');
         }
 
         });
@@ -563,8 +565,6 @@ if ( $(window).innerWidth() > 992 && $(window).innerWidth() < 1500){
         
         if($('.bottom-chat-footer').css('display') == 'block'){
           $('.account-btn-two-bot').addClass('n-bottom-active');
-        }else {
-          $('.account-btn-two-bot').removeClass('n-bottom-active');
         }
 
         });
@@ -573,13 +573,13 @@ if ( $(window).innerWidth() > 992 && $(window).innerWidth() < 1500){
  e.stopPropagation();
     e.preventDefault(); 
         $('.account-two').toggle();
-        
+        $('.account').css('display', 'none');
+         $('.account-search').css('display', 'none');
+         $('.account-btn-search').removeClass('n-bottom-active');
+         $('.account-btn').removeClass('n-bottom-active');
         if($('.account-two').css('display') == 'block'){
           $('.account-btn-two').addClass('n-bottom-active');
          
-        }else {
-          
-           $('.account-btn-two').removeClass('n-bottom-active');
         }
 
         });
@@ -588,12 +588,13 @@ $(".account-btn-search").on("click", function (e) {
         e.stopPropagation();
         e.preventDefault(); 
         $('.account-search').toggle();
-        
+        $('.account-two').css('display', 'none');
+         $('.account').css('display', 'none');
+         $('.account-btn-two').removeClass('n-bottom-active');
+         $('.account-btn').removeClass('n-bottom-active');
         if($('.account-search').css('display') == 'block'){
           $('.account-btn-search').addClass('n-bottom-active');
          
-        }else {
-          $('.account-btn-search').removeClass('n-bottom-active');
         }
 
         });
