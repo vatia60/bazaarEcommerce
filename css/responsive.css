@@ -222,12 +222,12 @@
 
 @media (max-width: 992px) {
    .account-flex:hover .account {
-    display: none;
+    display: none !important;
 
 }
 
 .account-flex-two:hover .account-two {
-    display: none;
+    display: none !important;
 
 }
    .new-mobile-none {
