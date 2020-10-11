@@ -121,6 +121,9 @@
 .wish-cart, .mobile-new-none {
     display: none !important;
 }
+.collections, .collections-block-padd {
+    padding-top: 10px;
+}
 .pages-header {
 	display: none;
 }
@@ -371,7 +374,7 @@
     .mens-collection-header,
     .kids-collection-header,
     .toppic-collection-header {
-        height: 80px;
+        height: 100px;
     }
 
    .collections-all-header, .center-item {
