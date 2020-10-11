@@ -1998,7 +1998,9 @@ DETAIL PRODUCT
 .detail-product-right h2 {
     font-size: 14px;
 }
-
+.new-per-offer {
+    font-size: 11px;
+}
 .star-hover {
     position: relative;
 }
