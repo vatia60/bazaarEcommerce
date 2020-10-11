@@ -131,6 +131,7 @@ $(document).ready(function () {
 });
 
 $(document).click(function(){
+    
     $(".new-user-coupon-toggle").css('display', 'none');
     $(".account").css('display', 'none');
     $(".bottom-chat-footer").css('display', 'none');
