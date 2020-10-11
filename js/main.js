@@ -51,6 +51,11 @@ $(".category .dropdown").click(function (e) {
   e.stopPropagation();
 })
 
+/*Stop dropdown link click event*/
+$(".menu .nav-absolute").click(function (e) {
+  e.stopPropagation();
+})
+
 
 
 

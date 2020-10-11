@@ -2456,6 +2456,10 @@ DETAIL PRODUCT
 .customer-details-review span {
     font-size: 20px;
 }
+.customer-details-review .new-opa {
+    font-size: 18px;
+    opacity: .7;
+}
 
 .customer-review-details-header {
     padding: 4px 40px;
