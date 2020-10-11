@@ -73,6 +73,9 @@
 
 
 @media (max-width: 767px) {
+    .m-pr-0 {
+        padding-right: 0;
+    }
     .mobile-n-ipad{
     display: block;
    }
