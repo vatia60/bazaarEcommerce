@@ -73,6 +73,9 @@
 
 
 @media (max-width: 767px) {
+    .top-header-left .pl-3, .px-3 {
+    padding-left: 0.3rem!important;
+}
     .m-pr-0 {
         padding-right: 0;
     }
@@ -87,6 +90,9 @@
 }
 .top-category-header-left {
     padding-top: 7px;
+}
+.top-category-header-left a {
+    font-size: 14px;
 }
 .top-header-right {
     padding-top: 10px;
@@ -236,6 +242,9 @@
 }
 .short-view-right .price-small span {
     font-size: 14px !important;
+}
+.detail-the-img {
+    display: none;
 }
 }
 

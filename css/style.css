@@ -1141,6 +1141,7 @@ a .card-title:hover {
     background-repeat: no-repeat;
     background-size: cover;
     height: 90px;
+    border-radius: 6px;
 }
 
 .kids-collection-header {
@@ -1149,11 +1150,37 @@ a .card-title:hover {
     background-repeat: no-repeat;
     background-size: cover;
     height: 90px;
+    border-radius: 6px;
+}
+.paint-collection-header {
+    background: url(../images/home.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90px;
+    border-radius: 6px;
+}
+.home-collection-header {
+    background: url(../images/home.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90px;
+    border-radius: 6px;
+}
+.elect-collection-header {
+    background: url(../images/kid.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90px;
+    border-radius: 6px;
 }
 
 .toppic-collection-header {
     background: #3BC5F3;
     height: 90px;
+    border-radius: 6px;
 }
 .ipad-mobile-none {
     display: block;
