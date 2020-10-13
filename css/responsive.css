@@ -88,7 +88,7 @@
    .top-header {
     height: 40px;
 }
-.top-category-header-left {
+.top-header-left {
     padding-top: 7px;
 }
 .top-category-header-left a {
@@ -216,6 +216,9 @@
 }
 .ipad-mobile-none {
     display: none;
+}
+.slider .carousel-item img {
+    height: 200px;
 }
 .short-view-middle {
     float: none;
