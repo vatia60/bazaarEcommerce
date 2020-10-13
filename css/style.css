@@ -781,7 +781,7 @@ a:hover {
 /*WIN DEAL*/
 .win-deal {
     background: #DBFFF4;
-    padding: 30px 0;
+    padding: 10px 0;
     overflow: hidden;
 }
 
@@ -923,7 +923,7 @@ a .card-title:hover {
 /*WOMEN COLLECTTIONS*/
 .collections-block-padd {
     background: #E7EEE6;
-    padding-top: 20px;
+    padding-top: 10px;
     border-radius: 5px;
 }
 
@@ -1142,7 +1142,7 @@ a .card-title:hover {
 }
 .women-collection-header, .mens-collection-header, .kids-collection-header, .home-collection-header {
     position: relative;
-    height: 90px;
+    height: 100px;
     border-radius: 6px;
 }
 .header-img-over {
