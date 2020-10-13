@@ -912,6 +912,9 @@
     .desktop-none {
         display: none;
     }
+    .top-header-left {
+    padding-top: 18px;
+}
 .top-header-left h2 {
         font-size: 14px;
     }
