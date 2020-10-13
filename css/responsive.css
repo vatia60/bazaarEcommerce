@@ -250,11 +250,14 @@
     display: none;
 }
 
+
 }
 
 
 @media (max-width: 992px) {
-  
+  .slick-prev, .slick-next {
+    display: none !important;
+}
    .new-mobile-none {
    	display: none;
    }

@@ -465,6 +465,7 @@ $(document).ready(function () {
   $('.seller-slick').slick({
     responsive: [{
       breakpoint: 992,
+      swipeToSlide: true,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
@@ -477,6 +478,7 @@ $(document).ready(function () {
   $('.recommend-slick').slick({
     responsive: [{
       breakpoint: 992,
+      swipeToSlide: true,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
