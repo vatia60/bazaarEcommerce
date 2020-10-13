@@ -249,7 +249,9 @@
 .detail-the-img {
     display: none;
 }
-
+.detail-product-main-block {
+    padding-top: 10px;
+}
 
 }
 
@@ -560,9 +562,12 @@
         height: 25px;
     }
 
-   .detail-quantity-input {
-    width: 30px;
-    font-size: 12px;
+  .detail-quantity-input {
+    width: 44px;
+    font-size: 14px;
+}
+.input-group-new {
+    padding: 2px 0 0 0;
 }
 
     .table td,
