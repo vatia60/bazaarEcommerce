@@ -951,7 +951,11 @@ a .card-title:hover {
 
 .modal-dialog {
     max-width: 840px;
-    margin: 1.75rem auto;
+    margin: 4rem auto;
+}
+.modal-dialog #show-img {
+    width: 100%;
+    height: auto;
 }
 .quick-view-body {
     background: #E7EEE6;
