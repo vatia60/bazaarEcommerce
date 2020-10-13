@@ -1004,14 +1004,7 @@ a .card-title:hover {
     position: relative;
 }
 
-.women-collection-header {
-    position: relative;
-    background: url(../images/women-baner.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 90px;
-}
+
 
 .women-see-icon {
     position: absolute;
@@ -1133,7 +1126,15 @@ a .card-title:hover {
 .home-see-more a:hover {
     color: green;
 }
-
+.women-collection-header {
+    position: relative;
+    background: url(../images/women-baner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90px;
+    border-radius: 6px;
+}
 /*MENS COLLECTION*/
 .mens-collection-header {
     background: url(../images/men.png);
