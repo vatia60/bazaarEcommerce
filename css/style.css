@@ -689,10 +689,12 @@ a:hover {
 
 
 
-
+.slider {
+    padding-top: 2px;
+}
 .slider .carousel-item img {
     width: 100%;
-    height: 344px;
+    height: 342px;
 }
 
 .carousel-caption {
