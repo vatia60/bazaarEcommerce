@@ -1122,65 +1122,41 @@ a .card-title:hover {
 }
 
 .home-see-more a {
-    color: #212529;
-    text-decoration: underline;
-    font-size: 18px;
+    background: #5CC19F;
+    font-size: 16px;
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: 1px solid #5CC19F;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 .home-see-more a:hover {
-    color: green;
+    background: #e62e04;
+    border: 1px solid #e62e04;
 }
-.women-collection-header {
+.women-collection-header, .mens-collection-header, .kids-collection-header, .home-collection-header {
     position: relative;
-    background: url(../images/women-baner.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 90px;
+    border-radius: 6px;
+}
+.header-img-over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.header-img-over img {
+    width: 100%;
+    height: 100%;
     border-radius: 6px;
 }
 /*MENS COLLECTION*/
-.mens-collection-header {
-    background: url(../images/men.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 90px;
-    border-radius: 6px;
-}
 
-.kids-collection-header {
-    background: url(../images/kid.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 90px;
-    border-radius: 6px;
-}
-.paint-collection-header {
-    background: url(../images/home.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 90px;
-    border-radius: 6px;
-}
-.home-collection-header {
-    background: url(../images/home.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 90px;
-    border-radius: 6px;
-}
-.elect-collection-header {
-    background: url(../images/kid.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 90px;
-    border-radius: 6px;
-}
 
 .toppic-collection-header {
     background: #3BC5F3;
@@ -2303,9 +2279,25 @@ DETAIL PRODUCT
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
+.detail-buy-btn {
+    padding: 6px 26px;
+}
 
 .detail-buy-btn {
     background: #e62e04;
+}
+.focus-cart-btn {
+    background: #AEAEAE;
+}
+.focus-buy-btn {
+    background: green !important;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 6px 26px;
+    border-radius: 3px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 .detail-add-cart-btn {
@@ -2316,7 +2308,9 @@ DETAIL PRODUCT
 .detail-add-cart-btn:hover {
     background: #AEAEAE;
 }
-
+.detail-buy-btn:focus, .detail-add-cart-btn:focus {
+    background: #AEAEAE;
+}
 .detail-payment img {
     width: 50px;
     height: 30px;

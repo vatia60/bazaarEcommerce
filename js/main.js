@@ -467,8 +467,9 @@ $(document).ready(function () {
       breakpoint: 992,
       swipeToSlide: true,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
+        slidesToShow: 1,
+        slidesToScroll: 5,
+        centerMode: true,
       }
     }]
   });
@@ -480,8 +481,9 @@ $(document).ready(function () {
       breakpoint: 992,
       swipeToSlide: true,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
+        slidesToShow: 1,
+        slidesToScroll: 5,
+        centerMode: true,
       }
     }]
   });
@@ -609,4 +611,14 @@ $(".account-btn-search").on("click", function (e) {
 
     
 
-    
+$(".cart-btn-color").on("click", function () {
+
+        $('.buy-btn-color').toggleClass('normal-btn-color focus-buy-btn');
+
+        });
+
+$(".cart-btn-color").on("click", function () {
+
+        $('.cart-btn-color').toggleClass('normal-btn-color focus-cart-btn');
+
+        });
