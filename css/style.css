@@ -2311,9 +2311,11 @@ DETAIL PRODUCT
     background: #5CC19F;
 }
 
-.detail-buy-btn:hover,
+.detail-buy-btn:hover{
+    background: #14d896;
+}
 .detail-add-cart-btn:hover {
-    background: #AEAEAE;
+    background: #fd4d25;
 }
 .detail-buy-btn:focus, .detail-add-cart-btn:focus {
     background: #AEAEAE;
