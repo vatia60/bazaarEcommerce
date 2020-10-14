@@ -2282,49 +2282,9 @@ DETAIL PRODUCT
     width: 24px;
 }
 
-.detail-buy-btn,
-.detail-add-cart-btn {
-    background: #e62e04;
-    color: #fff;
-    font-weight: 600;
-    font-size: 12px;
-    padding: 6px 16px;
-    border-radius: 3px;
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-}
-.detail-buy-btn {
-    padding: 6px 26px;
-}
 
-.detail-buy-btn {
-    background: #e62e04;
-}
-.focus-cart-btn {
-    background: #AEAEAE;
-}
-.focus-buy-btn {
-    background: green !important;
-    color: #fff;
-    font-weight: 600;
-    font-size: 12px;
-    padding: 6px 26px;
-    border-radius: 3px;
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-}
 
-.detail-add-cart-btn {
-    background: #5CC19F;
-}
 
-.detail-buy-btn:hover,
-.detail-add-cart-btn:hover {
-    background: #AEAEAE;
-}
-.detail-buy-btn:focus, .detail-add-cart-btn:focus {
-    background: #AEAEAE;
-}
 .detail-payment img {
     width: 50px;
     height: 30px;
@@ -3001,6 +2961,7 @@ PRODUCTS
     background: #fff;
     padding: 4px 5px;
     border-radius: 4px;
+    position: relative;
 }
 
 .product-short-view-block .img-overlay-history {

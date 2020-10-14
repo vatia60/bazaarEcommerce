@@ -631,14 +631,14 @@ $(".account-btn-search").on("click", function (e) {
 
     
 
-$(".cart-btn-color").on("click", function () {
+$(".cart-btn-50").on("click", function () {
 
-        $('.buy-btn-color').toggleClass('normal-btn-color focus-buy-btn');
+        $('.buy-btn-50').toggleClass('normal-btn-color focus-buy-btn');
 
         });
 
-$(".cart-btn-color").on("click", function () {
+$(".cart-btn-50").on("click", function () {
 
-        $('.cart-btn-color').toggleClass('normal-btn-color focus-cart-btn');
+        $('.cart-btn-50').toggleClass('normal-btn-color focus-cart-btn');
 
         });

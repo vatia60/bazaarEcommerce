@@ -163,8 +163,57 @@
 .bottom-footer-mobile{
     display: flex;
     justify-content: space-around;
-    padding: 8px 0px;
+    padding: 0;
+    margin-left: -15px;
+    margin-right: -15px;
 }
+
+
+.cart-btn-50 {
+    width: 50%;
+    background:#e62e04; 
+     -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.buy-btn-50 {
+    width: 50%;
+    background: #5CC19F;
+     -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.detail-buy-btn,
+.detail-add-cart-btn {
+    background: transparent;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 6px 16px;
+    border-radius: 3px;
+   
+}
+.detail-buy-btn {
+    padding: 6px 26px;
+}
+
+.focus-cart-btn {
+    background: #AEAEAE;
+}
+.focus-buy-btn {
+    background: green !important;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+
+.cart-btn-50:hover,
+.buy-btn-50:hover {
+    background: #AEAEAE;
+}
+.cart-btn-50:focus, .buy-btn-50:focus {
+    background: #AEAEAE;
+}
+
+
 .bottom-chat-footer img {
     width: 200px;
     padding: 40px 0 60px 0;
