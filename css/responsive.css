@@ -181,28 +181,6 @@
      -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
-.detail-buy-btn,
-.detail-add-cart-btn {
-    background: transparent;
-    color: #fff;
-    font-weight: 600;
-    font-size: 12px;
-    padding: 6px 16px;
-    border-radius: 3px;
-   
-}
-.detail-buy-btn {
-    padding: 6px 26px;
-}
-
-.focus-cart-btn {
-    background: #AEAEAE;
-}
-.focus-buy-btn {
-    background: green !important;
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-}
 
 
 .cart-btn-50:hover,
