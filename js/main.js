@@ -94,6 +94,14 @@ $(document).ready(function () {
   });
 });
 
+/*Detail Product Size*/
+$(document).ready(function () {
+
+  $('.detail-size-box').on('click', function () {
+    $('.detail-size-box.color-active').removeClass('color-active');
+    $(this).addClass('color-active');
+  });
+});
 
 
 

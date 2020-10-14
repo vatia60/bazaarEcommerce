@@ -1993,7 +1993,9 @@ DETAIL PRODUCT
     background: #fff;
     padding: 10px;
 }
-
+.detail-overview-sidebar-img .img-overlay-history {
+    top: 0;
+}
 .detail-overview-sidebar-img h2 {
     font-size: 1.3rem;
     text-align: center;
