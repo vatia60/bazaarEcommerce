@@ -1997,8 +1997,9 @@ DETAIL PRODUCT
     top: 0;
 }
 .detail-overview-sidebar-img h2 {
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .detail-overview-sidebar-img .main-collections-block {
