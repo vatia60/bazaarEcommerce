@@ -160,7 +160,7 @@ $(document).click(function(){
 
 
 
-
+if (window.innerWidth > 992) {
 (function ($) {
 
   $.fn.zoomImage = function (paras) {
@@ -169,7 +169,7 @@ $(document).click(function(){
       layerW: 100,
       layerH: 100,
       layerOpacity: 0.2,
-      layerBgc: '#000',
+      layerBgc: 'transparent',
       showPanelW: 445,
       showPanelH: 445,
       marginL: 5,
@@ -274,15 +274,9 @@ $(document).click(function(){
 })(jQuery);
 
 
-
-
-
-
-
-
-
-
 $('.showhope').zoomImage();
+
+
 $('.show-small-img:first-of-type').css({
   'border': 'solid 1px #951b25',
   'padding': '2px'
@@ -354,7 +348,7 @@ $('#prev-img').click(function () {
   }
 });
 
-
+}
 
 /*Product Show Normal or List*/
 $(".product-normal-view-btn").click(function () {
@@ -471,29 +465,47 @@ $(function () {
 
 $(document).ready(function () {
   $('.seller-slick').slick({
-    responsive: [{
+    responsive: [
+    {
       breakpoint: 992,
       swipeToSlide: true,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 5,
         centerMode: true,
       }
-    }]
+      },
+      {
+      breakpoint: 767,
+      settings: {
+      	centerMode: true,
+        slidesToShow: 1
+      }
+      }
+    ]
   });
 });
 
 $(document).ready(function () {
   $('.recommend-slick').slick({
-    responsive: [{
+    responsive: [
+    {
       breakpoint: 992,
       swipeToSlide: true,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 5,
         centerMode: true,
       }
-    }]
+      },
+      {
+      breakpoint: 767,
+      settings: {
+      	centerMode: true,
+        slidesToShow: 1
+      }
+    }
+    ]
   });
 });
 

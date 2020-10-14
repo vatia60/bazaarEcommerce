@@ -69,6 +69,12 @@
 .new-best-match-toggle li a{
     padding: 8px 0 8px 16px !important;
 }
+.product-name-block {
+    height: 142px !important;
+}
+.product-name-block-padd img {
+    height: 86px;
+}
 }
 
 
@@ -157,7 +163,7 @@
 .bottom-footer-mobile{
     display: flex;
     justify-content: space-around;
-    padding: 14px 0px;
+    padding: 8px 0px;
 }
 .bottom-chat-footer img {
     width: 200px;
@@ -252,6 +258,10 @@
 .detail-product-main-block {
     padding-top: 10px;
 }
+.product-name-block {
+        height: 187px;
+    width: 100%;
+    }
 
 }
 
@@ -514,11 +524,17 @@
     /*Product Details*/
 
     .showhope {
-        width: 100%;
-        height: 330px
-    }
+    width: 100%;
+    height: 260px;
+}
+#show-img {
+    width: 100%;
+    height: 100%;
+}
 
-    .small-img {}
+    .small-img {
+        display: none;
+    }
 
     .small-container .show-small-img {
         width: 60px;
@@ -570,10 +586,19 @@
 
   .detail-quantity-input {
     width: 44px;
-    font-size: 14px;
+    font-size: 16px;
+}
+.quantity-right-plus {
+   font-size: 12px;
+   padding-left: 3px;
+}
+
+.quantity-left-minus {
+   font-size: 12px;
+   padding-right: 3px;
 }
 .input-group-new {
-    padding: 2px 0 0 0;
+    padding: 0;
 }
 
     .table td,
@@ -645,7 +670,7 @@
     right: 12px;
     padding-top: 14px;
     left: 10px;
-    z-index: 1030;
+    z-index: 9999999999;
     background: #E7EEE6;
     }
     .mobile-filter-header {
@@ -1025,8 +1050,7 @@
     }
 
     .detail-quantity-input {
-        width: 80px;
-        font-size: 18px;
+        width: 70px;
     }
 
     .input-span-line {
@@ -1055,23 +1079,7 @@
 
     /*DETAIL PRODUCT*/
     .showhope {
-        height: 400px;
-    }
-
-    .small-img {}
-
-    .small-container {
-        width: 430px;
-        height: 102px;
-    }
-
-    .small-container .show-small-img {
-        width: 100px;
-        height: 100px;
-    }
-
-    .detail-product-right {
-        padding-top: 60PX;
+        height: 445px;
     }
 
     .detail-product-right h2 {
@@ -1128,7 +1136,10 @@
     .product-view .fa-list {
         font-size: 18px;
     }
-
+.product-name-block {
+    height: 225px;
+    width: 225px;
+}
     .win-three-img-left img {
         height: 340px;
     }
@@ -1146,6 +1157,9 @@
     }
     .best-match {
     font-size: 14px;
+}
+.product-name-block-padd img {
+    height: 144px;
 }
 
 }
