@@ -2305,13 +2305,6 @@ DETAIL PRODUCT
 }
 .focus-buy-btn {
     background: green !important;
-    color: #fff;
-    font-weight: 600;
-    font-size: 12px;
-    padding: 6px 26px;
-    border-radius: 3px;
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
 }
 
 .detail-add-cart-btn {
