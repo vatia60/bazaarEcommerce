@@ -3538,23 +3538,25 @@ TOP PICK FOR YOU
         });
 
         
-            $('.home-windeal-slick').slick({
+      $('.home-windeal-slick').slick({
                 responsive: [
                 {
                     breakpoint: 992,
-                    swipeToSlide: true,
                     settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 5,
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
                         centerMode: true,
-                    }},
-      {
-      breakpoint: 767,
-      settings: {
-        centerMode: true,
-        slidesToShow: 1
-      }
-      }
+                        swipeToSlide: true,
+                    }
+                },
+                {
+                  breakpoint: 767,
+                  settings: {
+                    centerMode: true,
+                    slidesToShow: 1,
+                    swipeToSlide: true,
+                   }
+                 }
                 ]
             });
       

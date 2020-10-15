@@ -470,16 +470,18 @@ $(document).ready(function () {
       breakpoint: 992,
       swipeToSlide: true,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 3,
         slidesToScroll: 5,
         centerMode: true,
+        variableWidth: true,
       }
       },
       {
       breakpoint: 767,
       settings: {
       	centerMode: true,
-        slidesToShow: 1
+        slidesToShow: 2,
+        variableWidth: true,
       }
       }
     ]
@@ -496,13 +498,15 @@ $(document).ready(function () {
         slidesToShow: 2,
         slidesToScroll: 5,
         centerMode: true,
+        variableWidth: true
       }
       },
       {
       breakpoint: 767,
       settings: {
       	centerMode: true,
-        slidesToShow: 1
+        slidesToShow: 2,
+        variableWidth: true,
       }
     }
     ]
@@ -631,7 +635,7 @@ $(".account-btn-search").on("click", function (e) {
 
     
 
-$(".cart-btn-50").on("click", function () {
+/*$(".cart-btn-50").on("click", function () {
 
         $('.buy-btn-50').toggleClass('normal-btn-color focus-buy-btn');
 
@@ -641,4 +645,4 @@ $(".cart-btn-50").on("click", function () {
 
         $('.cart-btn-50').toggleClass('normal-btn-color focus-cart-btn');
 
-        });
+        });*/

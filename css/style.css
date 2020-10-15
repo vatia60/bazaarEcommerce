@@ -2312,10 +2312,10 @@ DETAIL PRODUCT
 }
 
 .detail-buy-btn:hover{
-    background: #14d896;
+    background: #fd4d25;
 }
 .detail-add-cart-btn:hover {
-    background: #fd4d25;
+    background: #14d896;
 }
 .detail-buy-btn:focus, .detail-add-cart-btn:focus {
     background: #AEAEAE;
