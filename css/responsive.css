@@ -462,7 +462,7 @@
     padding: 4px 0;
     font-size: 10px;
 }
-    .no-touch .main-collections-block:hover .quick-view {
+    .main-collections-block:hover .quick-view {
         display: block;
     }
     
@@ -1228,8 +1228,3 @@
 }
 }
 
-@media(hover: hover) and (pointer: fine) {
-    .main-collections-block:hover .quick-view {
-        display: block;
-    }
-}
