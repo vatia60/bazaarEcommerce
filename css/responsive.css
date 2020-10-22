@@ -325,7 +325,9 @@
     font-size: 12px;
 }
 
-
+.home-see-more a {
+    font-size: 14px;
+}
 
 .account-search {
     background: #DBFFF4;
@@ -444,7 +446,7 @@
     text-align: center;
 }
     .collections-all-header h2 {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .women-see-icon {
@@ -572,9 +574,7 @@
     height: 100%;
 }
 
-    .small-img {
-        display: none;
-    }
+
 
     .small-container .show-small-img {
         width: 60px;
@@ -1205,8 +1205,14 @@
 }
 
 
-
-
+@media (min-width: 992px) and (max-width: 1200px) {
+.menu .nav-link, .category .nav-link {
+    font-size: 11px !important;
+}
+.slider .carousel-item img {
+    height: 311px;
+}
+}
 
 
 @media (min-width: 992px) and (max-width: 3000px) {

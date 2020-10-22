@@ -470,7 +470,7 @@ $(document).ready(function () {
       breakpoint: 992,
       swipeToSlide: true,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 5,
         centerMode: true,
       }
@@ -479,7 +479,7 @@ $(document).ready(function () {
       breakpoint: 767,
       settings: {
       	centerMode: true,
-        slidesToShow: 2,
+        slidesToShow: 1,
       }
       }
     ]
@@ -493,7 +493,7 @@ $(document).ready(function () {
       breakpoint: 992,
       swipeToSlide: true,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 5,
         centerMode: true,
       }
@@ -502,7 +502,7 @@ $(document).ready(function () {
       breakpoint: 767,
       settings: {
       	centerMode: true,
-        slidesToShow: 2,
+        slidesToShow: 1,
       }
     }
     ]
@@ -644,13 +644,13 @@ $(".cart-btn-50").on("click", function () {
         });*/
 
 
- 
 
-$(".main-collections-block").bind('touchstart', function(e) {
+
+$(".main-collections-block").on('touchstart', function(e) {
         $(".quick-view").css('display', 'block'); 
-       
+
 });
 
-$(".main-collections-block").bind('touchend', function(e) {
+$(".main-collections-block").on('touchend', function(e) {
         $(".quick-view").css('display', 'none'); 
 });
