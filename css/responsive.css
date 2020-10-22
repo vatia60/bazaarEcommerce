@@ -300,12 +300,7 @@
 
 
 @media (max-width: 992px) {
-    .quick-view {
-    display: block;
-    z-index: 99999999 !important;
-    padding: 4px 0;
-    font-size: 10px;
-}
+  
   .slick-prev, .slick-next {
     display: none !important;
 }
@@ -461,10 +456,22 @@
         padding: 0px 10px 0px 10px;
     }
 
-    .main-collections-block:hover .quick-view {
-        display: none;
+    
+      .quick-view {
+    z-index: 99999999 !important;
+    padding: 4px 0;
+    font-size: 10px;
+}
+    .no-touch .main-collections-block:hover .quick-view {
+        display: block;
     }
-
+    
+    .main-collections-block:active .quick-view {
+        display: block;
+    }
+    .main-collections-block:focus .quick-view {
+        display: block;
+    }
     .shopping-card-flex {
         width: 247px;
     }
@@ -1219,4 +1226,10 @@
 .sidebar-fixed-top {
     width: 258px;
 }
+}
+
+@media(hover: hover) and (pointer: fine) {
+    .main-collections-block:hover .quick-view {
+        display: block;
+    }
 }
