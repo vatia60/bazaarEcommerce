@@ -103,7 +103,13 @@ $(document).ready(function () {
   });
 });
 
+$(document).ready(function () {
 
+  $('.zoom-slick').on('click', function () {
+    $('.zoom-slick img.color-active').removeClass('color-active');
+    $(this).addClass('color-active');
+  });
+});
 
 
 
@@ -278,7 +284,7 @@ $('.showhope').zoomImage();
 
 
 $('.show-small-img:first-of-type').css({
-  'border': 'solid 1px #951b25',
+  'border': 'solid 1px transparent',
   'padding': '2px'
 })
 $('.show-small-img:first-of-type').attr('alt', 'now').siblings().removeAttr('alt')
@@ -287,7 +293,7 @@ $('.show-small-img').click(function () {
   $('#big-img').attr('src', $(this).attr('src'))
   $(this).attr('alt', 'now').siblings().removeAttr('alt')
   $(this).css({
-    'border': 'solid 1px #951b25',
+    'border': 'solid 1px transparent',
     'padding': '2px'
   }).siblings().css({
     'border': 'none',
@@ -330,7 +336,7 @@ $('#prev-img').click(function () {
   $('#show-img').attr('src', $(".show-small-img[alt='now']").prev().attr('src'))
   $('#big-img').attr('src', $(".show-small-img[alt='now']").prev().attr('src'))
   $(".show-small-img[alt='now']").prev().css({
-    'border': 'solid 1px #951b25',
+    'border': 'solid 1px transparent',
     'padding': '2px'
   }).siblings().css({
     'border': 'none',
@@ -516,6 +522,11 @@ $(document).ready(function () {
   });
 });
 
+$(document).ready(function () {
+  $('.zoom-slick').slick({
+    
+  });
+});
 
 /*Product Sidebar Filter Page*/
 $(window).scroll(function () {
@@ -671,3 +682,39 @@ if (window.innerWidth > 992) {
     
   
   }
+
+   /*Detail Product Increment Decrement*/
+        $(document).ready(function () {
+
+            var quantitiy = 0;
+            $('.quantity-right-plus').click(function (e) {
+
+                // Stop acting like a button
+                e.preventDefault();
+                // Get the field name
+                var quantity = parseInt($('#quantity').val());
+
+                // If is not undefined
+
+                $('#quantity').val(quantity + 1);
+
+
+                // Increment
+
+            });
+
+            $('.quantity-left-minus').click(function (e) {
+                // Stop acting like a button
+                e.preventDefault();
+                // Get the field name
+                var quantity = parseInt($('#quantity').val());
+
+                // If is not undefined
+
+                // Increment
+                if (quantity > 0) {
+                    $('#quantity').val(quantity - 1);
+                }
+            });
+
+        });

@@ -67,7 +67,7 @@ a {
 a:hover {
     color: #e62e04;
 }
-
+.slick-slide:focus,
 .btn:focus,
 .btn:active,
 .btn:hover,
@@ -918,6 +918,7 @@ a .card-title:hover {
 
 .collections-all-header h2 {
     color: #fff;
+    font-size: 28px;
 }
 
 /*WOMEN COLLECTTIONS*/
@@ -1065,7 +1066,7 @@ a .card-title:hover {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 10px 4px 0 4px;
+    padding: 2px 8px 0 8px;
 }
 
 .sale-left {
@@ -1107,7 +1108,7 @@ a .card-title:hover {
 }
 
 .main-collections-block .fa-star {
-    color: yellow;
+    color: #FEB92E;
 }
 
 
@@ -1123,7 +1124,7 @@ a .card-title:hover {
 
 .home-see-more a {
     background: #5CC19F;
-    font-size: 16px;
+    font-size: 14px;
     padding: 8px 20px;
     border-radius: 4px;
     border: 1px solid #5CC19F;
@@ -1915,7 +1916,10 @@ DETAIL PRODUCT
     margin-top: 10px;
     position: relative;
 }
-
+.small-img img {
+    width: 70px;
+    margin: 0 auto;
+}
 .small-img .icon-left,
 .small-img .icon-right {
     width: 12px;
@@ -1992,7 +1996,7 @@ DETAIL PRODUCT
     padding: 10px;
 }
 .detail-overview-sidebar-img .img-overlay-history {
-    top: 0;
+    top: -8px;
 }
 .detail-overview-sidebar-img h2 {
     font-size: 1rem;
@@ -2354,7 +2358,7 @@ DETAIL PRODUCT
 
 .sidebar-flex-block p,
 .detail-sec-sidebar p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .detail-sec-sidebar h6 {
