@@ -2309,14 +2309,11 @@ DETAIL PRODUCT
     background: #5CC19F;
 }
 
-.detail-buy-btn:hover{
+.detail-buy-btn:hover, .detail-buy-btn:focus{
     background: #fd4d25;
 }
-.detail-add-cart-btn:hover {
+.detail-add-cart-btn:hover, .detail-add-cart-btn:focus {
     background: #14d896;
-}
-.detail-buy-btn:focus, .detail-add-cart-btn:focus {
-    background: #AEAEAE;
 }
 
 
@@ -2810,7 +2807,7 @@ PRODUCTS
     top: 60px;
     width: 20%;
     height: 94vh !important;
-    z-index: 99999999999 !important;
+    z-index: 999 !important;
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
 }
