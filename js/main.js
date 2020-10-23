@@ -163,7 +163,7 @@ $(document).click(function(){
     $(".account").css('display', 'none');
     $(".bottom-chat-footer").css('display', 'none');
     $(".account-two").css('display', 'none');
-    $(".account-search").css('display', 'none');
+    
      $('.account-btn').removeClass('n-bottom-active');
      $('.account-btn-two-bot').removeClass('n-bottom-active');
      $('.account-btn-search').removeClass('n-bottom-active');
