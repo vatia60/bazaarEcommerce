@@ -487,51 +487,7 @@ $(function () {
 });
 
 
-$(document).ready(function () {
-  $('.seller-slick').slick({
-    responsive: [
-    {
-      breakpoint: 992,
-      swipeToSlide: true,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 5,
-        centerMode: true,
-      }
-      },
-      {
-      breakpoint: 767,
-      settings: {
-      	centerMode: true,
-        slidesToShow: 1,
-      }
-      }
-    ]
-  });
-});
 
-$(document).ready(function () {
-  $('.recommend-slick').slick({
-    responsive: [
-    {
-      breakpoint: 992,
-      swipeToSlide: true,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 5,
-        centerMode: true,
-      }
-      },
-      {
-      breakpoint: 767,
-      settings: {
-      	centerMode: true,
-        slidesToShow: 1,
-      }
-    }
-    ]
-  });
-});
 
 
 
