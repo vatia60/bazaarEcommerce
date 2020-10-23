@@ -1906,6 +1906,14 @@ DETAIL PRODUCT
     height: 445px;
 }
 
+.small-img .slick-prev {
+    left: -4px;
+    top: 26px;
+}
+.small-img .slick-next {
+    right: -4px;
+    top: 26px;
+}
 #show-img {
     width: 445px;
     height: 445px;
@@ -1960,7 +1968,7 @@ DETAIL PRODUCT
 .small-container .show-small-img {
     width: 70px;
     height: 70px;
-    margin-right: 6px;
+    margin-left: 0;
     cursor: pointer;
 }
 

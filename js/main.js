@@ -105,8 +105,16 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 
-  $('.zoom-slick').on('click', function () {
+  $('.zoom-slick img').on('click', function () {
     $('.zoom-slick img.color-active').removeClass('color-active');
+    $(this).addClass('color-active');
+  });
+});
+
+$(document).ready(function () {
+
+  $('.small-img-roll img').on('click', function () {
+    $('.small-img-roll img.color-active').removeClass('color-active');
     $(this).addClass('color-active');
   });
 });
@@ -524,6 +532,11 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.zoom-slick').slick({
+    
+  });
+});
+$(document).ready(function () {
+  $('.zoom-quick-slick').slick({
     
   });
 });
