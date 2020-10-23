@@ -1164,21 +1164,33 @@ BOTTOM FOOTER FOR MOBILE
                 <div class="col-lg-3">
                     <div class="product-body-sidebar text-uppercase">
                         <div class="related-product">
-                            <h6>Categories</h6>
-                            <div class="related-product-item row">
+                            <h6 class="store-page-h6">Categories</h6>
+                            
 
-                                <div id="accordion" class="category-name-block-mobile">
-                                    <div id="headOne">
+                                <div id="accordionMain" class="">
+                                    <div id="headMain">
+                                        <button class="main-btn-sidebar store-page-btn text-uppercase" data-toggle="collapse" data-target="#collapseMain"
+                                            aria-expanded="true" aria-controls="collapseMain">
+                                            <i class="fas fa-chevron-right"></i> <span class="new-again">Categories</span>
+                                        </button>
+                                    </div>
+                                    <div id="collapseMain" class="collapse new-store-show"
+                                        aria-labelledby="headMain" data-parent="#accordionMain">
+                                        
+                                    
+                                <div class="related-product-item">
+                                <div id="accordionOne" class="">
+                                    <div id="headOno">
                                         <button class="btn-sidebar" data-toggle="collapse" data-target="#collapseOne"
                                             aria-expanded="true" aria-controls="collapseOne">
                                             <i class="fas fa-chevron-down"></i> <span class="new-color-change">Women's Collection</span>
                                         </button>
                                     </div>
                                     <div id="collapseOne" class="collapse seller-collapse show"
-                                        aria-labelledby="headOne" data-parent="#accordion">
+                                        aria-labelledby="headOno" data-parent="#accordionOne">
                                         <ul>
-                                            <li><a href="">Clothing</a></li>
-                                            <li><a href="">Selowar Kamiz</a></li>
+                                            <li><a href="">Lorem Ipsum</a></li>
+                                            <li><a href="">Lorem Ipsum</a></li>
                                             <li><a href="">Lorem Ipsum</a></li>
                                             <li><a href="">Lorem Ipsum</a></li>
                                         </ul>
@@ -1186,7 +1198,7 @@ BOTTOM FOOTER FOR MOBILE
 
                                 </div>
 
-                                <div id="accordion" class="category-name-block-mobile">
+                                <div id="accordionTwo" class="">
                                     <div id="headTwo">
                                         <button class="btn-sidebar" data-toggle="collapse" data-target="#collapsetwo"
                                             aria-expanded="true" aria-controls="collapsetwo">
@@ -1194,7 +1206,7 @@ BOTTOM FOOTER FOR MOBILE
                                         </button>
                                     </div>
                                     <div id="collapsetwo" class="collapse seller-collapse show"
-                                        aria-labelledby="headTwo" data-parent="#accordion">
+                                        aria-labelledby="headTwo" data-parent="#accordionTwo">
                                         <ul>
                                             <li><a href="">Lorem Ipsum</a></li>
                                             <li><a href="">Lorem Ipsum</a></li>
@@ -1205,7 +1217,7 @@ BOTTOM FOOTER FOR MOBILE
 
                                 </div>
 
-                                <div id="accordion" class="category-name-block-mobile">
+                                <div id="accordionThree" class="">
                                     <div id="headThree">
                                         <button class="btn-sidebar" data-toggle="collapse" data-target="#collapsethree"
                                             aria-expanded="true" aria-controls="collapsethree">
@@ -1213,7 +1225,7 @@ BOTTOM FOOTER FOR MOBILE
                                         </button>
                                     </div>
                                     <div id="collapsethree" class="collapse seller-collapse show"
-                                        aria-labelledby="headThree" data-parent="#accordion">
+                                        aria-labelledby="headThree" data-parent="#accordionThree">
                                         <ul>
                                             <li><a href="">Lorem Ipsum</a></li>
                                             <li><a href="">Lorem Ipsum</a></li>
@@ -1223,7 +1235,7 @@ BOTTOM FOOTER FOR MOBILE
                                     </div>
 
                                 </div>
-                                <div id="accordion" class="category-name-block-mobile">
+                                <div id="accordionFour" class="">
                                     <div id="headFour">
                                         <button class="btn-sidebar" data-toggle="collapse" data-target="#collapsefour"
                                             aria-expanded="true" aria-controls="collapsefour">
@@ -1231,7 +1243,7 @@ BOTTOM FOOTER FOR MOBILE
                                         </button>
                                     </div>
                                     <div id="collapsefour" class="collapse seller-collapse show"
-                                        aria-labelledby="headFour" data-parent="#accordion">
+                                        aria-labelledby="headFour" data-parent="#accordionFour">
                                         <ul>
                                             <li><a href="">Lorem Ipsum</a></li>
                                             <li><a href="">Lorem Ipsum</a></li>
@@ -1241,10 +1253,14 @@ BOTTOM FOOTER FOR MOBILE
                                     </div>
 
                                 </div>
+
+                                </div>
+
+                                </div>
                             </div>
                         </div>
 
-                        <div class="seller-block-pages mt-2">
+                        <!-- <div class="seller-block-pages mt-2">
                             <h6>Store Pages</h6>
                             <div class="store-page-item">
                                 <p class="seller-home">Home</p>
@@ -1253,9 +1269,35 @@ BOTTOM FOOTER FOR MOBILE
                                 <p class="seller-contact">Contact Us</p>
                             </div>
 
-                        </div>
+                        </div> -->
 
                         <div class="seller-block-pages mt-2">
+                            
+                             <h6 class="store-page-h6">Store Pages</h6>
+                          <div id="accordionStore" class="">
+
+                                    <div id="headStore" class="headTwoStore">
+                                        <button class="main-btn-sidebar store-page-btn text-uppercase" data-toggle="collapse" data-target="#storepage"
+                                            aria-expanded="true" aria-controls="storepage">
+                                            <i class="fas fa-chevron-right"></i> <span class="new-again">Store Pages</span>
+                                        </button>
+                                    </div>
+                                    <div id="storepage" class="collapse new-store-show"
+                                        aria-labelledby="headStore" data-parent="#accordionStore">
+                                        <div class="store-page-item">
+                                <p class="seller-home">Home</p>
+                                <p class="seller-about">About Us</p>
+                                <p class="seller-term">Terms and conditions</p>
+                                <p class="seller-contact">Contact Us</p>
+                            </div>
+                                    </div>
+
+                        </div>
+                        </div>
+
+                        
+                        
+                        <div class="seller-block-pages mt-2 why-choose-us-main">
                             <h6>Why Choose Us</h6>
                             <div class="why-choose-us">
                                 <img src="images/1.jpg" alt="">
@@ -1315,219 +1357,450 @@ BOTTOM FOOTER FOR MOBILE
                             <!-- =======================================
                  Product Short View 
 ==========================================-->
-                            <div class="product-short-view text-uppercase">
-                                <!-- Product Short View Block -->
-                                <div class="product-short-view-block">
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <div class="collections-img-position">
-                                                <a href=""> <img class="card-img-top-new"
-                                                        src="images/product-short-view.png" alt="Card image cap"></a>
-                                            </div>
-                                            <div class="img-overlay-history">
-                                                <span class="sale-left sale-icon">Sale</span>
-                                                <button class="wish-right wish-active" id="wish-active"><i
-                                                        class="far fa-heart"></i></button>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="short-view-middle">
-                                                <a href="">
-                                                    <h2>Product name</h2>
-                                                </a>
-                                                <p>
-                                                    <span><i class="fas fa-star"></i></span>
-                                                    <span><i class="fas fa-star"></i></span>
-                                                    <span><i class="fas fa-star"></i></span>
-                                                    <span><i class="fas fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                </p>
-                                                <h3>Product Features</h3>
-                                                <ul>
-                                                    <li>Product Features</li>
-                                                    <li>Product Features</li>
-                                                    <li>Product Features</li>
-
-                                                </ul>
-                                                <button class="detail-add-cart-btn">View Details</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="short-view-right">
-                                                <p class="price-big mb-0">TK <span style="color: #6CC6A8">10,000</span>
-                                                </p>
-                                                <p class="price-small mb-1 mb-0"> <strike>TK <span
-                                                            style="color: #6CC6A8">10,000</span></strike> <span
-                                                        class="cart-parcent">30%</span></p>
-                                                <p class="card-text mb-0 font-11"> Shipping: BDT 100.00</p>
-                                                <p class="card-text font-11 mb-1"> Sold: 222</p>
-                                                <button class="detail-add-cart-btn">ADD TO CART</button>
-                                            </div>
-                                        </div>
+                        <div class="product-short-view text-uppercase">
+                            <!-- Product Short View Block -->
+                            <div class="product-short-view-block">
+                                <div class="row">
+                                    <div class="m-pr-0 col-6 col-sm-6 col-md-3 col-lg-3">
+                                        <a href=""><img src="images/win2.png" alt=""></a>
+                                        <div class="img-overlay-history">
+                                              <span class="sale-left sale-icon">Sale</span>
+                                               <button class="wish-right wish-active" id="wish-active"><i
+                                                class="far fa-heart"></i></button>
+                                            </div>  
                                     </div>
-                                </div>
-                                <!-- End Product Short View Block -->
-
-                                <!-- Product Short View Block -->
-                                <div class="product-short-view-block">
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <div class="img-overlay-history">
-                                                <span class="sale-left sale-icon">Sale</span>
-                                                <button class="wish-right wish-active" id="wish-active"><i
-                                                        class="far fa-heart"></i></button>
-                                            </div>
-                                            <a href=""><img src="images/product-short-view.png" alt=""></a>
+                                    <div class="col-6 col-sm-6 col-md-9 col-lg-9 pl-0">
+                                        <div class="short-view-middle">
+                                            <a href="">
+                                                <h2>Product name lorem ipsum simple text</h2>
+                                            </a>
+                                            <p>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="far fa-star"></i></span>
+                                            </p>
+                                            <div class="feature-mobile-none">
+                                            <h3>Product Features</h3>
+                                            <ul>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                            </ul>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="short-view-middle">
-                                                <a href="">
-                                                    <h2>Product name</h2>
-                                                </a>
-                                                <p>
-                                                    <span><i class="fas fa-star"></i></span>
-                                                    <span><i class="fas fa-star"></i></span>
-                                                    <span><i class="fas fa-star"></i></span>
-                                                    <span><i class="fas fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                </p>
-                                                <h3>Product Features</h3>
-                                                <ul>
-                                                    <li>Product Features</li>
-                                                    <li>Product Features</li>
-                                                    <li>Product Features</li>
-                                                </ul>
-                                                <button class="detail-add-cart-btn">View Details</button>
-                                            </div>
                                         </div>
-                                        <div class="col-md-3">
-                                            <div class="short-view-right">
-                                                <p class="price-big mb-0">TK <span style="color: #6CC6A8">10,000</span>
-                                                </p>
-                                                <p class="price-small mb-1 mb-0"> <strike>TK <span
-                                                            style="color: #6CC6A8">10,000</span></strike> <span
-                                                        class="cart-parcent">30%</span></p>
-                                                <p class="card-text mb-0 font-11"> Shipping: BDT 100.00</p>
-                                                <p class="card-text font-11 mb-1"> Sold: 222</p>
-                                                <button class="detail-add-cart-btn">ADD TO CART</button>
-                                            </div>
+                                        <div class="short-view-right">
+                                            <p class="price-big mb-0">TK <span style="color: #6CC6A8">10,000</span></p>
+                                            <p class="price-small mb-1"> <strike>TK <span
+                                                        style="color: #6CC6A8">10,000</span></strike> <span
+                                                    class="cart-parcent">30%</span></p>
+                                            <p class="card-text mb-0 font-11"> Shipping: BDT 100.00</p>
+                                            <p class="card-text font-11 mb-1"> Sold: 222</p>
+                                            <button class="detail-add-cart-btn">ADD TO CART</button>
                                         </div>
+                                        <div class="clearfix"></div>
                                     </div>
-                                </div>
-                                <!-- End Product Short View Block -->
-
-                                <!-- Product Short View Block -->
-                                <div class="product-short-view-block">
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <div class="img-overlay-history">
-                                                <span class="sale-left sale-icon">Sale</span>
-                                                <button class="wish-right wish-active" id="wish-active"><i
-                                                        class="far fa-heart"></i></button>
-                                            </div>
-                                            <a href=""><img src="images/product-short-view.png" alt=""></a>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="short-view-middle">
-                                                <a href="">
-                                                    <h2>Product name</h2>
-                                                </a>
-                                                <p>
-                                                    <span><i class="fas fa-star"></i></span>
-                                                    <span><i class="fas fa-star"></i></span>
-                                                    <span><i class="fas fa-star"></i></span>
-                                                    <span><i class="fas fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                </p>
-                                                <h3>Product Features</h3>
-                                                <ul>
-                                                    <li>Product Features</li>
-                                                    <li>Product Features</li>
-                                                    <li>Product Features</li>
-                                                </ul>
-                                                <button class="detail-add-cart-btn">View Details</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="short-view-right">
-                                                <p class="price-big mb-0">TK <span style="color: #6CC6A8">10,000</span>
-                                                </p>
-                                                <p class="price-small mb-1 mb-0"> <strike>TK <span
-                                                            style="color: #6CC6A8">10,000</span></strike> <span
-                                                        class="cart-parcent">30%</span></p>
-                                                <p class="card-text mb-0 font-11"> Shipping: BDT 100.00</p>
-                                                <p class="card-text font-11 mb-1"> Sold: 222</p>
-                                                <button class="detail-add-cart-btn">ADD TO CART</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Product Short View Block -->
-
-                                <!-- Product Short View Block -->
-                                <div class="product-short-view-block">
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <div class="img-overlay-history">
-                                                <span class="sale-left sale-icon">Sale</span>
-                                                <button class="wish-right wish-active" id="wish-active"><i
-                                                        class="far fa-heart"></i></button>
-                                            </div>
-                                            <a href=""><img src="images/product-short-view.png" alt=""></a>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="short-view-middle">
-                                                <a href="">
-                                                    <h2>Product name</h2>
-                                                </a>
-                                                <p>
-                                                    <span><i class="fas fa-star"></i></span>
-                                                    <span><i class="fas fa-star"></i></span>
-                                                    <span><i class="fas fa-star"></i></span>
-                                                    <span><i class="fas fa-star"></i></span>
-                                                    <span><i class="far fa-star"></i></span>
-                                                </p>
-                                                <h3>Product Features</h3>
-                                                <ul>
-                                                    <li>Product Features</li>
-                                                    <li>Product Features</li>
-                                                    <li>Product Features</li>
-                                                </ul>
-                                                <button class="detail-add-cart-btn">View Details</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="short-view-right">
-                                                <p class="price-big mb-0">TK <span style="color: #6CC6A8">10,000</span>
-                                                </p>
-                                                <p class="price-small mb-1 mb-0"> <strike>TK <span
-                                                            style="color: #6CC6A8">10,000</span></strike> <span
-                                                        class="cart-parcent">30%</span></p>
-                                                <p class="card-text mb-0 font-11"> Shipping: BDT 100.00</p>
-                                                <p class="card-text font-11 mb-1"> Sold: 222</p>
-                                                <button class="detail-add-cart-btn">ADD TO CART</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Product Short View Block -->
-                                <div class="new-pagination">
-                                    <nav aria-label="Page navigation example">
-                                        <ul class="pagination justify-content-end">
-                                            <li class="page-item">
-                                                <a class="page-link" href="#" tabindex="-1">Previous</a>
-                                            </li>
-                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                            <li class="page-item">
-                                                <a class="page-link" href="#">Next</a>
-                                            </li>
-                                        </ul>
-                                    </nav>
                                 </div>
                             </div>
-                            <!-- End Product Short View -->
+                            <!-- End Product Short View Block -->
+
+                            <!-- Product Short View Block -->
+                            <div class="product-short-view-block">
+                                <div class="row">
+                                    <div class="m-pr-0 col-6 col-sm-6  col-md-3 col-lg-3">
+                                        <a href=""><img src="images/win3.png" alt=""></a>
+                                        <div class="img-overlay-history">
+                                              <span class="sale-left sale-icon">Sale</span>
+                                               <button class="wish-right wish-active" id="wish-active"><i
+                                                class="far fa-heart"></i></button>
+                                            </div>  
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-9 col-lg-9 pl-0">
+                                        <div class="short-view-middle">
+                                            <a href="">
+                                                <h2>Product name lorem ipsum simple text</h2>
+                                            </a>
+                                            <p>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="far fa-star"></i></span>
+                                            </p>
+                                            <div class="feature-mobile-none">
+                                            <h3>Product Features</h3>
+                                            <ul>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                            </ul>
+                                        </div>
+                                        </div>
+                                        <div class="short-view-right">
+                                            <p class="price-big mb-0">TK <span style="color: #6CC6A8">10,000</span></p>
+                                            <p class="price-small mb-1"> <strike>TK <span
+                                                        style="color: #6CC6A8">10,000</span></strike> <span
+                                                    class="cart-parcent">30%</span></p>
+                                            <p class="card-text mb-0 font-11"> Shipping: BDT 100.00</p>
+                                            <p class="card-text font-11 mb-1"> Sold: 222</p>
+                                            <button class="detail-add-cart-btn">ADD TO CART</button>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Product Short View Block -->
+
+                            <!-- Product Short View Block -->
+                            <div class="product-short-view-block">
+                                <div class="row">
+                                    <div class="m-pr-0 col-6 col-sm-6  col-md-3 col-lg-3">
+                                        <a href=""><img src="images/win4.png" alt=""></a>
+                                        <div class="img-overlay-history">
+                                              <span class="sale-left sale-icon">Sale</span>
+                                               <button class="wish-right wish-active" id="wish-active"><i
+                                                class="far fa-heart"></i></button>
+                                            </div> 
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-9 col-lg-9 pl-0">
+                                        <div class="short-view-middle">
+                                            <a href="">
+                                                <h2>Product name lorem ipsum simple text</h2>
+                                            </a>
+                                            <p>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="far fa-star"></i></span>
+                                            </p>
+                                            <div class="feature-mobile-none">
+                                            <h3>Product Features</h3>
+                                            <ul>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                            </ul>
+                                        </div>
+                                        </div>
+                                        <div class="short-view-right">
+                                            <p class="price-big mb-0">TK <span style="color: #6CC6A8">10,000</span></p>
+                                            <p class="price-small mb-1"> <strike>TK <span
+                                                        style="color: #6CC6A8">10,000</span></strike> <span
+                                                    class="cart-parcent">30%</span></p>
+                                            <p class="card-text mb-0 font-11"> Shipping: BDT 100.00</p>
+                                            <p class="card-text font-11 mb-1"> Sold: 222</p>
+                                            <button class="detail-add-cart-btn">ADD TO CART</button>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Product Short View Block -->
+
+                            <!-- Product Short View Block -->
+                            <div class="product-short-view-block">
+                                <div class="row">
+                                    <div class="m-pr-0 col-6 col-sm-6 col-md-3 col-lg-3">
+                                        <a href=""><img src="images/win5.png" alt=""></a>
+                                        <div class="img-overlay-history">
+                                              <span class="sale-left sale-icon">Sale</span>
+                                               <button class="wish-right wish-active" id="wish-active"><i
+                                                class="far fa-heart"></i></button>
+                                            </div> 
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-9 col-lg-9 pl-0">
+                                        <div class="short-view-middle">
+                                            <a href="">
+                                                <h2>Product name lorem ipsum simple text</h2>
+                                            </a>
+                                            <p>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="far fa-star"></i></span>
+                                            </p>
+                                            <div class="feature-mobile-none">
+                                            <h3>Product Features</h3>
+                                            <ul>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                            </ul>
+                                        </div>
+                                        </div>
+                                        <div class="short-view-right">
+                                            <p class="price-big mb-0">TK <span style="color: #6CC6A8">10,000</span></p>
+                                            <p class="price-small mb-1"> <strike>TK <span
+                                                        style="color: #6CC6A8">10,000</span></strike> <span
+                                                    class="cart-parcent">30%</span></p>
+                                            <p class="card-text mb-0 font-11"> Shipping: BDT 100.00</p>
+                                            <p class="card-text font-11 mb-1"> Sold: 222</p>
+                                            <button class="detail-add-cart-btn">ADD TO CART</button>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Product Short View Block -->
+                            <!-- Product Short View Block -->
+                            <div class="product-short-view-block">
+                                <div class="row">
+                                    <div class="m-pr-0 col-6 col-sm-6 col-md-3 col-lg-3">
+                                        <a href=""><img src="images/win3.png" alt=""></a>
+                                        <div class="img-overlay-history">
+                                              <span class="sale-left sale-icon">Sale</span>
+                                               <button class="wish-right wish-active" id="wish-active"><i
+                                                class="far fa-heart"></i></button>
+                                            </div> 
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-9 col-lg-9 pl-0">
+                                        <div class="short-view-middle">
+                                            <a href="">
+                                                <h2>Product name lorem ipsum simple text</h2>
+                                            </a>
+                                            <p>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="far fa-star"></i></span>
+                                            </p>
+                                            <div class="feature-mobile-none">
+                                            <h3>Product Features</h3>
+                                            <ul>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                            </ul>
+                                        </div>
+                                        </div>
+                                        <div class="short-view-right">
+                                            <p class="price-big mb-0">TK <span style="color: #6CC6A8">10,000</span></p>
+                                            <p class="price-small mb-1"> <strike>TK <span
+                                                        style="color: #6CC6A8">10,000</span></strike> <span
+                                                    class="cart-parcent">30%</span></p>
+                                            <p class="card-text mb-0 font-11"> Shipping: BDT 100.00</p>
+                                            <p class="card-text font-11 mb-1"> Sold: 222</p>
+                                            <button class="detail-add-cart-btn">ADD TO CART</button>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Product Short View Block -->
+                            <!-- Product Short View Block -->
+                            <div class="product-short-view-block">
+                                <div class="row">
+                                    <div class="m-pr-0 col-6 col-sm-6 col-md-3 col-lg-3">
+                                        <a href=""><img src="images/win4.png" alt=""></a>
+                                        <div class="img-overlay-history">
+                                              <span class="sale-left sale-icon">Sale</span>
+                                               <button class="wish-right wish-active" id="wish-active"><i
+                                                class="far fa-heart"></i></button>
+                                            </div> 
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-9 col-lg-9 pl-0">
+                                        <div class="short-view-middle">
+                                            <a href="">
+                                                <h2>Product name lorem ipsum simple text</h2>
+                                            </a>
+                                            <p>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="far fa-star"></i></span>
+                                            </p>
+                                            <div class="feature-mobile-none">
+                                            <h3>Product Features</h3>
+                                            <ul>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                            </ul>
+                                        </div>
+                                        </div>
+                                        <div class="short-view-right">
+                                            <p class="price-big mb-0">TK <span style="color: #6CC6A8">10,000</span></p>
+                                            <p class="price-small mb-1"> <strike>TK <span
+                                                        style="color: #6CC6A8">10,000</span></strike> <span
+                                                    class="cart-parcent">30%</span></p>
+                                            <p class="card-text mb-0 font-11"> Shipping: BDT 100.00</p>
+                                            <p class="card-text font-11 mb-1"> Sold: 222</p>
+                                            <button class="detail-add-cart-btn">ADD TO CART</button>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Product Short View Block -->
+                            <!-- Product Short View Block -->
+                            <div class="product-short-view-block">
+                                <div class="row">
+                                    <div class="m-pr-0 col-6 col-sm-6 col-md-3 col-lg-3">
+                                        <a href=""><img src="images/win5.png" alt=""></a>
+                                        <div class="img-overlay-history">
+                                              <span class="sale-left sale-icon">Sale</span>
+                                               <button class="wish-right wish-active" id="wish-active"><i
+                                                class="far fa-heart"></i></button>
+                                            </div> 
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-9 col-lg-9 pl-0">
+                                        <div class="short-view-middle">
+                                            <a href="">
+                                                <h2>Product name lorem ipsum simple text</h2>
+                                            </a>
+                                            <p>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="far fa-star"></i></span>
+                                            </p>
+                                            <div class="feature-mobile-none">
+                                            <h3>Product Features</h3>
+                                            <ul>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                            </ul>
+                                        </div>
+                                        </div>
+                                        <div class="short-view-right">
+                                            <p class="price-big mb-0">TK <span style="color: #6CC6A8">10,000</span></p>
+                                            <p class="price-small mb-1"> <strike>TK <span
+                                                        style="color: #6CC6A8">10,000</span></strike> <span
+                                                    class="cart-parcent">30%</span></p>
+                                            <p class="card-text mb-0 font-11"> Shipping: BDT 100.00</p>
+                                            <p class="card-text font-11 mb-1"> Sold: 222</p>
+                                            <button class="detail-add-cart-btn">ADD TO CART</button>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Product Short View Block -->
+                            <!-- Product Short View Block -->
+                            <div class="product-short-view-block">
+                                <div class="row">
+                                    <div class="m-pr-0 col-6 col-sm-6 col-md-3 col-lg-3">
+                                        <a href=""><img src="images/win2.png" alt=""></a>
+                                        <div class="img-overlay-history">
+                                              <span class="sale-left sale-icon">Sale</span>
+                                               <button class="wish-right wish-active" id="wish-active"><i
+                                                class="far fa-heart"></i></button>
+                                            </div>  
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-9 col-lg-9 pl-0">
+                                        <div class="short-view-middle">
+                                            <a href="">
+                                                <h2>Product name lorem ipsum simple text</h2>
+                                            </a>
+                                            <p>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="far fa-star"></i></span>
+                                            </p>
+                                            <div class="feature-mobile-none">
+                                            <h3>Product Features</h3>
+                                            <ul>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                            </ul>
+                                        </div>
+                                        </div>
+                                        <div class="short-view-right">
+                                            <p class="price-big mb-0">TK <span style="color: #6CC6A8">10,000</span></p>
+                                            <p class="price-small mb-1"> <strike>TK <span
+                                                        style="color: #6CC6A8">10,000</span></strike> <span
+                                                    class="cart-parcent">30%</span></p>
+                                            <p class="card-text mb-0 font-11"> Shipping: BDT 100.00</p>
+                                            <p class="card-text font-11 mb-1"> Sold: 222</p>
+                                            <button class="detail-add-cart-btn">ADD TO CART</button>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Product Short View Block -->
+                            <!-- Product Short View Block -->
+                            <div class="product-short-view-block">
+                                <div class="row">
+                                    <div class="m-pr-0 col-6 col-sm-6 col-md-3 col-lg-3">
+                                        <a href=""><img src="images/win2.png" alt=""></a>
+                                        <div class="img-overlay-history">
+                                              <span class="sale-left sale-icon">Sale</span>
+                                               <button class="wish-right wish-active" id="wish-active"><i
+                                                class="far fa-heart"></i></button>
+                                            </div>  
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-9 col-lg-9 pl-0">
+                                        <div class="short-view-middle">
+                                            <a href="">
+                                                <h2>Product name lorem ipsum simple text</h2>
+                                            </a>
+                                            <p>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="fas fa-star"></i></span>
+                                                <span><i class="far fa-star"></i></span>
+                                            </p>
+                                            <div class="feature-mobile-none">
+                                            <h3>Product Features</h3>
+                                            <ul>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                                <li>Product Features</li>
+                                            </ul>
+                                        </div>
+                                        </div>
+                                        <div class="short-view-right">
+                                            <p class="price-big mb-0">TK <span style="color: #6CC6A8">10,000</span></p>
+                                            <p class="price-small mb-1"> <strike>TK <span
+                                                        style="color: #6CC6A8">10,000</span></strike> <span
+                                                    class="cart-parcent">30%</span></p>
+                                            <p class="card-text mb-0 font-11"> Shipping: BDT 100.00</p>
+                                            <p class="card-text font-11 mb-1"> Sold: 222</p>
+                                            <button class="detail-add-cart-btn">ADD TO CART</button>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Product Short View Block -->
+                            <div class="new-pagination">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination justify-content-end">
+                                        <li class="page-item">
+                                            <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">Next</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <!-- End Product Short View -->
 
 <!-- =======================================
                  Product Normal View 

@@ -371,6 +371,13 @@ $(".btn-sidebar").on("click", function () {
 
 });
 
+$(".main-btn-sidebar").on("click", function () {
+
+  $(this).find('i').toggleClass('fa-chevron-down').toggleClass('fa-chevron-right');
+  $(this).find('span').toggleClass('new-border-change').toggleClass('new-border-normal');
+
+});
+
 
 
 $(".seller-home").click(function () {
@@ -654,3 +661,13 @@ $(".main-collections-block").on('touchstart', function(e) {
 $(".main-collections-block").on('touchend', function(e) {
         $(".quick-view").css('display', 'none'); 
 });
+
+
+if (window.innerWidth > 992) {
+    $('.new-store-show').addClass('show');
+    
+  } else {
+    $('.new-store-show').removeClass('show');
+    
+  
+  }

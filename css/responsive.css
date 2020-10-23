@@ -965,8 +965,32 @@
 .product-short-view .new-pagination {
     position: static;
 }
-
-
+.category-name-block-mobile {
+    width: auto;
+}
+.why-choose-us-main {
+    display: none;
+}
+.new-store-i {
+    display: inherit;
+}
+.store-page-h6 {
+    display: none;
+}
+#headMain {
+    padding-left: 5px !important;
+}
+.headTwoStore {
+    display: block;
+    padding-left: 5px;
+}
+.new-again {
+    font-weight: 600;
+    font-size: 14px;
+}
+.new-border-change {
+    border-bottom: 1px solid;
+}
 }
 
 

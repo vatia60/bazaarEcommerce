@@ -3090,6 +3090,13 @@ SELLER INFORMATION
     color: #EBE7DE;
     font-size: 14px;
 }
+.category-name-block-mobile {
+    width: 100%;
+}
+.headTwoStore {
+    display: none;
+}
+
 
 .product-short-view-block .img-overlay-history {
     padding: 10px 14px 10px 4px;
@@ -3239,6 +3246,15 @@ SELLER INFORMATION
 }
 
 .seller-body .btn-sidebar {
+    border: 0;
+    padding: 0;
+    border-radius: 2px;
+    margin-top: 0;
+    text-align: left;
+    width: 100%;
+    background: transparent;
+}
+.main-btn-sidebar {
     border: 0;
     padding: 0;
     border-radius: 2px;
