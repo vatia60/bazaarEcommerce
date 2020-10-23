@@ -639,14 +639,7 @@ $(".main-collections-block").on('touchend', function(e) {
 
 
 
-if (window.innerWidth > 992) {
-    $('.new-store-show').addClass('show');
-    
-  } else {
-    $('.new-store-show').removeClass('show');
-    
-  
-  }
+
 
    /*Detail Product Increment Decrement*/
         $(document).ready(function () {

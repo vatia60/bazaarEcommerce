@@ -1260,16 +1260,7 @@ BOTTOM FOOTER FOR MOBILE
                             </div>
                         </div>
 
-                        <!-- <div class="seller-block-pages mt-2">
-                            <h6>Store Pages</h6>
-                            <div class="store-page-item">
-                                <p class="seller-home">Home</p>
-                                <p class="seller-about">About Us</p>
-                                <p class="seller-term">Terms and conditions</p>
-                                <p class="seller-contact">Contact Us</p>
-                            </div>
-
-                        </div> -->
+                       
 
                         <div class="seller-block-pages mt-2">
                             
@@ -3789,6 +3780,15 @@ BOTTOM FOOTER FOR MOBILE
                 interval: 2000
             })
         });
+
+        if (window.innerWidth > 992) {
+    $('.new-store-show').addClass('show');
+    
+  } else {
+    $('.new-store-show').removeClass('show');
+    
+  
+  }
     </script>
 </body>
 
