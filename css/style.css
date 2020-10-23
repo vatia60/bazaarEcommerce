@@ -898,6 +898,12 @@ a .card-title:hover {
 }
 
 /*COLLECTION*/
+.card:hover {
+    box-shadow: 0 0px 4px 2px #5ec1a061;
+}
+.similar-block {
+    padding: 4px 0;
+}
 .collections {
     background: #EBE7DE;
     padding-top: 10px;
