@@ -177,6 +177,7 @@ $(document).click(function(){
 if (window.innerWidth > 992) {
   $('.showhope').zoomImage();
 }
+
 (function ($) {
 
   $.fn.zoomImage = function (paras) {
@@ -532,16 +533,7 @@ $(document).ready(function () {
   });
 });
 
-$(document).ready(function () {
-  $('.zoom-slick').slick({
-    
-  });
-});
-$(document).ready(function () {
-  $('.zoom-quick-slick').slick({
-    
-  });
-});
+
 
 /*Product Sidebar Filter Page*/
 $(window).scroll(function () {
