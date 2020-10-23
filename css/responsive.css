@@ -311,7 +311,7 @@
 
     .product-body-sidebar-scroll {
     height: auto;
-    padding-top: 54px;
+    padding-top: 54px !important;
 }
 
 }
