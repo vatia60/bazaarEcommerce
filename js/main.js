@@ -174,9 +174,6 @@ $(document).click(function(){
 
 
 
-if (window.innerWidth > 992) {
-  $('.showhope').zoomImage();
-}
 
 (function ($) {
 
@@ -290,9 +287,9 @@ if (window.innerWidth > 992) {
   }
 })(jQuery);
 
-
-
-
+if (window.innerWidth > 992) {
+$('.showhope').zoomImage();
+}
 
 $('.show-small-img:first-of-type').css({
   'border': 'solid 1px transparent',
@@ -325,7 +322,7 @@ $('#next-img').click(function () {
   $('#show-img').attr('src', $(".show-small-img[alt='now']").next().attr('src'))
   $('#big-img').attr('src', $(".show-small-img[alt='now']").next().attr('src'))
   $(".show-small-img[alt='now']").next().css({
-    'border': 'solid 1px #951b25',
+    'border': 'solid 1px transparent',
     'padding': '2px'
   }).siblings().css({
     'border': 'none',
@@ -489,8 +486,6 @@ $(function () {
 
 
 
-
-
 /*Product Sidebar Filter Page*/
 $(window).scroll(function () {
 
@@ -637,41 +632,48 @@ $(".main-collections-block").on('touchend', function(e) {
 });
 
 
+if (window.innerWidth > 992) {
+    $('.new-store-show').addClass('show');
+    
+  } else {
+    $('.new-store-show').removeClass('show');
+    
+  
+  }
 
 
 
 
-   /*Detail Product Increment Decrement*/
-        $(document).ready(function () {
+   $(document).ready(function () {
 
             var quantitiy = 0;
-            $('.quantity-right-plus').click(function (e) {
+            $('.quantity-right-plus-modal').click(function (e) {
 
                 // Stop acting like a button
                 e.preventDefault();
                 // Get the field name
-                var quantity = parseInt($('#quantity').val());
+                var quantity = parseInt($('#sh-modal-quantity').val());
 
                 // If is not undefined
 
-                $('#quantity').val(quantity + 1);
+                $('#sh-modal-quantity').val(quantity + 1);
 
 
                 // Increment
 
             });
 
-            $('.quantity-left-minus').click(function (e) {
+            $('.quantity-left-minus-modal').click(function (e) {
                 // Stop acting like a button
                 e.preventDefault();
                 // Get the field name
-                var quantity = parseInt($('#quantity').val());
+                var quantity = parseInt($('#sh-modal-quantity').val());
 
                 // If is not undefined
 
                 // Increment
                 if (quantity > 0) {
-                    $('#quantity').val(quantity - 1);
+                    $('#sh-modal-quantity').val(quantity - 1);
                 }
             });
 

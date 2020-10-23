@@ -3502,40 +3502,7 @@ TOP PICK FOR YOU
             })
         });
 
-        $(document).ready(function () {
-
-            var quantitiy = 0;
-            $('.quantity-right-plus-modal').click(function (e) {
-
-                // Stop acting like a button
-                e.preventDefault();
-                // Get the field name
-                var quantity = parseInt($('#sh-modal-quantity').val());
-
-                // If is not undefined
-
-                $('#sh-modal-quantity').val(quantity + 1);
-
-
-                // Increment
-
-            });
-
-            $('.quantity-left-minus-modal').click(function (e) {
-                // Stop acting like a button
-                e.preventDefault();
-                // Get the field name
-                var quantity = parseInt($('#sh-modal-quantity').val());
-
-                // If is not undefined
-
-                // Increment
-                if (quantity > 0) {
-                    $('#sh-modal-quantity').val(quantity - 1);
-                }
-            });
-
-        });
+        
 
         
       $('.home-windeal-slick').slick({
