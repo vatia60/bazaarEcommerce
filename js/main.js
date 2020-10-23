@@ -175,6 +175,8 @@ $(document).click(function(){
 
 
 if (window.innerWidth > 992) {
+  $('.showhope').zoomImage();
+}
 (function ($) {
 
   $.fn.zoomImage = function (paras) {
@@ -288,7 +290,7 @@ if (window.innerWidth > 992) {
 })(jQuery);
 
 
-$('.showhope').zoomImage();
+
 
 
 $('.show-small-img:first-of-type').css({
@@ -362,7 +364,7 @@ $('#prev-img').click(function () {
   }
 });
 
-}
+
 
 /*Product Show Normal or List*/
 $(".product-normal-view-btn").click(function () {
