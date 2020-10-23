@@ -1016,6 +1016,16 @@
 .love-none {
     display: none;
 }
+.product-body-sidebar {
+    padding-top: 10px;
+}
+.store-page-btn {
+    display: block;
+}
+.seller-body .related-product, .seller-block-pages {
+    background: transparent;
+    border-radius: 4px;
+}
 }
 
 

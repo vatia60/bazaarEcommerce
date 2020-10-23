@@ -3074,7 +3074,9 @@ SELLER INFORMATION
 .seller-social-icon {
     text-align: right;
 }
-
+.store-page-btn {
+    display: none;
+}
 /*Seller Banner Body*/
 .seller-banner-body {
     background: #fff;
