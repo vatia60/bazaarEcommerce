@@ -680,13 +680,15 @@ $(".cart-btn-50").on("click", function () {
 
 
 $(".main-collections-block").on('touchstart', function(e) {
-        $(".quick-view").css('display', 'block'); 
+        $(this).addClass('new-ole'); 
 
 });
 
 $(".main-collections-block").on('touchend', function(e) {
-        $(".quick-view").css('display', 'none'); 
+        $(this).removeClass('new-ole'); 
 });
+
+
 
 
 if (window.innerWidth > 992) {

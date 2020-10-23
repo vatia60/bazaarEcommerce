@@ -487,6 +487,9 @@
     .main-collections-block:focus .quick-view {
         display: block;
     }
+    .new-ole .quick-view {
+        display: block !important;
+    }
     .shopping-card-flex {
         width: 247px;
     }
