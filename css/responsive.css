@@ -309,6 +309,11 @@
     width: 100%;
     }
 
+    .product-body-sidebar-scroll {
+    height: auto;
+    padding-top: 54px;
+}
+
 }
 
 
@@ -726,7 +731,7 @@
     right: 12px;
     padding-top: 14px;
     left: 10px;
-    z-index: 9999999999;
+    z-index: 9999;
     background: #E7EEE6;
     }
     .mobile-filter-header {
