@@ -2888,7 +2888,7 @@ BOTTOM FOOTER FOR MOBILE
             <div class="best-seller">
                 <h1 class="text-uppercase pt-3 pl-1 pr-1">best seller</h1>
                 <div class="all-similar-product">
-                    <div data-slick='{"slidesToShow": 8, "slidesToScroll": 8}' class="seller-slick">
+                    <div data-slick='{"slidesToShow": 8, "slidesToScroll": 8}' class="seller-seller-slick">
 
                         <div>
                             <div class="similar-block">
@@ -3304,7 +3304,7 @@ BOTTOM FOOTER FOR MOBILE
             <div class="best-seller">
                 <h1 class="text-uppercase pt-3 pl-1 pr-1">recommend product</h1>
                 <div class="all-similar-product">
-                    <div data-slick='{"slidesToShow": 8, "slidesToScroll": 8}' class="recommend-slick">
+                    <div data-slick='{"slidesToShow": 8, "slidesToScroll": 8}' class="seller-recommend-slick">
 
                         <div>
                             <div class="similar-block">
@@ -3789,6 +3789,50 @@ BOTTOM FOOTER FOR MOBILE
     
   
   }
+
+  $('.seller-seller-slick').slick({
+                responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        centerMode: true,
+                        swipeToSlide: true,
+                    }
+                },
+                {
+                  breakpoint: 767,
+                  settings: {
+                    centerMode: true,
+                    slidesToShow: 1,
+                    swipeToSlide: true,
+                   }
+                 }
+                ]
+            });
+
+  $('.seller-recommend-slick').slick({
+                responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        centerMode: true,
+                        swipeToSlide: true,
+                    }
+                },
+                {
+                  breakpoint: 767,
+                  settings: {
+                    centerMode: true,
+                    slidesToShow: 1,
+                    swipeToSlide: true,
+                   }
+                 }
+                ]
+            });
     </script>
 </body>
 
