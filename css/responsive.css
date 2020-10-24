@@ -87,6 +87,15 @@
 .customer-review-details-header .new-all-star-border.font-14, .customer-review-details-header .overview-photo-btn .font-14, .detail-short-right .font-14 {
     font-size: 13px !important;
 }
+.quantity-right-plus, .quantity-right-plus-shopcart-one, .quantity-right-plus-shopcart-two, .quantity-right-plus-shopcart-three {
+   font-size: 12px;
+   padding-left: 1px !important;
+}
+
+.quantity-left-minus, .quantity-left-minus-one, .quantity-left-minus-shopcart-two, .quantity-left-minus-shopcart-three {
+   font-size: 12px;
+   padding-right: 1px !important;
+}
 
 }
 
@@ -646,12 +655,12 @@
 }
 .quantity-right-plus, .quantity-right-plus-shopcart-one, .quantity-right-plus-shopcart-two, .quantity-right-plus-shopcart-three {
    font-size: 12px;
-   padding-left: 3px;
+   padding-left: 6px;
 }
 
 .quantity-left-minus, .quantity-left-minus-one, .quantity-left-minus-shopcart-two, .quantity-left-minus-shopcart-three {
    font-size: 12px;
-   padding-right: 3px;
+   padding-right: 6px;
 }
 .input-group-new {
     padding: 0;
