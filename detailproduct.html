@@ -126,7 +126,7 @@
     <!-- =========================
 BOTTOM FOOTER FOR MOBILE 
 ======================-->
-    <div class="desktop-new-none bottom-footer-for-mobile">
+    <div class="desktop-new-none bottom-footer-for-mobile detail-fo-bo-48">
         <div class="container">
             <div class="bottom-footer-mobile">
                 <div class="text-center cart-btn-50"> 
@@ -142,7 +142,54 @@ BOTTOM FOOTER FOR MOBILE
     </div>
     <!-- End Bottom Footer For Mobile -->
    
-   
+   <!-- =========================
+BOTTOM FOOTER FOR MOBILE 
+======================-->
+    <div class="desktop-new-none bottom-footer-for-mobile">
+        <div class="container">
+            <div class="bottom-footer-mobile">
+                <div class="text-center"> 
+                    <a href="index.html" class="bottom-active">
+                        <i class="fas fa-home"></i><br>
+                        <span>Home</span>
+                    </a>
+                   
+                </div>
+                <div class="text-center">
+                    <a href="categoriesslider.html">
+                        <i class="fas fa-th-list"></i><br>
+                        <span>Category</span>
+                    </a>
+                </div>
+                <div class="bottom-chat-flex">
+                    <button class="text-uppercase account-btn-two-bot">
+                        <i class="far fa-comment-dots account-btn-two-bot-i"></i><br>
+                        <span class="account-btn-two-bot-span">Chat</span>
+
+                    </button>
+                    <div class="bottom-chat-footer">
+                        <h2>Live Chat</h2>
+                        <div class="account-body">
+                            <div class="account-form">
+                                <img src="images/livechat.svg" alt="">
+                            </div>
+                            <div class="not-account">
+                                <p class="font-18 mb-2 text-center login-to-chat">Please Login to chat</p>
+                                <p class="text-center"><a class="chat-login-a" href="login.html">Login</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="">
+                        <i class="fas fa-shopping-cart"></i><br>
+                        <span>Cart</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Bottom Footer For Mobile -->
 
     <!-- ===================
  MENU
@@ -3424,12 +3471,48 @@ BOTTOM FOOTER FOR MOBILE
     <script>
        $(document).ready(function () {
   $('.zoom-slick').slick({
-    
+    responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        centerMode: true,
+                        swipeToSlide: true,
+                    }
+                },
+                {
+                  breakpoint: 767,
+                  settings: {
+                    centerMode: true,
+                    slidesToShow: 2,
+                    swipeToSlide: true,
+                   }
+                 }
+                ]
   });
 });
 $(document).ready(function () {
   $('.zoom-quick-slick').slick({
-    
+    responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        centerMode: true,
+                        swipeToSlide: true,
+                    }
+                },
+                {
+                  breakpoint: 767,
+                  settings: {
+                    centerMode: true,
+                    slidesToShow: 2,
+                    swipeToSlide: true,
+                   }
+                 }
+                ]
   });
 });
 

@@ -240,12 +240,25 @@
     box-shadow: 0 0 1px 1px #96959259;
     display: none;
     z-index: 9999999999999999999999999 !important;
-    bottom: 76px;
+    bottom: 47px;
     right: 0;
     width: 100vw;
     height: 84vh;
 }
-
+.mobile-order-summary{
+    text-align: left;
+    position: absolute;
+    display: none;
+    z-index: 9999999999999999999999999 !important;
+    bottom: 33px;
+    right: 0;
+    width: 100vw;
+    height: 53vh;
+    border-top: 1px solid #80808094;
+}
+.mobile-order-summary h2, .mobile-order-summary .list-group {
+    padding: 0 20px;
+}
 .bottom-chat-footer h2 {
     font-size: 18px;
     background: #EBE7DE;
@@ -345,6 +358,13 @@
    font-size: 12px;
    padding-right: 10px !important;
 }
+.detail-fo-bo-48 {
+    bottom: 47px !important;
+}
+.order-summary button {
+    background: #00B29C !important;
+    border: 1px solid #00B29C !important;
+
 }
 
 
@@ -1051,9 +1071,7 @@
     background: transparent;
     border-radius: 4px;
 }
-.summary-desktop-none {
-    display: block;
-}
+
 .summary-mobile-none {
     display: none;
 }
