@@ -261,7 +261,7 @@
     position: absolute;
     display: none;
     z-index: 9999999999999999999999999 !important;
-    bottom: 33px;
+    bottom: 53px;
     right: 0;
     width: 100vw;
     height: 43vh;
@@ -404,7 +404,7 @@
         padding-left: 15px !important;
     }
     .fixed-top-header {
-    background: #DBFFF4;
+    background: #E7EEE6;
     height: 40px;
 
     }
