@@ -628,7 +628,9 @@ a:hover {
     color: #e62e04;
     font-weight: 600;
 }
-
+.category {
+    max-height: 342px;
+}
 .category-a {
     font-size: 12px;
     text-decoration: underline;
@@ -786,6 +788,7 @@ a:hover {
     background: #E7EEE6;
     padding: 10px 0;
     overflow: hidden;
+    margin-top: 10px;
 }
 
 .win-deal-header {
@@ -901,7 +904,7 @@ a .card-title:hover {
 }
 
 /*COLLECTION*/
-.card:hover {
+.main-collections-block:hover, .similar-block:hover {
     box-shadow: 0 0px 4px 2px #5ec1a061;
 }
 .similar-block {
