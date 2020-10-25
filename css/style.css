@@ -596,7 +596,8 @@ a:hover {
 .list-group-item {
     position: relative;
     display: block;
-    padding: .4rem 1.25rem;
+    /*padding: .4rem 1.25rem;*/
+    padding: .05rem 1rem .05rem .5rem;
     margin-bottom: -1px;
     background-color: #E7EEE6;
     border: 2px solid rgba(0, 0, 0, .125);
@@ -629,16 +630,16 @@ a:hover {
     font-weight: 600;
 }
 .category-slider {
-    height: 342px;
+    height: 342px !important;
 }
 .category .navbar {
-    height: 342px;
+    height: 342px !important;
 }
 .category .navbar-nav {
-    height: 342px;
+    height: 342px !important;
 }
 .category {
-    height: 342px;
+    height: 342px !important;
 }
 .category-a {
     font-size: 12px;
@@ -797,7 +798,7 @@ a:hover {
     background: #E7EEE6;
     padding: 10px 0;
     overflow: hidden;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .win-deal-header {
