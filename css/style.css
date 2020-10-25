@@ -1403,7 +1403,9 @@ SHOPPING CART
     top: 25px;
     left: -227px;
 }
-
+.opa-0 {
+    opacity: 0;
+}
 .official-store h6 {
     color: #00B29B;
 }
