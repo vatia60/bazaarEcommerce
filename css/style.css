@@ -603,7 +603,7 @@ a:hover {
 }
 
 .sub-link {
-    color: #e62e04 !important;
+    color: #212529 !important;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
@@ -611,7 +611,7 @@ a:hover {
 
 .dropdown-menu-position {
     left: 272px;
-    background: #DBFFF4;
+    background: #E7EEE6;
     width: 600px;
     z-index: 99999999999999999999999999999 !important;
     top: -34px;
@@ -625,7 +625,7 @@ a:hover {
 
 .cate-name {
     padding-left: 22px;
-    color: #e62e04;
+    color: #212529;
     font-weight: 600;
 }
 .category {
