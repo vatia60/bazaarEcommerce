@@ -386,7 +386,9 @@
 .get-coupons-toggle {
     right: 0px;
 }
-
+.payment-method {
+    margin-bottom: 10px;
+}
 }
 
 
