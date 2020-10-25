@@ -1419,12 +1419,12 @@ SHOPPING CART
 }
 
 .coupons-toggle-a {
-    font-size: 12px;
+    font-size: 14px;
     background-color: transparent !important;
     border: 1px solid transparent !important;
     color: #00B29B !important;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 800;
 }
 .coupons-toggle-a:hover, .coupons-toggle-a:focus, .coupons-toggle-a:active {
     color: #098a79 !important;
@@ -1708,7 +1708,7 @@ SHOPPING CART
 }
 
 .changes-button:hover, .changes-button:focus, .changes-button:active {
-    color: #e62e04 !important;
+    color: transparent !important;
     border: 1px solid transparent;
     font-weight: 700;
 }
@@ -1727,13 +1727,18 @@ SHOPPING CART
 }
 
 /*PAYMENT METHOD*/
-.payment-method,
+
 .more-to-love {
     padding: 30px 10px;
     background: #fff;
-    margin-top: 10px;
+    margin-top: 5px;
 }
-
+.payment-method {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 30px 10px;
+    background: #fff;
+}
 .more-to-love .main-collections-block {
     border: 1px solid #dad7d7;
     border-radius: 4px;
@@ -1754,7 +1759,10 @@ SHOPPING CART
 .shopping-card-flex {
     width: 200px;
 }
-
+.shopping-cart-left hr {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+}
 .more-to-love {
     margin-bottom: 80px;
 }

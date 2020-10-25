@@ -388,11 +388,17 @@
 .get-coupons-toggle {
     right: 0px;
 }
-.payment-method {
-    margin-bottom: 10px;
-}
+
 .shop-select-all {
     left: 8px;
+}
+.mew-row {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.sponsore-product .col-6 {
+    padding-left: 3px !important;
+    padding-right: 3px !important;
 }
 }
 
