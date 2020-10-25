@@ -2250,6 +2250,7 @@ DETAIL PRODUCT
 
 .detail-color-box img {
     border: 1px solid #6CC6A8;
+    border-radius: 8px;
 }
 
 .detail-color-box span {
