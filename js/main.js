@@ -689,3 +689,17 @@ if (window.innerWidth > 992) {
             });
 
         });
+
+
+$('.shopingcart-check-all').change(function () {
+    $('.shopingcart-check-single').prop('checked',this.checked);
+});
+
+$('.shopingcart-check-single').change(function () {
+ if ($('.shopingcart-check-single:checked').length == $('.shopingcart-check-single').length){
+  $('.shopingcart-check-all').prop('checked',true);
+ }
+ else {
+  $('.shopingcart-check-all').prop('checked',false);
+ }
+});
