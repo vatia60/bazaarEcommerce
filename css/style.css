@@ -1961,6 +1961,7 @@ DETAIL PRODUCT
 .small-img img {
     width: 95px;
     margin: 0 auto;
+    border-radius: 8px;
 }
 .small-img .icon-left,
 .small-img .icon-right {
