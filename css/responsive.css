@@ -24,10 +24,10 @@
 }
 
 .get-coupons-toggle .dropdown-menu {
-    left: -168px !important;
+    left: -152px !important;
 }
 .get-coupons-toggle-body {
-    width: 292px !important;
+    width: 280px !important;
 }
 .campaign-select-coupon {
     width: 279px !important;
@@ -100,6 +100,7 @@
 .detail-product-details .font-14 {
     font-size: 12px !important;
 }
+
 }
 
 
@@ -400,6 +401,15 @@
     padding-left: 3px !important;
     padding-right: 3px !important;
 }
+.font-s-13 {
+    font-size: 14px !important;
+}
+.padd-bo-me {
+    margin-bottom: 6px !important;
+}
+.get-block-right {
+    height: 51px
+    }
 }
 
 
@@ -665,7 +675,7 @@
     }
 
     .get-coupons-toggle .dropdown-menu {
-            left: -201px;
+            left: -188px;
     }
 
     .shop-cart-details .wish-delete {
