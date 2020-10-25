@@ -97,7 +97,9 @@
    font-size: 12px;
    padding-right: 1px !important;
 }
-
+.detail-product-details .font-14 {
+    font-size: 12px !important;
+}
 }
 
 
@@ -683,7 +685,7 @@
     }
 
     .detail-product-right h2 {
-        padding-top: 20px;
+        padding-top: 35px;
     }
 
     .sidebar-flex-block-icon .fa-ribbon {

@@ -1941,12 +1941,12 @@ DETAIL PRODUCT
 }
 
 .small-img .slick-prev {
-    left: -4px;
-    top: 26px;
+    left: -14px;
+    top: 38px;
 }
 .small-img .slick-next {
-    right: -4px;
-    top: 26px;
+    right: -14px;
+    top: 38px;
 }
 #show-img {
     width: 445px;
@@ -1959,7 +1959,7 @@ DETAIL PRODUCT
     position: relative;
 }
 .small-img img {
-    width: 70px;
+    width: 95px;
     margin: 0 auto;
 }
 .small-img .icon-left,
