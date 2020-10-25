@@ -67,6 +67,9 @@ a {
 a:hover {
     color: #e62e04;
 }
+.btn-secondary.focus, .btn-secondary:focus {
+    box-shadow: 0 0 0 0 !important;
+}
 .slick-slide:focus,
 .btn:focus,
 .btn:active,
@@ -1393,8 +1396,8 @@ SHOPPING CART
 
 .get-coupons-toggle .dropdown-menu {
     border: 0;
-    top: 23px;
-    left: 1px;
+    top: 25px;
+    left: -227px;
 }
 
 .official-store h6 {
@@ -1406,16 +1409,21 @@ SHOPPING CART
 }
 
 .get-coupons-toggle {
-    left: 16px;
+    right: 16px;
 }
 
 .coupons-toggle-a {
     font-size: 12px;
     background-color: #00B29B !important;
-    border-color: #00B29B !important;
+    border: 1px solid #00B29B !important;
     color: #fff !important;
+    text-transform: uppercase;
+    font-weight: 700;
 }
-
+.coupons-toggle-a:hover, .coupons-toggle-a:focus, .coupons-toggle-a:active {
+    background-color: #03cab0 !important;
+    border: 1px solid #03cab0 !important;
+} 
 .pr-n-2 {
     padding-right: 2px !important;
 }

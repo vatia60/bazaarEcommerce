@@ -22,11 +22,12 @@
 .coupons-toggle-a {
     font-size: 10px !important;
 }
-.get-coupons-toggle {
-    left: 0 !important;
+
+.get-coupons-toggle .dropdown-menu {
+    left: -168px !important;
 }
 .get-coupons-toggle-body {
-    width: 305px !important;
+    width: 292px !important;
 }
 .campaign-select-coupon {
     width: 279px !important;
@@ -585,8 +586,7 @@
     }
 
     .get-coupons-toggle .dropdown-menu {
-        top: 23px;
-        left: 7px;
+            left: -201px;
     }
 
     .shop-cart-details .wish-delete {
