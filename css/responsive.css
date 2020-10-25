@@ -319,7 +319,9 @@
     width: 100%;
     }
 
-  
+  .input-span-line {
+    display: none;
+  }
 
 }
 
@@ -1027,6 +1029,12 @@
     background: transparent;
     border-radius: 4px;
 }
+.summary-desktop-none {
+    display: block;
+}
+.summary-mobile-none {
+    display: none;
+}
 }
 
 
@@ -1150,7 +1158,7 @@
     }
 
     .detail-quantity-input {
-        width: 70px;
+        
     }
 
     .input-span-line {

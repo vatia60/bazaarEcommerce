@@ -1421,8 +1421,8 @@ SHOPPING CART
     font-weight: 700;
 }
 .coupons-toggle-a:hover, .coupons-toggle-a:focus, .coupons-toggle-a:active {
-    background-color: #03cab0 !important;
-    border: 1px solid #03cab0 !important;
+    background-color: #e62e04 !important;
+    border: 1px solid #e62e04 !important;
 } 
 .pr-n-2 {
     padding-right: 2px !important;
@@ -1689,16 +1689,18 @@ SHOPPING CART
 }
 
 .changes-button {
-    background: #00B29B;
+    background: transparent;
     border-radius: 2px;
-    border: 1px solid #00B29B;
-    padding: 1px 10px;
-    color: #fff;
+    border: 1px solid transparent;
+    padding: 6px 0px;
+    color: #00B29B;
+    text-transform: uppercase;
 }
 
-.changes-button:hover {
-    background: #e62e04 !important;
-    border: 1px solid #e62e04 !important;
+.changes-button:hover, .changes-button:focus, .changes-button:active {
+    color: #e62e04 !important;
+    border: 1px solid transparent;
+    font-weight: 700;
 }
 
 .wish-delete a {
@@ -1772,6 +1774,9 @@ SHOPPING CART
 /*SHOPPING CART RIGHT*/
 
 /*ORDER SUMMERY*/
+.summary-desktop-none {
+    display: none;
+}
 .shopping-cart-sidebar {
     padding-top: 35px;
 }
