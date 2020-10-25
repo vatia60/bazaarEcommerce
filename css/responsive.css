@@ -322,7 +322,17 @@
   .input-span-line {
     display: none;
   }
-
+  .n-check-padd {
+    padding-left: 8px !important;
+    padding-top: 76px;
+}
+.shop-cart-history input[type='checkbox'] {
+    width: 15px !important;
+    height: 15px !important;
+}
+.price-big {
+    font-size: 18px !important;
+}
 }
 
 

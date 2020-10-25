@@ -1264,6 +1264,10 @@ a .card-title:hover {
 /* ===================================
 SHOPPING CART
 ====================================*/
+.n-check-padd {
+    padding-left: 25px !important;
+    padding-top: 76px;
+}
 .navbar-toggler span {
     font-size: 14px;
     font-weight: 900;
