@@ -20,7 +20,7 @@
     font-size: 11px !important;
 }
 .coupons-toggle-a {
-    font-size: 10px !important;
+    font-size: 12px !important;
 }
 
 .get-coupons-toggle .dropdown-menu {
@@ -379,6 +379,9 @@
 .order-summary button:hover, .order-summary button:focus, .order-summary button:active {
     background: #11e2c8 !important;
     border: 1px solid #11e2c8 !important;
+}
+.get-coupons-toggle {
+    right: 0px;
 }
 }
 

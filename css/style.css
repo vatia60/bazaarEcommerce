@@ -1418,15 +1418,17 @@ SHOPPING CART
 
 .coupons-toggle-a {
     font-size: 12px;
-    background-color: #00B29B !important;
-    border: 1px solid #00B29B !important;
-    color: #fff !important;
+    background-color: transparent !important;
+    border: 1px solid transparent !important;
+    color: #000 !important;
     text-transform: uppercase;
     font-weight: 700;
 }
 .coupons-toggle-a:hover, .coupons-toggle-a:focus, .coupons-toggle-a:active {
-    background-color: #e62e04 !important;
-    border: 1px solid #e62e04 !important;
+    color: #e62e04 !important;
+    background-color: transparent !important;
+    border: 1px solid transparent !important;
+    outline: 0 !important;
 } 
 .pr-n-2 {
     padding-right: 2px !important;
