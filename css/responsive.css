@@ -102,6 +102,9 @@
 
 
 @media (max-width: 767px) {
+    .top-header-left h2 {
+    padding-top: 6px;
+}
     .top-header-left .pl-3, .px-3 {
     padding-left: 0.3rem!important;
 }
@@ -383,6 +386,7 @@
 .get-coupons-toggle {
     right: 0px;
 }
+
 }
 
 
@@ -412,7 +416,7 @@
 
     }
   .top-header-left h2 {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .home-see-more a {
