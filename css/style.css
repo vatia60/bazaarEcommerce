@@ -904,7 +904,7 @@ a .card-title:hover {
 }
 
 /*COLLECTION*/
-.main-collections-block:hover, .similar-block:hover {
+.card:hover {
     box-shadow: 0 0px 4px 2px #5ec1a061;
 }
 .similar-block {
@@ -1701,20 +1701,15 @@ SHOPPING CART
     text-align: center;
 }
 
-.changes-button {
-    background: transparent;
-    border-radius: 2px;
-    border: 1px solid transparent;
-    padding: 6px 0px;
+.changes-p {
     color: #00B29B;
+    font-weight: 600;
     text-transform: uppercase;
+    padding-top: 6px;
+    margin-bottom: 6px;
 }
 
-.changes-button:hover, .changes-button:focus, .changes-button:active {
-    color: transparent !important;
-    border: 1px solid transparent;
-    font-weight: 700;
-}
+
 
 .wish-delete a {
     font-weight: 700;
