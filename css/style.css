@@ -160,7 +160,7 @@ a:hover {
 
 /*TOP HEADER*/
 .top-header {
-    background: #DBFFF4;
+    background: #E7EEE6;
 }
 
 .top-header-left {
@@ -598,7 +598,7 @@ a:hover {
     display: block;
     padding: .4rem 1.25rem;
     margin-bottom: -1px;
-    background-color: #DBFFF4;
+    background-color: #E7EEE6;
     border: 2px solid rgba(0, 0, 0, .125);
 }
 
@@ -738,7 +738,7 @@ a:hover {
 .category-slider .carousel-indicators {
     right: 0;
     bottom: -28px;
-    background: #DBFFF4;
+    background: #E7EEE6;
     padding: 5px 0;
     margin-right: 0;
     margin-left: 0;
@@ -783,7 +783,7 @@ a:hover {
 
 /*WIN DEAL*/
 .win-deal {
-    background: #DBFFF4;
+    background: #E7EEE6;
     padding: 10px 0;
     overflow: hidden;
 }
@@ -2441,7 +2441,7 @@ DETAIL PRODUCT
 
 /*DETAIL SIMILAR PRODUCT*/
 .detail-similar-product {
-    background: #DBFFF5;
+    background: #E7EEE6;
     padding: 30px 0;
     overflow: hidden;
 }
