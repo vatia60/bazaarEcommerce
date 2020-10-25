@@ -628,6 +628,15 @@ a:hover {
     color: #212529;
     font-weight: 600;
 }
+.category-slider {
+    height: 342px;
+}
+.category .navbar {
+    height: 342px;
+}
+.category .navbar-nav {
+    height: 342px;
+}
 .category {
     height: 342px;
 }
