@@ -629,18 +629,7 @@ a:hover {
     color: #212529;
     font-weight: 600;
 }
-.category-slider {
-    height: 342px !important;
-}
-.category .navbar {
-    height: 342px !important;
-}
-.category .navbar-nav {
-    height: 342px !important;
-}
-.category {
-    height: 342px !important;
-}
+
 .category-a {
     font-size: 12px;
     text-decoration: underline;
@@ -928,6 +917,7 @@ a .card-title:hover {
 
 .win-deal-color {
     color: #5CC19F;
+    font-size: 1.5rem;
 }
 
 .collections-all-header,
