@@ -2482,7 +2482,8 @@ DETAIL PRODUCT
 }
 
 .detail-similar-product h1 {
-    font-size: 18px;
+    font-size: 22px;
+    color: #5CC19F;
 }
 
 .all-similar-product {
