@@ -703,3 +703,34 @@ $('.shopingcart-check-single').change(function () {
   $('.shopingcart-check-all').prop('checked',false);
  }
 });
+
+
+
+$(document).ready(function () {
+  $('.zoom-quick-slick').slick({
+    responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        centerMode: true,
+                        swipeToSlide: true,
+                    }
+                },
+                {
+                  breakpoint: 767,
+                  settings: {
+                    centerMode: true,
+                    slidesToShow: 2,
+                    swipeToSlide: true,
+                   }
+                 }
+                ]
+  });
+});
+
+$('.modal').on('shown.bs.modal', function (e) {
+  $('.zoom-quick-slick').slick('setPosition');
+  $('.wrap-modal-slider').addClass('open');
+})

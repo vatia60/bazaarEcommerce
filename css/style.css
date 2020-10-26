@@ -596,8 +596,8 @@ a:hover {
 .list-group-item {
     position: relative;
     display: block;
-    /*padding: .4rem 1.25rem;*/
-    padding: .05rem 1rem .05rem .5rem;
+    padding: .4rem 1.25rem;
+    /*padding: .05rem 1rem .05rem .5rem;*/
     margin-bottom: -1px;
     background-color: #E7EEE6;
     border: 2px solid rgba(0, 0, 0, .125);
@@ -612,7 +612,7 @@ a:hover {
 
 .dropdown-menu-position {
     left: 272px;
-    background: #E7EEE6;
+    background: #fff;
     width: 600px;
     z-index: 99999999999999999999999999999 !important;
     top: -34px;
@@ -927,7 +927,7 @@ a .card-title:hover {
 }
 
 .win-deal-color {
-    color: #333535;
+    color: #5CC19F;
 }
 
 .collections-all-header,
@@ -1024,8 +1024,29 @@ a .card-title:hover {
     display: inline-block;
 }
 
+.quick-view-body {
+    
+    padding: 1rem 1rem 3rem 1rem;
+}
+.wrap-modal-slider.open {
+  opacity: 1;
+}
 
-
+.wrap-modal-slider .slick-slide img {
+    width: 80px !important;
+}
+.wrap-modal-slider .small-img .slick-next {
+    right: -7px;
+    top: 36px;
+}
+.wrap-modal-slider .small-img .slick-prev {
+    top: 36px;
+    left: -8px;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 30px;
+    opacity: .5;
+}
 .img-header {
 
     position: relative;
@@ -2063,14 +2084,13 @@ DETAIL PRODUCT
     text-transform: uppercase;
 }
 
-.detail-overview-sidebar-img .main-collections-block {
+.detail-overview-sidebar-img .card {
     padding: 8px 0px;
     transition: all 0.6s ease-in-out;
     border: 1px solid #80808038;
     margin-top: 10px;
     border-radius: 4px;
-}
-
+} 
 
 .detail-product-right h2 {
     font-size: 14px;
