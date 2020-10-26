@@ -698,7 +698,7 @@ a:hover {
 }
 .slider .carousel-item img {
     width: 100%;
-    height: 342px;
+    height: 352px;
 }
 
 .carousel-caption {
@@ -736,7 +736,7 @@ a:hover {
     transform: scale(1, 1);
 }
 
-.category-slider .carousel-indicators {
+/*.category-slider .carousel-indicators {
     right: 0;
     bottom: -28px;
     background: #E7EEE6;
@@ -765,6 +765,23 @@ a:hover {
 
 .category-slider .carousel-indicators .active {
     background-color: #a6bfa2;
+}*/
+.carousel-indicators li {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: gray;
+}
+
+ .carousel-indicators .active {
+    background-color: #D75630;
 }
 
 .caro-prev-icon i,
@@ -2691,23 +2708,7 @@ CATEGORIES SLIDER
     height: 400px;
 }
 
-.new-category-page .carousel-indicators li {
-    position: relative;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    margin-right: 3px;
-    margin-left: 3px;
-    text-indent: -999px;
-    background-color: gray;
-}
 
-.new-category-page .carousel-indicators .active {
-    background-color: #D75630;
-}
 
 /*CATEGORIES NAME*/
 .categories-name {
