@@ -1430,7 +1430,9 @@
     .detail-product-right .detail-buy-btn {
         display: none;
     }
-
+.wrap-modal-slider .detail-add-cart-btn {
+        display: block !important;
+    }
     .detail-product-right .detail-add-cart-btn {
         display: none;
     }

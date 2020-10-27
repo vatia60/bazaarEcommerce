@@ -2731,6 +2731,12 @@ select.form-control:not([size]):not([multiple]) {
     border-radius: 6px;
     background: transparent;
 }
+.like-btn:hover, .like-btn:focus, .like-btn:active  {
+    border: 1px solid #006CFF;
+    padding: 0px 6px;
+    border-radius: 6px;
+    background: transparent;
+}
 
 .fa-thumbs-up {
     color: #006CFF;
