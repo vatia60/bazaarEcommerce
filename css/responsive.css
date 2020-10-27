@@ -579,6 +579,12 @@
 
 
 /*NEW*/
+.win-deal-page-body {
+    padding: 10px 10px !important;
+}
+.new-pagination {
+    padding: 10px 30px 10px 0px !important;
+}
 .sponsore-header {
     margin-left: -8px !important;
 }
@@ -657,7 +663,7 @@
     margin-right: -15px !important;
 }
 .campaign-body-products.detail-similar-product {
-    padding: 10px 10px !important;
+    padding: 10px 20px !important;
 }
 .campaign-view-more {
     padding: 10px 0 10px 0 !important;
