@@ -550,10 +550,7 @@
 .new-category-arrivals-header .mb-2, .my-2 {
     margin-bottom: 0 !important;
 }
-.mobile-container {
-	padding-right: 0 !important;
-	padding-left: 0 !important;
-}
+
 .new-mb-5 {
 	margin-bottom: 10px !important;
 }
@@ -565,6 +562,20 @@
 }
 .last-footer {
     padding: 20px 0 40px 0px !important;
+}
+
+
+.mobile-container {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+.container-mobile-10 {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    overflow: hidden;
+}
+.new-category-arrivals {
+    padding: 0 10px !important;
 }
 .campaign-body-products h1 {
 	padding-top: 0 !important;
@@ -583,6 +594,10 @@
 }
 .campaign-view-more {
     padding: 10px 0 10px 0 !important;
+}
+.campaign-view-more button {
+    font-size: 12px !important;
+    padding: 2px 10px !important;
 }
 }
 
