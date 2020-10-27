@@ -150,6 +150,12 @@
     .payment-method-ul li {
         padding: 2px 0px !important;
     }
+    .small-img img {
+    width: 60px !important;
+    }
+    .detail-product-right h2 {
+    padding-top: 15px !important;
+}
 }
 
 
@@ -595,6 +601,16 @@ body.modal-open {
 
 
 /*NEW*/
+.filter-sort-dropdown {
+    width: 170px;
+    margin-left: 26px;
+}
+.small-img img {
+    width: 80px;
+    }
+.win-deal {
+    margin-top: 0 !important;
+}
 .win-deal-three-block {
     padding: 0px 0 0px 0 !important;
 }

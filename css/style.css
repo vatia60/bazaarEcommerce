@@ -1425,11 +1425,6 @@ SHOPPING CART
 .pr-new-12 {
     padding-right: 12px !important;
 }
-
-.shopping-cart-block-header {
-    padding-bottom: 36px !important;
-}
-
 .shopping-cart-block-header h1 {
     font-size: 24px;
     color: #282923;
@@ -1460,9 +1455,6 @@ SHOPPING CART
 }
 
 .shop-select-all {
-    position: absolute;
-    bottom: 8px;
-    right: 27px;
     font-size: 20px;
     color: #fff !important;
     padding: 3px 5px;
@@ -2543,9 +2535,11 @@ DETAIL PRODUCT
     border: 1px solid #6cc6a885;
     background: #FFFFFF;
     border-radius: 4px;
-    padding: 13px 4px 0 4px;
+    padding: 10px 4px 0 4px;
 }
-
+.new-bold {
+    font-weight: 600;
+}
 .detail-the-img img {
     max-width: 100%;
 }
