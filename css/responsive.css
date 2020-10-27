@@ -1,8 +1,10 @@
 @media (max-width: 358px) {
     .top-header-left {
-        padding-top: 0px !important;
+        padding-top: 8px !important;
     }
-
+.top-category-header-left a {
+    font-size: 12px !important;
+}
     .categories-name-block-padd img {
         width: 95PX !important;
         height: 114px !important;
@@ -577,7 +579,41 @@
 
 
 /*NEW*/
-
+.sponsore-header {
+    margin-left: -8px !important;
+}
+.meow {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.sponsore-product {
+    padding: 20px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+.shopping-cart-sidebar {
+    padding-top: 0px !important;
+}
+.payment-method {
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+}
+.shopping-cart .pr-new-12 {
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+.new-font-o {
+	font-size: 14px !important;
+}
+.product-normal-view, .product-short-view {
+    padding-top: 0 !important;
+}
+.product-body-container {
+    margin-bottom: 20px !important;
+}
+.product-body-main .new-pagination {
+    padding: 10px 30px 0px 0px !important;
+}
 .all-similar-product {
     padding: 0 0px !important;
 }
