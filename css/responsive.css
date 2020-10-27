@@ -524,6 +524,11 @@
     .get-coupons-toggle-body {
     height: 225px;
 }
+
+body.modal-open {
+    overflow: hidden;
+    position: fixed;
+}
     .shop-select-all {
         left: 8px;
     }
