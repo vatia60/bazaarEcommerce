@@ -1073,9 +1073,12 @@ a .card-title:hover {
 
     padding: 1rem 1rem 3rem 1rem;
 }
-
+.wrap-modal-slider {
+  opacity: 0 !important;
+  transition: all 0.3s;
+}
 .wrap-modal-slider.open {
-    opacity: 1;
+    opacity: 1 !important;
 }
 
 .wrap-modal-slider .slick-slide img {
