@@ -1054,15 +1054,17 @@ a .card-title:hover {
 
 .quick-view-close {
     position: fixed;
-    right: 20px;
-    top: 15px;
+    right: 12px;
+    top: 6px;
     z-index: 99999999999;
 }
 
 .detail-product-details {
    
 }
-
+.quick-view-close .close {
+    font-size: 2.3rem
+}
 .quick-view-color-radio li {
     display: inline-block;
 }
