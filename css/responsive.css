@@ -574,7 +574,16 @@
     overflow: hidden;
 }
 
+
+
 /*NEW*/
+
+.all-similar-product {
+    padding: 0 0px !important;
+}
+.best-match {
+	margin-left: 0 !important;
+}
 .last-home-see {
 	padding-bottom: 0 !important;
 }
