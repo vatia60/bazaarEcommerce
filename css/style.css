@@ -2737,7 +2737,10 @@ select.form-control:not([size]):not([multiple]) {
     border-radius: 6px;
     background: transparent;
 }
+.modal {
+    z-index: 999999999999999999999999999 !important;
 
+}
 .fa-thumbs-up {
     color: #006CFF;
 }

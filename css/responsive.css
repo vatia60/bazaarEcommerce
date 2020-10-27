@@ -1436,6 +1436,9 @@
    .wrap-modal-slider .input-span-line {
     display: block;
 }
+.wrap-modal-slider .detail-add-cart-btn {
+    padding: 7px 16px !important;
+    }
     .detail-product-right .detail-add-cart-btn {
         display: none;
     }
