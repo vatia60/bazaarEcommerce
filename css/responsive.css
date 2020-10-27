@@ -1,7 +1,8 @@
 @media (max-width: 358px) {
-    .top-header-left {
-        padding-top: 8px !important;
-    }
+    
+    .top-header-left-new {
+    padding-top: 0px !important;
+}
 .top-category-header-left a {
     font-size: 12px !important;
 }
@@ -46,7 +47,10 @@
     .campaign-select-coupon {
         width: 279px !important;
     }
-
+.quick-view-close {
+    right: 16px;
+    top: 11px;
+}
     .campaign-coupon-date h6 {
         padding-left: 15px !important;
     }
