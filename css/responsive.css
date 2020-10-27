@@ -563,8 +563,6 @@
 .last-footer {
     padding: 20px 0 40px 0px !important;
 }
-
-
 .mobile-container {
 	padding-right: 0 !important;
 	padding-left: 0 !important;
@@ -573,6 +571,26 @@
     padding-right: 10px !important;
     padding-left: 10px !important;
     overflow: hidden;
+}
+
+/*NEW*/
+.detail-overview .nav {
+    padding: 10px 10px 4px 10px !important;
+}
+.new-tab-pane {
+    padding: 6px 10px !important;
+}
+.detail-similar-product {
+    padding: 10px 0 !important;
+}
+.detail-similar-product .pt-3{
+    padding:  0 !important;
+}
+.detail-similar-product.mb-5 {
+    margin-bottom: 10px !important;
+}
+.detail-similar-product h1 {
+    font-size: 18px !important;
 }
 .new-category-arrivals {
     padding: 0 10px !important;
