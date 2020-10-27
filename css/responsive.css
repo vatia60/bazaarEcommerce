@@ -1433,6 +1433,9 @@
 .wrap-modal-slider .detail-add-cart-btn {
         display: block !important;
     }
+   .wrap-modal-slider .input-span-line {
+    display: block;
+}
     .detail-product-right .detail-add-cart-btn {
         display: none;
     }
