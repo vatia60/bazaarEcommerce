@@ -566,6 +566,7 @@
 .mobile-container {
 	padding-right: 0 !important;
 	padding-left: 0 !important;
+	overflow: hidden;
 }
 .container-mobile-10 {
     padding-right: 10px !important;
@@ -574,6 +575,9 @@
 }
 
 /*NEW*/
+.last-home-see {
+	padding-bottom: 0 !important;
+}
 .detail-overview .nav {
     padding: 10px 10px 4px 10px !important;
 }
