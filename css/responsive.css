@@ -541,6 +541,49 @@
     .detail-product-right .font-11 {
         font-size: 13px !important;
     }
+    .categories-pages-title-color {
+    padding-bottom: 0px !important;
+}
+.categories-name {
+    padding: 0px 0 20px 0 !important;
+}
+.new-category-arrivals-header .mb-2, .my-2 {
+    margin-bottom: 0 !important;
+}
+.mobile-container {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+.new-mb-5 {
+	margin-bottom: 10px !important;
+}
+.all-flex {
+    padding-bottom: 5px !important;
+}
+.padd-20 {
+    padding: 20px 0 0 0px !important;
+}
+.last-footer {
+    padding: 20px 0 40px 0px !important;
+}
+.campaign-body-products h1 {
+	padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    text-align: left !important;
+    font-size: 18px !important;
+}
+.campaign-body {
+    margin-bottom: 10px !important;
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+}
+.campaign-body-products.detail-similar-product {
+    padding: 10px 10px !important;
+}
+.campaign-view-more {
+    padding: 10px 0 10px 0 !important;
+}
 }
 
 
