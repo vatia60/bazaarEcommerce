@@ -50,7 +50,9 @@ button:focus {
     box-shadow: 0;
     cursor: pointer;
 }
-
+a, a:hover, a:focus, a:active {
+    outline: 0 !important; 
+}
 i {
     cursor: pointer;
 }
@@ -84,7 +86,19 @@ a:hover {
     border: 0 !important;
     outline: 0 !important;
 }
-
+.slick-slide img:hover, .slick-slide img:focus, .slick-slide img:active, .slick-slide img:not(:disabled):not(.disabled).active:focus, .slick-slide img:not(:disabled):not(.disabled):active:focus  {
+    box-shadow: 0 !important;
+    border: 0 !important;
+    outline: 0 !important;
+}
+.slick-slide a:hover, .slick-slide a:focus, .slick-slide a:active, .slick-slide a:not(:disabled):not(.disabled).active:focus, .slick-slide a:not(:disabled):not(.disabled):active:focus  {
+    box-shadow: 0 !important;
+    border: 0 !important;
+    outline: 0 !important;
+}
+.slick-slide {
+    outline: none  !important;
+}
 .btn-secondary.focus,
 .btn-secondary:focus {
     box-shadow: 0 !important;
@@ -1548,7 +1562,7 @@ SHOPPING CART
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 8px 10px 1px 15px;
+    padding: 0px 10px 0px 15px;
     color: #fff;
     border-radius: 4px;
 }
@@ -1568,7 +1582,9 @@ SHOPPING CART
 .get-coupons-toggle-block-body {
     overflow: hidden;
 }
-
+.get-coupons-toggle-block-body .font-s-13 {
+   padding-top: 7px;
+}
 .font-s-13 {
     font-size: 18px !important;
 }

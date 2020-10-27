@@ -154,9 +154,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('.dropdown-toggle-click').click(function(e) {
         $(this).siblings(".new-user-coupon-toggle").toggle();
-        if (window.innerWidth < 992) {
-            $('body').css("overflow", "hidden");
-        }
+        
         e.stopPropagation();
         e.preventDefault();
 
@@ -387,8 +385,8 @@ $(".product-short-view-btn").click(function() {
 /*Seller Information*/
 $(".btn-sidebar").on("click", function() {
 
-    $(this).find('i').toggleClass('fa-chevron-down').toggleClass('fa-chevron-right');
-    $(this).find('span').toggleClass('new-color-change').toggleClass('new-color-normal');
+    $('.show').find('i').toggleClass('fa-chevron-down').toggleClass('fa-chevron-right');
+    $('.show').find('span').toggleClass('new-color-change').toggleClass('new-color-normal');
 
 });
 
@@ -648,9 +646,11 @@ $(".main-collections-block").on('touchend', function(e) {
 
 if (window.innerWidth > 992) {
     $('.new-store-show').addClass('show');
+    $('.seller-collapse').addClass('show');
 
 } else {
     $('.new-store-show').removeClass('show');
+    $('.seller-collapse').removeClass('show');
 
 
 }
@@ -716,7 +716,7 @@ $(document).ready(function() {
         responsive: [{
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 4,
                     slidesToScroll: 1,
                     centerMode: true,
                     swipeToSlide: true,
@@ -726,7 +726,7 @@ $(document).ready(function() {
                 breakpoint: 767,
                 settings: {
                     centerMode: true,
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                     swipeToSlide: true,
                 }
             }

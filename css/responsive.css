@@ -517,7 +517,13 @@
     .get-coupons-toggle {
         right: 0px;
     }
-
+    .ne-co-font {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .get-coupons-toggle-body {
+    height: 225px;
+}
     .shop-select-all {
         left: 8px;
     }
