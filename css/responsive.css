@@ -713,6 +713,32 @@ body.modal-open {
     font-size: 12px !important;
     padding: 2px 10px !important;
 }
+.mobile-showhope {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999999999999999999999 !important;
+    width: 100vw;
+    height: 100vh;
+    background: gray;
+    padding-top: 114px;
+}
+.mobile-showhope img {
+    border: 0 !important;
+    outline: 0 !important;
+    box-shadow: 0 !important;
+}
+.mobile-showhope-btn {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background: transparent;
+    color: #fff;
+    font-size: 30px;
+}
+
 }
 
 

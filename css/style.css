@@ -2051,7 +2051,9 @@ SHOPPING CART
 /* =============================================
 DETAIL PRODUCT
 ==============================================*/
-
+.mobile-showhope, .mobile-showhope-btn {
+    display: none;
+}
 .now-btn {
     background: rgb(92, 193, 159);
     color: rgb(255, 255, 255);
