@@ -156,6 +156,9 @@
     .detail-product-right h2 {
     padding-top: 15px !important;
 }
+.mobile-showhope {
+    padding-top: 124px !important;
+}
 }
 
 
@@ -723,7 +726,7 @@ body.modal-open {
     width: 100vw;
     height: 100vh;
     background: gray;
-    padding-top: 114px;
+    padding-top: 144px;
 }
 .mobile-showhope img {
     border: 0 !important;
