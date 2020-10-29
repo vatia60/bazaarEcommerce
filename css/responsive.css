@@ -159,6 +159,11 @@
 .mobile-showhope {
     padding-top: 124px !important;
 }
+
+.slick-track .per-offer {
+   padding: 3px 3px 2px 3px !important;
+    font-size: 8px !important;
+}
 }
 
 
