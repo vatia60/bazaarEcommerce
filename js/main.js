@@ -148,7 +148,9 @@ $(document).ready(function() {
 });
 
 
-
+/*=======================================================
+Coupon
+========================================================*/
 
 
 $(document).ready(function() {
@@ -177,7 +179,9 @@ $(document).click(function() {
 });
 
 
-
+/*=======================================================
+Product details page product image zoom detailproduct.html
+========================================================*/
 
 
 (function($) {
@@ -185,8 +189,8 @@ $(document).click(function() {
     $.fn.zoomImage = function(paras) {
 
         var defaultParas = {
-            layerW: 100,
-            layerH: 100,
+            layerW: 300,
+            layerH: 300,
             layerOpacity: 0.2,
             layerBgc: 'transparent',
             showPanelW: 445,
@@ -367,7 +371,7 @@ $('#prev-img').click(function() {
     }
 });
 
-
+/* End zoom */
 
 /*Product Show Normal or List*/
 $(".product-normal-view-btn").click(function() {
@@ -551,6 +555,9 @@ if ($('.new-block')) {
     });
 }
 
+/*=============================================
+Header and Footer Menu For Mobile
+=============================================*/
 $(".account-btn").on("click", function(e) {
     e.stopPropagation();
 
@@ -616,21 +623,6 @@ $(".account-btn-search").on("click", function(e) {
     }
 
 });
-
-
-
-/*$(".cart-btn-50").on("click", function () {
-
-        $('.buy-btn-50').toggleClass('normal-btn-color focus-buy-btn');
-
-        });
-
-$(".cart-btn-50").on("click", function () {
-
-        $('.cart-btn-50').toggleClass('normal-btn-color focus-cart-btn');
-
-        });*/
-
 
 
 
@@ -713,25 +705,18 @@ $('.modal').on('shown.bs.modal', function(e) {
 
 $(document).ready(function() {
     $('.zoom-quick-slick').slick({
-        responsive: [{
-                breakpoint: 992,
+        responsive: [
+                
+                {
+                  breakpoint: 767,
                 settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 1,
-                    centerMode: true,
-                    swipeToSlide: true,
+                  infinite: false,
+                  slidesToShow: 3.4,
+                  slidesToScroll: 1
                 }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    centerMode: true,
-                    slidesToShow: 3,
-                    swipeToSlide: true,
-                }
-            }
-        ]
-    });
+                 }
+                ]
+            });
 });
 
 
