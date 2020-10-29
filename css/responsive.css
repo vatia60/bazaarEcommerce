@@ -609,6 +609,9 @@ body.modal-open {
 
 
 /*NEW*/
+#quick-view .modal-content {
+    background-color: #3a3838ab;
+    }
 #quick-view .modal-dialog {
     margin: 0 auto;
 }
