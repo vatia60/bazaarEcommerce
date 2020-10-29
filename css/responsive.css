@@ -609,6 +609,9 @@ body.modal-open {
 
 
 /*NEW*/
+#quick-view .modal-dialog {
+    margin: 0 auto;
+}
 .filter-sort-dropdown {
     width: 170px;
     margin-left: 26px;
