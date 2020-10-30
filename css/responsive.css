@@ -613,7 +613,7 @@ body.modal-open {
 
 /*NEW*/
 #quick-view {
-    padding-left: 0;
+    padding-left: 0 !important;
 }
 #quick-view .modal-content {
     background: rgba(68,70,69,0.65);
