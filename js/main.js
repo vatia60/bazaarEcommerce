@@ -721,7 +721,7 @@ $(document).ready(function() {
 
 
 
-$(".showhope").on("click", function(e) {
+$(".showhope-n-mobile").on("click", function(e) {
     
     $('.mobile-showhope').css('display', 'block');
     $('.mobile-showhope-btn').css('display', 'block');

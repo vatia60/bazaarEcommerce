@@ -1032,9 +1032,9 @@ a .card-title:hover {
     margin: 4rem auto;
 }
 
-.modal-dialog #show-img {
+#show-img {
     width: 100%;
-    height: auto;
+    max-height: 400px;
 }
 
 .quick-view-body {
@@ -1113,9 +1113,9 @@ a .card-title:hover {
 }
 
 .wrap-modal-slider .slick-slide img {
-    width: 80px !important;
+    max-width: 80px !important;
+    max-height: 80px;
 }
-
 .wrap-modal-slider .small-img .slick-next {
     right: -7px;
     top: 36px;
@@ -2103,7 +2103,8 @@ DETAIL PRODUCT
 }
 
 .small-img img {
-    width: 95px;
+    max-width: 80px !important;
+    max-height: 80px;
     margin: 0 auto;
     border-radius: 8px;
 }
