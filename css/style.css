@@ -1092,14 +1092,6 @@ a .card-title:hover {
 .quick-view-star .fa-star {
     color: #e62e04;
 }
-
-/*.quick-view-close {
-    position: fixed;
-    right: 12px;
-    top: 6px;
-    z-index: 99999999999;
-}*/
-
 .detail-product-details {
    
 }

@@ -608,6 +608,9 @@ body.modal-open {
 
 
 /*NEW*/
+#quick-view {
+    padding-left: 0;
+}
 #quick-view .modal-content {
     background: rgba(68,70,69,0.65);
     border:0;
@@ -635,6 +638,8 @@ body.modal-open {
 }
 .quick-view-body {
     background: #fff;
+    box-shadow: 0px 0px 8px 2px #5a5959;
+    border-radius: 4px;
 }
 .filter-sort-dropdown {
     width: 170px;
@@ -653,7 +658,7 @@ body.modal-open {
     margin-top: 10px !important;
 }
 .quick-view-body {
-    margin: 17px 15px 17px 15px;
+    margin: 17px 15px 24px 15px;
     height: 94vh;
     overflow-y: auto;
 }
