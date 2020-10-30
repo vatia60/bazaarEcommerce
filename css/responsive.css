@@ -154,7 +154,7 @@
     padding-top: 15px !important;
 }
 .mobile-showhope {
-    padding-top: 124px !important;
+    padding-top: 85px !important;
 }
 
 .slick-track .per-offer {
@@ -769,12 +769,14 @@ body.modal-open {
     width: 100vw;
     height: 100vh;
     background: gray;
-    padding-top: 144px;
+    padding-top: 95px;
 }
 .mobile-showhope img {
     border: 0 !important;
     outline: 0 !important;
     box-shadow: 0 !important;
+    width: 100%;
+    height: 70vh;
 }
 .mobile-showhope-btn {
     position: absolute;
