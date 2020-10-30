@@ -1113,7 +1113,7 @@ a .card-title:hover {
 }
 
 .wrap-modal-slider .slick-slide img {
-    max-width: 80px !important;
+    width: 80px !important;
     max-height: 80px;
 }
 .wrap-modal-slider .small-img .slick-next {
@@ -2103,7 +2103,7 @@ DETAIL PRODUCT
 }
 
 .small-img img {
-    max-width: 80px !important;
+    width: 80px !important;
     max-height: 80px;
     margin: 0 auto;
     border-radius: 8px;
