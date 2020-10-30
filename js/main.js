@@ -721,7 +721,11 @@ $(document).ready(function() {
 
 
 
-$(".showhope-n-mobile").on("click", function(e) {
+
+
+
+if (window.innerWidth < 992) {
+    $(".showhope-n-mobile").on("click", function(e) {
     
     $('.mobile-showhope').css('display', 'block');
     $('.mobile-showhope-btn').css('display', 'block');
@@ -733,4 +737,4 @@ $(".mobile-showhope-btn").on("click", function(e) {
     $('.mobile-showhope').css('display', 'none');
 
 });
-
+}
