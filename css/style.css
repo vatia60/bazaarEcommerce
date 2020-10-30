@@ -2146,11 +2146,9 @@ DETAIL PRODUCT
     justify-content: center;
 }
 
-.small-container .show-small-img {
-    width: 70px;
-    height: 70px;
-    margin-left: 0;
-    cursor: pointer;
+.show-small-img {
+        border: 1px solid gray;
+
 }
 
 .small-container .show-small-img:last-of-type {
