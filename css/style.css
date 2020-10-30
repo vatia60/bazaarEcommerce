@@ -921,74 +921,6 @@ a:hover {
     color: #fff !important;
 }
 
-.all-flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -5px;
-    margin-left: -5px;
-    padding-bottom: 30px;
-}
-
-.card-flex-all {
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-    padding-right: 5px;
-    padding-left: 5px;
-}
-
-.card-flex-all-8 {
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-    padding-right: 5px;
-    padding-left: 5px;
-}
-
-.card-flex-md {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%;
-}
-
-.card-flex-sm {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 33%;
-    flex: 0 0 33%;
-    max-width: 33%;
-}
-
-.card-flex-xs {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}
-
-.card-flex-md-8 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 12.5%;
-    flex: 0 0 12.5%;
-    max-width: 12.5%;
-}
-
-.card-flex-sm-8 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-}
-
-.card-flex-xs-8 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 33%;
-    flex: 0 0 33%;
-    max-width: 33%;
-}
 
 .win-deal-body .card-title,
 .main-collections-block .card-title {
@@ -1008,6 +940,30 @@ a .card-title:hover {
 }
 
 /*COLLECTION*/
+.all-five-row.row {
+    margin-left: -5px;
+    margin-right: -5px;
+    padding-bottom: 20px;
+}
+
+.all-five-row.row .col-lg-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+
+
+.all-five-row .col-md-3, .all-five-row .col-sm-6, .all-five-row .col-6, {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .card:hover {
     box-shadow: 0 0px 4px 2px #5ec1a061;
 }
@@ -1098,7 +1054,31 @@ a .card-title:hover {
     transition: all .2s ease-in-out;
 }
 
-
+.close-n {
+  position: absolute;
+  right: 36px;
+  top: 26px;
+  width: 0px;
+  opacity: 0.9;
+  z-index: 9999;
+}
+.close-n:hover {
+  opacity: 1;
+}
+.close-n:before, .close-n:after {
+  position: absolute;
+  left: 0px;
+  content: ' ';
+  height: 20px;
+  width: 2px;
+  background-color: gray;
+}
+.close-n:before {
+  transform: rotate(45deg);
+}
+.close-n:after {
+  transform: rotate(-45deg);
+}
 
 .quick-view-img img {
     width: 100%;
@@ -1113,19 +1093,17 @@ a .card-title:hover {
     color: #e62e04;
 }
 
-.quick-view-close {
+/*.quick-view-close {
     position: fixed;
     right: 12px;
     top: 6px;
     z-index: 99999999999;
-}
+}*/
 
 .detail-product-details {
    
 }
-.quick-view-close .close {
-    font-size: 2.3rem
-}
+
 .quick-view-color-radio li {
     display: inline-block;
 }
@@ -2817,7 +2795,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .new-pagination {
-    padding: 40px 30px 40px 0px;
+   padding: 7px 30px 0px 0px;
 }
 
 .new-pagination .page-link {
