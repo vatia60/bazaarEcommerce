@@ -302,7 +302,7 @@ $('.show-small-img').click(function() {
     $('#big-img').attr('src', $(this).attr('src'))
     $(this).attr('alt', 'now').siblings().removeAttr('alt')
     $(this).css({
-        'border': 'solid 1px transparent',
+        'border': 'solid 1px gray',
         'padding': '2px'
     }).siblings().css({
         'border': 'none',
