@@ -113,8 +113,8 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 
-    $('.small-img-roll img').on('click', function() {
-        $('.small-img-roll img.color-active').removeClass('color-active');
+    $('.show-small-img').on('click', function() {
+        $('.show-small-img.color-active').removeClass('color-active');
         $(this).addClass('color-active');
     });
 });

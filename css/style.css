@@ -82,19 +82,19 @@ a:hover {
 .btn-secondary:not(:disabled):not(.disabled).active:focus,
 .btn-secondary:not(:disabled):not(.disabled):active:focus,
 .show>.btn-secondary.dropdown-toggle:focus {
-    box-shadow: 0 !important;
-    border: 0 !important;
-    outline: 0 !important;
+    box-shadow: 0;
+    border: 0 ;
+    outline: 0 ;
 }
 .slick-slide img:hover, .slick-slide img:focus, .slick-slide img:active, .slick-slide img:not(:disabled):not(.disabled).active:focus, .slick-slide img:not(:disabled):not(.disabled):active:focus  {
-    box-shadow: 0 !important;
-    border: 0 !important;
-    outline: 0 !important;
+    box-shadow: 0;
+    border: 0 ;
+    outline: 0 ;
 }
 .slick-slide a:hover, .slick-slide a:focus, .slick-slide a:active, .slick-slide a:not(:disabled):not(.disabled).active:focus, .slick-slide a:not(:disabled):not(.disabled):active:focus  {
-    box-shadow: 0 !important;
-    border: 0 !important;
-    outline: 0 !important;
+    box-shadow: 0 ;
+    border: 0 ;
+    outline: 0 ;
 }
 .slick-slide {
     outline: none  !important;
