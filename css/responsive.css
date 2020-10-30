@@ -138,11 +138,7 @@
         font-size: 12px;
         padding-right: 1px !important;
     }
-
-    .detail-product-details .font-14 {
-        font-size: 12px;
-    }
-    .mob-f-11 {
+    .mob-f-11.font-14 {
         font-size: 11px !important;
     }
     .pal-2 {
@@ -250,7 +246,9 @@
     .collections-block-padd {
         padding-top: 10px;
     }
-
+.detail-product-details .font-14 {
+        font-size: 12px !important;
+    }
     .pages-header {
         display: none;
     }
