@@ -161,6 +161,10 @@
    padding: 3px 3px 2px 3px !important;
     font-size: 8px !important;
 }
+.quick-view-body {
+    margin: 17px 15px 17px 15px !important;
+    height: 94vh !important;
+}
 }
 
 
@@ -659,7 +663,7 @@ body.modal-open {
 }
 .quick-view-body {
     margin: 17px 15px 24px 15px;
-    height: 94vh;
+    height: 95vh;
     overflow-y: auto;
 }
 .win-deal-page-body {
