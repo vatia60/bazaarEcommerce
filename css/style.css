@@ -3285,6 +3285,10 @@ PRODUCTS
 .product-short-view-block .fa-star {
     color: #FEB92E !important;
 }
+.pro-sort-padd-top {
+    padding-right: 30px;
+    padding-top: 80px !important;
+}
 
 /*SIMILAR PRODUCT SLICK SLIDER*/
 .slick-initialized .slick-slide {

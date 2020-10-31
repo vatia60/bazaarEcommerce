@@ -167,8 +167,8 @@
     font-size: 10px;
 }
 .n-star-display {
-    left: -119px !important;
-    width: 290px;
+    left: -134px !important;
+    width: 280px;
 }
 .n-widt-pro {
     font-size: 11px !important;
@@ -471,7 +471,7 @@
     }
 
     .short-view-middle .fa-star {
-        font-size: 10px !important;
+        font-size: 12px !important;
     }
 
     .short-view-right .price-big {
@@ -647,10 +647,16 @@ body.modal-open {
 .des-padd-top {
     padding-top: 10px !important;
 }
+.product-short-view-block {
+    padding: 0px 5px 10px 5px;
+}
+.pro-sort-padd-top {
+    padding-top: 10px !important;
+}
 .n-star-display {
     top: 33px;
-    left: -137px;
-    }
+    left: -171px;
+}
    .n-star-display .arrow-sign-new:after {
     left: 50%;
 }
