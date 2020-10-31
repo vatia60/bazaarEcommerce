@@ -4,8 +4,12 @@ Header Fixed Top
 $(window).scroll(function() {
     if ($(window).scrollTop() >= 50) {
         $('.menu').addClass('fixed-top');
+        $('.new-click-p').css('display', 'none');
+        $('.new-click-m').css('display', 'block');
     } else {
         $('.menu').removeClass('fixed-top');
+        $('.new-click-m').css('display', 'none');
+        $('.new-click-p').css('display', 'block');
     }
 });
 

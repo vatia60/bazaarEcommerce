@@ -511,6 +511,9 @@ a:hover {
 * ==========================================
 *
 */
+.new-click-m {
+    display: none;
+}
 .bars-30 {
     font-size: 30px;
 }
