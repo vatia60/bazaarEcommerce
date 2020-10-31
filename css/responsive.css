@@ -163,6 +163,9 @@
     margin: 17px 15px 17px 15px !important;
     height: 94vh !important;
 }
+.w-100 {
+    font-size: 10px;
+}
 }
 
 
@@ -610,6 +613,9 @@ body.modal-open {
 
 
 /*NEW*/
+.des-padd-top {
+    padding-top: 10px;
+}
 #quick-view {
     padding-left: 0 !important;
 }
