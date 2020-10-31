@@ -1093,7 +1093,8 @@ a .card-title:hover {
     color: #e62e04;
 }
 .detail-product-details {
-   
+   transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }
 
 .quick-view-color-radio li {
@@ -2211,6 +2212,8 @@ DETAIL PRODUCT
 
 .star-hover {
     position: relative;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }
 
 .star-hover:hover .p-star-display {
@@ -2223,6 +2226,8 @@ DETAIL PRODUCT
     background: #fff;
     z-index: 999;
     border-radius: 4px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }
 
 .detail-product-details .p-star-display {
@@ -3729,6 +3734,8 @@ CAMPAIGN
 
 .campaign-img-position {
     position: relative;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }
 
 .campaign-img-position .img-overlay-history {
@@ -3738,6 +3745,8 @@ CAMPAIGN
     right: 30px;
     top: 0;
     width: 0;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }
 
 .campaign-img-position:hover .campaign-quick-overlay {
@@ -3781,6 +3790,7 @@ CAMPAIGN
     color: #fff;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+
 
 }
 
@@ -3831,6 +3841,8 @@ CAMPAIGN
 
 .win-three-img {
     padding: 0 10px 10px 10px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 
 }
 
@@ -3983,16 +3995,17 @@ CAMPAIGN
     width: 100%;
 }
 .wishlist-delete-btn {
-    width: 100%;
     background: transparent;
     color:#212529;
     font-weight: 600;
     font-size: 12px;
-    padding: 6px 0px;
+    padding: 6px 16px;
     border-radius: 3px;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     text-transform: uppercase;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }
 .wishlist-delete-btn:hover, .wishlist-delete-btn:focus, .wishlist-delete-btn:active {
     color: #e62e04 !important;
@@ -4004,11 +4017,32 @@ CAMPAIGN
     font-size: 20px;
 }
 .wish-border {
-    border: 1px solid #ccc;
     margin-bottom: 20px;
     border-radius: 4px;
+    background: #fff;
+    padding-bottom: 1px;
+    padding-top: 10px;
 }
 .des-padd-top {
     padding-right: 30px;
     padding-top: 60px !important;
+    text-align: center;
+}
+
+.wish-border .product-short-view-block {
+    margin-top: 10px;
+    background: transparent;
+    padding: 4px 5px;
+    border-radius: 4px;
+    border: 1px solid #cccccc4a;
+    box-shadow: 0px 0px 5px 2px #cccccc4a;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+.wish-border .product-short-view-block:hover, .wish-border .product-short-view-block:focus,.wish-border .product-short-view-block:active {
+    border: 1px solid #ccccccba;
+    box-shadow: 0px 0px 5px 2px #ccccccba;
+}
+.wish-border .new-pagination {
+    padding: 20px 30px 0px 0px;
 }

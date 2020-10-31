@@ -626,12 +626,24 @@ body.modal-open {
 
 
 /*NEW*/
+.wish-border .new-pagination {
+    padding: 20px 30px 0px 0px !important;
+}
+.mo-fo-8.font-11 {
+    font-size: 8px !important;
+}
+.wish-border .product-short-view-block {
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 4px 0px;
+    border: 0;
+    }
 .wish-border .new-top {
     padding-top: 0px !important;
 }
 .wish-border {
     border: 0;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     border-radius: 0;
 }
 #show-img {
@@ -646,6 +658,7 @@ body.modal-open {
 
 .des-padd-top {
     padding-top: 10px !important;
+    text-align: left;
 }
 .product-short-view-block {
     padding: 0px 5px 10px 5px;
