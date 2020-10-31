@@ -613,6 +613,14 @@ body.modal-open {
 
 
 /*NEW*/
+
+.n-star-display {
+    top: 33px;
+    left: -137px;
+    }
+   .n-star-display .arrow-sign-new:after {
+    left: 50%;
+}
 .des-padd-top {
     padding-top: 10px;
 }

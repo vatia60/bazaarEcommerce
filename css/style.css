@@ -2226,10 +2226,19 @@ DETAIL PRODUCT
 }
 
 .detail-product-details .p-star-display {
-    top: 25px;
+    top: 33px;
     padding: 10px 20px;
 }
-
+.n-star-display {
+    top: 33px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+}
+.n-widt-pro {
+    width: 68px;
+    font-size: 14px;
+    font-weight: 500;
+}
 .new-color-star {
     padding-top: 4px;
     cursor: pointer;
@@ -2504,15 +2513,15 @@ DETAIL PRODUCT
 }
 .wishlist-delete-btn {
     width: 100%;
-    font-size: 20px;
     background: transparent;
-    color: #AEAEAE;
+    color:#e62e04;
     font-weight: 600;
     font-size: 12px;
-    padding: 6px 16px;
+    padding: 6px 0px;
     border-radius: 3px;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+    text-transform: uppercase;
 }
 .wishlist-delete-btn:hover .fa-trash, .wishlist-delete-btn:focus .fa-trash, .wishlist-delete-btn:active .fa-trash {
     color: #e62e04 !important;
