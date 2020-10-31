@@ -626,12 +626,24 @@ body.modal-open {
 
 
 /*NEW*/
+.wish-border .new-top {
+    padding-top: 0px !important;
+}
+.wish-border {
+    border: 0;
+    margin-bottom: 0px;
+    border-radius: 0;
+}
 #show-img {
     height: 370px !important;
 }
 .small-img {
     margin-top: -55px;
 }
+.quick-view-body .small-img {
+    margin-top: 18px;
+}
+
 .des-padd-top {
     padding-top: 10px !important;
 }

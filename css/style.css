@@ -2508,34 +2508,7 @@ DETAIL PRODUCT
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
-.w-100 {
-    width: 100%;
-}
-.wishlist-delete-btn {
-    width: 100%;
-    background: transparent;
-    color:#212529;
-    font-weight: 600;
-    font-size: 12px;
-    padding: 6px 0px;
-    border-radius: 3px;
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-    text-transform: uppercase;
-}
-.wishlist-delete-btn:hover, .wishlist-delete-btn:focus, .wishlist-delete-btn:active {
-    color: #e62e04 !important;
-}
-.wishlist-delete-btn:hover .fa-trash, .wishlist-delete-btn:focus .fa-trash, .wishlist-delete-btn:active .fa-trash {
-    color: #e62e04 !important;
-}
-.wishlist-delete-btn .fa-trash {
-    font-size: 20px;
-}
-.des-padd-top {
-    padding-right: 30px;
-    padding-top: 60px !important;
-}
+
 .new-de-300 {
     background: #AEAEAE; 
     border-radius: 4px; 
@@ -3998,4 +3971,39 @@ CAMPAIGN
 
 .win-deal-page-body .main-collections-block {
     padding: 5px 0px;
+}
+
+/*wish list page*/
+.w-100 {
+    width: 100%;
+}
+.wishlist-delete-btn {
+    width: 100%;
+    background: transparent;
+    color:#212529;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 6px 0px;
+    border-radius: 3px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    text-transform: uppercase;
+}
+.wishlist-delete-btn:hover, .wishlist-delete-btn:focus, .wishlist-delete-btn:active {
+    color: #e62e04 !important;
+}
+.wishlist-delete-btn:hover .fa-trash, .wishlist-delete-btn:focus .fa-trash, .wishlist-delete-btn:active .fa-trash {
+    color: #e62e04 !important;
+}
+.wishlist-delete-btn .fa-trash {
+    font-size: 20px;
+}
+.wish-border {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.des-padd-top {
+    padding-right: 30px;
+    padding-top: 60px !important;
 }
