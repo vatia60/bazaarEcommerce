@@ -2500,14 +2500,17 @@ DETAIL PRODUCT
     transition: all .2s ease-in-out;
 }
 .wishlist-delete-btn {
-    background: red;
-    color: #fff;
+    background: transparent;
+    color: #AEAEAE;
     font-weight: 600;
     font-size: 12px;
     padding: 6px 16px;
     border-radius: 3px;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+}
+.wishlist-delete-btn:hover .fa-trash, .wishlist-delete-btn:focus .fa-trash, .wishlist-delete-btn:active .fa-trash {
+    color: #e62e04 !important;
 }
 .new-de-300 {
     background: #AEAEAE; 
