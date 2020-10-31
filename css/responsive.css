@@ -166,6 +166,19 @@
 .w-100 {
     font-size: 10px;
 }
+.n-star-display {
+    left: -119px !important;
+    width: 290px;
+}
+.n-widt-pro {
+    font-size: 11px !important;
+}
+.n-star-display .rated-star-percent {
+    font-size: 11px !important;
+}
+.n-star-display .view-all-star-a {
+    font-size: 12px !important;
+}
 }
 
 
@@ -613,6 +626,12 @@ body.modal-open {
 
 
 /*NEW*/
+#show-img {
+    height: 370px !important;
+}
+.small-img {
+    margin-top: -55px;
+}
 .des-padd-top {
     padding-top: 10px !important;
 }
