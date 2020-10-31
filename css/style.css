@@ -2514,7 +2514,7 @@ DETAIL PRODUCT
 .wishlist-delete-btn {
     width: 100%;
     background: transparent;
-    color:#e62e04;
+    color:#212529;
     font-weight: 600;
     font-size: 12px;
     padding: 6px 0px;
@@ -2522,6 +2522,9 @@ DETAIL PRODUCT
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     text-transform: uppercase;
+}
+.wishlist-delete-btn:hover, .wishlist-delete-btn:focus, .wishlist-delete-btn:active {
+    color: #e62e04 !important;
 }
 .wishlist-delete-btn:hover .fa-trash, .wishlist-delete-btn:focus .fa-trash, .wishlist-delete-btn:active .fa-trash {
     color: #e62e04 !important;
@@ -2531,6 +2534,7 @@ DETAIL PRODUCT
 }
 .des-padd-top {
     padding-right: 30px;
+    padding-top: 50px !important;
 }
 .new-de-300 {
     background: #AEAEAE; 
