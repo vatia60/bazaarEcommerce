@@ -32,11 +32,12 @@ if (window.innerWidth > 768) {
 }
 
 
-/*$('.new-click-m').hover(function() {
+$('.new-click-m').hover(function() {
   $('.nav-absolute').addClass('show');
 }, function() {
-  $('.nav-absolute').removeClass('show');
-}); */
+  
+
+}); 
 
 
 

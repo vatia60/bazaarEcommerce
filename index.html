@@ -179,7 +179,7 @@ BOTTOM FOOTER FOR MOBILE
                         <div class="col-md-6">
                            <div class="mobile-showhope">
                                   <button class="mobile-showhope-btn"><i class="fas fa-times"></i></button>
-                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <div id="carouselExampleIndicators-quick" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="images/zoom1.jpg" alt="1">
@@ -194,11 +194,11 @@ BOTTOM FOOTER FOR MOBILE
                             <img src="images/zoom4.jpg" alt="1">                          
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators-quick" role="button" data-slide="prev">
                         <span class="caro-prev-icon" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#carouselExampleIndicators-quick" role="button" data-slide="next">
                         <span class="caro-next-icon" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
                         <span class="sr-only">Next</span>
                     </a>
@@ -1590,12 +1590,12 @@ SLIDER
 ========================= -->
     <div class="col-md-12 col-lg-9 pl-1 mob-ipad-padd">
         <div class="slider">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators-home" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators-home" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators-home" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators-home" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators-home" data-slide-to="3"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -1635,11 +1635,11 @@ SLIDER
                         </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carouselExampleIndicators-home" role="button" data-slide="prev">
                     <span class="caro-prev-icon" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carouselExampleIndicators-home" role="button" data-slide="next">
                     <span class="caro-next-icon" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
                     <span class="sr-only">Next</span>
                 </a>
@@ -3344,6 +3344,7 @@ TOP PICK FOR YOU
         <!-- End pick up for you -->
     </div> <!-- End collections -->
     <!-- End Collection -->
+   
     <!-- =====================
   FOOTER 
 =====================-->
@@ -3406,13 +3407,15 @@ TOP PICK FOR YOU
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
     <script>
+        $(document).ready(function() {
         $(function () {
-            $('#carousel').carousel({
+            $('.carousel').carousel({
                 interval: 2000
             })
         });
 
-        
+        });
+
 
         
       $('.home-windeal-slick').slick({
