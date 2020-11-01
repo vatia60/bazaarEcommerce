@@ -165,7 +165,10 @@ $(document).ready(function() {
         $(this).siblings(".new-user-coupon-toggle").toggle();
         
         e.stopPropagation();
-        e.preventDefault();
+
+        if ($('.new-user-coupon-toggle').css('display') == 'block') {
+        $('body').css('overflow', 'hidden');
+    }
 
     });
 });
