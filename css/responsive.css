@@ -255,7 +255,7 @@
         right: 0px;
     }
 
-    .wish-cart,
+    .only-mob-no,
     .mobile-new-none {
         display: none !important;
     }
@@ -626,6 +626,12 @@ body.modal-open {
 
 
 /*NEW*/
+.menu.fixed-top {
+    top: 40px;
+}
+.nav-absolute {
+    top: 30px;
+}
 .wish-border .new-pagination {
     padding: 20px 30px 0px 0px !important;
 }

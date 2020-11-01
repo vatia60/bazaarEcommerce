@@ -553,8 +553,6 @@ a:hover {
 .navbar-nav .dropdown-menu {
     position: absolute;
     float: none;
-
-
 }
 
 .dropdown-submenu-position {
@@ -574,8 +572,6 @@ a:hover {
     width: 270px;
     transition: all 0.3s ease-in-out;
 }
-
-
 
 
 

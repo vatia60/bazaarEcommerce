@@ -4,12 +4,8 @@ Header Fixed Top
 $(window).scroll(function() {
     if ($(window).scrollTop() >= 50) {
         $('.menu').addClass('fixed-top');
-        $('.new-click-p').css('display', 'none');
-        $('.new-click-m').css('display', 'block');
     } else {
         $('.menu').removeClass('fixed-top');
-        $('.new-click-m').css('display', 'none');
-        $('.new-click-p').css('display', 'block');
     }
 });
 
@@ -19,9 +15,32 @@ if (window.innerWidth < 768) {
 
 } else {
     $('.fixed-top-header').removeClass('fixed-top');
-
-
 }
+
+if (window.innerWidth > 768) {
+    $(window).scroll(function() {
+    if ($(window).scrollTop() >= 50) {
+        $('.new-click-m').css('display', 'block');
+        $('.new-click-p').css('display', 'none');
+    } else {
+        $('.new-click-p').css('display', 'block');
+        $('.new-click-m').css('display', 'none');
+    }
+});
+} else {
+    $('.new-click-m').css('display', 'block');
+}
+
+
+/*$('.new-click-m').hover(function() {
+  $('.nav-absolute').addClass('show');
+}, function() {
+  $('.nav-absolute').removeClass('show');
+}); */
+
+
+
+
 
 /*=====================================
 Filter Mobile
