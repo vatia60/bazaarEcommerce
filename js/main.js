@@ -174,13 +174,6 @@ $(document).ready(function() {
 });
 
 $(document).click(function() {
-
-    $(".new-user-coupon-toggle").css('display', 'none');
-    $(".account").css('display', 'none');
-    $(".bottom-chat-footer").css('display', 'none');
-    $(".mobile-order-summary").css('display', 'none');
-    $(".account-two").css('display', 'none');
-
     $('.account-btn').removeClass('n-bottom-active');
     $('.account-btn-two-bot').removeClass('n-bottom-active');
     $('.account-btn-search').removeClass('n-bottom-active');
@@ -580,6 +573,7 @@ $(".account-btn-two-bot").on("click", function(e) {
 
     if ($('.bottom-chat-footer').css('display') == 'block') {
         $('.account-btn-two-bot').addClass('n-bottom-active');
+        $('body').css('overflow', 'hidden');
     }
 
 });
