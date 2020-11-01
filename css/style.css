@@ -222,6 +222,15 @@ a:hover {
 .padd-bott-10 {
     padding-bottom: 10px;
 }
+.all-ovarlay-new {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #808080d1 !important;
+    display: none;
+}
 /*
 ===========================
 ** TOP HEADER

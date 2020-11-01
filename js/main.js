@@ -170,8 +170,10 @@ $(document).ready(function() {
 
         if ($('.new-user-coupon-toggle').css('display') == 'block') {
         $('body').css({'overflow':'hidden', 'background': '#808080c2 !important'});
+        /*$('.all-ovarlay-new').css('display','block');*/
     }else {
         $('body').css({'overflow':'visible', 'background': '#EBE7DE'});
+        /*$('.all-ovarlay-new').css('display','none');*/
     }
     }
 
@@ -179,6 +181,9 @@ $(document).ready(function() {
 });
 
 $(document).click(function() {
+    
+    $('.new-user-coupon-toggle').css('display','none');
+
     $('.account-btn').removeClass('n-bottom-active');
     $('.account-btn-two-bot').removeClass('n-bottom-active');
     $('.account-btn-search').removeClass('n-bottom-active');
