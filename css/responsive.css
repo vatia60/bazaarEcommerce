@@ -179,6 +179,9 @@
 .n-star-display .view-all-star-a {
     font-size: 12px !important;
 }
+.seller-body .new-best-match-toggle {
+    margin-left: 22px !important;
+}
 }
 
 
@@ -879,6 +882,12 @@ body.modal-open {
 
 
 @media (max-width: 992px) {
+    .seller-body .product-body-sidebar {
+    padding: 15px 0 0 0;
+}
+    .store-page-btn {
+        display: block;
+    }
     .product-body-sidebar-scroll {
         height: auto;
         padding-top: 54px !important;

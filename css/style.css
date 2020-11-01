@@ -1417,6 +1417,7 @@ SHOPPING CART
 
 .shopping-cart {
     background: #EBE7DE;
+    margin-bottom: 10px;
 }
 
 .pages-header {
@@ -1934,6 +1935,7 @@ SHOPPING CART
 .order-summary {
     background: #fff;
     padding: 20px 10px;
+    border-radius: 4px;
 }
 
 .order-summary h2 {
@@ -2010,14 +2012,15 @@ SHOPPING CART
 
 .sponsore-product {
     background: #fff;
-    padding: 20px 10px 100px 10px;
+    padding: 20px 10px 10px 10px;
     margin-top: 10px;
+    border-radius: 4px;
 }
 
 .sponsore-product h2 {
     font-size: 12px;
     font-weight: 700;
-    color: #fff;
+    color: #212529;
     margin-bottom: -5px;
     padding-top: 10px;
 }
@@ -2025,14 +2028,20 @@ SHOPPING CART
 .sponsore-product h2:hover {
     color: #e62e04;
 }
-
 .sponsore-block-item {
     padding: 5px;
-    background: #8ED4BC;
+    background: #fff;
     margin-bottom: 5px;
-    border-radius: 5px;
+    border-radius: 4px;
+    border: 1px solid #cccccc4a;
+    box-shadow: 0px 0px 5px 2px #cccccc4a;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }
-
+.sponsore-block-item:hover, .sponsore-block-item:focus,.sponsore-block-item:active {
+    border: 1px solid #ccccccba;
+    box-shadow: 0px 0px 5px 2px #ccccccba;
+}
 .sponsore-block-item img {
     max-width: 100%;
 }
@@ -2639,7 +2648,7 @@ DETAIL PRODUCT
 /*DETAIL SIMILAR PRODUCT*/
 .detail-similar-product {
     background: #E7EEE6;
-    padding: 30px 0;
+    padding: 0px 0 10px 0;
     overflow: hidden;
 }
 
@@ -3317,13 +3326,9 @@ SELLER INFORMATION
     text-align: right;
 }
 
-.store-page-btn {
-    display: none;
-}
-
 /*Seller Banner Body*/
 .seller-banner-body {
-    background: #fff;
+    background: #E7EEE6;
     padding: 4px 4px 10px 4px;
 }
 
@@ -3404,7 +3409,7 @@ SELLER INFORMATION
 }
 
 .seller-banner-block {
-    background: #8ED4BC;
+    background: #fff;
     padding: 4px;
     border-radius: 4px;
 }
@@ -3421,7 +3426,7 @@ SELLER INFORMATION
 
 .seller-banner-block h5 {
     font-size: 12px;
-    color: #fff;
+    color: #212529;
     -webkit-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out;
 }
@@ -3434,7 +3439,7 @@ SELLER INFORMATION
 .seller-first-p {
     margin-bottom: 0;
     padding-top: 5px;
-    color: #fff;
+    color: #212529;
     font-size: 14px;
 }
 
@@ -3525,7 +3530,9 @@ SELLER INFORMATION
     width: 100%;
     background: transparent;
 }
-
+.store-page-btn {
+        display: none;
+    }
 .btn-sidebar span {
     font-size: 14px;
 }

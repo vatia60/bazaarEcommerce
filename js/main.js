@@ -166,8 +166,13 @@ $(document).ready(function() {
         
         e.stopPropagation();
 
+        if (window.innerWidth < 768) {
+
         if ($('.new-user-coupon-toggle').css('display') == 'block') {
-        $('body').css('overflow', 'hidden');
+        $('body').css({'overflow':'hidden', 'background': '#808080c2 !important'});
+    }else {
+        $('body').css({'overflow':'visible', 'background': '#EBE7DE'});
+    }
     }
 
     });
