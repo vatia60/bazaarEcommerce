@@ -741,12 +741,20 @@ $(document).ready(function(e) {
     $(".thumb").click(function() {
         $('.image-show').css('display', 'block');
           var big_url = $(this).attr("href");
-          $("#main-image img").attr("src", big_url)
+          $("#main-image img").attr("src", big_url);
         return false;
         e.stopPropagation();
     });
 });
 
+$(document).ready(function() {
+    $(document).click(function() {
+        if ($('.image-show').css('display') == 'block') {
+             $('.thumb img.color-active').removeClass('color-active');
+            $('.image-show').css('display', 'none');
+        }
+    });
+});
 $(document).ready(function() {
     $('.thumb img').on('click', function() {
         $('.thumb img.color-active').removeClass('color-active');
