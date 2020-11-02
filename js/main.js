@@ -16,28 +16,17 @@ if (window.innerWidth < 768) {
 } else {
     $('.fixed-top-header').removeClass('fixed-top');
 }
-
-if (window.innerWidth > 768) {
-    $(window).scroll(function() {
-    if ($(window).scrollTop() >= 50) {
-        $('.new-click-m').css('display', 'block');
-        $('.new-click-p').css('display', 'none');
-    } else {
-        $('.new-click-p').css('display', 'block');
-        $('.new-click-m').css('display', 'none');
-    }
-});
-} else {
-    $('.new-click-m').css('display', 'block');
-}
+/*=====================================
+Menu
+=====================================*/
+$('.menu-hover').hover(function() {
+            $('.fixed-top #navbarContent').addClass('show');
+          }, function() {
+            $('.fixed-top #navbarContent').removeClass('show');
+          });
 
 
-$('.new-click-m').hover(function() {
-  $('.nav-absolute').addClass('show');
-}, function() {
-  
 
-}); 
 
 
 
@@ -750,7 +739,7 @@ Customer Review Images
 =============================================*/
 $(document).ready(function(e) {
     $(".thumb").click(function() {
-        $('.image-show').toggle();
+        $('.image-show').css('display', 'block');
           var big_url = $(this).attr("href");
           $("#main-image img").attr("src", big_url)
         return false;
@@ -758,6 +747,12 @@ $(document).ready(function(e) {
     });
 });
 
+$(document).ready(function() {
+    $('.thumb img').on('click', function() {
+        $('.thumb img.color-active').removeClass('color-active');
+        $(this).addClass('color-active');
+    });
+});
 /*=============================================
 Product Left Sidebar View More Categories
 =============================================*/

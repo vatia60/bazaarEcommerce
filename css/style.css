@@ -777,8 +777,26 @@ a:hover {
 .cate-sub-pro a:hover {
     color: #e62e04 !important;
 }
+.menu-hover {
+    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-right: 20px;
+}
 
-
+.new-menu-rel {
+    position: relative;
+}
+.new-menu-rel .wish-cart {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.menu-hover .navbar-toggler:hover {
+    border-bottom: 2px solid transparent;
+}
+.menu.fixed-top .navbar {
+    padding: 0 0 2px 0 !important;
+}
 
 .slider {
     padding-top: 2px;
@@ -823,37 +841,6 @@ a:hover {
 .carousel-caption button:hover::after {
     transform: scale(1, 1);
 }
-
-/*.category-slider .carousel-indicators {
-    right: 0;
-    bottom: -28px;
-    background: #E7EEE6;
-    padding: 5px 0;
-    margin-right: 0;
-    margin-left: 0;
-}
-
-.category-slider .carousel-indicators li {
-    position: relative;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    width: 100px;
-    height: 6px;
-    border-left: 2px solid grey;
-    margin-right: 0px;
-    margin-left: 0px;
-    text-indent: -999px;
-    background-color: #FCDEDB;
-}
-
-.category-slider .carousel-indicators li:first-child {
-    border-left: 0;
-}
-
-.category-slider .carousel-indicators .active {
-    background-color: #a6bfa2;
-}*/
 .carousel-indicators li {
     position: relative;
     -webkit-box-flex: 0;
@@ -2085,6 +2072,8 @@ DETAIL PRODUCT
 .thumb img {
     width: 80px;
     height: 80px;
+    border: 1px solid #ccc;
+    margin-right: 4px;
 }
 #main-image img {
     height: 445px;
