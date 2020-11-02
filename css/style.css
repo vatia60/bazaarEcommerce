@@ -3040,6 +3040,15 @@ PRODUCTS
     justify-content: flex-start;
     align-items: center;
 }
+.new-idea-btn {
+    cursor: pointer;
+    color: #5CC19F !important;
+    font-size: 12px !important;
+    font-weight: 600;
+}
+.new-idea {
+  display: none;
+}
 
 /*Product Filter*/
 .filter-product-heading-extra,

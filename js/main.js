@@ -745,7 +745,9 @@ $(".mobile-showhope-btn").on("click", function(e) {
 }
 
 
-
+/*=============================================
+Customer Review Images
+=============================================*/
 $(document).ready(function(e) {
     $(".thumb").click(function() {
         $('.image-show').toggle();
@@ -755,3 +757,13 @@ $(document).ready(function(e) {
         e.stopPropagation();
     });
 });
+
+/*=============================================
+Product Left Sidebar View More Categories
+=============================================*/
+
+$(".new-idea-btn").click(function(e) {
+    $('.new-idea').css('display', 'block');
+    $('.new-idea-btn').css('display', 'none');
+        e.stopPropagation();
+    });
