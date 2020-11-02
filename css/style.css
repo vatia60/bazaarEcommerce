@@ -222,15 +222,7 @@ a:hover {
 .padd-bott-10 {
     padding-bottom: 10px;
 }
-.all-ovarlay-new {
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: #808080d1 !important;
-    display: none;
-}
+
 /*
 ===========================
 ** TOP HEADER
@@ -2087,6 +2079,16 @@ SHOPPING CART
 /* =============================================
 DETAIL PRODUCT
 ==============================================*/
+.image-show {
+    display: none;
+}
+.thumb img {
+    width: 80px;
+    height: 80px;
+}
+#main-image img {
+    height: 445px;
+}
 .mobile-showhope, .mobile-showhope-btn {
     display: none;
 }
@@ -4007,8 +4009,8 @@ CAMPAIGN
 }
 
 /*wish list page*/
-.w-100 {
-    width: 100%;
+.wish-mobile-n-position {
+position: relative;
 }
 .wishlist-delete-btn {
     background: transparent;

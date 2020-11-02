@@ -170,10 +170,10 @@ $(document).ready(function() {
 
         if ($('.new-user-coupon-toggle').css('display') == 'block') {
         $('body').css({'overflow':'hidden', 'background': '#808080c2 !important'});
-        /*$('.all-ovarlay-new').css('display','block');*/
+        $('.all-ovarlay-new').css('display','block');
     }else {
         $('body').css({'overflow':'visible', 'background': '#EBE7DE'});
-        /*$('.all-ovarlay-new').css('display','none');*/
+        $('.all-ovarlay-new').css('display','none');
     }
     }
 
@@ -743,3 +743,15 @@ $(".mobile-showhope-btn").on("click", function(e) {
     $('.mobile-showhope').css('display', 'none');
 });
 }
+
+
+
+$(document).ready(function(e) {
+    $(".thumb").click(function() {
+        $('.image-show').toggle();
+          var big_url = $(this).attr("href");
+          $("#main-image img").attr("src", big_url)
+        return false;
+        e.stopPropagation();
+    });
+});

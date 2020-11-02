@@ -1758,6 +1758,16 @@ body.modal-open {
     flex: 0 0 50%;
     max-width: 50%;
 }
+.wish-mobile-n-position .all-ovarlay-new {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: 0;
+    margin-left: -10px;
+    background: #808080d1 !important;
+    display: none;
+}
 
 }
 
