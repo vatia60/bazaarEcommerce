@@ -33,6 +33,7 @@
 
 
 @media (max-width: 992px) {
+
     .seller-body .product-body-sidebar {
     padding: 15px 0 0 0;
 }
@@ -817,6 +818,7 @@
 /*MIN-768 AND MAX-992*/
 
 @media (min-width: 768px) and (max-width: 992px) {
+   
     .all-five-row.row .col-md-3 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 25%;
@@ -1064,6 +1066,12 @@
 
 
 @media (max-width: 767px) {
+     .campaign-banner {
+    height: 190px;
+}
+.campaign-banner-block {
+    padding-top: 46px;
+}
 .wish-border .new-best-match-toggle {
     left: -91px ;
     top: 22px ;

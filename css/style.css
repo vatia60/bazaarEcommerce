@@ -3624,8 +3624,11 @@ CAMPAIGN
 }
 
 .campaign-banner {
-    background: #282828;
-    padding: 40px 0 35px 0;
+    background: url(../images/new-banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
 }
 
 .campaign-banner h1 {
@@ -3638,7 +3641,9 @@ CAMPAIGN
     color: #fff;
     margin-bottom: 10px;
 }
-
+.campaign-banner-block {
+    padding-top: 60px;
+}
 .campaign-sale-start {
     margin-bottom: 10px;
 }
