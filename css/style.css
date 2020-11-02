@@ -782,7 +782,11 @@ a:hover {
     padding-top: 12px;
     padding-right: 20px;
 }
-
+.pages-menu-hover {
+    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-right: 20px;
+}
 .new-menu-rel {
     position: relative;
 }
@@ -1832,14 +1836,22 @@ SHOPPING CART
 .wish-delete a {
     font-weight: 700;
 }
-
+.shopping-more-to-love {
+    background: #fff !important;
+}
+.shopping-more-to-love .similar-block{
+    border: 1px solid #cccccc4a;
+    box-shadow: 0px 0px 5px 2px #cccccc4a;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
 .shopping-more-to-love .slick-prev {
     left: -17px;
     z-index: 999999999 !important;
 }
 
 .shopping-more-to-love .slick-next {
-    right: -10px;
+    right: -18px;
 }
 
 /*PAYMENT METHOD*/

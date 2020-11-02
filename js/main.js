@@ -26,7 +26,11 @@ $('.menu-hover').hover(function() {
           });
 
 
-
+$('.pages-menu-hover').hover(function() {
+            $('#navbarContent').addClass('show');
+          }, function() {
+            $('#navbarContent').removeClass('show');
+          });
 
 
 
