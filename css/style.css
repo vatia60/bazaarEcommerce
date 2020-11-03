@@ -4219,3 +4219,6 @@ position: relative;
 .wish-border .new-pagination {
     padding: 20px 30px 0px 0px;
 }
+.new-sort-nr {
+    text-align: right;
+}
