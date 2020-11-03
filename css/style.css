@@ -361,6 +361,7 @@ a:hover {
     border-radius: 3px;
     box-shadow: 0 0 1px 1px #96959259;
     -webkit-box-shadow: 0 0 1px 1px #96959259;
+    -webkit-appearance: none;
     display: none;
     z-index: 99999999 !important;
     right: 15px;
@@ -447,6 +448,7 @@ a:hover {
     border-radius: 4px;
     box-shadow: 0 0 4px 1px #d4d4d4;
     -webkit-box-shadow: 0 0 4px 1px #d4d4d4;
+    -webkit-appearance: none;
 }
 
 .account-middle-form h2 {
@@ -477,6 +479,7 @@ a:hover {
 .chat-login-a {
     box-shadow: 0 0 2px 1px;
     -webkit-box-shadow: 0 0 2px 1px;
+    -webkit-appearance: none;
     border-radius: 3px;
     padding: 4px 12px;
     -webkit-transition: color .2s ease-in-out;
@@ -827,6 +830,7 @@ a:hover {
     text-transform: uppercase;
     box-shadow: 0px 2px 4px 0px #e4e1e1;
     -webkit-box-shadow: 0px 2px 4px 0px #e4e1e1;
+    -webkit-appearance: none;
     cursor: pointer;
     -webkit-transition: background .2s ease-in-out;
     transition: background .2s ease-in-out;
@@ -962,6 +966,7 @@ a .card-title:hover {
 .card:hover {
     box-shadow: 0 0px 4px 2px #5ec1a061;
     -webkit-box-shadow: 0 0px 4px 2px #5ec1a061;
+    -webkit-appearance: none;
 }
 
 .similar-block {
@@ -1850,6 +1855,7 @@ SHOPPING CART
     border: 1px solid #cccccc4a;
     box-shadow: 0px 0px 5px 2px #cccccc4a;
     -webkit-box-shadow: 0px 0px 5px 2px #cccccc4a;
+    -webkit-appearance: none;
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
 }
@@ -2045,6 +2051,7 @@ SHOPPING CART
     border: 1px solid #cccccc4a;
     box-shadow: 0px 0px 5px 2px #cccccc4a;
     -webkit-box-shadow: 0px 0px 5px 2px #cccccc4a;
+    -webkit-appearance: none;
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
 }
@@ -2052,6 +2059,7 @@ SHOPPING CART
     border: 1px solid #ccccccba;
     box-shadow: 0px 0px 5px 2px #ccccccba;
     -webkit-box-shadow: 0px 0px 5px 2px #ccccccba;
+    -webkit-appearance: none;
 }
 .sponsore-block-item img {
     max-width: 100%;
@@ -2103,7 +2111,7 @@ SHOPPING CART
 .n-add-to-cart-n:hover {
     color: #f9f9f9 !important;
 } 
-.add-to-cart-position:hover .n-add-to-cart-n {
+.ner-similar-block:hover .n-add-to-cart-n {
     display: block;
 }
 /* =============================================
@@ -2993,6 +3001,7 @@ CATEGORIES SLIDER
 .categories-name-block:hover {
     box-shadow: 0 0 4px 3px grey;
     -webkit-box-shadow: 0 0 4px 3px grey;
+    -webkit-appearance: none;
     transition: all .3s ease-in-out;
 }
 
@@ -3094,6 +3103,7 @@ PRODUCTS
 .product-name-block:hover {
     box-shadow: 0 0 4px 3px grey;
     -webkit-box-shadow: 0 0 4px 3px grey;
+    -webkit-appearance: none;
 }
 
 .product-name-block-padd {
@@ -3270,6 +3280,7 @@ PRODUCTS
 .filter-sort-dropdown {
     box-shadow: 0 0 3px 1px #ffe1e1;
     -webkit-box-shadow: 0 0 3px 1px #ffe1e1;
+    -webkit-appearance: none;
     background: #fff;
 }
 
@@ -3554,6 +3565,7 @@ SELLER INFORMATION
 .seller-banner-block:hover {
     box-shadow: 0 0 4px 3px grey;
     -webkit-box-shadow: 0 0 4px 3px grey;
+    -webkit-appearance: none;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
@@ -3997,8 +4009,9 @@ CAMPAIGN
 }
 
 .win-three-img img:hover {
-    box-shadow: 0 0 4px 1px #ababab;;
-    -webkit-box-shadow: 0 0 4px 1px #ababab;;
+    box-shadow: 0 0 4px 1px #ababab;
+    -webkit-box-shadow: 0 0 4px 1px #ababab;
+    -webkit-appearance: none;
 }
 
 .win-three-img-left img {
@@ -4190,6 +4203,7 @@ position: relative;
     border-radius: 4px;
     border: 1px solid #cccccc4a;
     box-shadow: 0px 0px 5px 2px #cccccc4a;
+    -webkit-appearance: none;
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
 }
@@ -4197,6 +4211,7 @@ position: relative;
     border: 1px solid #ccccccba;
     box-shadow: 0px 0px 5px 2px #ccccccba;
     -webkit-box-shadow: 0px 0px 5px 2px #ccccccba;
+    -webkit-appearance: none;
 }
 .wish-border .new-pagination {
     padding: 20px 30px 0px 0px;

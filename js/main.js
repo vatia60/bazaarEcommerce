@@ -625,15 +625,25 @@ $(".account-btn-search").on("click", function(e) {
 /*=============================================
  Mobile Touch Open Quick View
 =============================================*/
-
 $(".main-collections-block").on('touchstart', function(e) {
     $(this).addClass('new-ole');
 
 });
-
 $(".main-collections-block").on('touchend', function(e) {
     $(this).removeClass('new-ole');
 });
+
+/*==================================================
+ Mobile Touch Open Add To Cart For Shoping Cart page
+==================================================*/
+$(".ner-similar-block").on('touchstart', function(e) {
+    $(this).addClass('new-ole');
+
+});
+$(".ner-similar-block").on('touchend', function(e) {
+    $(this).removeClass('new-ole');
+});
+
 
 if (window.innerWidth > 992) {
     $('.new-store-show').addClass('show');
