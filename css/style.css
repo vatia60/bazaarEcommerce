@@ -1052,12 +1052,14 @@ a .card-title:hover {
 }
 
 .close-n {
-  position: absolute;
-  right: 36px;
-  top: 26px;
-  width: 0px;
-  opacity: 0.9;
-  z-index: 9999;
+    position: absolute;
+    right: 36px;
+    top: 26px;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    opacity: 0.9;
+    z-index: 9999;
 }
 .close-n:hover {
   opacity: 1;
