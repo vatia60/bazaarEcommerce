@@ -3392,6 +3392,9 @@ PRODUCTS
 /*====================================
 SELLER INFORMATION
 ====================================*/
+.new-store-pages-mobile {
+    display: none;
+}
 .n-store-pages-desktop{
     text-align: right;
     padding-top: 20px;
