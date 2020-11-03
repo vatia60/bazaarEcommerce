@@ -2123,7 +2123,7 @@ DETAIL PRODUCT
 .new-pa-o-n.new-pagination {
     padding: 7px 30px 1px 0px;
 }
-.image-show {
+.image-show,.image-showtwo, .image-showthree {
     display: none;
     border: 1px solid #ccc;
     width: 266px;
@@ -2153,13 +2153,7 @@ DETAIL PRODUCT
     height: 445px;
 }
 
-.image-showtwo {
-    display: none;
-    border: 1px solid #ccc;
-    width: 266px;
-    margin-top: 10px;
-    position: relative;
-}
+
 .thumbtwo img {
     width: 80px;
     height: 80px;
@@ -2167,7 +2161,7 @@ DETAIL PRODUCT
     margin-right: 4px;
 }
 
-.image-showthree {
+ {
     display: none;
     border: 1px solid #ccc;
     width: 266px;

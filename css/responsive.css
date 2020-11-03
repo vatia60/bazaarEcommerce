@@ -1085,9 +1085,13 @@ display: none;
 
 
 @media (max-width: 767px) {
+.image-show,.image-showtwo, .image-showthree {
+    width: 180px;
+}
     #main-image img, #main-imagetwo img, #main-imagethree img {
     height: 300px;
 }
+
     .seller-banner-body {
     margin-left: -10px;
     margin-right: -10px;
