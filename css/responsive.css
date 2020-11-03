@@ -219,7 +219,7 @@
 
 
     .quick-view {
-        z-index: 99999999 !important;
+        z-index: 999 !important;
         padding: 6px 0;
         font-size: 12px;
     }
