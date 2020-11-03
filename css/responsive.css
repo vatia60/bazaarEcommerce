@@ -1066,12 +1066,18 @@
     .product-name-block-padd img {
         height: 144px;
     }
+    .n-store-pages-desktop{ 
+display: none;
+    }
 
 }
 
 
 
 @media (max-width: 767px) {
+    .n-store-pages-desktop{ 
+display: none;
+    }
     .menu {
         height: 35px;
     }

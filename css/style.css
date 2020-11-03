@@ -3392,6 +3392,18 @@ PRODUCTS
 /*====================================
 SELLER INFORMATION
 ====================================*/
+.n-store-pages-desktop{
+    text-align: right;
+    padding-top: 20px;
+}
+.n-store-pages-desktop ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 10px;
+    cursor: pointer;
+}
 .seller-social-icon {
     text-align: right;
 }
