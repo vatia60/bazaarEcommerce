@@ -339,7 +339,9 @@ a:hover {
     -webkit-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out;
 }
-
+.wish-cart {
+    z-index: 9999 !important;
+} 
 .account-btn,
 .account-btn-two {
     border: 0;
