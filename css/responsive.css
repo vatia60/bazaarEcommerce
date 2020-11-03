@@ -482,7 +482,9 @@
         box-shadow: 0 2px 4px 0 #bbbbbb;
         -webkit-box-shadow: 0 2px 4px 0 #bbbbbb;
     }
-
+.seller-differ-body .mobile-filter-header {
+    padding: 6px 15px 15px 15px;
+}
     .new-best-match-toggle {
             left: 0;
     right: 0;
@@ -554,9 +556,7 @@
     }
 
     .best-match {
-        border: 0;
-        padding: 0;
-        border-radius: 0;
+        padding: 7px 15px;
         font-size: 12px;
         font-weight: 600;
         color: #495057 !important;
