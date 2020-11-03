@@ -3478,7 +3478,7 @@ SELLER INFORMATION
     transition: all .2s ease-in-out;
 }
 .n-store-pages-desktop ul li:hover, .n-store-pages-desktop ul li:active, .n-store-pages-desktop ul li:focus {
-    color: #5CC19F;
+    color: #5CC19F !important;
 }
 .seller-social-icon {
     text-align: right;
@@ -3755,7 +3755,7 @@ SELLER INFORMATION
     font-size: 12px;
 }
 
-.seller-home {
+.seller-home, .seller-home:hover {
     color: #5CC19F;
 }
 
