@@ -2101,7 +2101,7 @@ SHOPPING CART
     right: 0;
 }
 .n-add-to-cart-n:hover {
-    color: #5de8ba !important;
+    color: #f9f9f9 !important;
 } 
 .add-to-cart-position:hover .n-add-to-cart-n {
     display: block;
