@@ -2906,6 +2906,16 @@ select.form-control:not([size]):not([multiple]) {
     z-index: 9999999999 !important;
 
 }
+.modal .detail-quantity-input {
+   width: 50px;
+    height: 30px;
+    }
+    .nr-right {
+        padding-right: 3px;
+    }
+    .nr-left {
+        padding-left: 3px;
+    }
 .fa-thumbs-up {
     color: #006CFF;
 }
