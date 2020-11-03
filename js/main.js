@@ -722,7 +722,7 @@ $(document).ready(function() {
                 settings: {
                   infinite: false,
                   slidesToShow: 3.4,
-                  slidesToScroll: 1
+                  slidesToScroll: 2
                 }
                  }
                 ]
