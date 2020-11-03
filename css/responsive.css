@@ -1085,7 +1085,10 @@ display: none;
 
 
 @media (max-width: 767px) {
-    
+    .close-n:before, .close-n:after {
+    height: 30px;
+    width: 5px;
+}
     .menu {
         height: 35px;
     }
