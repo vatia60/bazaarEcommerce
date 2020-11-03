@@ -3397,7 +3397,9 @@ SELLER INFORMATION
 }
 .n-store-pages-desktop{
     text-align: right;
-    padding-top: 20px;
+    background: #E7EEE6;
+    margin-top: 15px;
+    padding: 18px 30px 1px 0px;
 }
 .n-store-pages-desktop ul li {
     display: inline-block;
