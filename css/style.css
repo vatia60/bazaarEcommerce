@@ -107,7 +107,7 @@ a:hover {
 }
 
 .fixed-top {
-    z-index: 9999999999 !important;
+    z-index: 99999 !important;
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
 }
@@ -360,6 +360,7 @@ a:hover {
     position: absolute;
     border-radius: 3px;
     box-shadow: 0 0 1px 1px #96959259;
+    -webkit-box-shadow: 0 0 1px 1px #96959259;
     display: none;
     z-index: 99999999 !important;
     right: 15px;
@@ -445,6 +446,7 @@ a:hover {
     margin: 40px 0;
     border-radius: 4px;
     box-shadow: 0 0 4px 1px #d4d4d4;
+    -webkit-box-shadow: 0 0 4px 1px #d4d4d4;
 }
 
 .account-middle-form h2 {
@@ -474,6 +476,7 @@ a:hover {
 
 .chat-login-a {
     box-shadow: 0 0 2px 1px;
+    -webkit-box-shadow: 0 0 2px 1px;
     border-radius: 3px;
     padding: 4px 12px;
     -webkit-transition: color .2s ease-in-out;
@@ -823,6 +826,7 @@ a:hover {
     color: #fff;
     text-transform: uppercase;
     box-shadow: 0px 2px 4px 0px #e4e1e1;
+    -webkit-box-shadow: 0px 2px 4px 0px #e4e1e1;
     cursor: pointer;
     -webkit-transition: background .2s ease-in-out;
     transition: background .2s ease-in-out;
@@ -957,6 +961,7 @@ a .card-title:hover {
 
 .card:hover {
     box-shadow: 0 0px 4px 2px #5ec1a061;
+    -webkit-box-shadow: 0 0px 4px 2px #5ec1a061;
 }
 
 .similar-block {
@@ -1842,6 +1847,7 @@ SHOPPING CART
 .shopping-more-to-love .similar-block{
     border: 1px solid #cccccc4a;
     box-shadow: 0px 0px 5px 2px #cccccc4a;
+    -webkit-box-shadow: 0px 0px 5px 2px #cccccc4a;
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
 }
@@ -2035,12 +2041,14 @@ SHOPPING CART
     border-radius: 4px;
     border: 1px solid #cccccc4a;
     box-shadow: 0px 0px 5px 2px #cccccc4a;
+    -webkit-box-shadow: 0px 0px 5px 2px #cccccc4a;
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
 }
 .sponsore-block-item:hover, .sponsore-block-item:focus,.sponsore-block-item:active {
     border: 1px solid #ccccccba;
     box-shadow: 0px 0px 5px 2px #ccccccba;
+    -webkit-box-shadow: 0px 0px 5px 2px #ccccccba;
 }
 .sponsore-block-item img {
     max-width: 100%;
@@ -2094,6 +2102,38 @@ DETAIL PRODUCT
     margin-right: 4px;
 }
 #main-image img {
+    height: 445px;
+}
+
+.image-showtwo {
+    display: none;
+    border: 1px solid #ccc;
+    width: 266px;
+    margin-top: 10px;
+}
+.thumbtwo img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    margin-right: 4px;
+}
+#main-imagetwo img {
+    height: 445px;
+}
+
+.image-showthree {
+    display: none;
+    border: 1px solid #ccc;
+    width: 266px;
+    margin-top: 10px;
+}
+.thumbthree img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    margin-right: 4px;
+}
+#main-imagethree img {
     height: 445px;
 }
 .mobile-showhope, .mobile-showhope-btn {
@@ -2912,6 +2952,7 @@ CATEGORIES SLIDER
 
 .categories-name-block:hover {
     box-shadow: 0 0 4px 3px grey;
+    -webkit-box-shadow: 0 0 4px 3px grey;
     transition: all .3s ease-in-out;
 }
 
@@ -3012,6 +3053,7 @@ PRODUCTS
 
 .product-name-block:hover {
     box-shadow: 0 0 4px 3px grey;
+    -webkit-box-shadow: 0 0 4px 3px grey;
 }
 
 .product-name-block-padd {
@@ -3187,6 +3229,7 @@ PRODUCTS
 
 .filter-sort-dropdown {
     box-shadow: 0 0 3px 1px #ffe1e1;
+    -webkit-box-shadow: 0 0 3px 1px #ffe1e1;
     background: #fff;
 }
 
@@ -3443,6 +3486,7 @@ SELLER INFORMATION
 
 .seller-banner-block:hover {
     box-shadow: 0 0 4px 3px grey;
+    -webkit-box-shadow: 0 0 4px 3px grey;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
@@ -3887,6 +3931,7 @@ CAMPAIGN
 
 .win-three-img img:hover {
     box-shadow: 0 0 4px 1px #d8d6d6;
+    -webkit-box-shadow: 0 0 4px 1px #d8d6d6;
 }
 
 .win-three-img-left img {
@@ -4081,6 +4126,7 @@ position: relative;
 .wish-border .product-short-view-block:hover, .wish-border .product-short-view-block:focus,.wish-border .product-short-view-block:active {
     border: 1px solid #ccccccba;
     box-shadow: 0px 0px 5px 2px #ccccccba;
+    -webkit-box-shadow: 0px 0px 5px 2px #ccccccba;
 }
 .wish-border .new-pagination {
     padding: 20px 30px 0px 0px;

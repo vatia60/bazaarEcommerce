@@ -765,6 +765,58 @@ $(document).ready(function() {
         $(this).addClass('color-active');
     });
 });
+
+/*====Thumb Two====*/
+$(document).ready(function(e) {
+    $(".thumbtwo").click(function() {
+        $('.image-showtwo').css('display', 'block');
+          var big_url = $(this).attr("href");
+          $("#main-imagetwo img").attr("src", big_url);
+        return false;
+        e.stopPropagation();
+    });
+});
+
+$(document).ready(function() {
+    $(document).click(function() {
+        if ($('.image-showtwo').css('display') == 'block') {
+             $('.thumbtwo img.color-active').removeClass('color-active');
+            $('.image-showtwo').css('display', 'none');
+        }
+    });
+});
+$(document).ready(function() {
+    $('.thumbtwo img').on('click', function() {
+        $('.thumbtwo img.color-active').removeClass('color-active');
+        $(this).addClass('color-active');
+    });
+});
+
+/*====Thumb Three====*/
+$(document).ready(function(e) {
+    $(".thumbthree").click(function() {
+        $('.image-showthree').css('display', 'block');
+          var big_url = $(this).attr("href");
+          $("#main-imagethree img").attr("src", big_url);
+        return false;
+        e.stopPropagation();
+    });
+});
+
+$(document).ready(function() {
+    $(document).click(function() {
+        if ($('.image-showthree').css('display') == 'block') {
+             $('.thumbthree img.color-active').removeClass('color-active');
+            $('.image-showthree').css('display', 'none');
+        }
+    });
+});
+$(document).ready(function() {
+    $('.thumbthree img').on('click', function() {
+        $('.thumbthree img.color-active').removeClass('color-active');
+        $(this).addClass('color-active');
+    });
+});
 /*=============================================
 Product Left Sidebar View More Categories
 =============================================*/
