@@ -2086,6 +2086,7 @@ SHOPPING CART
 /* =============================================
 DETAIL PRODUCT
 ==============================================*/
+
 .new-pa-o-n.new-pagination {
     padding: 7px 30px 1px 0px;
 }
@@ -2094,6 +2095,20 @@ DETAIL PRODUCT
     border: 1px solid #ccc;
     width: 266px;
     margin-top: 10px;
+    position: relative;
+}
+.review-close-btn {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    box-shadow: 0;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+}
+.review-close-btn i{
+    color: grey;
+    font-size: 20px;
 }
 .thumb img {
     width: 80px;
