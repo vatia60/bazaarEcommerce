@@ -176,6 +176,7 @@ $(document).ready(function() {
 $(document).click(function() {
     
     $('.new-user-coupon-toggle').css('display','none');
+    $('.all-ovarlay-new').css('display','none');
 
     $('.account-btn').removeClass('n-bottom-active');
     $('.account-btn-two-bot').removeClass('n-bottom-active');

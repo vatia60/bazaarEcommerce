@@ -3786,7 +3786,7 @@ CAMPAIGN
 }
 
 .campaign-sort-by {
-    padding: 20px 30px 5px 0;
+    padding: 20px 30px 20px 0;
 }
 
 .campaign-sort-by .pro-extra-padd {
@@ -4039,6 +4039,7 @@ CAMPAIGN
 .win-deal-page-body {
     background: #E7EEE6;
     padding: 30px 10px;
+    position: relative;
 }
 
 .win-deal-body-btn {

@@ -488,8 +488,11 @@
     height: 100vh;
     margin-left: 8px;
     }
+   .campaign-sort-by .new-best-match-toggle {
+  background: transparent;
+    }
 .wish-border .new-best-match-toggle{
-  background: transparent; !important;
+  background: transparent;
 }
     .new-best-match-toggle li a {
         padding: 8px 0 8px 11px;
@@ -1084,6 +1087,10 @@
 .campaign-banner-block {
     padding-top: 46px;
 }
+.campaign-sort-by .new-best-match-toggle {
+    left: -91px ;
+    top: 38px ;
+    }
 .wish-border .new-best-match-toggle {
     left: -91px ;
     top: 22px ;
@@ -1782,7 +1789,7 @@ body.modal-open {
     flex: 0 0 50%;
     max-width: 50%;
 }
-.wish-mobile-n-position .all-ovarlay-new {
+.all-ovarlay-new {
     position: absolute;
     left: 0;
     right: 0;
