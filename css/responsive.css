@@ -33,7 +33,9 @@
 
 
 @media (max-width: 992px) {
-
+    .menu {
+        display: none;
+    }
     .seller-body .product-body-sidebar {
     padding: 15px 0 0 0;
 }
@@ -1131,7 +1133,9 @@ display: none;
     .top-header-left {
         padding-top: 0px;
     }
-
+    .top-category-header-left {
+        padding-top: 7px;
+    }
     .top-category-header-left a {
         font-size: 14px;
     }
