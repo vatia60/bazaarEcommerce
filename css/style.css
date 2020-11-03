@@ -3089,13 +3089,13 @@ PRODUCTS
     justify-content: flex-start;
     align-items: center;
 }
-.new-idea-btn {
+.new-idea-btn, .view-less-btn {
     cursor: pointer;
     color: #5CC19F !important;
     font-size: 12px !important;
     font-weight: 600;
 }
-.new-idea {
+.new-idea, .view-less-btn {
   display: none;
 }
 

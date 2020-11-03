@@ -766,7 +766,7 @@ $(document).ready(function() {
     });
 });
 
-/*====Thumb Two====*/
+/*====Customer Review Images Two====*/
 $(document).ready(function(e) {
     $(".thumbtwo").click(function() {
         $('.image-showtwo').css('display', 'block');
@@ -792,7 +792,7 @@ $(document).ready(function() {
     });
 });
 
-/*====Thumb Three====*/
+/*====Customer Review Images Three====*/
 $(document).ready(function(e) {
     $(".thumbthree").click(function() {
         $('.image-showthree').css('display', 'block');
@@ -824,5 +824,13 @@ Product Left Sidebar View More Categories
 $(".new-idea-btn").click(function(e) {
     $('.new-idea').css('display', 'block');
     $('.new-idea-btn').css('display', 'none');
+    $('.view-less-btn').css('display', 'block');
+        e.stopPropagation();
+    });
+
+$(".view-less-btn").click(function(e) {
+    $('.new-idea').css('display', 'none');
+    $('.new-idea-btn').css('display', 'block');
+    $('.view-less-btn').css('display', 'none');
         e.stopPropagation();
     });
