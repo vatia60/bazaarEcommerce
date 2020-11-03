@@ -2097,7 +2097,7 @@ DETAIL PRODUCT
     margin-top: 10px;
     position: relative;
 }
-.review-close-btn {
+.review-close-btn, .review-close-btn-two, .review-close-btn-three {
     background: transparent;
     border: 0;
     outline: 0;
@@ -2106,7 +2106,7 @@ DETAIL PRODUCT
     right: 6px;
     top: 6px;
 }
-.review-close-btn i{
+.review-close-btn i, .review-close-btn-two i, .review-close-btn-three i{
     color: grey;
     font-size: 20px;
 }
@@ -2125,6 +2125,7 @@ DETAIL PRODUCT
     border: 1px solid #ccc;
     width: 266px;
     margin-top: 10px;
+    position: relative;
 }
 .thumbtwo img {
     width: 80px;
@@ -2141,6 +2142,7 @@ DETAIL PRODUCT
     border: 1px solid #ccc;
     width: 266px;
     margin-top: 10px;
+    position: relative;
 }
 .thumbthree img {
     width: 80px;
