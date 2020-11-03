@@ -1105,12 +1105,14 @@ display: none;
     padding-top: 46px;
 }
 .campaign-sort-by .new-best-match-toggle {
-    left: -91px ;
-    top: 38px ;
+    left: -61px;
+    top: 39px;
+    font-size: 14px;
     }
 .wish-border .new-best-match-toggle {
-    left: -91px ;
-    top: 22px ;
+    left: -61px;
+    top: 27px;
+    font-size: 14px;
     }
     .top-header-left h2 {
         padding-top: 6px;
@@ -1594,6 +1596,9 @@ body.modal-open {
     margin-bottom: 10px;
     border-radius: 0;
 }
+.wish-border .mobile-filter-header {
+    padding: 10px 15px;
+    }
 #show-img {
     height: 370px !important;
 }
@@ -1915,8 +1920,9 @@ body.modal-open {
         height: 100vh !important;
     }
 
-    .new-best-match-toggle {
-        left: -32px !important;
+    .campaign-sort-by .new-best-match-toggle {
+        left: -60px !important;
+    }
     }
 
     .new-best-match-toggle li a {
@@ -2008,7 +2014,5 @@ body.modal-open {
 .seller-body .new-best-match-toggle {
     margin-left: 6px !important;
 }
-.wish-border .new-best-match-toggle {
-    left: -91px !important;
-    }
+
 }
