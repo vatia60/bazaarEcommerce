@@ -1232,7 +1232,7 @@ display: none;
         bottom: 0;
         left: 0;
         right: 0;
-        z-index: 999 !important;
+        z-index: 999999999999 !important;
         background: #fff;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 6px 0px;
         -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 6px 0px;

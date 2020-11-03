@@ -3449,6 +3449,9 @@ PRODUCTS
 /*====================================
 SELLER INFORMATION
 ====================================*/
+.seller-banner {
+    overflow: hidden;
+}
 .new-store-pages-mobile {
     display: none;
 }
