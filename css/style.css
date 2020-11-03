@@ -3399,7 +3399,10 @@ SELLER INFORMATION
     text-align: right;
     background: #E7EEE6;
     margin-top: 15px;
-    padding: 18px 30px 1px 0px;
+    padding: 15px 30px 15px 0px;
+}
+.n-store-pages-desktop ul{
+    margin-bottom: 0;
 }
 .n-store-pages-desktop ul li {
     display: inline-block;
@@ -3416,7 +3419,9 @@ SELLER INFORMATION
 /*Seller Banner Body*/
 .seller-banner-body {
     background: #E7EEE6;
-    padding: 4px 4px 10px 4px;
+    padding: 4px 0px 10px 0px;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 .seller-social-icon {
