@@ -491,7 +491,7 @@
     width: 100vw;
     top: 38px;
     z-index: 9999 !important;
-  background: #808080c2;
+  /*background: #808080c2;*/
     bottom: 0;
     height: 100vh;
     margin-left: 8px;
@@ -1559,11 +1559,11 @@ body.modal-open {
 
 
 /*NEW*/
-.new-best-match-toggle {
-    margin-left: -10px !important;
+.seller-differ-body .new-best-match-toggle, .product-body .new-best-match-toggle {
+    margin-left: -25px !important;
     }
 .best-match {
-        margin-left: -016px !important;
+        margin-left: -16px !important;
     }
 .pages-menu {
     display: none;
@@ -2003,10 +2003,10 @@ body.modal-open {
     font-size: 11px !important;
 }
 .n-star-display .view-all-star-a {
-    font-size: 12px !important;
+    font-size: 6px !important;
 }
 .seller-body .new-best-match-toggle {
-    margin-left: 22px !important;
+    margin-left: 6px !important;
 }
 .wish-border .new-best-match-toggle {
     left: -91px !important;

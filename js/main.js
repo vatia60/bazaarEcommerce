@@ -159,11 +159,9 @@ $(document).ready(function() {
         if (window.innerWidth < 768) {
 
         if ($('.new-user-coupon-toggle').css('display') == 'block') {
-        $('body').css({'overflow':'hidden', 'background': '#808080c2 !important'});
-        $('.all-ovarlay-new').css('display','block');
-    }else {
-        $('body').css({'overflow':'visible', 'background': '#EBE7DE'});
-        $('.all-ovarlay-new').css('display','none');
+        $(window).scroll(function() {
+            $('.new-user-coupon-toggle').css('display','none');
+        });
     }
     }
 
