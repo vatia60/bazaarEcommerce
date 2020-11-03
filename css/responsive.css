@@ -239,6 +239,10 @@
     .new-ole .quick-view {
         display: block !important;
     }
+    .new-ole .n-add-to-cart-n {
+        display: block !important;
+    }
+
 
     .shopping-card-flex {
         width: 247px;
