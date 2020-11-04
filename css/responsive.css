@@ -71,7 +71,7 @@
     .fixed-top-header {
         background: #E7EEE6;
         height: 40px;
-        z-index: 9999999 !important;
+        z-index: 99999999999 !important;
     }
 
     .top-header-left h2 {
