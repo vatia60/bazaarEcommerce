@@ -570,7 +570,9 @@
         color: #495057 !important;
         margin-left: 20px;
     }
-
+.detail-short-right .best-match {
+    padding: 7px 12px;
+}
     .product-normal-view,
     .product-short-view {
         padding-top: 20px;
