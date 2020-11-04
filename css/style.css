@@ -3925,7 +3925,7 @@ CAMPAIGN
     -webkit-transition: all .3s ease-in-out;
 }
 
-.campaign-img-position:hover .campaign-quick-overlay {
+.campaign-body-products .similar-block:hover .campaign-quick-overlay {
     display: block;
 }
 

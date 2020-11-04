@@ -628,6 +628,14 @@ $(".main-collections-block").on('touchend', function(e) {
     $(this).removeClass('new-ole');
 
 });
+$(".similar-block").on('touchstart', function(e) {
+    $(this).addClass('new-ole');
+    
+});
+$(".similar-block").on('touchend', function(e) {
+    $(this).removeClass('new-ole');
+
+});
 
 /*==================================================
  Mobile Touch Open Add To Cart For Shoping Cart page

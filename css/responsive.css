@@ -242,8 +242,11 @@
     .new-ole .n-add-to-cart-n {
         display: block !important;
     }
-
-
+    
+    .new-ole .campaign-quick-overlay {
+        display: block !important;
+    }
+    
     .shopping-card-flex {
         width: 247px;
     }
