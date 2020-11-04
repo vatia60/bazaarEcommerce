@@ -1579,6 +1579,10 @@ body.modal-open {
 .seller-differ-body .new-best-match-toggle, .product-body .new-best-match-toggle {
     margin-left: -25px !important;
     }
+.customer-review-details-header .new-best-match-toggle {
+    left: -33px;
+    top: 32px;
+}
 .best-match {
         margin-left: -16px !important;
     }

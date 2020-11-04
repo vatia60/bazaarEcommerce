@@ -2577,7 +2577,7 @@ DETAIL PRODUCT
 }
 
 .detail-quantity-input {
-    width: 60px;
+    width: 54px;
     border: none;
     text-align: center;
     background: transparent;
@@ -2848,7 +2848,7 @@ DETAIL PRODUCT
 }
 
 .customer-review-details-header {
-    padding: 4px 40px;
+    padding: 10px 40px;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     margin-top: 30px;
@@ -3278,7 +3278,7 @@ PRODUCTS
 }
 
 .new-best-match-toggle {
-    left: 55px;
+    left: 0px;
     right: 0;
     top: 26px;
     z-index: 99999999;
@@ -3333,7 +3333,7 @@ PRODUCTS
 
 .best-match {
     border: 1px solid #91929499;
-    padding: 10px 15px;
+    padding: 5px 10px;
     border-radius: 2px;
 }
 
