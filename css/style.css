@@ -361,8 +361,8 @@ a:hover {
     text-align: left;
     position: absolute;
     border-radius: 3px;
-    box-shadow: 0 0 1px 1px #96959259 inset;
-    -webkit-box-shadow: 0 0 1px 1px #96959259 inset;
+    box-shadow: 0 0 1px 1px #96959259 ;
+    -webkit-box-shadow: 0 0 1px 1px #96959259 ;
     -webkit-appearance: none;
     display: none;
     z-index: 99999999 !important;
@@ -448,8 +448,8 @@ a:hover {
     padding: 20px 100px;
     margin: 40px 0;
     border-radius: 4px;
-    box-shadow: 0 0 4px 1px #d4d4d4 inset;
-    -webkit-box-shadow: 0 0 4px 1px #d4d4d4 inset;
+    box-shadow: 0 0 4px 1px #d4d4d4 ;
+    -webkit-box-shadow: 0 0 4px 1px #d4d4d4 ;
     -webkit-appearance: none;
 }
 
@@ -479,8 +479,8 @@ a:hover {
 }
 
 .chat-login-a {
-    box-shadow: 0 0 2px 1px inset;
-    -webkit-box-shadow: 0 0 2px 1px inset;
+    box-shadow: 0 0 2px 1px ;
+    -webkit-box-shadow: 0 0 2px 1px ;
     -webkit-appearance: none;
     border-radius: 3px;
     padding: 4px 12px;
@@ -830,8 +830,8 @@ a:hover {
     background: transparent;
     color: #fff;
     text-transform: uppercase;
-    box-shadow: 0px 2px 4px 0px #e4e1e1 inset;
-    -webkit-box-shadow: 0px 2px 4px 0px #e4e1e1 inset;
+    box-shadow: 0px 2px 4px 0px #e4e1e1 ;
+    -webkit-box-shadow: 0px 2px 4px 0px #e4e1e1 ;
     -webkit-appearance: none;
     cursor: pointer;
     -webkit-transition: background .2s ease-in-out;
@@ -1855,8 +1855,8 @@ SHOPPING CART
 }
 .shopping-more-to-love .similar-block{
     border: 1px solid #cccccc4a;
-    box-shadow: 0px 0px 5px 2px #cccccc4a inset;
-    -webkit-box-shadow: 0px 0px 5px 2px #cccccc4a inset;
+    box-shadow: 0px 0px 5px 2px #cccccc4a ;
+    -webkit-box-shadow: 0px 0px 5px 2px #cccccc4a ;
     -webkit-appearance: none;
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
@@ -1942,8 +1942,8 @@ SHOPPING CART
     -webkit-appearance: none !important;
 }
 .shopping-more-to-love .similar-block:hover {
-    box-shadow: 0px 0px 5px 2px #cccccc4a inset;
-    -webkit-box-shadow: 0px 0px 5px 2px #cccccc9e inset;
+    box-shadow: 0px 0px 5px 2px #cccccc4a ;
+    -webkit-box-shadow: 0px 0px 5px 2px #cccccc9e ;
     -webkit-appearance: none;
 }
 /*SHOPING CART RIGHT*/
@@ -2060,16 +2060,16 @@ SHOPPING CART
     margin-bottom: 5px;
     border-radius: 4px;
     border: 1px solid #cccccc4a;
-    box-shadow: 0px 0px 5px 2px #cccccc4a inset;
-    -webkit-box-shadow: 0px 0px 5px 2px #cccccc4a inset;
+    box-shadow: 0px 0px 5px 2px #cccccc4a ;
+    -webkit-box-shadow: 0px 0px 5px 2px #cccccc4a ;
     -webkit-appearance: none;
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
 }
 .sponsore-block-item:hover, .sponsore-block-item:focus,.sponsore-block-item:active {
     border: 1px solid #ccccccba;
-    box-shadow: 0px 0px 5px 2px #ccccccba inset;
-    -webkit-box-shadow: 0px 0px 5px 2px #ccccccba inset;
+    box-shadow: 0px 0px 5px 2px #ccccccba ;
+    -webkit-box-shadow: 0px 0px 5px 2px #ccccccba ;
     -webkit-appearance: none;
 }
 .sponsore-block-item img {
@@ -3010,8 +3010,8 @@ CATEGORIES SLIDER
 }
 
 .categories-name-block:hover {
-    box-shadow: 0 0 4px 3px grey inset;
-    -webkit-box-shadow: 0 0 4px 3px grey inset;
+    box-shadow: 0 0 4px 3px grey ;
+    -webkit-box-shadow: 0 0 4px 3px grey ;
     -webkit-appearance: none;
     transition: all .3s ease-in-out;
 }
@@ -3112,8 +3112,8 @@ PRODUCTS
 }
 
 .product-name-block:hover {
-    box-shadow: 0 0 4px 3px grey inset;
-    -webkit-box-shadow: 0 0 4px 3px grey inset;
+    box-shadow: 0 0 4px 3px grey ;
+    -webkit-box-shadow: 0 0 4px 3px grey ;
     -webkit-appearance: none;
 }
 
@@ -3289,8 +3289,8 @@ PRODUCTS
 }
 
 .filter-sort-dropdown {
-    box-shadow: 0 0 3px 1px #ffe1e1 inset;
-    -webkit-box-shadow: 0 0 3px 1px #ffe1e1 inset;
+    box-shadow: 0 0 3px 1px #ffe1e1 ;
+    -webkit-box-shadow: 0 0 3px 1px #ffe1e1 ;
     -webkit-appearance: none;
     background: #fff;
 }
@@ -3577,8 +3577,8 @@ SELLER INFORMATION
 }
 
 .seller-banner-block:hover {
-    box-shadow: 0 0 4px 3px grey inset;
-    -webkit-box-shadow: 0 0 4px 3px grey inset;
+    box-shadow: 0 0 4px 3px grey ;
+    -webkit-box-shadow: 0 0 4px 3px grey ;
     -webkit-appearance: none;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -4023,8 +4023,8 @@ CAMPAIGN
 }
 
 .win-three-img img:hover {
-    box-shadow: 0 0 4px 1px #ababab inset;
-    -webkit-box-shadow: 0 0 4px 1px #ababab inset;
+    box-shadow: 0 0 4px 1px #ababab ;
+    -webkit-box-shadow: 0 0 4px 1px #ababab ;
     -webkit-appearance: none;
 }
 
@@ -4216,16 +4216,16 @@ position: relative;
     padding: 4px 5px;
     border-radius: 4px;
     border: 1px solid #cccccc4a;
-    box-shadow: 0px 0px 5px 2px #cccccc4a inset;
-    -webkit-box-shadow: 0px 0px 5px 2px #cccccc4a inset;
+    box-shadow: 0px 0px 5px 2px #cccccc4a ;
+    -webkit-box-shadow: 0px 0px 5px 2px #cccccc4a ;
     -webkit-appearance: none;
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
 }
 .wish-border .product-short-view-block:hover, .wish-border .product-short-view-block:focus,.wish-border .product-short-view-block:active {
     border: 1px solid #ccccccba;
-    box-shadow: 0px 0px 5px 2px #ccccccba inset;
-    -webkit-box-shadow: 0px 0px 5px 2px #ccccccba inset;
+    box-shadow: 0px 0px 5px 2px #ccccccba ;
+    -webkit-box-shadow: 0px 0px 5px 2px #ccccccba ;
     -webkit-appearance: none;
 }
 .wish-border .new-pagination {
