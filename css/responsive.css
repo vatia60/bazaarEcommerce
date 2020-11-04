@@ -1508,8 +1508,7 @@ display: none;
 }
 
 body.modal-open {
-    overflow: hidden;
-    position: fixed;
+    overflow: visible;
 }
 
     .shop-select-all {
