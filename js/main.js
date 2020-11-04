@@ -622,10 +622,11 @@ $(".account-btn-search").on("click", function(e) {
 =============================================*/
 $(".main-collections-block").on('touchstart', function(e) {
     $(this).addClass('new-ole');
-
+    e.preventDefault();
 });
 $(".main-collections-block").on('touchend', function(e) {
     $(this).removeClass('new-ole');
+     e.preventDefault();
 });
 
 /*==================================================
