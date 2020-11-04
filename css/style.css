@@ -966,8 +966,8 @@ a .card-title:hover {
 }
 
 .card:hover {
-    box-shadow: 0 0px 4px 2px #5ec1a061 inset;
-    -webkit-box-shadow: 0 0px 4px 2px #5ec1a061 inset;
+    box-shadow: 0 0px 4px rgba(240, 52, 52, 1);
+    -webkit-box-shadow: 0 0px 4px rgba(240, 52, 52, 1);
     -webkit-appearance: none;
 }
 
