@@ -1980,17 +1980,24 @@ BOTTOM FOOTER FOR MOBILE
 
         $('.shopingcart-seller-slick').slick({
                 responsive: [
-                
-                {
-                  breakpoint: 767,
+    {
+      breakpoint: 992,
+                settings: {
+                  infinite: false,
+                  slidesToShow: 3.2,
+                  slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 767,
                 settings: {
                   infinite: false,
                   slidesToShow: 2.2,
                   slidesToScroll: 2
-                }
-                 }
-                ]
-            });
+      }
+    }
+  ]
+});
     </script>
 </body>
 
