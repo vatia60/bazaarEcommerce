@@ -846,6 +846,10 @@ display: none;
 /*MIN-768 AND MAX-992*/
 
 @media (min-width: 768px) and (max-width: 992px) {
+    .wish-border .new-best-match-toggle {
+    top: 41px;
+        left: 72px;
+}
     .filter-fixed-top {
         top: 52px;
     }
