@@ -537,9 +537,10 @@
         display: none;
     }
 
-    .mobile-filter-header {
-        display: block;
-    }
+    .wish-border .mobile-filter-header {
+    padding: 10px 15px;
+    display: block;
+}
 
     .mobile-filter-header .short-select-view .fa-sort {
         font-size: 18px;

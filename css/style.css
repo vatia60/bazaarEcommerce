@@ -1936,7 +1936,16 @@ SHOPPING CART
 .more-to-love .card-title {
     margin-bottom: 1px;
 }
-
+.shopping-more-to-love .card:hover {
+    box-shadow: 0 0 0 0!important;
+    -webkit-box-shadow: 0 0 0 0 !important;
+    -webkit-appearance: none !important;
+}
+.shopping-more-to-love .similar-block:hover {
+    box-shadow: 0px 0px 5px 2px #cccccc4a;
+    -webkit-box-shadow: 0px 0px 5px 2px #cccccc9e;
+    -webkit-appearance: none;
+}
 /*SHOPING CART RIGHT*/
 
 /*ORDER SUMMERY*/
