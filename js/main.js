@@ -10,7 +10,7 @@ $(window).scroll(function() {
 });
 
 
-if (window.innerWidth < 768) {
+if (window.innerWidth < 767) {
     $('.fixed-top-header').addClass('fixed-top');
 
 } else {

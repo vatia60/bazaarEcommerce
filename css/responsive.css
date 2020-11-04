@@ -34,7 +34,7 @@
 
 @media (max-width: 992px) {
     .menu {
-        display: none;
+        display: block;
     }
     .seller-body .product-body-sidebar {
     padding: 15px 0 0 0;
@@ -846,6 +846,9 @@ display: none;
 /*MIN-768 AND MAX-992*/
 
 @media (min-width: 768px) and (max-width: 992px) {
+    .filter-fixed-top {
+        top: 52px;
+    }
    .small-img img {
     width: 130px !important;
     max-height: 130px;
