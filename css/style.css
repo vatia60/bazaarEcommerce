@@ -2580,7 +2580,7 @@ DETAIL PRODUCT
 }
 
 .detail-quantity-input {
-    width: 60px;
+    width: 54px;
     border: none;
     text-align: center;
     background: transparent;
@@ -3286,7 +3286,12 @@ PRODUCTS
     top: 26px;
     z-index: 99999999;
 }
-
+.customer-review-details-header .new-best-match-toggle {
+    left: 0px;
+    right: 0;
+    top: 26px;
+    z-index: 99999999;
+}
 .new-test-toggle {
     display: none;
 }
