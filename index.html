@@ -3399,7 +3399,7 @@ TOP PICK FOR YOU
 
 
         
-      $('.home-windeal-slick').slick({
+      /*$('.home-windeal-slick').slick({
                 responsive: [
                 
                 {
@@ -3412,7 +3412,37 @@ TOP PICK FOR YOU
                  }
                 ]
             });
-      
+      */
+
+
+
+
+$('.home-windeal-slick').slick({
+  
+  responsive: [
+    {
+      breakpoint: 992,
+                settings: {
+                  infinite: false,
+                  slidesToShow: 3.2,
+                  slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 767,
+                settings: {
+                  infinite: false,
+                  slidesToShow: 2.2,
+                  slidesToScroll: 2
+      }
+    }
+  ]
+});
+
+
+
+
+
     </script>
 </body>
 
