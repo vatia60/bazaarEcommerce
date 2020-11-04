@@ -64,10 +64,11 @@ a h2 {
 
 a {
     text-decoration: none !important;
+    color: #212529;
 }
 
 a:hover {
-    color: #e62e04;
+    
 }
 
 .btn-secondary.focus,
@@ -1005,10 +1006,11 @@ a .card-title:hover {
     padding-top: 10px;
     border-radius: 5px;
 }
-
+.card {
+	position: relative;
+}
 .card-img-top-new {
     width: 100%;
-    position: relative;
 }
 
 .collections-img-position {
@@ -1202,6 +1204,7 @@ a .card-title:hover {
     justify-content: space-between;
     width: 100%;
     padding: 2px 8px 0 8px;
+    top: 0;
 }
 
 .sale-left {
