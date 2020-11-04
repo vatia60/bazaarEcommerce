@@ -1133,7 +1133,7 @@ display: none;
     font-size: 14px;
     }
  .campaign-sort-by  .new-best-match-toggle{
-   left: -23px;
+   left: 27px;
     top: 39px;
     text-align: left;
     font-size: 14px;
@@ -1871,13 +1871,7 @@ body.modal-open {
     text-align: left;
     font-size: 14px;
     }
-    .campaign-sort-by .new-best-match-toggle {
-   left: 96px;
-    right: 0;
-    top: 39px;
-    text-align: left;
-    font-size: 14px;
-    }
+  
     .top-header-left-new {
     padding-top: 0px !important;
 }
