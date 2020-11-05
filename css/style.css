@@ -1857,12 +1857,18 @@ SHOPPING CART
     background: #fff !important;
 }
 .shopping-more-to-love .similar-block{
-    border: 1px solid #cccccc4a;
-    box-shadow: 0px 0px 5px rgba(204, 204, 204, 1) ;
-    -webkit-box-shadow: 0px 0px 5px rgba(204, 204, 204, 1) ;
+    border: 1px solid #ececec;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px rgba(204, 204, 204, .4) ;
+    -webkit-box-shadow: 0px 0px 5px rgba(204, 204, 204, .4) ;
     -webkit-appearance: none;
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
+}
+.shopping-more-to-love .similar-block:hover{
+    box-shadow: 0px 0px 5px rgba(204, 204, 204, 1) ;
+    -webkit-box-shadow: 0px 0px 5px rgba(204, 204, 204, 1) ;
+    -webkit-appearance: none;
 }
 .shopping-more-to-love .slick-prev {
     left: -17px;
@@ -3565,6 +3571,7 @@ SELLER INFORMATION
 
 .seller-favorite {
     text-align: right;
+    padding-top: 38px;
 }
 
 .seller-favorite a {
@@ -3576,7 +3583,7 @@ SELLER INFORMATION
     -webkit-transition: all .3s ease-in-out;
 }
 .seller-favorite a:hover {
-    color: #5CC19F;
+    color: #408870 !important;
 }
 
 .seller-banner-body-bottom {
