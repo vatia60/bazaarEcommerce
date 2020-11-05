@@ -301,6 +301,7 @@ Product details page product image zoom detailproduct.html
 
     $('.showhope').zoomImage();
 
+
 $('.show-small-img:first-of-type').css({
     'border': 'solid 1px gray',
     'padding': '2px'
