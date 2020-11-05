@@ -258,6 +258,16 @@ Product details page product image zoom detailproduct.html
             self.append(layer).append(showPanel);
 
             self.on('mousemove', function(e) {
+                defaultParas.showPanelW = imageW;
+                selfOffset = self.offset();
+                console.log(self.offset())
+                imageW = self.width();
+                img.css({
+                    width: imageW * wTimes
+                })
+                showPanel.css({
+                    width: imageW
+                })
 
                 var x = e.pageX - selfOffset.left;
                 var y = e.pageY - selfOffset.top;
@@ -299,8 +309,9 @@ Product details page product image zoom detailproduct.html
 })(jQuery);
 
 
+if (window.innerWidth < 992) {
     $('.showhope').zoomImage();
-
+}
 
 $('.show-small-img:first-of-type').css({
     'border': 'solid 1px gray',
