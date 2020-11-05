@@ -1115,7 +1115,7 @@ display: none;
 
 
 @media (max-width: 767px) {
-     .menu.fixed-top{
+     .menu{
         display: none;
     }
 .image-show,.image-showtwo, .image-showthree {

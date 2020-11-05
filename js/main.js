@@ -298,9 +298,8 @@ Product details page product image zoom detailproduct.html
     }
 })(jQuery);
 
-if (window.innerWidth > 992) {
+
     $('.showhope').zoomImage();
-}
 
 $('.show-small-img:first-of-type').css({
     'border': 'solid 1px gray',
