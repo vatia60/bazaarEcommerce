@@ -849,3 +849,11 @@ $(".view-less-btn").click(function(e) {
     $('.view-less-btn').css('display', 'none');
         e.stopPropagation();
     });
+
+
+
+$(function () {
+     $('.star-hover').click(function () {
+       $(this).toggleClass("star-hover").toggleClass("hovered");
+     });
+});

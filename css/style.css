@@ -2333,10 +2333,12 @@ DETAIL PRODUCT
     -webkit-transition: all .3s ease-in-out;
 }
 
-.star-hover:hover .p-star-display {
+.star-hover:hover .p-star-display, .star-hover {
     display: block;
 }
-
+.hovered .p-star-display {
+    
+}
 .p-star-display {
     display: none;
     position: absolute;
