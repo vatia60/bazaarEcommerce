@@ -4283,3 +4283,14 @@ position: relative;
     top: 30px;
     z-index: 99999999;
 }
+
+.ne-ve-cart-btn {
+    background: transparent;
+    color: #5CC19F !important;
+    text-decoration: underline !important;
+    display: none;
+    font-size: 12px;
+}
+.ne-ve-cart-btn {
+    color: green !important;
+}

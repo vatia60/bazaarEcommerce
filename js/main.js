@@ -870,3 +870,9 @@ $(function () {
 });
 }
 
+
+
+$(".new-click-btn-r").click(function(e) {
+    $('.ne-ve-cart-btn').toggle();
+        e.stopPropagation();
+    });
