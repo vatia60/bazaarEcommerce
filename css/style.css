@@ -2728,7 +2728,9 @@ DETAIL PRODUCT
 .detail-sec-sidebar p {
     font-size: 12px;
 }
-
+.de-p-hover:hover i, .de-p-hover:hover a{
+   color: #5CC19F !important;
+}
 .detail-sec-sidebar h6 {
     margin-bottom: .2rem;
 }
