@@ -851,9 +851,10 @@ $(".view-less-btn").click(function(e) {
     });
 
 
-
+if (window.innerWidth < 992) {
 $(function () {
      $('.star-hover').click(function () {
        $(this).toggleClass("new-ideal").toggleClass("hovered");
      });
 });
+}

@@ -42,6 +42,9 @@
 
 
 @media (max-width: 992px) {
+.new-ideal .p-star-display {
+    display: none !important;
+}
 
     .menu {
         display: block;

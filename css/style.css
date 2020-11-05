@@ -2336,12 +2336,6 @@ DETAIL PRODUCT
 .star-hover:hover .p-star-display{
     display: block;
 }
-.new-ideal .p-star-display {
-    display: none;
-}
-.new-ideal .p-star-display {
-    display: none !important;
-}
 .p-star-display {
     display: none;
     position: absolute;
