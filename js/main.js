@@ -309,7 +309,7 @@ Product details page product image zoom detailproduct.html
 })(jQuery);
 
 
-if (window.innerWidth < 992) {
+if (window.innerWidth > 992) {
     $('.showhope').zoomImage();
 }
 
