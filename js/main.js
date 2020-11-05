@@ -854,6 +854,6 @@ $(".view-less-btn").click(function(e) {
 
 $(function () {
      $('.star-hover').click(function () {
-       $(this).toggleClass("star-hover").toggleClass("hovered");
+       $(this).toggleClass("new-ideal").toggleClass("hovered");
      });
 });
