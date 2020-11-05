@@ -3567,10 +3567,16 @@ SELLER INFORMATION
     text-align: right;
 }
 
-.seller-favorite p {
+.seller-favorite a {
     padding-top: 38px;
-    font-weight: 600;
+    font-weight: 900;
     font-size: 15px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+.seller-favorite a:hover {
+    color: #5CC19F;
 }
 
 .seller-banner-body-bottom {
@@ -3581,14 +3587,16 @@ SELLER INFORMATION
     background: #fff;
     padding: 4px;
     border-radius: 4px;
+     box-shadow: 0 0 4px rgba(46, 49, 49, .2);
+    -webkit-box-shadow: 0 0 4px rgba(46, 49, 49, .2);
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }
 
 .seller-banner-block:hover {
     box-shadow: 0 0 4px rgba(46, 49, 49, 1);
     -webkit-box-shadow: 0 0 4px rgba(46, 49, 49, 1);
     -webkit-appearance: none;
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
 }
 
 .seller-banner-block img {
