@@ -65,6 +65,7 @@ a h2 {
 a {
     text-decoration: none !important;
     color: #212529;
+    cursor: pointer;
 }
 
 a:hover {
@@ -1547,8 +1548,13 @@ SHOPPING CART
     color: #00B29B;
 }
 
-.official-store p {
+.official-store a {
     font-size: 12px;
+    font-weight: 700;
+}
+.official-store a:hover, .official-store i:hover  {
+    color: #5CC19F !important;
+
 }
 
 .get-coupons-toggle {
@@ -1866,8 +1872,8 @@ SHOPPING CART
     -webkit-transition: all .3s ease-in-out;
 }
 .shopping-more-to-love .similar-block:hover{
-    box-shadow: 0px 0px 5px rgba(204, 204, 204, 1) ;
-    -webkit-box-shadow: 0px 0px 5px rgba(204, 204, 204, 1) ;
+    box-shadow: 0px 0px 5px rgba(204, 204, 204, 1);
+    -webkit-box-shadow: 0px 0px 5px rgba(204, 204, 204, 1);
     -webkit-appearance: none;
 }
 .shopping-more-to-love .slick-prev {
@@ -1905,8 +1911,14 @@ SHOPPING CART
     padding: 2px 4px;
     border: 1px solid #5CC19F;
     border-radius: 8px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }
-
+.payment-method-ul li:hover {
+    box-shadow: 0px 0px 3px rgba(92, 193, 159, 1);
+    -webkit-box-shadow: 0px 0px 3px rgba(92, 193, 159, 1);
+    -webkit-appearance: none;
+}
 .payment-method-ul li a img {
     border-radius: 10px;
 }
