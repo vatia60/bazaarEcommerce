@@ -309,8 +309,9 @@ Product details page product image zoom detailproduct.html
 })(jQuery);
 
 
+if (window.innerWidth > 992) {
     $('.showhope').zoomImage();
-
+}
 
 $('.show-small-img:first-of-type').css({
     'border': 'solid 1px gray',
@@ -857,5 +858,21 @@ $(".view-less-btn").click(function(e) {
     $('.new-idea').css('display', 'none');
     $('.new-idea-btn').css('display', 'block');
     $('.view-less-btn').css('display', 'none');
+        e.stopPropagation();
+    });
+
+
+if (window.innerWidth < 992) {
+$(function () {
+     $('.star-hover').click(function () {
+       $(this).toggleClass("new-ideal").toggleClass("hovered");
+     });
+});
+}
+
+
+
+$(".new-click-btn-r").click(function(e) {
+    $('.ne-ve-cart-btn').toggle();
         e.stopPropagation();
     });
